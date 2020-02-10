@@ -1,3 +1,6 @@
+import re
+
+
 #Tilde checker
 def command15(filepath):
 
@@ -29,3 +32,9 @@ def command15(filepath):
                 if m[1] and not re.match('\s', m[1]):
                     found[ln] = [15, 'no space after tilde ~', m[0] + '~' + m[1] + m[2] ]
     return found
+
+
+if __name__ == '__main__':
+    found = command15('test.trs')
+    for row, hit in found.items():
+        print(row, ' => ', hit)
