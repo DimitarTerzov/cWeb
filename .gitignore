@@ -3,3 +3,5 @@ venv
 *.wpu
 *.7z
 *.pyc
+.pytest_cache
+__pycache__
