@@ -13,7 +13,10 @@ CONTENT =[
     " ~word\n",
     "hello word~ word\n",
     "hello word~ .\n",
-    "hello world~."
+    "hello world~.\n",
+    "hello hello~. Where\n",
+    " ~ word\n",
+    "word ~ "
 ]
 
 
@@ -32,5 +35,9 @@ def test_command15(file_with_tildes):
 
     assert "word~word" in found[0]
     assert "world~word" in found[4]
-    assert "world~" in found[9]
+    assert "world~." in found[9]
+    assert "hello~." in found[10]
+    assert "word ~ word" in found[1]
+    assert " ~ word" in found[11]
+    assert "word ~ " in found[12]
     assert 0
