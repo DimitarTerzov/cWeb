@@ -15,12 +15,23 @@ def command13(filepath):
     found = {}
 
     prev_spk='none'
+    sync = False
 
     with open(filepath,'r') as f:
         ln = -1
         for line in f:
             ln = ln + 1
             line = line.rstrip("\r\n")
+
+            if 'sync' in line.lower():
+                sync = True
+            else:
+                if "</Turn>" == line and sync:
+                    found[ln] = [13, "Empty turns are not allowed"]
+                    sync = False
+                else:
+                    sync = False
+
             for m in re.findall(regex, line):
                 # If turn is speakerless - set speaker to 'none'.
                 if m[0] == '' and m[2] == '':
@@ -39,6 +50,6 @@ def command13(filepath):
 
 
 if __name__ == "__main__":
-    print(command13(SEQ_FILE_PATH))
-    print(command13(NO_SEQ_FILE_PATH))
+    #print(command13(SEQ_FILE_PATH))
+    #print(command13(NO_SEQ_FILE_PATH))
     print(command13(WORKING_FILE))

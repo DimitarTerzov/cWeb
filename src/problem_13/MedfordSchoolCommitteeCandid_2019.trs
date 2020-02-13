@@ -51,15 +51,13 @@ We are going to again, uh, salute the flag, so I welcome you to stand and we wil
 </Turn>
 <Turn startTime="70.529" endTime="72.088">
 <Sync time="70.529"/>
-[noise]
 </Turn>
 <Turn speaker="spk4" startTime="72.088" endTime="85.725">
 <Sync time="72.088"/>
 I pledge allegiance to the Flag of the United States of America and to the Republic for which it stands, one Nation under God, indivisible, with liberty and justice for all.
 </Turn>
-<Turn speaker="spk3" startTime="85.725" endTime="86.623">
+<Turn speaker="spk4" startTime="85.725" endTime="86.623">
 <Sync time="85.725"/>
-Thank you.
 </Turn>
 <Turn speaker="spk2" startTime="86.623" endTime="88.487">
 <Sync time="86.623"/>
@@ -67,7 +65,6 @@ Thank you, you may be seated.
 </Turn>
 <Turn startTime="88.487" endTime="94.373">
 <Sync time="88.487"/>
-[noise]
 </Turn>
 <Turn speaker="spk2" startTime="94.373" endTime="105.564">
 <Sync time="94.373"/>
@@ -253,7 +250,7 @@ Thank you candidate Ruggiero.
 <Sync time="632.555"/>
 And I think that our number two candidate was, #uh.
 </Turn>
-<Turn speaker="spk3" startTime="636.517" endTime="637.348">
+<Turn speaker="spk2" startTime="636.517" endTime="637.348">
 <Sync time="636.517"/>
 Jenny Graham.
 </Turn>
