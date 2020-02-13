@@ -3,29 +3,35 @@ import pytest
 from problem_15.validator_15 import command15
 
 
-INCORRECT_USE ="word~word\nword ~ word\nword~~ word"
-CORRECT_USE = "word~ word\nword ~word"
+CONTENT =[
+    "word~word\n",
+    "word ~ word\n",
+    "word~~ word\n",
+    "word~ word\n",
+    "word ~word\n",
+    " ~word\n",
+    "hello word~ word\n",
+    "hello word~ ."
+]
 
 
-def create_file(tmp_path):
-    d = tmp_path / "sub"
-    d.mkdir()
-    f = d / "tilde.trs"
-    return f
+@pytest.fixture
+def file_with_tildes(tmpdir):
+    file_ = tmpdir.mkdir("sub").join("tilde.trs")
+    with open(file_, 'a') as f:
+        for line in CONTENT:
+            f.write(line)
+    return file_
 
 
-def test_command15_incorrect_use(tmp_path):
-    file_ = create_file(tmp_path)
-    file_.write_text(INCORRECT_USE)
-    found = command15(file_)
-    print(found)
-    assert len(found) == 3
-
-
-def test_command15_correct_use(tmp_path):
-    file_ = create_file(tmp_path)
-    file_.write_text(CORRECT_USE)
-    found = command15(file_)
-    print(found)
-    assert len(found) == 0
-
+def test_command15(file_with_tildes):
+    found = command15(file_with_tildes)
+    with open(file_with_tildes) as file_:
+        for line in file_.readlines():
+            print(line.rstrip())
+    for value in found.values():
+        assert "word~ word" not in value
+        assert "word ~word" not in value
+        assert "hello word~ ." not in value
+        assert "hello word~ word" not in value
+        assert " ~word" not in value
