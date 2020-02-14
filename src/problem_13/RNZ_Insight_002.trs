@@ -31,7 +31,7 @@
 <Sync time="5.854"/>
 [music]
 </Turn>
-<Turn speaker="spk3" startTime="10.959" endTime="55.643">
+<Turn speaker="spk2" startTime="10.959" endTime="55.643">
 <Sync time="10.959"/>
 Welcome to Insight, I'm Philippa Tolley. This week, the Pacific nation fighting for its very existence. Tuvalu is a poster boy for small island countries suffering from climate change.
 <Sync time="22.275"/>
@@ -63,28 +63,19 @@ In some places on the main island, Funafuti, only a narrow strip of road separat
 <Sync time="112.245"/>
 &lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
 </Turn>
-<Turn speaker="spk4" startTime="114.68" endTime="135.900">
+<Turn startTime="114.68" endTime="135.900">
 <Sync time="114.68"/>
-It may be small, but Tuvalu has a big reputation as a brave battler in the global fight against the effects of climate change. ((Tiana Mulusia)) lives alone on the island of Papa Elise, 
-<Sync time="128.653"/>
-farming his pigs fishing and trying to harvest water the food he can from the sickly coconut and breadfruit trees.
 </Turn>
 <Turn speaker="spk5" startTime="135.900" endTime="138.482">
 <Sync time="135.900"/>
 &lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
 </Turn>
-<Turn speaker="spk4" startTime="138.482" endTime="152.316">
+<Turn startTime="138.482" endTime="152.316">
 <Sync time="138.482"/>
-Many more people used to live here, but the beach has been eroded and the soil quality is falling at salt water seeps in. Deformed stalks are trying to take root just above the coral strewn beach.
 </Turn>
 <Turn speaker="spk5" startTime="152.316" endTime="156.423">
 <Sync time="152.316"/>
 &lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
-</Turn>
-<Turn speaker="spk6" startTime="156.423" endTime="160.404">
-<Sync time="156.423"/>
-I'm really unhappy because I can't earn any money from the land.
-</Turn>
 <Turn speaker="spk5" startTime="160.404" endTime="161.589">
 <Sync time="160.404"/>
 &lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
