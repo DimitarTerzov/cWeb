@@ -3,6 +3,7 @@
 </Turn>
 <Turn startTime="105.564" endTime="107.237">
 <Sync time="105.564"/>
+[noise]
 </Turn>
 <Turn speaker="spk2" startTime="107.237" endTime="121.371">
 <Sync time="107.237"/>
