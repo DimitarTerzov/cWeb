@@ -24,7 +24,7 @@ CONTENT =[
 
 @pytest.fixture
 def file_with_tildes(tmpdir):
-    file_ = tmpdir.mkdir("sub").join("tilde.trs")
+    file_ = str(tmpdir.mkdir("sub").join("tilde.trs"))
     with open(file_, 'a') as f:
         for line in CONTENT:
             f.write(line)
