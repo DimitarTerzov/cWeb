@@ -4,7 +4,6 @@ import re
 #Speaker validator
 def command13(filepath):
 
-    # Edit ReGex to match speaker at the beginning and the end of the Turn tag.
     regex = re.compile('<Turn (?:speaker="(spk[0-9]+)")?(?:.*)startTime="([0-9.]+)"(?:.*) (?:speaker="(spk[0-9]+)")?')
 
     found = {}
@@ -18,6 +17,7 @@ def command13(filepath):
             ln = ln + 1
             line = line.rstrip("\r\n")
 
+            # Catch empty turns.
             if 'sync' in line.lower():
                 sync = True
             else:
