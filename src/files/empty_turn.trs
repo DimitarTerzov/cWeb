@@ -1,3 +1,13 @@
 <Turn startTime="39.903" endTime="42.309">
 <Sync time="39.903"/>
 </Turn>
+<Turn speaker="spk4" startTime="197.187" endTime="210.034">
+<Sync time="197.187"/>
+Mr. ((Lucia)) has to go further out into the lagoon to get fish.
+<Sync time="208.49"/>
+</Turn>
+<Turn speaker="spk5" startTime="197.187" endTime="210.034">
+<Sync time="208.49"/>
+<Sync time="197.187"/>
+Mr. ((Lucia)) has to go further out into the lagoon to get fish.
+</Turn>
