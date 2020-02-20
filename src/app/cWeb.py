@@ -554,7 +554,7 @@ def command14(filepath):
                 #update current time
                 cur_time = seg_time
             for m in re.findall(regez, line):
-               
+
                 found[ln] = [14, 'Unexpected white space in sync time tag', line]
 
 
@@ -685,7 +685,7 @@ def command18(filepath):
 
 
 def command19(filepath):
-    #  WWwhitespacelist found in this file at: line 10 
+    #  WWwhitespacelist found in this file at: line 10
     regex = re.compile("&lt;initial&gt;\s*[a-zA-Z]+" + WWwhitespace + "+[a-zA-Z]+\s*&lt;\/initial&gt;")
 
     found = {}
@@ -725,11 +725,11 @@ def command20(filepath):
                     else:
                         if re.search("&lt;initial&gt;\s?[A-Za-zÀ-ÖØ-öø-ÿ]{1}\.\s?&lt;\/initial&gt;\s*$", line) != None:
                             found[ln] = [20, 'Disallowed punctuation inside initial tag', m]
-                
+
                 else:
                     #[ ௗௐ  ்ௌோ ொைேெூுீ ிா  ஹஸஷஶ    வழள ல   றரய மப  ன   நதணடஞ   ஜச  ஙக  ஔஓ  ஒஐஏஎ    ஊஉஈஇ    ஆ   அஃ  ஂ   ]
                     x = re.search("&lt;lang:\s?[a-zA-Z\s]*&gt;\s?[A-Za-zÀ-ÖØ-öø-ÿ]*[னு ௗௐ  ்ௌோ ொைேெூுீ ிா  ஹஸஷஶ    வழள ல   றரய மப  ன   நதணடஞ   ஜச  ஙக  ஔஓ  ஒஐஏஎ    ஊஉஈஇ    ஆ   அஃ  ஂ   ல லே ல ]+\s*&lt;\/lang:\s?[a-zA-z]*&gt;", line)
-                    if not x:                            
+                    if not x:
                         found[ln] = [20, 'Incorrect punctuation at end of language tag content', m]
 
 
@@ -747,7 +747,7 @@ def command21(filepath):
             if "speaker=" in line:
                 #print line
                 if re.match(".*speaker=(\"spk\d+\").*", line):
-                    if re.match(".*speaker=(\"spk\d+\").*", line).group(1) not in sectionspeakers: 
+                    if re.match(".*speaker=(\"spk\d+\").*", line).group(1) not in sectionspeakers:
                         sectionspeakers.append(re.match(".*speaker=(\"spk\d+\").*", line).group(1))
 
     with open (filepath, 'r') as f:
@@ -820,9 +820,11 @@ def command23(filepath):
                             break
                         elif bad == 'fidelity=':
                             found[ln] = [23, 'Do not change the fidelity setting', '(' + bad + ') | ' + line]
-                            break                            
+                            break
     return found
 
+
+"""
 print "Content-type:text/html; charset=UTF-8\r\n\r\n"
 
 cmd_ids = range(1,24)
@@ -960,3 +962,4 @@ for f in sorted(file_divs.keys()):
 
 print '</body>'
 print '</html>'
+"""

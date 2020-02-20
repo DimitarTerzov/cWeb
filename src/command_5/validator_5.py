@@ -27,9 +27,8 @@ def command5(filepath):
 'Urdu','Uyghur','Uzbek','Vietnamese','Visayan','Welsh','Wolof','Yiddish','Yoruba','Yupik',
 'Ambonese', 'Betawinese', 'Latin', 'Manadonese']
 
-    x1 = "&lt;lang:" + BasicPunctuation + "*[a-zA-Z]+" + BasicPunctuation + "*&gt;[^;&]*&lt;\/?lang:" + BasicPunctuation + "*[a-zA-Z]+" + BasicPunctuation + "*&gt;"
-    x2 = "|&lt;lang:" + BasicPunctuation + "*[a-zA-Z]+" + BasicPunctuation + "*&gt;[^;&]*&lt;\/?lang:" + BasicPunctuation + "*[a-zA-Z]+" + BasicPunctuation + "*"
-    regex = re.compile(x1+x2)
+    #correct_spelling_re = re.compile(r'(&lt;(\s*\w*\s*):(\s*\w*\s*)&gt;\s*)')
+    no_separation_re = re.compile(r'((?P<before_first>\b\w*\b)?&lt;(\s*\w*\s*):(\s*\w*\s*)&gt;(?P<after_first>\b\w*\b)?(.*?)(?P<before_second>\b\w*\b)?&lt;/(\s*\w*\s*):(\s*\w*\s*)&gt;(?P<after_second>\b\w*\b)?)')
 
     found = {}
 
@@ -39,15 +38,21 @@ def command5(filepath):
             ln = ln + 1
             line = line.rstrip("\r\n")
 
-            for m in re.findall(regex, line):
-                matchObj = re.match('&lt;lang:(.+)&gt; .* &lt;\/lang:(.+)&gt;', m)
-                if not matchObj:
-                    found[ln]  = [5, 'Syntax error,', m]
-                else:
-                    lang1 = matchObj.group(1)
-                    lang2 = matchObj.group(2)
+            matches = re.finditer(no_separation_re, line)
+            for match in matches:
+                if match:
+                    if (
+                        match.group('before_first') is not None or
+                        match.group('after_first') is not None or
+                        match.group('before_second') is not None or
+                        match.group('after_second') is not None
+                    ):
+                        print ln, match.groups()
 
-                    #if language is not in the list
-                    if (lang1 != lang2) or not lang1 in languages:
-                        found[ln] = [5, 'Language error', m]
     return found
+
+
+if __name__ == "__main__":
+    found = command5('../files/RNZ_Insight_002.trs')
+    #for item in found:
+        #print item, " <=> ", found[item]
