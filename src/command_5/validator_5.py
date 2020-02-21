@@ -25,9 +25,7 @@ def command5(filepath):
 'Urdu','Uyghur','Uzbek','Vietnamese','Visayan','Welsh','Wolof','Yiddish','Yoruba','Yupik',
 'Ambonese', 'Betawinese', 'Latin', 'Manadonese']
 
-    spelling_re = re.compile(r'(?P<content>&lt;(?P<first>(?P<first_tag>\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*))&gt;(?:.*?)&lt;/(?P<second>(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*))&gt;)')
-    stucked_words_re = re.compile(r'(?P<content>(?P<before_first>\b\w*\b)?&lt;(\s*\w*\s*):(\s*\w*\s*)&gt;(?P<after_first>\b\w*\b)?(?:.*?)(?P<before_second>\b\w*\b)?&lt;/(\s*\w*\s*):(\s*\w*\s*)&gt;(?P<after_second>\b\w*\b)?)')
-    wrong_syntax_re = re.compile(r'(?P<content><\s*\w*\s*:\s*\w*\s*>.*?</\s*\w*\s*:\s*\w*\s*>)')
+    stucked_words_re = re.compile(r'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;)|\<)(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;)|\>)(?P<after_first>\b\w*\b)?(?:.*?)(?P<before_second>\b\w*\b)?(?P<second_open>(?:&lt;)|\<)(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;)|\>)(?P<after_second>\b\w*\b)?)')
 
     found = {}
 
@@ -45,6 +43,7 @@ def command5(filepath):
             stucked_words_matches = re.finditer(stucked_words_re, line)
             for match in stucked_words_matches:
                 if match:
+
                     # Check for stucked words
                     if (
                         match.group('before_first') is not None or
@@ -52,37 +51,37 @@ def command5(filepath):
                         match.group('before_second') is not None or
                         match.group('after_second') is not None
                     ):
-                        found[ln] = [sync_time, 5, "Stucked Word", match.group('content')]
+                        found[ln] = [sync_time, 5, "Tag syntax error", match.group('content')]
+                        continue
 
-            # Check for wrong syntax `<lang:*>`
-            wrong_syntax = re.finditer(wrong_syntax_re, line)
-            for match in wrong_syntax:
-                if match:
-                    found[ln] = [sync_time, 5, "Wrong Syntax", match.group('content')]
-
-            spelling_matches = re.finditer(spelling_re, line)
-            for match in spelling_matches:
-                if match:
-                    # Check for white space in tag
+                    # Check spelling
                     if (
-                        " " in match.group('first') or
-                        " " in match.group('second')
+                        match.group('first_tag') != 'lang' or
+                        match.group('second_tag') != 'lang' or
+                        match.group('first_tag_lang') not in languages or
+                        match.group('second_tag_lang') not in languages
                     ):
-                        found[ln] = [sync_time, 5, "White Space in Tag", match.group('content')]
+                        found[ln] = [sync_time, 5, "Tag syntax error", match.group('content')]
+                        continue
 
-                    # Check tag spelling
+                    # Check for wrong syntax `<lang:*>`
                     if (
-                        match.group('first_tag').strip() != 'lang' or
-                        match.group('second_tag').strip() != 'lang' or
-                        match.group('first_tag_lang').strip() not in languages or
-                        match.group('second_tag_lang').strip() not in languages
+                        match.group('first_open') != '&lt;' or
+                        match.group('first_close') != '&gt;' or
+                        match.group('second_open') != '&lt;' or
+                        match.group('second_close') != '&gt;' or
+                        match.group('forward') != '/'
                     ):
-                        found[ln] = [sync_time, 5, "Wrong Tag Spelling", match.group('content')]
+                        found[ln] = [sync_time, 5, "Tag syntax error", match.group('content')]
+                        continue
 
     return found
 
 
 if __name__ == "__main__":
     found = command5('../files/RNZ_Insight_002.trs')
-    for item in found:
-        print item, " <=> ", found[item]
+    keys = found.keys()
+    sorted_keys = sorted(keys)
+    print "Errors:", len(sorted_keys)
+    for key in sorted_keys:
+        print key, " <=> ", found[key]
