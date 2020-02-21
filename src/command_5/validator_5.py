@@ -1,7 +1,5 @@
 import re
 
-from app.cWeb import BasicPunctuation
-
 
 #Language tag validator
 def command5(filepath):
@@ -27,8 +25,9 @@ def command5(filepath):
 'Urdu','Uyghur','Uzbek','Vietnamese','Visayan','Welsh','Wolof','Yiddish','Yoruba','Yupik',
 'Ambonese', 'Betawinese', 'Latin', 'Manadonese']
 
-    #correct_spelling_re = re.compile(r'(&lt;(\s*\w*\s*):(\s*\w*\s*)&gt;\s*)')
-    no_separation_re = re.compile(r'((?P<before_first>\b\w*\b)?&lt;(\s*\w*\s*):(\s*\w*\s*)&gt;(?P<after_first>\b\w*\b)?(.*?)(?P<before_second>\b\w*\b)?&lt;/(\s*\w*\s*):(\s*\w*\s*)&gt;(?P<after_second>\b\w*\b)?)')
+    spelling_re = re.compile(r'(?P<content>&lt;(?P<first>(?P<first_tag>\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*))&gt;(?:.*?)&lt;/(?P<second>(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*))&gt;)')
+    stucked_words_re = re.compile(r'(?P<content>(?P<before_first>\b\w*\b)?&lt;(\s*\w*\s*):(\s*\w*\s*)&gt;(?P<after_first>\b\w*\b)?(?:.*?)(?P<before_second>\b\w*\b)?&lt;/(\s*\w*\s*):(\s*\w*\s*)&gt;(?P<after_second>\b\w*\b)?)')
+    wrong_syntax_re = re.compile(r'(?P<content><\s*\w*\s*:\s*\w*\s*>.*?</\s*\w*\s*:\s*\w*\s*>)')
 
     found = {}
 
@@ -38,16 +37,42 @@ def command5(filepath):
             ln = ln + 1
             line = line.rstrip("\r\n")
 
-            matches = re.finditer(no_separation_re, line)
-            for match in matches:
+            # Check for wrong syntax `<lang:*>`
+            wrong_syntax = re.finditer(wrong_syntax_re, line)
+            for match in wrong_syntax:
                 if match:
+                    print ln, match.group('content')
+
+            stucked_words_matches = re.finditer(stucked_words_re, line)
+            for match in stucked_words_matches:
+                if match:
+                    # Check for stucked words
                     if (
                         match.group('before_first') is not None or
                         match.group('after_first') is not None or
                         match.group('before_second') is not None or
                         match.group('after_second') is not None
                     ):
-                        print ln, match.groups()
+                        print ln, match.group('content')
+
+            spelling_matches = re.finditer(spelling_re, line)
+            for match in spelling_matches:
+                if match:
+                    # Check tag spelling
+                    if (
+                        match.group('first_tag').strip() != 'lang' or
+                        match.group('second_tag').strip() != 'lang' or
+                        match.group('first_tag_lang').strip() not in languages or
+                        match.group('second_tag_lang').strip() not in languages
+                    ):
+                        print ln, match.group('content')
+
+                    # Check for white space in tag
+                    if (
+                        " " in match.group('first') or
+                        " " in match.group('second')
+                    ):
+                        print ln, match.group('content')
 
     return found
 
