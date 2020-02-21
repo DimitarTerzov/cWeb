@@ -37,11 +37,10 @@ def command5(filepath):
             ln = ln + 1
             line = line.rstrip("\r\n")
 
-            # Check for wrong syntax `<lang:*>`
-            wrong_syntax = re.finditer(wrong_syntax_re, line)
-            for match in wrong_syntax:
-                if match:
-                    print ln, match.group('content')
+            # Take sync time
+            if "Sync" in line:
+                sync_time = re.search(r'(Sync time="\d+\.?\d*")', line)
+                sync_time = sync_time.group()
 
             stucked_words_matches = re.finditer(stucked_words_re, line)
             for match in stucked_words_matches:
@@ -53,11 +52,24 @@ def command5(filepath):
                         match.group('before_second') is not None or
                         match.group('after_second') is not None
                     ):
-                        print ln, match.group('content')
+                        found[ln] = [sync_time, 5, "Stucked Word", match.group('content')]
+
+            # Check for wrong syntax `<lang:*>`
+            wrong_syntax = re.finditer(wrong_syntax_re, line)
+            for match in wrong_syntax:
+                if match:
+                    found[ln] = [sync_time, 5, "Wrong Syntax", match.group('content')]
 
             spelling_matches = re.finditer(spelling_re, line)
             for match in spelling_matches:
                 if match:
+                    # Check for white space in tag
+                    if (
+                        " " in match.group('first') or
+                        " " in match.group('second')
+                    ):
+                        found[ln] = [sync_time, 5, "White Space in Tag", match.group('content')]
+
                     # Check tag spelling
                     if (
                         match.group('first_tag').strip() != 'lang' or
@@ -65,19 +77,12 @@ def command5(filepath):
                         match.group('first_tag_lang').strip() not in languages or
                         match.group('second_tag_lang').strip() not in languages
                     ):
-                        print ln, match.group('content')
-
-                    # Check for white space in tag
-                    if (
-                        " " in match.group('first') or
-                        " " in match.group('second')
-                    ):
-                        print ln, match.group('content')
+                        found[ln] = [sync_time, 5, "Wrong Tag Spelling", match.group('content')]
 
     return found
 
 
 if __name__ == "__main__":
     found = command5('../files/RNZ_Insight_002.trs')
-    #for item in found:
-        #print item, " <=> ", found[item]
+    for item in found:
+        print item, " <=> ", found[item]
