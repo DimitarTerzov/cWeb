@@ -11,6 +11,7 @@ def command13(filepath):
     prev_spk='none'
     sync = False
     sync_count = 0
+    end_time = 0
 
     with open(filepath,'r') as f:
         ln = -1
@@ -22,28 +23,41 @@ def command13(filepath):
             if line == '':
                 pass
             elif '<Turn' in line:
-                start_time = re.search(r'(startTime="\d+\.?\d*")', line)
-                start_time = start_time.group()
+                start_time = re.search(r'(?P<content>startTime="(?P<value>\d+\.?\d*)")', line)
+                start_value = float(start_time.group('value'))
+                start_time = start_time.group('content')
+
+                if start_value != end_time:
+                    found[ln] = [13, "Turn out of chronological order", start_time]
+
+                end_time = re.search(r'endTime="(?P<value>\d+\.?\d*)"', line)
+                end_time = float(end_time.group('value'))
+
             elif 'Sync' in line and not sync:
                 sync = True
                 sync_count += 1
                 sync_time = re.search(r'(Sync time="\d+\.?\d*")', line)
                 sync_time = sync_time.group()
+
             elif "</Turn>" == line and sync and sync_count == 1:
                 found[ln] = [13, "Empty turns are not allowed", start_time]
                 sync = False
                 sync_count = 0
+
             elif 'Sync' in line and sync:
                 found[ln] = [13, "Empty segments are not allowed", sync_time]
                 sync_count += 1
                 sync_time = re.search(r'(Sync time="\d+\.?\d*")', line)
                 sync_time = sync_time.group()
+
             elif 'Sync' not in line and line != "</Turn>":
                 sync = False
+
             elif "</Turn>" == line and sync and sync_count > 1:
                 found[ln] = [13, "Empty segments are not allowed", sync_time]
                 sync = False
                 sync_count = 0
+
             elif "</Turn>" == line and not sync:
                 sync = False
                 sync_count = 0
