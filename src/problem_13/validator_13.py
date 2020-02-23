@@ -27,6 +27,7 @@ def command13(filepath):
                 start_value = float(start_time.group('value'))
                 start_time = start_time.group('content')
 
+                # Catch turns out of order
                 if start_value != end_time:
                     found[ln] = [13, "Turn out of chronological order", start_time]
 
