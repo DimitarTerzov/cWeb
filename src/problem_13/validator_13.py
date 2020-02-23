@@ -19,13 +19,15 @@ def command13(filepath):
             line = line.rstrip("\r\n")
 
             # Catch empty turns and empty segments.
-            if '<Turn' in line:
+            if line == '':
+                pass
+            elif '<Turn' in line:
                 start_time = re.search(r'(startTime="\d+\.?\d*")', line)
                 start_time = start_time.group()
             elif 'Sync' in line and not sync:
                 sync = True
                 sync_count += 1
-                sync_time = re.search(r'(Sync time="\d+\.?\d*)"', line)
+                sync_time = re.search(r'(Sync time="\d+\.?\d*")', line)
                 sync_time = sync_time.group()
             elif "</Turn>" == line and sync and sync_count == 1:
                 found[ln] = [13, "Empty turns are not allowed", start_time]
@@ -65,7 +67,7 @@ def command13(filepath):
 
 if __name__ == "__main__":
 
-    found = command13('../files/RNZ_Insight_002.trs')
+    found = command13('../files/test_13.trs')
     keys = found.keys()
     keys = sorted(keys)
     for key in keys:

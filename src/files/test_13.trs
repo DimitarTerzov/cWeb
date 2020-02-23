@@ -39,6 +39,7 @@ Behind me, I can just see a narrow strip of land peeping above the water. That's
 [noise]
 <Sync time="81.713"/> 
 <Sync time="91.488"/>
+
 <Sync time="101.239"/>
 </Turn>
 <Turn startTime="114.68" endTime="135.900">
@@ -46,6 +47,7 @@ Behind me, I can just see a narrow strip of land peeping above the water. That's
 </Turn>
 <Turn startTime="138.482" endTime="152.316">
 <Sync time="138.482"/>
+
 </Turn>
 <Turn speaker="spk5" startTime="152.316" endTime="156.423">
 <Sync time="152.316"/>
@@ -60,8 +62,10 @@ Behind me, I can just see a narrow strip of land peeping above the water. That's
 </Turn>
 <Turn speaker="spk4" startTime="166.035" endTime="183.555">
 <Sync time="166.035"/>
+
 <Sync time="174.874"/>
 The coconuts fall early, unripe and bitter, and he can no longer harvest the traditional, Toddy. A sweetner from the sap of the coconut tree.
+<Sync time="176.874"/>
 </Turn>
 <Turn speaker="spk7" startTime="183.555" endTime="186.329">
 <Sync time="183.555"/>
@@ -70,6 +74,14 @@ The coconuts fall early, unripe and bitter, and he can no longer harvest the tra
 <Sync time="197.187"/>
 Mr. ((Lucia)) has to go further out into the lagoon to get fish. The pigs look healthy though, and they've been let loose to root around as a way of improving the sandy salt laden ground.
 <Sync time="208.49"/>
+</Turn>
+<Turn startTime="0" endTime="1.351">
+<Sync time="0"/>
+
+</Turn>
+<Turn speaker="spk4" startTime="197.187" endTime="210.034">
+<Sync time="197.187"/>
+Mr. ((Lucia)) has to go further out into the lagoon to get fish. The pigs look healthy though, and they've been let loose to root around as a way of improving the sandy salt laden ground.
 </Turn>
 </Section>
 </Episode>
