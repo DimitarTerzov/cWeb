@@ -105,7 +105,7 @@ def command13(filepath):
 
 if __name__ == "__main__":
 
-    found = command13('../files/RNZ_Insight_002.trs')
+    found = command13('../files/test_13.trs')
     keys = found.keys()
     keys = sorted(keys)
     for key in keys:
