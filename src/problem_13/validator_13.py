@@ -33,12 +33,27 @@ def command13(filepath):
 
                 end_time = re.search(r'endTime="(?P<value>\d+\.?\d*)"', line)
                 end_time = float(end_time.group('value'))
+                sync_count = 0
 
             elif 'Sync' in line and not sync:
                 sync = True
                 sync_count += 1
-                sync_time = re.search(r'(Sync time="\d+\.?\d*")', line)
-                sync_time = sync_time.group()
+                new_sync = re.search(r'(?P<content>Sync time="(?P<value>\d+\.?\d*)")', line)
+                new_sync_time = new_sync.group('content')
+                sync_time_value = float(new_sync.group('value'))
+
+                if sync_count == 1:
+                    # compare sync_time with start_value
+                    if sync_time_value != start_value:
+                        found[ln] = [13, "Segments out of chronological order", new_sync_time]
+
+                elif sync_count > 1:
+                    # compare new sync_time with old sync_time
+                    old_sync_value = re.search(r'(\d+\.?\d*)', sync_time)
+                    if sync_time_value <= float(old_sync_value.group()):
+                        found[ln] = [13, "Segments out of chronological order", new_sync_time]
+
+                sync_time = new_sync_time
 
             elif "</Turn>" == line and sync and sync_count == 1:
                 found[ln] = [13, "Empty turns are not allowed", start_time]
@@ -48,8 +63,16 @@ def command13(filepath):
             elif 'Sync' in line and sync:
                 found[ln] = [13, "Empty segments are not allowed", sync_time]
                 sync_count += 1
-                sync_time = re.search(r'(Sync time="\d+\.?\d*")', line)
-                sync_time = sync_time.group()
+                new_sync = re.search(r'(?P<content>Sync time="(?P<value>\d+\.?\d*)")', line)
+                new_sync_time = new_sync.group('content')
+                sync_time_value = float(new_sync.group('value'))
+
+                # Compare new sync_time with old sync_time
+                old_sync_value = re.search(r'(\d+\.?\d*)', sync_time)
+                if sync_time_value <= float(old_sync_value.group()):
+                    found[ln] = [13, "Segments out of chronological order", new_sync_time]
+
+                sync_time = new_sync_time
 
             elif 'Sync' not in line and line != "</Turn>":
                 sync = False
@@ -82,7 +105,7 @@ def command13(filepath):
 
 if __name__ == "__main__":
 
-    found = command13('../files/test_13.trs')
+    found = command13('../files/RNZ_Insight_002.trs')
     keys = found.keys()
     keys = sorted(keys)
     for key in keys:
