@@ -65,7 +65,7 @@ def command4(filepath):
 
 
 if __name__ == '__main__':
-    found = command4('../files/initial tag but inside spacing.trs')
+    found = command4('../files/test_4.trs')
     keys = found.keys()
     keys = sorted(keys)
     print
