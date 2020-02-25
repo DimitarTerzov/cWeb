@@ -46,6 +46,7 @@ def command4(filepath):
                     found[ln] = [4, 'Initial tag error', m.group('content')]
                     continue
 
+                # Check for errors in text
                 inner_text = m.group('inner_text')
                 inner_content = inner_text.split()
                 if not inner_content:
