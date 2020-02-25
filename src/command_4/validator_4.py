@@ -15,7 +15,6 @@ def command4(filepath):
             line = line.rstrip("\r\n").decode('utf')
 
             for m in re.finditer(regex, line):
-                print ln, m.group('content'), '|', m.group('inner_text')
 
                 # Check tag syntax
                 if (
@@ -25,7 +24,7 @@ def command4(filepath):
                     m.group('second_close') != '&gt;' or
                     m.group('forward') != '/'
                 ):
-                    found[ln] = [4, 'Initial tag error', m.group('content')]
+                    found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
                     continue
 
                 # Check tag spelling
@@ -33,7 +32,7 @@ def command4(filepath):
                     m.group('first_tag') != 'initial' or
                     m.group('second_tag') != 'initial'
                 ):
-                    found[ln] = [4, 'Initial tag error', m.group('content')]
+                    found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
                     continue
 
                 # Check for incorrect white space
@@ -43,24 +42,24 @@ def command4(filepath):
                     not m.group('inner_text').startswith(' ') or
                     not m.group('inner_text').endswith(' ')
                 ):
-                    found[ln] = [4, 'Initial tag error', m.group('content')]
+                    found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
                     continue
 
                 # Check for errors in text
                 inner_text = m.group('inner_text')
                 inner_content = inner_text.split()
                 if not inner_content:
-                    found[ln] = [4, 'Initial tag error', m.group('content')]
+                    found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
 
                 elif len(inner_content) > 1:
                     for content in inner_content:
                         if len(content) != 2 and not content.endswith('.'):
-                            found[ln] = [4, 'Initial tag error', m.group('content')]
+                            found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
 
                 elif len(inner_content) == 1:
                     content = inner_content[0]
                     if content[-1] in punctuation_marks:
-                        found[ln] = [4, 'Initial tag error', m.group('content')]
+                        found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
 
     return found
 
