@@ -36,6 +36,6 @@ def command15(filepath):
 
 
 if __name__ == '__main__':
-    found = command15('test.trs')
+    found = command15('../files/SEC_Football_004.trs')
     for row, hit in found.items():
         print row, ' => ', hit
