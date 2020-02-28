@@ -76,6 +76,10 @@ def command5(filepath):
 
 
                     inner_text = match.group('inner_text').strip()
+                    if not inner_text:
+                        found[ln] = [5, 'Language tag is empty', match.group('content')]
+                        continue
+
                     # Check for initial tag inside lang tag
                     if re.match(r'^&lt;initial&gt;\s[\w.\s]*\s&lt;/initial&gt;$', inner_text):
                         continue
