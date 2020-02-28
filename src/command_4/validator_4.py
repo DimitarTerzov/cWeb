@@ -5,6 +5,7 @@ import re
 def command4(filepath):
 
     punctuation = "[^'.,!?\s:;-_\"]"
+    allowed_characters = "s"
     regex = re.compile(r"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;|\<)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;|\>)(?P<inner_text>.*?)(?P<second_open>&lt;|\<)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;|\>)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
 
     found = {}
@@ -35,10 +36,16 @@ def command4(filepath):
                     found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
                     continue
 
+                if (
+                    m.group('after_second') is not None and
+                    not m.group('after_second') in allowed_characters
+                ):
+                    found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
+                    continue
+
                 # Check for incorrect white space
                 if (
                     m.group('before_first') is not None or
-                    m.group('after_second') is not None or
                     not m.group('inner_text').startswith(' ') or
                     not m.group('inner_text').endswith(' ')
                 ):
