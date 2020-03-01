@@ -74,8 +74,17 @@ def command5(filepath):
                         found[ln] = [5, "Tag syntax error", match.group('content')]
                         continue
 
-                    # Check final punctuation
+
                     inner_text = match.group('inner_text').strip()
+                    if not inner_text:
+                        found[ln] = [5, 'Language tag is empty', match.group('content')]
+                        continue
+
+                    # Check for initial tag inside lang tag
+                    if re.match(r'^&lt;initial&gt;\s[\w.\s]*\s&lt;/initial&gt;$', inner_text):
+                        continue
+
+                    # Check final punctuation
                     inner_text_end = inner_text[-1]
                     if inner_text_end in punctuation_marks:
                         found[ln] = [5, "Final punctuation marks should be outside the tag", match.group('content')]

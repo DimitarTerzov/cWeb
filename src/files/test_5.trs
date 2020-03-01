@@ -159,7 +159,7 @@ These issues involve a range of (())) matters that include education, planning, 
 <Sync time="304.98"/>
 School system, land use, education development, school constructions and maintenance, preservation, cultural enhancement, youth issues.
 <Sync time="316.887"/>
-School budget, transportation, school breakfast, school lunch, trans growth, student health, &lt;lang:Foreign&gt; (()) &lt;/lang:Foreign and safety.
+School budget, transportation, school breakfast, school lunch, trans growth, student health, &lt;lang:Foreign&gt; &lt;initial&gt; U N &lt;/initial&gt; &lt;/lang:Foreign&gt; and safety.
 </Turn>
 <Turn startTime="326.695" endTime="328.548">
 <Sync time="326.695"/>
@@ -1029,7 +1029,7 @@ These barriers make it difficult for all of the children to take advantage of th
 <Sync time="3234.082"/>
 &lt;lang:Foreign&gt; error 11. &lt;/lang:Foreign&gt; [breath] Being able to read at grade level is a critical requirement to accessing the content our teachers are attempting to provide. [breath] I will also work to find ways to increase the capacity of our afterschool programming. 
 <Sync time="3246.403"/>
-Afterschool waitlists cause incredible stress to families that need these services and I believe we do have ways we can increase our capacity.
+Afterschool waitlists &lt;lang:English&gt;  &lt;/lang:English&gt; cause incredible stress to families that need these services and I believe we do have ways we can increase our capacity.
 <Sync time="3255.267"/>
 <Sync time="3270.24"/>
 The first step to that is a feasibility study to understand the cost of renovations to our middle schools. I hope that we can move forward with such a study and engage a firm to perform the assessment required to fully understand the cost to our school system.
