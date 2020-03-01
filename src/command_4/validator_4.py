@@ -5,6 +5,8 @@ import re
 def command4(filepath):
 
     punctuation = "[^'.,!?\s:;-_\"]"
+    allowed_characters_after_tag = "s"
+    allowed_expressions_before_tag = ["l'"]
     regex = re.compile(r"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;|\<)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;|\>)(?P<inner_text>.*?)(?P<second_open>&lt;|\<)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;|\>)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
 
     found = {}
@@ -35,10 +37,25 @@ def command4(filepath):
                     found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
                     continue
 
+                # Check for disallowed expressions before tag
+                if (
+                    m.group('before_first') is not None and
+                    not m.group('before_first') in allowed_expressions_before_tag
+                ):
+                    found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
+                    continue
+
+                # Check for disallowed expressions after tag
+                if (
+                    m.group('after_second') is not None and
+                    not m.group('after_second') in allowed_characters_after_tag
+                ):
+                    found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
+                    continue
+
                 # Check for incorrect white space
                 if (
-                    m.group('before_first') is not None or
-                    m.group('after_second') is not None or
+                    #m.group('before_first') is not None or
                     not m.group('inner_text').startswith(' ') or
                     not m.group('inner_text').endswith(' ')
                 ):
@@ -62,9 +79,10 @@ def command4(filepath):
                     elif len(content) == 2 and not re.match(r'^\w+\.?$', content, re.UNICODE):
                         found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
 
-                    # Catch anything different from pattern `WEB`
-                    elif len(content) > 2 and re.match(r'\w*\W', content, re.UNICODE):
-                        found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
+                    # Catch anything different from pattern `WEB`, `Ph.D.`
+                    elif len(content) > 2:
+                        if re.match(r'[\w.]*', content, re.UNICODE).group() != content:
+                            found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
 
                 # If text doesn't feet pattern `W. E. B.` -> error
                 elif len(inner_content) > 1:
