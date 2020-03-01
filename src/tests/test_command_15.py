@@ -1,6 +1,9 @@
+from __future__ import print_function
+
 import pytest
 
 from problem_15.validator_15 import command15
+from utils import temporary_file
 
 
 CONTENT =[
@@ -20,31 +23,24 @@ CONTENT =[
     "hello ~~.\n",             # 13
     "~~hi\n",                  # 14
     "where ~Tilde milde\n",           # 15
-    "So,~ not allowed\n",            # 16
+    "So,~ not allowed\n",             # 16
     "also .~ not allowed\n",          # 17
     "this ,~. too not allowed\n",     # 18
     "filler #uh~ tilde not allowed\n"   # 19
     "filler #uhaa~. dot\n"              # 20
     "filler #uha~a bla\n"               # 21
-    "[noise]~. ala bala\n"               # 22
+    "[noise]~. ala bala\n"              # 22
     "ala ~. bala"                       # 23
 ]
 
 
-@pytest.fixture
-def file_with_tildes(tmpdir):
-    file_ = str(tmpdir.mkdir("sub").join("tilde.trs"))
-    with open(file_, 'a') as f:
-        for line in CONTENT:
-            f.write(line)
-    return file_
+def test_command15(tmpdir):
+    file_ = temporary_file(tmpdir, CONTENT)
+    found = command15(file_)
 
-
-def test_command15(file_with_tildes):
-    found = command15(file_with_tildes)
-    keys = sorted(found.keys())
-    for key in keys:
-        print(key, found[key])
+    #keys = sorted(found.keys())
+    #for key in keys:
+        #print(key, found[key])
 
     assert "word~word" in found[0]
     assert "word ~ word" in found[1]
@@ -66,4 +62,4 @@ def test_command15(file_with_tildes):
     assert "]~." in found[22]
     assert "~." in found[23]
     assert len(found) == 17
-    assert 0
+    #assert 0
