@@ -44,10 +44,11 @@ CONTENT = [
 def test_command4(tmpdir):
     file_ = temporary_file(tmpdir, CONTENT)
     found = command4(file_)
-    keys = sorted(found.keys())
-    print(len(keys))
-    for key in keys:
-        print(key, found[key])
+
+    #keys = sorted(found.keys())
+    #print(len(keys))
+    #for key in keys:
+        #print(key, found[key])
 
     assert 0 in found
     assert 1 in found
@@ -81,4 +82,4 @@ def test_command4(tmpdir):
     assert not 29 in found
     assert 30 in found
 
-    assert 0
+    #assert 0
