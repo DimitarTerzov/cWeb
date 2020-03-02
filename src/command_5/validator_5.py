@@ -81,7 +81,7 @@ def command5(filepath):
                         continue
 
                     # Check for initial tag inside lang tag
-                    if re.match(r'^&lt;initial&gt;\s[\w.\s]*\s&lt;/initial&gt;$', inner_text):
+                    if re.search(r'(&lt;|\<)([int\w\s/\\]+)(&gt;|\>).*?(&lt;|\<)([\\/\s]*)([int\w\s]+)(&gt;|\>)', inner_text):
                         continue
 
                     # Check final punctuation
