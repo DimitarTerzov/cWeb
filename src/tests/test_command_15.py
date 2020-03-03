@@ -56,7 +56,7 @@ def test_command15(file_with_tildes):
     assert "word ~ " in found[12]
     assert "hello ~~" in found[13]
     assert "~~hi" in found[14]
-    assert "~Tilde" in found[15]
+    assert not 15 in found
     assert ",~" in found[16]
     assert ".~" in found[17]
     assert ",~." in found[18]
@@ -65,5 +65,6 @@ def test_command15(file_with_tildes):
     assert "#uha~" in found[21]
     assert "]~." in found[22]
     assert "~." in found[23]
-    assert len(found) == 17
+    assert len(found) == 16
+
     assert 0
