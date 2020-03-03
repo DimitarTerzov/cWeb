@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from __future__ import print_function
 
 import pytest
@@ -30,7 +31,7 @@ CONTENT = [
     "then #uh, who knows, maybe \n",            # 20
     "So #uh and I don't think\n",               # 21
     "#~ Thank thank God,\n",                    # 22
-    "because, #yes~ , he injured his neck,",    # 23
+    "because, #yes~ , he injured his neck,\n",    # 23
     "I think, #uh~, I don't necessarily\n",     # 24
     "#uh, but this is just a wacky\n",          # 25
     "team, uh does that weigh on your\n",       # 26
@@ -78,4 +79,6 @@ def test_command_7(tmpdir):
     assert 27 in found
     assert not 28 in found
     assert not 29 in found
+
+    assert 0
 
