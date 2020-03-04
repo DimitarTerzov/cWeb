@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from __future__ import print_function
 
 import pytest
@@ -33,7 +34,7 @@ CONTENT = [
     "Pre &lt;initial&gt; K &lt;/initial&gt; through twelveth grade.\n",                  # 23
     "&lt;initial&gt; MHS &lt;/initial&gt;, I was a student\n",                           # 24
     "&lt;initial&gt; PTO &lt;/initial&gt;s for the enrichment\n",                        # 25
-    "I attended &lt;initial&gt; MHS &lt;/initial&gt;.\n",                                # 26
+    "I attended &lt;initial&gt; ČSSD &lt;/initial&gt;.\n",                                # 26
     "I attended &lt;initial&gt; FBI, CIA &lt;/initial&gt;.\n",                           # 27
     "French l'&lt;initial&gt; ONU &lt;/initial&gt;\n",                                   # 28
     "This one is correct... &lt;initial&gt; Ph.D. &lt;/initial&gt;\n"                    # 29
