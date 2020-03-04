@@ -8,36 +8,36 @@ from command_7.validator_7 import command7
 
 
 CONTENT = [
-    "I was on # uh Paul Finebaum's show\n",    # 0
-    "I love that hire. #um We kind of~~we've kind\n",    # 1
-    "Joe Morehead maybe out of Mississippi State after this, #uhh,\n",    # 2
-    "or out east and, #Eh, Lane would be\n",    # 3
-    "happen and, #UH,\n",                       # 4
-    "#aH but yeah, I don't know\n",             # 5
-    "here, #hm, Shane, Ole Miss\n",             # 6
-    "#um I think you got to give ~,\n",         # 7
-    "#uH Why do you want to stand\n",           # 8
-    "really well, so #uh.\n",                   # 9
-    "previously .#uh at Missouri\n",            # 10
-    "on a.#uh previous podcast\n",              # 11
-    "speaking of tangled ,#eh webs, Shane,\n",  # 12
-    "I ain't,#uh go do any more\n",             # 13
-    "He's word#ah doing these commercials\n",   # 14
-    "well, #uhword we got a first-round\n",     # 15
-    "Set #øh Men In Black,\n",                  # 16
-    "and, #um, I don't know with Bama\n",       # 17
-    "daje się #mmm we znaki rotawirus\n",       # 18
-    "[breath] #yyy taka łuna [breath].\n",      # 19
-    "then #uh, who knows, maybe \n",            # 20
-    "So #uh and I don't think\n",               # 21
-    "#~ Thank thank God,\n",                    # 22
-    "because, #yes~ , he injured his neck,\n",    # 23
-    "I think, #uh~, I don't necessarily\n",     # 24
-    "#uh, but this is just a wacky\n",          # 25
-    "team, uh does that weigh on your\n",       # 26
-    "I'm not um making too much out of that\n", # 27
-    "Lawrence is gonumna be there\n",           # 28
-    "acted liuhke the question wasn't asked."   # 29
+    u"I was on # uh Paul Finebaum's show\n",    # 0
+    u"I love that hire. #um We kind of~~we've kind\n",    # 1
+    u"Joe Morehead maybe out of Mississippi State after this, #uhh,\n",    # 2
+    u"or out east and, #Eh, Lane would be\n",    # 3
+    u"happen and, #UH,\n",                       # 4
+    u"#aH but yeah, I don't know\n",             # 5
+    u"here, #hm, Shane, Ole Miss\n",             # 6
+    u"#um I think you got to give ~,\n",         # 7
+    u"#uH Why do you want to stand\n",           # 8
+    u"really well, so #uh.\n",                   # 9
+    u"previously .#uh at Missouri\n",            # 10
+    u"on a.#uh previous podcast\n",              # 11
+    u"speaking of tangled ,#eh webs, Shane,\n",  # 12
+    u"I ain't,#uh go do any more\n",             # 13
+    u"He's word#ah doing these commercials\n",   # 14
+    u"well, #uhword we got a first-round\n",     # 15
+    u"Set #øh Men In Black,\n",                  # 16
+    u"and, #um, I don't know with Bama\n",       # 17
+    u"daje się #mmm we znaki rotawirus\n",       # 18
+    u"[breath] #yyy taka łuna [breath].\n",      # 19
+    u"then #uh, who knows, maybe \n",            # 20
+    u"So #uh and I don't think\n",               # 21
+    u"#~ Thank thank God,\n",                    # 22
+    u"because, #yes~ , he injured his neck,\n",    # 23
+    u"I think, #uh~, I don't necessarily\n",     # 24
+    u"#uh, but this is just a wacky\n",          # 25
+    u"team, uh does that weigh on your\n",       # 26
+    u"I'm not um making too much out of that\n", # 27
+    u"Lawrence is gonumna be there\n",           # 28
+    u"acted liuhke the question wasn't asked."   # 29
 ]
 
 
