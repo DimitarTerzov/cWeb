@@ -62,5 +62,3 @@ def test_command15(tmpdir):
     assert "]~." in found[22]
     assert "~." in found[23]
     assert len(found) == 16
-
-    assert 0
