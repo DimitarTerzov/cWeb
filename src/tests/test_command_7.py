@@ -79,6 +79,3 @@ def test_command_7(tmpdir):
     assert 27 in found
     assert not 28 in found
     assert not 29 in found
-
-    assert 0
-
