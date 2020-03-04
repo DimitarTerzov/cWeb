@@ -10,7 +10,6 @@ def command15(filepath):
     match_no_white_space = re.compile(r'(\b\w+~\w*\b)', re.UNICODE)
     match_double_white_space = re.compile(r'\w* ~ \w*', re.UNICODE)
     match_double_tilde = re.compile(r'\w*\s*~~\s*\w*', re.UNICODE)
-    match_capital_letter = re.compile(r'(?P<content>~(?P<word>\b\w+\b))', re.UNICODE)
     match_punctuation_before = re.compile(r"(?<=\w|\W){0}~{0}?".format(punctuation), re.UNICODE)
     match_punctuation_after = re.compile(r"(?<=\s)~{0}".format(punctuation), re.UNICODE)
     match_filler = re.compile(r"#\w*~", re.UNICODE)
@@ -35,11 +34,6 @@ def command15(filepath):
             for match in double_tilde:
                 found[ln] = [15, 'Double tilde', match]
 
-            capital_letter = re.finditer(match_capital_letter, line)
-            for match in capital_letter:
-                if match.group('word')[0].isupper() and match.group('word')[1].islower():
-                    found[ln] = [15, 'Tilde followed by capital and non-capital letter', match.group('content')]
-
             touching_punctuation_before = re.finditer(match_punctuation_before, line)
             for match in touching_punctuation_before:
                 found[ln] = [15, 'Punctuation touch tilde', match.group()]
@@ -56,6 +50,6 @@ def command15(filepath):
 
 
 if __name__ == '__main__':
-    found = command15('../files/SEC_Football_004.trs')
+    found = command15('../files/TXSportsNation_009.trs')
     for row, hit in found.items():
         print row, ' => ', hit
