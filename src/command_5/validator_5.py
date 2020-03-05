@@ -3,6 +3,7 @@ import re
 
 #Language tag validator
 def command5(filepath):
+    import io
 
     #load the languages to array
     languages = [
@@ -27,13 +28,13 @@ def command5(filepath):
         'Ambonese', 'Betawinese', 'Latin', 'Manadonese'
     ]
 
-    punctuation_marks = """:,-'—_!".?;"""
+    punctuation_marks = u""":,-'_!—".?;""".encode('utf')
 
-    regex = re.compile(r'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;)|\<)(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;)|\>)(?P<inner_text>.*?)(?P<second_open>(?:&lt;)|\<)(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;)|\>)(?P<after_second>\b\w*\b)?)')
+    regex = re.compile(r'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;)|\<)(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;)|\>)(?P<inner_text>.*?)(?P<second_open>(?:&lt;)|\<)(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;)|\>)(?P<after_second>\b\w*\b)?)', re.UNICODE)
 
     found = {}
 
-    with open(filepath,'r') as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
@@ -50,7 +51,7 @@ def command5(filepath):
                         not match.group('inner_text').endswith(" ") or
                         match.group('after_second') is not None
                     ):
-                        found[ln] = [5, "Tag syntax error", match.group('content')]
+                        found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
                         continue
 
                     # Check spelling
@@ -60,7 +61,7 @@ def command5(filepath):
                         match.group('first_tag_lang') not in languages or
                         match.group('second_tag_lang') not in languages
                     ):
-                        found[ln] = [5, "Tag syntax error", match.group('content')]
+                        found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
                         continue
 
                     # Check for wrong syntax `<lang:*>`
@@ -71,23 +72,23 @@ def command5(filepath):
                         match.group('second_close') != '&gt;' or
                         match.group('forward') != '/'
                     ):
-                        found[ln] = [5, "Tag syntax error", match.group('content')]
+                        found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
                         continue
 
 
-                    inner_text = match.group('inner_text').strip()
+                    inner_text = match.group('inner_text').strip().encode('utf')
                     if not inner_text:
-                        found[ln] = [5, 'Language tag is empty', match.group('content')]
+                        found[ln] = [5, 'Language tag is empty', match.group('content').encode('utf')]
                         continue
 
                     # Check for initial tag inside lang tag
-                    if re.search(r'(&lt;|\<)([int\w\s/\\]+)(&gt;|\>).*?(&lt;|\<)([\\/\s]*)([int\w\s]+)(&gt;|\>)', inner_text):
+                    if re.search(r'(&lt;|\<)([int\w\s/\\]+)(&gt;|\>).*?(&lt;|\<)([\\/\s]*)([int\w\s]+)(&gt;|\>)', inner_text, re.UNICODE):
                         continue
 
                     # Check final punctuation
                     inner_text_end = inner_text[-1]
                     if inner_text_end in punctuation_marks:
-                        found[ln] = [5, "Final punctuation marks should be outside the tag", match.group('content')]
+                        found[ln] = [5, "Final punctuation marks should be outside the tag", match.group('content').encode('utf')]
 
     return found
 
