@@ -70,4 +70,4 @@ def test_command15(tmpdir):
     assert "~ " in found[26]
     assert len(found) == 19
 
-    assert 0
+    #assert 0
