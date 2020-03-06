@@ -56,11 +56,11 @@
 [overlap]
 </Turn>
 <Turn speaker="spk2" startTime=" 14.781" endTime=" 21.081">
-<Sync time="14.781"/>
+<Sync time="15.781"/>
 [noise] [music] 물러나시오! 임금님 행차하신다.
 </Turn>
 <Turn speaker="spk3" startTime=" 21.081" endTime=" 32.282">
-<Sync time="21.081"/>
+<Sync time="40.081"/>
 [laugh] [applause] 보이느냐? 나의 이 멋진 옷이! [laugh]
 </Turn>
 <Turn speaker="spk4" startTime=" 32.282" endTime=" 39.087">
