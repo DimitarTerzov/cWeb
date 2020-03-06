@@ -33,6 +33,10 @@ def command13(filepath):
 
                 end_time = re.search(r'endTime="(?P<value>\d+\.?\d*)"', line)
                 end_time = float(end_time.group('value'))
+
+                if start_value >= end_time:
+                    found[ln] = [13, "Turn out of sync", start_time]
+
                 sync_count = 0
 
             elif 'Sync' in line and not sync:
