@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Trans SYSTEM "trans-14.dtd">
+<Trans scribe="Herena" audio_filename="KBS_Gag_Concert_2019_11_02" version="7" version_date="200222">
+<Speakers>
+<Speaker id="spk1" name="Multiple" check="no" type="unknown" dialect="native" accent="" scope="local"/>
+<Speaker id="spk2" name="Man1" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk3" name="Man2" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk4" name="Man3" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk5" name="Man4" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk6" name="Rapunzel acting woman" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk7" name="Won-bin acting man" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk8" name="Tae-hun Seo" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk9" name="Man6" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk11" name="Grandson" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk12" name="Sung-bum" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk13" name="Bong-sun" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk14" name="Jung-hyung Park" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk15" name="Man7" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk16" name="Jeon-lado dialect man" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk17" name="Gyung-sang do dialect man" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk18" name="Chung-cheong do dialect man" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk19" name="Kevin" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk20" name="Man8" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk21" name="Sung-gwang" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk22" name="Man9" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk23" name="Man10" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk24" name="Geon-ji" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk25" name="Sora" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk26" name="Player1" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk27" name="Coach" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk28" name="Sung-jun's mother" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk29" name="Leader" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk30" name="Tae-ho" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk31" name="Ha-young" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk32" name="Jung-geun" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk33" name="Sung-ho" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk34" name="Jong-hun" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk35" name="Sang-guk" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk36" name="Hyung-bin" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk37" name="Doo-hyun" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk38" name="Jin-se" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk39" name="Alpago repoarter" check="no" type="male" dialect="nonnative" accent="" scope="local"/>
+<Speaker id="spk40" name="Tae-won" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk41" name="Dong-hyuk" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk42" name="Man11" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk43" name="Man12" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk44" name="Man13" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk45" name="Man14" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk46" name="Girl1" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk47" name="Girl2" check="no" type="female" dialect="native" accent="" scope="local"/>
+</Speakers>
+<Episode>
+<Section type="report" startTime="0" endTime="4023.553">
+<Turn startTime="0" endTime=" 14.781" speaker="spk1">
+<Sync time="0"/>
+[overlap]
+</Turn>
+<Turn speaker="spk2" startTime=" 14.781" endTime=" 21.081">
+<Sync time="14.781"/>
+[noise] [music] 물러나시오! 임금님 행차하신다.
+</Turn>
+<Turn speaker="spk3" startTime=" 21.081" endTime=" 32.282">
+<Sync time="21.081"/>
+[laugh] [applause] 보이느냐? 나의 이 멋진 옷이! [laugh]
+</Turn>
+<Turn speaker="spk4" startTime=" 32.282" endTime=" 39.087">
+<Sync time="32.282"/>
+오, 그렇다면 나는 랜덤 캐릭터. [noise]
+</Turn>
+<Turn speaker="spk5" startTime=" 39.087" endTime=" 43.950">
+<Sync time="39.087"/>
+아, 이 아저씨가 여기서 또 옷 벗고 있네? 따라와요.
+</Turn>
+<Turn speaker="spk1" startTime=" 43.950" endTime=" 58.756">
+<Sync time="43.950"/>
+[overlap]
+</Turn>
+<Turn speaker="spk6" startTime=" 58.756" endTime=" 68.486">
+<Sync time="58.756"/>
+[music] 아하. [noise] 어, 우와. 내 머리는 길지만 니 수명을 짧을 거야.
+</Turn>
+<Turn speaker="spk4" startTime=" 68.486" endTime=" 73.614">
+<Sync time="68.486"/>
+[laugh] 그래. 그럼 나는 영화 어 아저씨의 멋있는 원빈! [noise]
+</Turn>
+<Turn speaker="spk7" startTime=" 73.614" endTime=" 93.075">
+<Sync time="73.614"/>
+[music] [applause] [laugh] 솜이 어디 갔냐?
+<Sync time="83.241"/>
+허, 금이빨 빼고 모조리 씹어 먹어줄게. 누가 원래 다 먹는다 그래? 씹어 먹어줄게.
+</Turn>
+<Turn speaker="spk1" startTime=" 93.075" endTime=" 225.952">
+<Sync time="93.075"/>
+[overlap]
+<Sync time="107.829"/>
+[overlap]
+<Sync time="122.687"/>
+[overlap]
+<Sync time="137.390"/>
+[overlap]
+<Sync time="152.299"/>
+[overlap]
+<Sync time="166.898"/>
+[overlap]
+<Sync time="181.807"/>
+[overlap]
+<Sync time="196.190"/>
+[overlap]
+<Sync time="211.093"/>
+[overlap]
+</Turn>
+<Turn speaker="spk8" startTime=" 225.952" endTime=" 240.876">
+<Sync time="225.952"/>
+아이참. 녀석. 거기서 뭐 하고 있는 거야, 녀석아. 아이, 진짜 신입이 여기 와서 앉아가지고 혼자. [laugh] 나와 나와 나와! 따라 나와. 잠깐. 너 뭐 하는 거야?
+</Turn>
+<Turn speaker="spk1" startTime=" 240.876" endTime=" 270.433">
+<Sync time="240.876"/>
+[overlap]
+<Sync time="255.574"/>
+[overlap]
+</Turn>
+<Turn speaker="spk9" startTime=" 270.433" endTime=" 296.601">
+<Sync time="270.433"/>
+니 역할이 굉장히 중요해. 니가 잘하냐에 따라서 이 코너가 방송에 나갈 수 있냐 없냐가 달려있다. [overlap] 알았어? 드디어 우리 꽃미남 차력단이 완성이 됐다. 자, 서태훈. 우리 차력단에서 가장 중
+<Sync time="285.300"/>
+요한 게 뭔가? [overlap] 그렇지! 차력단은 기합이 가장 중요해. 신입 앞으로. 신입 앞으로! 기합 소리 준비. 오, 조. 오!
+</Turn>
+<Turn speaker="spk1" startTime=" 296.601" endTime=" 408.887">
+<Sync time="296.601"/>
+[overlap]
+<Sync time="311.355"/>
+[overlap]
+<Sync time="325.903"/>
+[overlap] 
+<Sync time="340.709"/>
+[overlap]
+<Sync time="355.515"/>
+[overlap]
+<Sync time="370.321"/>
+[overlap]
+<Sync time="385.023"/>
+[overlap]
+<Sync time="399.882"/>
+[overlap]
+</Turn>
+<Turn speaker="spk8" startTime=" 408.887" endTime=" 423.019">
+<Sync time="408.887"/>
+잘 봐. 내가 선배가 먼저 보여주지. 너가 고르는 거 이 세 가지 중에 내가 하날 바로 이 자리에서 보여주겠다. 첫 번째 숯불 위 맨발로 걷기. 두 번째 솥뚜껑 맨손 격파. 세 번째 볼링공으로 빨래집게 뽑기. 뭘할까?
+</Turn>
+<Turn speaker="spk1" startTime=" 423.019" endTime=" 491.923">
+<Sync time="423.019"/>
+[overlap]
+<Sync time="437.722"/>
+[overlap]
+<Sync time="452.580"/>
+[overlap]
+<Sync time="467.489"/>
+[overlap]
+<Sync time="482.295"/>
+[overlap]
+</Turn>
+<Turn speaker="spk8" startTime=" 491.923" endTime=" 502.637">
+<Sync time="491.923"/>
+뭘 짜왔어? 잠깐만. 너 그냥 가만있어. 야, 우 웃기는 건 우리가 할 거야. 니가 하지 마. [laugh] 잠깐. 야, 뭐야 얘.
+</Turn>
+<Turn speaker="spk1" startTime=" 502.637" endTime=" 524.942">
+<Sync time="502.637"/>
+[overlap]
+<Sync time="517.339"/>
+[overlap]
+</Turn>
+<Turn speaker="spk8" startTime=" 524.942" endTime=" 569.308">
+<Sync time="524.942"/>
+사실 이 친구 필살기가 있습니다. 저희 축제 때 그걸 보여주면 될 거 같습니다. 바로 검술입니다. 이 친구가 칼집을 들고 그냥 이렇게 순식간에 스캉 이렇게 해도 이게 볏짚이 싹 반으로 갈립니다.
+<Sync time="539.696"/>
+스캉. 스캉만 하면 되는 거야. 스캉. 딴 거 하지 말고. 스캉. [laugh] 둘 셋. [overlap] 아니, 볏짚이 하나도 안 잘 [overlap] [applause]
+<Sync time="554.398"/>
+(()) 너무 창피해. [applause] [music]
+</Turn>
+<Turn speaker="spk11" startTime=" 569.308" endTime=" 584.010">
+<Sync time="569.308"/>
+[applause] 아니, 우주에 일 년 다녀왔는데 그사이에 지구는 팔십 년이 흘렀다니. 참 황당하네. 그중에서 가장 황당한 건. 이분이 내
+</Turn>
+<Turn speaker="spk1" startTime=" 584.010" endTime=" 657.826">
+<Sync time="584.010"/>
+[overlap]
+<Sync time="598.712"/>
+[overlap]
+<Sync time="613.456"/>
+[overlap]
+<Sync time="628.200"/>
+[overlap]
+<Sync time="643.012"/>
+[overlap]
+</Turn>
+<Turn speaker="spk12" startTime=" 657.826" endTime=" 670.122">
+<Sync time="657.826"/>
+팔자주름이에요. [laugh] [overlap] 아유. 엉덩이를 있는 힘껏 걷어차고서는 또 때리겠다고 지금 따라오고 있어요. 할아버지, 혼 좀 내주세요.
+</Turn>
+<Turn speaker="spk13" startTime=" 670.122" endTime=" 684.935">
+<Sync time="670.122"/>
+강성범이 어딨셔! 강성범이 어딨셔? 이히. [breath] 강성범이! [overlap] 손주 놈은 빠지고! [laugh]
+</Turn>
+<Turn speaker="spk1" startTime=" 684.935" endTime=" 710.644">
+<Sync time="684.935"/>
+[overlap]
+<Sync time="699.817"/>
+[overlap]
+</Turn>
+<Turn speaker="spk13" startTime=" 710.644" endTime=" 725.457">
+<Sync time="710.644"/>
+아버님, 성범이랑 고스톱을 쳤는디유. 돈 오백 원이 없어서 카드 결제를 한다잔여. [laugh] [overlap] 그럼, 아버님이 내줄껴? [overlap] 너 일루와!
+</Turn>
+<Turn speaker="spk1" startTime=" 725.457" endTime=" 744.123">
+<Sync time="725.457"/>
+[overlap]
+<Sync time="740.133"/>
+[overlap]
+</Turn>
+<Turn speaker="spk13" startTime=" 744.123" endTime=" 766.167">
+<Sync time="744.123"/>
+아구, 나 테레비에서 봤슈. 아유 어떡한댜. 아구 죄송합니다. 그, 할아버님. 제가 정식으로다가 사과를 드릴게유. [overlap] 사과받아! 허리 펴고!
+<Sync time="758.799"/>
+뒷짐 지고! 고개는 끄덕끄덕! [laugh] 고대로 있어! 죄송하여요. [laugh]
+</Turn>
+<Turn speaker="spk1" startTime=" 766.167" endTime=" 790.699">
+<Sync time="766.167"/>
+[overlap]
+<Sync time="781.055"/>
+[overlap]
+</Turn>
+<Turn speaker="spk12" startTime=" 790.699" endTime=" 830.451">
+<Sync time="790.699"/>
+아부지 닮아서 그렇지요. 우리 아버지는요. 평생 어머니만 바라보고 사신 소나무 같은 분이셨어요. 정말 소나무같이 집 안방에 누워서 움직이질 않으셨죠. 평생을 어머니 월급날만 바라보고 평
+<Sync time="805.443"/>
+생을 어머니 주머니만 바라보고 사셨습니다. 그렇게 받은 용돈을 가지고 아버지는 카바레를 다니기 시작했어요. 거기서 박 여사를 만나고 박 여사만 바라보게 되었죠. 어머니는 화가 나서 카바레를 찾아가서 아버지의 뒷덜미를 잡았습니다. 아버지는 뿌리치려했지만 평생 아버지땜에
+<Sync time="820.256"/>
+궂은 일은 다 해보신 어머니 팔뚝 힘은 당해낼 재간이 없었죠. 아버지는 카바레 그 자리에서 어머니에게 왼쪽 뺨 서른 두 대를 맞게 되었습니다. [applause]
+</Turn>
+<Turn speaker="spk1" startTime=" 830.451" endTime=" 859.939">
+<Sync time="830.451"/>
+[overlap]
+<Sync time="845.195"/>
+[overlap]
+</Turn>
+<Turn speaker="spk14" startTime=" 859.939" endTime=" 874.804">
+<Sync time="859.939"/>
+[music] [applause] 박준형의 생활 사투리. 하이 에브리원. 여러분, 반갑습니다. 오늘도 신나게
+</Turn>
+<Turn speaker="spk1" startTime=" 874.804" endTime=" 904.315">
+<Sync time="874.804"/>
+[overlap]
+<Sync time="889.434"/>
+[overlap]
+</Turn>
+<Turn speaker="spk14" startTime=" 904.315" endTime=" 928.514">
+<Sync time="904.315"/>
+면서 활짝 웃고 애교를 좀 보이면서 여보 나 먼저 씻을게 이렇게 얘기하면 갑자기 분위기가 좀 어? 갑자기 아니 갑자기 왜 이래? 이런 약간 부담스러운 예. 이해하시는 분들도 꽤 계신데요. [laugh]
+<Sync time="919.128"/>
+(()) 있을 수 있습니다. 아이, 아이 갑자기 왜 이래? 갑자기 왜 이래? 과연 어떻게 표현할까요? 아이 갑자기 왜 이래? 자, 이선균 씨 버전 되나요?
+</Turn>
+<Turn speaker="spk15" startTime=" 928.514" endTime=" 943.328">
+<Sync time="928.514"/>
+아 갑자기 왜 이래. [applause] 아, 뭘 또 씻는다는 거야? 알았어. 씻는데 바닥에 물기 있잖아? 꼭 닦아. 뭘로? 봉걸레. [laugh] 
+</Turn>
+<Turn speaker="spk14" startTime=" 943.328" endTime=" 948.628">
+<Sync time="943.328"/>
+[laugh] 이순재 씨 버전 됩니까?
+</Turn>
+<Turn speaker="spk15" startTime=" 948.628" endTime=" 959.030">
+<Sync time="948.628"/>
+아, 뭐 하는 거야? 아, 생각이 있는 거야 없는 거야? 아이, 진짜 할망구가 노망이 났나있. [laugh]
+</Turn>
+<Turn speaker="spk14" startTime=" 959.030" endTime=" 963.732">
+<Sync time="959.030"/>
+그래요. 갑자기 왜 이래? 과연 어떻게 표현할까요? 전라도요.
+</Turn>
+<Turn speaker="spk16" startTime=" 963.732" endTime=" 978.545">
+<Sync time="963.732"/>
+워메 괜히 일찍 들어와부렀네. [laugh] 월래? 다시 (()) 워메 어쨌다냐 인자. 워메 클나부렀네. 워메. [noise]
+</Turn>
+<Turn speaker="spk14" startTime=" 978.545" endTime=" 986.880">
+<Sync time="978.545"/>
+[laugh] 들어보죠. 자, (()) 아니 갑자기 왜 이래? 과연 어떻게 표현할까요? 경상도요.
+</Turn>
+<Turn speaker="spk17" startTime=" 986.880" endTime=" 1030.961">
+<Sync time="986.880"/>
+아이구야, 집을 잘못 찾아왔심더. [laugh] 아이, 그래. 박박 씨꺼라 퍼뜩 씻고온나. 오늘 확 마 마. 씻고 온나. 씻고 와! 아들 자나? [laugh] 오
+<Sync time="1001.487"/>
+늘 아빠랑 같이 자믄 만 원 주꾸마. [laugh] 아들. 아들 자나? [overlap] 누구세요? 눈썹 어디 갔어? 입술 어디 갔어? 아이구 우리
+<Sync time="1016.162"/>
+마누라 억수로 고왔는데 진짜 많이 늙었네. 마음이 짠하다. 내가 다음 생에도 꼭 니한테 장가갈게. 하 멘트 허들 아이가? 오늘도 넘어갔다. 넘어갔어. 넘어갔네.
+</Turn>
+<Turn speaker="spk14" startTime=" 1030.961" endTime=" 1045.842">
+<Sync time="1030.961"/>
+그래요. 자, 하이 갑자기 왜 이래? 자, 과연 어떻게 표현할까요? 자, 충청도입니다. 충청도가 퇴근을 해서 들어옵니다. 어, 샤워 소리가 들립니다.
+</Turn>
+<Turn speaker="spk1" startTime=" 1045.842" endTime=" 1060.517">
+<Sync time="1045.842"/>
+[overlap]
+</Turn>
+<Turn speaker="spk14" startTime=" 1060.517" endTime=" 1146.361">
+<Sync time="1060.517"/>
+[overlap] 예, 메카니컬 사운드를 들려드리겠습니다. 정말 놀라운 일이요. 앰뷸란스 있지 않습니까? 긴급 자동차 앰뷸란스도 지역에 따라 앰뷸란스 소리가 다르다고 합니다. 오, 이거 못 믿으시는 분도 계신
+<Sync time="1075.468"/>
+것 같은데요. 자, 일단. 자, 일단 영화에 나오는 변신 앰뷸런스. 어떤 소리가 납니까? [noise]
+<Sync time="1090.235"/>
+[overlap] [applause] 그래요. 아, 그래요. 이렇게 앰뷸런스 소리가 지역마다 다르다고 합니다. 어떻게 다르죠? 자, 먼저
+<Sync time="1105.162"/>
+전라도 허. 전라도 앰뷸런스입니다. [overlap] [laugh]
+<Sync time="1119.975"/>
+[overlap] [laugh] 어, 대단합니다. 자. 자, 이번엔 경상도입니다. 경상도 앰뷸런스는 어떻게 다를까요? 자, 경상도 앰뷸런스입니다.
+<Sync time="1131.480"/>
+마 인마 점마 금마 염마 인마 점마 인마 점마 금마 여마 인마 끄지라 끄지라 끄지라 끄지라 끄지라 끄지라 끄지라. 부즈으으.
+</Turn>
+<Turn speaker="spk17" startTime=" 1146.361" endTime=" 1160.277">
+<Sync time="1146.361"/>
+마! 으이 마! 으이 마! 으이 사람이 아픈데 (()) 마! 으이. 부즈으으. 인마 점마 금마 염마. [overlap] [applause]
+</Turn>
+<Turn speaker="spk14" startTime=" 1160.277" endTime=" 1167.025">
+<Sync time="1160.277"/>
+충청도 앰뷸런스. 충청도 앰뷸런스는 어떻게 할까요? 충청도 앰뷸런스입니다.
+</Turn>
+<Turn speaker="spk18" startTime=" 1167.025" endTime=" 1181.906">
+<Sync time="1167.025"/>
+비켜유 비켜유 비켜유 급해유 급해유 급해유 급해유 급해. 나와유 나와유 나와유 나와유. [overlap] 
+</Turn>
+<Turn speaker="spk1" startTime=" 1181.906" endTime=" 1211.531">
+<Sync time="1181.906"/>
+[overlap]
+<Sync time="1196.787"/>
+[overlap]
+</Turn>
+<Turn speaker="spk14" startTime=" 1211.531" endTime=" 1218.969">
+<Sync time="1211.531"/>
+[applause] 근데요. 이 충청도 이 앰뷸란스, 혹시 이순재 선생님 버전 됩니까?
+</Turn>
+<Turn speaker="spk18" startTime=" 1218.969" endTime=" 1233.898">
+<Sync time="1218.969"/>
+나왔슝. 나왔슝. 묻지도 따지지도 말고 일오팔팔 응애응애. [overlap] 아이, 니꺼 내꺼가 어딨어? 재밌으면 하는 거지. 야, 그리고 이것도 다 할 수 있는 거야.
+</Turn>
+<Turn speaker="spk1" startTime=" 1233.898" endTime=" 1248.600">
+<Sync time="1233.898"/>
+[overlap]
+</Turn>
+<Turn speaker="spk19" startTime=" 1248.600" endTime=" 1253.749">
+<Sync time="1248.600"/>
+[noise] 사투리 인기가요.
+</Turn>
+<Turn speaker="spk14" startTime=" 1253.749" endTime=" 1283.312">
+<Sync time="1253.749"/>
+그래요. 자, 우리가 들었던 그 위대한 가요를 만약 사투리로 듣게 된다면 과연 어떨까요? 자, 오늘 준비한 위대한 가요는요. 데뷔 삼십 주년을 맞은 이승환 씨의 천일동안입니다. 자, 전라도가 불러줍니다. [music]
+<Sync time="1268.696"/>
+[music] 아, 이승환. 이번 주 일위 이승환의 천일동안. [music]
+</Turn>
+<Turn speaker="spk16" startTime=" 1283.312" endTime=" 1308.014">
+<Sync time="1283.312"/>
+[music] 천일동안. 우리의 사랑이 영원할 거라 믿어왔었던 건 (()) 
+<Sync time="1298.241"/>
+[music] 어리석게도 그런 줄로만 알고 있었죠.
+</Turn>
+<Turn speaker="spk14" startTime=" 1308.014" endTime=" 1315.816">
+<Sync time="1308.014"/>
+자, 이제 전라도 사투리로 불러줍니다. [music]
+</Turn>
+<Turn speaker="spk16" startTime=" 1315.816" endTime=" 1345.563">
+<Sync time="1315.816"/>
+그 허벌나게 [laugh] (()) 부렀슴메요. 혹시 나가 그짝을 쪼까 후아. (())
+<Sync time="1330.593"/>
+(()) 던가요. 후. (()) 우메. 우짠다냐. 뭣이 그것이. (()) [applause]
+</Turn>
+<Turn speaker="spk1" startTime=" 1345.563" endTime=" 1375.270">
+<Sync time="1345.563"/>
+[overlap]
+<Sync time="1360.277"/>
+[overlap]
+</Turn>
+<Turn speaker="spk20" startTime=" 1375.270" endTime=" 1385.195">
+<Sync time="1375.270"/>
+자, 잘 들으세요, 박성광 씨. 이번 주 주간 박성광 회의에서 단 한 번도 참석하시지 않으셨어요.
+</Turn>
+<Turn speaker="spk1" startTime=" 1385.195" endTime=" 1394.362">
+<Sync time="1385.195"/>
+[overlap]
+</Turn>
+<Turn speaker="spk20" startTime=" 1394.362" endTime=" 1409.139">
+<Sync time="1394.362"/>
+저희가 한 번 준비해봤습니다. 박성광만 모르는 주간 박성광 지금부터 시작합니다. [music] [applause] 백 퍼센트 리얼. 지상최대의 쇼 (()) 에 오신 여러분
+</Turn>
+<Turn speaker="spk1" startTime=" 1409.139" endTime=" 1423.765">
+<Sync time="1409.139"/>
+[overlap]
+</Turn>
+<Turn speaker="spk20" startTime=" 1423.765" endTime=" 1453.395">
+<Sync time="1423.765"/>
+저희가 하는 개그 공격에 당황하시거나 화를 내시면 안 되는 겁니다. 만약에 당황하시거나 화를 내셔서 뒤에 있는 이 심장 박동수가 백 이십을 넘기게 되면 박성광 씨 사비로
+<Sync time="1438.542"/>
+오늘 오신 방청객 여러분들께 음료수를 하나씩 [applause] (()) 돌리도록 하겠습니다. 제가 알기로 약 삼백 명 정도 됩니다. 박성광 씨 어떻게
+</Turn>
+<Turn speaker="spk1" startTime=" 1453.395" endTime=" 1497.955">
+<Sync time="1453.395"/>
+[overlap]
+<Sync time="1468.173"/>
+[overlap]
+<Sync time="1483.026"/>
+[overlap]
+</Turn>
+<Turn speaker="spk21" startTime=" 1497.955" endTime=" 1512.657">
+<Sync time="1497.955"/>
+[overlap] [applause] 아니, 아이. [laugh] 아이 (()) 너무 놀래서 그래. 너무 충격이야. 야 리얼. 야 센세이션이다. 개콘에 이런 게 생기다니 너무 재밌다. 잘 짰어. 좋았어.
+</Turn>
+<Turn speaker="spk1" startTime=" 1512.657" endTime=" 1527.360">
+<Sync time="1512.657"/>
+[overlap]
+</Turn>
+<Turn speaker="spk20" startTime=" 1527.360" endTime=" 1535.768">
+<Sync time="1527.360"/>
+그럼, 주간 박성광 시작해보도록 하겠습니다. 자, 일단계 시작합니다. [applause] [music]
+</Turn>
+<Turn speaker="spk22" startTime=" 1535.768" endTime=" 1580.109">
+<Sync time="1535.768"/>
+제가 한번 넘겨보도록 하겠습니다. [applause] 안녕하세요. 여기 있는 박성광 선배는요 이십이기 선배고요. 저는 이십오기 후배입니다.
+<Sync time="1550.629"/>
+야. [laugh] 야, 박성광. 기억나? 
+<Sync time="1565.407"/>
+칠 년 전에. [overlap] 칠 년 전 홍대. [laugh] 홍대
+</Turn>
+<Turn speaker="spk1" startTime=" 1580.109" endTime=" 1624.365">
+<Sync time="1580.109"/>
+[overlap]
+<Sync time="1594.886"/>
+[overlap]
+<Sync time="1609.588"/>
+[overlap]
+</Turn>
+<Turn speaker="spk22" startTime=" 1624.365" endTime=" 1631.637">
+<Sync time="1624.365"/>
+[overlap] 자, 이단계 시작합니다. [applause]
+</Turn>
+<Turn speaker="spk23" startTime=" 1631.637" endTime=" 1710.651">
+<Sync time="1631.637"/>
+자, 이단계는 제가 한번 올려보도록 하겠습니다. 이 휴대폰이 뭐냐? 박성광 씨의 휴대폰입니다. [applause] 니 거 맞지? 자, 보겠습니다. 자, 보겠습니다. 보시죠.
+<Sync time="1646.470"/>
+박성광 씨의 휴대폰입니다. 근데 이게 비밀번호가 걸려있어요. 근데 저희가 매니저를 통해서 비밀번호를 알아냈습니다. 단순해요. 단순해. 영
+<Sync time="1661.224"/>
+영영영에이. 열렸죠? [applause] 자, 자 열렸습니다. 자, 열렸어요, 여러분. 자, 여기서 많은 것들이 있는데 이 중에 사진첩 공개하겠습니다.
+<Sync time="1676.136"/>
+자, 어, 박성광 씨 개인 사진이 있어요. 자, 갑니다. 어, 광복이 사진 있고요. 자 (()) 있고. 어, 이거 많이 유행했던 개인 사진이고요. 자, 자, 여러분 보셨나요? 다시 한번 
+<Sync time="1690.733"/>
+자세히 보도록 하겠습니다. 자, 자. 안 올라갑니까? 자, 그러면 다음. 동영상이 있습니다, 여러분들.
+<Sync time="1703.042"/>
+자, 이 동영상. 자, 이 동영상. 자, 동영상 플레이해 보도록 해보겠습니다.
+</Turn>
+<Turn speaker="spk1" startTime=" 1710.651" endTime=" 1725.405">
+<Sync time="1710.651"/>
+[overlap]
+</Turn>
+<Turn speaker="spk21" startTime=" 1725.405" endTime=" 1740.317">
+<Sync time="1725.405"/>
+[applause] 와. 와. 와하하! 와! [applause] [laugh] 와. 야. 그만
+</Turn>
+<Turn speaker="spk22" startTime=" 1740.317" endTime=" 1755.071">
+<Sync time="1740.317"/>
+[overlap] 자, 여러분 재밌게 보셨나요? 아무리 재밌어도 다음 주엔 못 봐요. [applause]
+</Turn>
+<Turn speaker="spk1" startTime=" 1755.071" endTime=" 1784.659">
+<Sync time="1755.071"/>
+[overlap]
+<Sync time="1769.826"/>
+[overlap]
+</Turn>
+<Turn speaker="spk24" startTime=" 1784.659" endTime=" 1798.706">
+<Sync time="1784.659"/>
+[music] [applause] 아이, 우리 누나 왜 안 오지? [music] 
+</Turn>
+<Turn speaker="spk13" startTime=" 1798.706" endTime=" 1813.539">
+<Sync time="1798.706"/>
+[music] 헛. 헛. 헛. 하. 핫. 핫. 핫. 핫. 핫. 핫. 하! [laugh] 아, 핼러윈 데이 때 남자친구랑 데이트라니. 허, 근
+</Turn>
+<Turn speaker="spk1" startTime=" 1813.539" endTime=" 1828.216">
+<Sync time="1813.539"/>
+[overlap]
+</Turn>
+<Turn speaker="spk13" startTime=" 1828.216" endTime=" 1835.431">
+<Sync time="1828.216"/>
+황비홍 몰라? 어우, 황비홍이 우리 때 얼마나 유행했었다구. 내가 황비홍 때문에 비디오 연체료를 얼마나 냈는데.
+</Turn>
+<Turn speaker="spk1" startTime=" 1835.431" endTime=" 1916.253">
+<Sync time="1835.431"/>
+[overlap]
+<Sync time="1850.272"/>
+[overlap]
+<Sync time="1865.020"/>
+[overlap]
+<Sync time="1879.850"/>
+[overlap]
+<Sync time="1894.479"/>
+[overlap]
+<Sync time="1908.899"/>
+[overlap]
+</Turn>
+<Turn speaker="spk13" startTime=" 1916.253" endTime=" 1931.073">
+<Sync time="1916.253"/>
+아니. 우리 둘이 처음으로 맞는 핼러윈 데이인데 왜 말도 없이 소라 씨를 불렀어? 그리고 옷은 왜 맞춰 입은 거야? [overlap] 영화도 같이 봤어? 나는, 나는? 나는?
+</Turn>
+<Turn speaker="spk1" startTime=" 1931.073" endTime=" 1975.243">
+<Sync time="1931.073"/>
+[overlap]
+<Sync time="1945.792"/>
+[overlap]
+<Sync time="1960.562"/>
+[overlap]
+</Turn>
+<Turn speaker="spk25" startTime=" 1975.243" endTime=" 1982.103">
+<Sync time="1975.243"/>
+[sta] 아, 그거는. 오, 야, 너무 가깝잖아. 뽀뽀할 뻔했어. 어우 진짜.
+</Turn>
+<Turn speaker="spk13" startTime=" 1982.103" endTime=" 2006.327">
+<Sync time="1982.103"/>
+근지야, 나 좀 봐. [overlap] 아니, 지금 뭐 하는 거야? 왜 나만 두고 둘이 귓속 말해? 너 정 정말 너무하는 거 아냐? 나도 귓속 말해 줘. 나도 귓속말
+<Sync time="1995.541"/>
+해줘. 아아아악 [laugh] 어우, 훅 들어와서 화가 훅 풀려버렸어. [laugh] 깍지.
+</Turn>
+<Turn speaker="spk1" startTime=" 2006.327" endTime=" 2065.513">
+<Sync time="2006.327"/>
+[overlap]
+<Sync time="2021.077"/>
+[overlap]
+<Sync time="2035.716"/>
+[overlap]
+<Sync time="2050.683"/>
+[overlap]
+</Turn>
+<Turn speaker="spk13" startTime=" 2065.513" endTime=" 2080.411">
+<Sync time="2065.513"/>
+지켜야 돼, 씨. 너 어쩜 소라 씨를 내 앞에서 여자친구라고 얘기할 수가 있는 거야? [overlap] 아, 됐어. 그러면 내가 다른 남자를 내 남자친구라 얘기하면 넌 기분 좋겠어? 됐어, 됐어. 너 정말 할 말 있고 못 할 말이 
+</Turn>
+<Turn speaker="spk1" startTime=" 2080.411" endTime=" 2095.174">
+<Sync time="2080.411"/>
+[overlap]
+</Turn>
+<Turn speaker="spk13" startTime=" 2095.174" endTime=" 2110.004">
+<Sync time="2095.174"/>
+[overlap] 아악! 아아. 너무 박력있어서 화가 풀려버렸어. [laugh] 이 연애 지켜야 돼. [applause]
+</Turn>
+<Turn startTime=" 2110.004" endTime=" 2124.699">
+<Sync time="2110.004"/>
+[applause] [music] [applause]
+</Turn>
+<Turn speaker="spk26" startTime=" 2124.699" endTime=" 2153.536">
+<Sync time="2124.699"/>
+[applause] 아, 성주 선배. 감독님 진짜 너무한 거 아니야? 저번에 단장님이 선수들이랑 회식하라고 준 돈으로 지혼자 고기 사 먹었대. 그리고 저번 달에는 자기 몸 아프다고 일주일 동
+<Sync time="2138.815"/>
+안 그냥 잠수탔잖아? 그때 해외여행 갔다 온 거래. 이게 사람이야 인간쓰레기야. 성주 선배가 말 좀 해봐. [overlap] 어, 성준 선배. [laugh] 
+</Turn>
+<Turn startTime=" 2153.536" endTime=" 2168.370">
+<Sync time="2153.536"/>
+[no-speech] [applause]
+</Turn>
+<Turn speaker="spk27" startTime=" 2168.370" endTime=" 2227.390">
+<Sync time="2168.370"/>
+[applause] [overlap] 그래. [overlap] 아냐, 아냐. 인간쓰레기한테 뭐. 그럴 수 있어. 어. 그래, 근데 좀 서운하다. 내가 해외여
+<Sync time="2183.281"/>
+행 갔다 오긴 왔지만 뭐 내가 그냥 갔다 왔어? 갔다 오면서 내가 니네 선물 사왔잖아. 왜 안 사와? 너는 열쇠고리 너는 엽서. 어? 열쇠고리 엽서는 뭐 선물 아니야? 여러분, 그건 선물 아니에요?
+<Sync time="2198.048"/>
+[laugh] 여러분들이 정 그렇다면 뭐 그럴 수 있어. 아, 근데 손에 든 건 뭐냐, 성준아. [overlap] 아, 그래? 어우.
+<Sync time="2212.411"/>
+뭔데? 오, 꿀떡! 야, 나 꿀떡 진짜 좋아하는데. 음 너무 맛있다. 야, 어머님한테 전화 좀 드려. 이 감사하다고 전화드려, 응? 인사는 해야지, 응?
+</Turn>
+<Turn speaker="spk28" startTime=" 2227.390" endTime=" 2266.703">
+<Sync time="2227.390"/>
+[ring] 어, 아들. 감독이란 인간한테 떡 줬나? 아우 실력은 없어가지고. 하여튼, 미운 놈한테 떡 하나 더 준다고. [overlap] 그게 아
+<Sync time="2242.249"/>
+니긴 뭐가 아니야. 아닌 건 감독이 아니지. 그 실력으로 우째 감독이 됐을꼬. 마 감독은 신경 쓰지 마라. 엄마가 봤을 땐 조만간 짤릴 거 같다. 니가 좀만 고생해. 아이 근데 감독이 떡 먹었드나? 아까 떡 사다가 떡을
+<Sync time="2257.242"/>
+좀 떨어뜨맀는데 마 감독 꺼에 다 집어 너뿠다. 니는 모른 척 해라. 아들 화이팅. [laugh]
+</Turn>
+<Turn speaker="spk27" startTime=" 2266.703" endTime=" 2352.220">
+<Sync time="2266.703"/>
+[laugh] 퉤. 퉤. 뭐 자식 둔 부모 입장에서 뭐 그럴 수 있어. 어. 그래. 훈련하자. 야, 시합이 며칠 남지 않았어. 자, 정신 집중하고! 자세 잡고!
+<Sync time="2281.327"/>
+하잇! 뭘 어야. 뭘 어야. 춤추냐? 뭐하냐 니네? 이게 빨리한다고 그게 다야? 정확성이 있어야 될 거 아냐. 정확성이. 어? 나는 이
+<Sync time="2296.025"/>
+런 긴 것도 필요 없어요, 어? 요런 젓가락으로도 어떤 물건도 내가 정곡을 딱 찔러가지고 다 받아낼 수가 있다고. 못 믿겠지? 아까 저기 과일있드만 던져봐.
+<Sync time="2310.570"/>
+[no-speech] 가까워. 더 멀리. 이거 너무 쉽잖아. 더. [laugh] 허잇!
+<Sync time="2325.518"/>
+[applause] 허잇! 오. [applause] 허잇! 
+<Sync time="2340.243"/>
+와. [applause] 봤지? [laugh]
+</Turn>
+<Turn speaker="spk29" startTime=" 2352.220" endTime=" 2362.836">
+<Sync time="2352.220"/>
+김 감독! 아니, 하라는 훈련은 안 하고 왜 과일을 먹고 있어? 어? 얼레? 꼬치를 껴서 먹어요. 어? 이런 식으로 할려면 옷 벗어. 옷 벗어!
+</Turn>
+<Turn speaker="spk27" startTime=" 2362.836" endTime=" 2406.674">
+<Sync time="2362.836"/>
+단장님, 거 애들 앞에서 말씀이 너무 지나치신 거 아닙니까, 예? 저야 뭐 그렇다 치지만 솔직히 단장님이 우리 애들을 위해서 해준 게 뭐가 있습니까? 맨날 대회 성적만 따졌지. 애들한테 제대로 뭐 지원해준 게 있습니까? 좋
+<Sync time="2377.598"/>
+습니다. 이런 식으로 하실 거면 저 우리 애들 데리고 이 팀에서 나가겠습니다. 얘들아, 가자. [laugh] 아휴.
+<Sync time="2391.741"/>
+[laugh] 단장님, 오셨습니까? 꼬치 드시겠습니까? 얘들아, 가자! 그럴 수 없어. [applause]
+</Turn>
+<Turn speaker="spk1" startTime=" 2406.674" endTime=" 2421.607">
+<Sync time="2406.674"/>
+[overlap]
+</Turn>
+<Turn speaker="spk30" startTime=" 2421.607" endTime=" 2432.106">
+<Sync time="2421.607"/>
+그래, 노래 따라 삼천리 함께 보시죠. [applause] [music]
+</Turn>
+<Turn speaker="spk31" startTime=" 2432.106" endTime=" 2446.977">
+<Sync time="2432.106"/>
+어, 자기야. 뭐? 지금 만나자고? 어. 아, 나 가족들이랑 식사 중인데. 어. [breath] 아, 깜짝이야.
+</Turn>
+<Turn speaker="spk1" startTime=" 2446.977" endTime=" 2461.779">
+<Sync time="2446.977"/>
+[overlap]
+</Turn>
+<Turn speaker="spk32" startTime=" 2461.779" endTime=" 2491.338">
+<Sync time="2461.779"/>
+고 소원을 말해봐. 니 맘속에 있는 작은 꿈을 말해봐. 난 너의 지니야 꿈이야 지니야. [overlap] 그래요. 난 널
+<Sync time="2476.649"/>
+사랑해. 언제나 믿어. 꿈도 열정도 다 주고 싶어. [laugh] 소원을 말해봐. 암 지니 포유어 위시. 내게만 말해봐. 해봐. 응? 해봐. 응.
+</Turn>
+<Turn speaker="spk1" startTime=" 2491.338" endTime=" 2502.871">
+<Sync time="2491.338"/>
+[overlap]
+</Turn>
+<Turn speaker="spk31" startTime=" 2502.871" endTime=" 2517.616">
+<Sync time="2502.871"/>
+그래, 내가 미쳤어 정말 미쳤어. 너무 미워서 떠나버렸어. 나를 떠떠떠떠떠떠나 버버버버버버려. 오빠 미안해. 나갈게.
+</Turn>
+<Turn speaker="spk32" startTime=" 2517.616" endTime=" 2532.335">
+<Sync time="2517.616"/>
+하영아! 날 떠나지 마. 가는 널 볼 수가 없어. 넌 떠나지만 난 뒷모습만 보며 서 있어. 어 베이베.
+</Turn>
+<Turn speaker="spk1" startTime=" 2532.335" endTime=" 2562.273">
+<Sync time="2532.335"/>
+[overlap]
+<Sync time="2547.283"/>
+[overlap]
+</Turn>
+<Turn speaker="spk33" startTime=" 2562.273" endTime=" 2577.223">
+<Sync time="2562.273"/>
+내 나이가 어때서. 사랑에 나이가 있나요. 어느날 우연히 거울 속에 비춰진 내 모습을 바라보면서 세월아 비켜라! 사랑하기 딱 좋은 나이인데!
+</Turn>
+<Turn speaker="spk1" startTime=" 2577.223" endTime=" 2619.614">
+<Sync time="2577.223"/>
+[overlap]
+<Sync time="2591.757"/>
+[overlap]
+<Sync time="2606.728"/>
+[overlap]
+</Turn>
+<Turn speaker="spk33" startTime=" 2619.614" endTime=" 2634.376">
+<Sync time="2619.614"/>
+이것 봐. 이것 봐. 나를 한번 쳐다봐. 나 지금 이쁘다고 말해봐. 솔직히 오늘 널 반하게 할 생각에 난생처음 치마도 입었어. [music] 아.
+</Turn>
+<Turn startTime=" 2634.376" endTime=" 2649.136">
+<Sync time="2634.376"/>
+[music] [applause] [laugh] [applause] [music]
+</Turn>
+<Turn speaker="spk34" startTime=" 2649.136" endTime=" 2663.872">
+<Sync time="2649.136"/>
+[music] [applause] [music] 네, 여러분 오늘 정말 잘 오셨습니다. 지금부터 멘트로 여자를 사로잡는 남자 멘사 회장님 양상국 씨를 모십니다.
+</Turn>
+<Turn speaker="spk35" startTime=" 2663.872" endTime=" 2693.621">
+<Sync time="2663.872"/>
+[applause] 네, 안녕하세요. 반갑습니다. 종훈 씨, 저랑 같이 별 보러 갈래요?
+<Sync time="2678.683"/>
+[overlap] 여깄잖아요. [music] 큰 별 작은 별 그리고 나에게 특별.
+</Turn>
+<Turn speaker="spk1" startTime=" 2693.621" endTime=" 2723.232">
+<Sync time="2693.621"/>
+[overlap]
+<Sync time="2708.539"/>
+[overlap]
+</Turn>
+<Turn speaker="spk34" startTime=" 2723.232" endTime=" 2729.666">
+<Sync time="2723.232"/>
+멘트가 얼마나 좋은지 지금부터 검증하는 시간 갖도록 하겠습니다. 먼저, 첫 번째 상황입니다.
+</Turn>
+<Turn speaker="spk1" startTime=" 2729.666" endTime=" 2921.774">
+<Sync time="2729.666"/>
+[overlap]
+<Sync time="2744.542"/>
+[overlap]
+<Sync time="2759.298"/>
+[overlap]
+<Sync time="2773.916"/>
+[overlap]
+<Sync time="2788.867"/>
+[overlap]
+<Sync time="2803.634"/>
+[overlap]
+<Sync time="2818.514"/>
+[overlap]
+<Sync time="2833.214"/>
+[overlap]
+<Sync time="2847.724"/>
+[overlap]
+<Sync time="2862.693"/>
+[overlap]
+<Sync time="2877.569"/>
+[overlap]
+<Sync time="2892.259"/>
+[overlap]
+<Sync time="2907.210"/>
+[overlap]
+</Turn>
+<Turn speaker="spk35" startTime=" 2921.774" endTime=" 2936.627">
+<Sync time="2921.774"/>
+[music] 가자, 우리의 신혼 침대로. [music] [applause]
+</Turn>
+<Turn speaker="spk36" startTime=" 2936.627" endTime=" 2979.410">
+<Sync time="2936.627"/>
+[music] [applause] 시청자 여러분, 안녕하십니까? 가짜가 판치는 세상. 진짜인 듯 진짜 아
+<Sync time="2951.498"/>
+닌 진짜 같은 가짜 이슈를 전해드립니다. 가짜 뉴스 윤형빈입니다. [applause] 자, 지금 긴급 속보입니다. 지난 십오 일 취재진도 응원단도 입국이 허용되지 않았던 북한과의 축구 경기에서
+<Sync time="2966.266"/>
+케이비에스 스포츠 김두현 국장이 단독으로 취재에 성공했다고 합니다. 아, 사안이 사안인 만큼 김두현 스포츠 국장이 직접 발표를 한다고 하는데요. 현장 나와주세요.
+</Turn>
+<Turn speaker="spk37" startTime=" 2979.410" endTime=" 2994.335">
+<Sync time="2979.410"/>
+[breath] [applause] 에 안녕하십니까? 에 평양에 나와 있는 케이비에스 스포츠 김두현 국장입니다. 아, 이게 경비가 삼엄해서 어쩔 수 없이 핸드폰으로 기사를 작성을 했긴 했는데 조금만 기다려주시면은 
+</Turn>
+<Turn speaker="spk1" startTime=" 2994.335" endTime=" 3006.703">
+<Sync time="2994.335"/>
+[overlap]
+</Turn>
+<Turn speaker="spk37" startTime=" 3006.703" endTime=" 3092.892">
+<Sync time="3006.703"/>
+지난 십 오일 이천이십이 카타르 월드컵 아시아 예선전이 평양에서 열려라 참깨 [laugh] 가 아니고 에 열렸습니다. 에 경기 시작과 동시에 전반 삼분 카레 맛있게 먹는 법 [laugh]
+<Sync time="3021.233"/>
+이 아니고 예. 전반 삼 분 한국은 파상 공세를 펼치며 계속해서 공격을 시도레미파솔라 가 [laugh] 아니고 예 시, 시도를 했습니다. 에 경기 시작부터 격렬한 몸싸움
+<Sync time="3035.565"/>
+으로 분위기가 점점 고조 감자는 (()) 감자디. 어,어. 이, 이 북한말이 여기서 왜 나오냐. 예. 예. 분위기가 고조되었고 어 손흥민 선수가 곧바로 측면에서 강하게 찬밥 더운
+<Sync time="3050.442"/>
+밥 가릴 때냐? 야 이거 이거 우리 엄마가 했던 얘긴데. 예, 예, 강하게 찬 슛은 아쉽게도 골문을 빗나갔습니다. 에, 경기 시작 전 대한민국 감독은 확실하게 패스를 할지 슛을 할지 둘 중에
+<Sync time="3065.021"/>
+하나만 골라예쓰오아예쓰. 야, 트 트와이스가 여기서 왜 나오냐. 예. 예. 둘 중에 하나만 하라고 당부를 했지만 접전 끝에 아쉽게도 승부는 무승부로 끝마쳤습니다. 아, 지금까지 평양
+<Sync time="3079.690"/>
+에서 케이비에스 스포츠 마사지 거북목 교정 삼만 원 [laugh] 아아이 이게 이게 아니고. 예. 케이비에스 스포츠 국장 김두현이었 야, 야 이거 어떻게 된 거야, 야! [applause]
+</Turn>
+<Turn speaker="spk36" startTime=" 3092.892" endTime=" 3107.620">
+<Sync time="3092.892"/>
+[applause] 아, 다음은 (()) 초대석 시간인데요. 요즘 아이들이 과도한 스파트폰 사용을 함으로써 많은 문제가 야기되고 있는데요. 파이브지 시대에 평생 단 한 번도 스마트폰을 사용하지 않고 산속에서만 생활해 오신 조진세 씨를 모셨습
+</Turn>
+<Turn speaker="spk1" startTime=" 3107.620" endTime=" 3121.062">
+<Sync time="3107.620"/>
+[overlap]
+</Turn>
+<Turn speaker="spk36" startTime=" 3121.062" endTime=" 3130.448">
+<Sync time="3121.062"/>
+아니, 이게 스마트폰을 사용을 하지 않는다는 게 정말 어려운 일인데 한 번도 사용한 적이 없으시다는 거죠? [overlap] 아, 그럼 가족분들과 연락을 어떻게 하나요?
+</Turn>
+<Turn speaker="spk38" startTime=" 3130.448" endTime=" 3145.274">
+<Sync time="3130.448"/>
+아. 산속에 송골매가 있어요. 제 주머니게 편지도 있어요. 그럼 그 편지를 송골매 발목에 묶어요. 그리고 가족들 체취를 맡게 한 뒤에 푸드득 날려 보내요. [ring] [laugh]
+</Turn>
+<Turn speaker="spk1" startTime=" 3145.274" endTime=" 3174.938">
+<Sync time="3145.274"/>
+[overlap]
+<Sync time="3160.002"/>
+[overlap]
+</Turn>
+<Turn speaker="spk38" startTime=" 3174.938" endTime=" 3204.739">
+<Sync time="3174.938"/>
+아, [laugh] 그 옛날에 별스타그램에 송골매 사진 한 번 올렸었어요. 귀엽지 않아요? 올려야 되니까, 예. 딱 한 번
+<Sync time="3189.913"/>
+[overlap] [laugh] 아. [laugh] 아 술 먹고 그 전여친한테 자니? 깨톡한번 했
+</Turn>
+<Turn speaker="spk1" startTime=" 3204.739" endTime=" 3232.711">
+<Sync time="3204.739"/>
+[overlap]
+<Sync time="3219.565"/>
+[overlap]
+</Turn>
+<Turn speaker="spk38" startTime=" 3232.711" endTime=" 3238.932">
+<Sync time="3232.711"/>
+시리야, 그 윤형빈 안티 카페 좀 찾아줘. [laugh] [applause]
+</Turn>
+<Turn speaker="spk36" startTime=" 3238.932" endTime=" 3253.758">
+<Sync time="3238.932"/>
+[applause] 네, 어 이번 순서는 우리의 전통문화를 찾아 전국 방방곡곡을 다니는 아홉 시 내 고향 시간입니다. 누가 봐도 토종 한국인 이름마저도 너무 친근한 알파고 리포터 모셔보겠습니다. 알파고 리포터 [applause]
+</Turn>
+<Turn speaker="spk1" startTime=" 3253.758" endTime=" 3268.585">
+<Sync time="3253.758"/>
+[overlap]
+</Turn>
+<Turn speaker="spk39" startTime=" 3268.585" endTime=" 3275.201">
+<Sync time="3268.585"/>
+정통문화 서예를 즐기고 계시더라고요. 저도 오늘은 체험 삼아 시 한번 써보겠습니다.
+</Turn>
+<Turn speaker="spk36" startTime=" 3275.201" endTime=" 3289.818">
+<Sync time="3275.201"/>
+아, 이건 직접 알파고 씨가 적은 십니다. 예. 잊을 수 없는 너의 향. 첫사랑을 그리워하는 건가요? 이 시 제목이 뭔가요? [overlap] 아. 아. [laugh]
+</Turn>
+<Turn speaker="spk39" startTime=" 3289.818" endTime=" 3310.383">
+<Sync time="3289.818"/>
+아우 냄새 진짜 구려요. 아, 가을마다 서울 거리가 진짜 이렇게 삼팔선 지뢰밭 같아요. [laugh] 얼마 전에 새 신발 사고 은행 밟고 회사 갔더니 왕따당할 뻔했어요. 이게 무슨 나무
+<Sync time="3304.497"/>
+에서 (()) 가 똥이 나오냐. [laugh] 마지막으로 한번 더 써보겠습
+</Turn>
+<Turn speaker="spk36" startTime=" 3310.383" endTime=" 3325.163">
+<Sync time="3310.383"/>
+하나 더 부탁드립니다. 자, 이번엔 어떤 시를 선보일지요? 아프다고 말해볼까. 뭔가 애절한 상황 같은데요. 아.
+</Turn>
+<Turn speaker="spk39" startTime=" 3325.163" endTime=" 3348.188">
+<Sync time="3325.163"/>
+회식 정신적으로 힘들어요. 예, 회식. 아, 진짜 멘탈이 털려요. 너무 힘들어요. 특히 부장님 아재 개그 오이 털려요. [laugh] 알파고, 너 요즘 개콘 나오지? 이거
+<Sync time="3340.088"/>
+어때? 사과가 웃으면 풋사과 [laugh] 이게 뭡니까, 이게. 부장님 나빠요. 이상 알파고 리
+</Turn>
+<Turn speaker="spk36" startTime=" 3348.188" endTime=" 3356.370">
+<Sync time="3348.188"/>
+[overlap] [laugh] [applause] 계속해서 여의도 촌철살인 삼십초 논평에 김태원 논설위 원 모셔보도록 하겠습니다.
+</Turn>
+<Turn speaker="spk40" startTime=" 3356.370" endTime=" 3407.070">
+<Sync time="3356.370"/>
+[applause] 김태원입니다. 여러분들, 기억력 좋으신가요?
+<Sync time="3362.511"/>
+자, 여기 사진 한 번 봐보십시오. 자. 자, 방금 사진에 사람은 몇 명이 있었을까요? [overlap] 맞습니다. 세 명입니다. 자, 그렇다면 이 사진을 봐주시고요. [overlap] 자,
+<Sync time="3377.364"/>
+방금 사진에 개는 몇 마리 있었을까요? 아닙니다. 네 마리입니다. 이날 제가 술 먹고 개 됐거든요. [laugh] 자, 하지만 더욱더 어려운 기억력 문제가 있습니다. 팔십 년 된 일을 기억하지 못한
+<Sync time="3392.309"/>
+다는 일본 의류 광고. 하지만 팔백 년 팔천 년이 지나고 우리는 기억해야 될 게 있습니다. 팔십 년 된 일을 기억하지 못한 다면 우리의 마음은 이렇게 될 겁니다. 논평이었습니다.
+</Turn>
+<Turn speaker="spk41" startTime=" 3407.070" endTime=" 3420.181">
+<Sync time="3407.070"/>
+[applause] [music] 개그맨 출근길엔 뭔가 특별한 게 있다. 몸개그 장인들과 함께하는 개그맨 출근길 육상대회.
+</Turn>
+<Turn speaker="spk1" startTime=" 3420.181" endTime=" 3656.383">
+<Sync time="3420.181"/>
+[overlap]
+<Sync time="3434.768"/>
+[overlap] 
+<Sync time="3449.621"/>
+[overlap]
+<Sync time="3464.291"/>
+[overlap]
+<Sync time="3478.869"/>
+[overlap]
+<Sync time="3493.815"/>
+[overlap]
+<Sync time="3508.576"/>
+[overlap]
+<Sync time="3523.318"/>
+[overlap]
+<Sync time="3538.200"/>
+[overlap]
+<Sync time="3552.962"/>
+[overlap]
+<Sync time="3567.815"/>
+[overlap]
+<Sync time="3582.576"/>
+[overlap]
+<Sync time="3597.337"/>
+[overlap]
+<Sync time="3612.098"/>
+[overlap]
+<Sync time="3626.952"/>
+[overlap]
+<Sync time="3641.622"/>
+[overlap]
+</Turn>
+<Turn speaker="spk18" startTime=" 3656.383" endTime=" 3671.236">
+<Sync time="3656.383"/>
+이 버블 수트를 입고 이 대 이로 게임을 하게 됩니다. [music] [laugh]
+</Turn>
+<Turn speaker="spk1" startTime=" 3671.236" endTime=" 3760.171">
+<Sync time="3671.236"/>
+[overlap]
+<Sync time="3686.089"/>
+[overlap]
+<Sync time="3700.943"/>
+[overlap]
+<Sync time="3715.796"/>
+[overlap]
+<Sync time="3730.557"/>
+[overlap]
+<Sync time="3745.318"/>
+[overlap]
+</Turn>
+<Turn speaker="spk42" startTime=" 3760.171" endTime=" 3775.132">
+<Sync time="3760.171"/>
+[applause] 긍정적으로 사는 게 정답이다. 긍정의 아이콘 바바바 브라더스 [laugh] [music]
+</Turn>
+<Turn speaker="spk43" startTime=" 3775.132" endTime=" 3789.985">
+<Sync time="3775.132"/>
+[overlap] 짜장면을 시켰는데 한 시간 늦게 도착해서 짜장면이 불으면은? 양이 많아지지 [overlap]
+</Turn>
+<Turn speaker="spk44" startTime=" 3789.985" endTime=" 3804.655">
+<Sync time="3789.985"/>
+[overlap] 우리 코너 인기 많아 좋은 옷도 사서 입고 소고기도 사서 먹고 밀린 월세도 다내면? 좋겠다. [overlap]
+</Turn>
+<Turn speaker="spk45" startTime=" 3804.655" endTime=" 3819.508">
+<Sync time="3804.655"/>
+[overlap] 지방 출장 가야돼서 자동차 운전하는데 부장님이 옆에 타서 계속 계속 잔소리하면? 졸음운전 걱정 없지. [overlap]
+</Turn>
+<Turn speaker="spk43" startTime=" 3819.508" endTime=" 3834.362">
+<Sync time="3819.508"/>
+[overlap] 자전거 타고 가는데 하루살이 너무 많아 입속으로 들어가면? 배는 안 차던데. [overlap]
+</Turn>
+<Turn speaker="spk44" startTime=" 3834.362" endTime=" 3844.903">
+<Sync time="3834.362"/>
+[overlap] 낮잠잘려고 하는데 창문에 커튼이 없어 햇볕땜에 눈부시면? [laugh] [breath]
+</Turn>
+<Turn speaker="spk1" startTime=" 3844.903" endTime=" 3858.288">
+<Sync time="3844.903"/>
+잠시 대기 잠시 대기 잠시 대기 잠시 대기 잠시 대기 잠시 [applause]
+</Turn>
+<Turn speaker="spk44" startTime=" 3858.288" endTime=" 3864.885">
+<Sync time="3858.288"/>
+내 털로 가리면 되지 [overlap]
+</Turn>
+<Turn speaker="spk1" startTime=" 3864.885" endTime=" 3879.830">
+<Sync time="3864.885"/>
+[overlap]
+</Turn>
+<Turn speaker="spk14" startTime=" 3879.830" endTime=" 3924.008">
+<Sync time="3879.830"/>
+[laugh] 이건 터번? 그렇다면 당신이 그 유명한 영화 알라딘의. [overlap] 사실 우리 남용이가 길을 걸어
+<Sync time="3894.591"/>
+가는데 앞에 예쁜 여자가 미끄러져 넘어져서 남용이가 남자답게 멋지게 손 내밀면? [laugh] [overlap]
+<Sync time="3909.445"/>
+이걸 잡고 일어났지. [overlap] 얘네 셋이 다니는 헬스클럽에 한 명 예쁜 여자 등록해서 얘네 셋이 다가갔지.
+</Turn>
+<Turn speaker="spk1" startTime=" 3924.008" endTime=" 3930.787">
+<Sync time="3924.008"/>
+[overlap]
+</Turn>
+<Turn speaker="spk14" startTime=" 3930.787" endTime=" 3945.733">
+<Sync time="3930.787"/>
+그 여자는 환불했지 [music] 우리 코널 좋아하는 시청자 여러분이 많은 영상 보내줬지. 함께 보시죠. [applause]
+</Turn>
+<Turn speaker="spk46" startTime=" 3945.733" endTime="3969.117">
+<Sync time="3945.733"/>
+[applause] [overlap] 오늘 학교에서 시험을 봤는데 시험 점수를 보곤 엄마 (()) 욕했지. 수명
+<Sync time="3960.687"/>
+이 쭉쭉 줄지 바바바바바바바바바 바바바바바바바바 [laugh] 끝났다. [laugh] 
+</Turn>
+<Turn speaker="spk47" startTime="3969.117" endTime=" 3990.394">
+<Sync time="3969.117"/>
+바바바바바바 바바바바바바바바 아빠가 잠을 잘 때 옷도 안 입고 바지도 안 입고 팬티도 안 입고 자면? 엄마가 폭
+<Sync time="3983.947"/>
+발하지. [laugh] 바바바바바바바바바 바바바바바바바바. 끝.
+</Turn>
+<Turn speaker="spk14" startTime=" 3990.394" endTime=" 4020.145">
+<Sync time="3990.394"/>
+[applause] [overlap] 영상 많이 보내준 여러분들 고마워요. 열 살 일곱 살 네 살 민호 민서 민주 그리고 여섯 살 송아영 양 빨리 병 나으시고요.
+<Sync time="4005.316"/>
+[music] 우리에게 영상 주면 우리가 선물 드리지. [overlap] 우리 모두 긍정의 힘! [overlap]
+</Turn>
+<Turn speaker="spk1" startTime=" 4020.145" endTime="4023.553">
+<Sync time="4020.145"/>
+[overlap] [applause]
+</Turn>
+</Section>
+</Episode>
+</Trans>

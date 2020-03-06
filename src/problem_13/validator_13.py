@@ -23,16 +23,16 @@ def command13(filepath):
             if line == '':
                 pass
             elif '<Turn' in line:
-                start_time = re.search(r'(?P<content>startTime="(?P<value>\d+\.?\d*)")', line)
-                start_value = float(start_time.group('value'))
+                start_time = re.search(r'(?P<content>startTime="(?P<value>\W*\d+\.?\d*\W*)")', line, re.UNICODE)
+                start_value = float(start_time.group('value').strip())
                 start_time = start_time.group('content')
 
                 # Catch turns out of order
                 if start_value != end_time:
                     found[ln] = [13, "Turn out of sync", start_time]
 
-                end_time = re.search(r'endTime="(?P<value>\d+\.?\d*)"', line)
-                end_time = float(end_time.group('value'))
+                end_time = re.search(r'endTime="(?P<value>\W*\d+\.?\d*\W*)"', line, re.UNICODE)
+                end_time = float(end_time.group('value').strip())
 
                 if start_value >= end_time:
                     found[ln] = [13, "Turn out of sync", start_time]
@@ -42,9 +42,9 @@ def command13(filepath):
             elif 'Sync' in line and not sync:
                 sync = True
                 sync_count += 1
-                new_sync = re.search(r'(?P<content>Sync time="(?P<value>\d+\.?\d*)")', line)
+                new_sync = re.search(r'(?P<content>Sync time="(?P<value>\W*\d+\.?\d*\W*)")', line, re.UNICODE)
                 new_sync_time = new_sync.group('content')
-                sync_time_value = float(new_sync.group('value'))
+                sync_time_value = float(new_sync.group('value').strip())
 
                 if sync_count == 1:
                     # compare sync_time with start_value
@@ -67,9 +67,9 @@ def command13(filepath):
             elif 'Sync' in line and sync:
                 found[ln] = [13, "Empty segments are not allowed", sync_time]
                 sync_count += 1
-                new_sync = re.search(r'(?P<content>Sync time="(?P<value>\d+\.?\d*)")', line)
+                new_sync = re.search(r'(?P<content>Sync time="(?P<value>\W*\d+\.?\d*\W*)")', line, re.UNICODE)
                 new_sync_time = new_sync.group('content')
-                sync_time_value = float(new_sync.group('value'))
+                sync_time_value = float(new_sync.group('value').strip())
 
                 # Compare new sync_time with old sync_time
                 old_sync_value = re.search(r'(\d+\.?\d*)', sync_time)
