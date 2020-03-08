@@ -55,32 +55,32 @@
 <Sync time="0"/>
 [overlap]
 </Turn>
-<Turn speaker="spk2" startTime=" 14.781" endTime=" 21.081">
+<Turn speaker="spk2" startTime="14.781" endTime=" 21.081">
 <Sync time="15.781"/>
 [noise] [music] 물러나시오! 임금님 행차하신다.
 </Turn>
-<Turn speaker="spk3" startTime=" 21.081" endTime=" 32.282">
+<Turn speaker="spk3" startTime="21.081 " endTime="32.282">
 <Sync time="40.081"/>
 [laugh] [applause] 보이느냐? 나의 이 멋진 옷이! [laugh]
 </Turn>
-<Turn speaker="spk4" startTime=" 32.282" endTime=" 39.087">
-<Sync time="32.282"/>
+<Turn speaker="spk4" startTime="32.282" endTime="39.087 ">
+<Sync time=" 32.282"/>
 오, 그렇다면 나는 랜덤 캐릭터. [noise]
 </Turn>
-<Turn speaker="spk5" startTime=" 39.087" endTime=" 43.950">
-<Sync time="39.087"/>
+<Turn speaker="spk5 " startTime="39.087" endTime="43.950">
+<Sync time="39.087 "/>
 아, 이 아저씨가 여기서 또 옷 벗고 있네? 따라와요.
 </Turn>
-<Turn speaker="spk1" startTime=" 43.950" endTime=" 58.756">
-<Sync time="43.950"/>
+<Turn speaker=" spk1" startTime="43.950" endTime="58.756">
+<Sync time= "43.950"/>
 [overlap]
 </Turn>
-<Turn speaker="spk6" startTime=" 58.756" endTime=" 68.486">
-<Sync time="58.756"/>
+<Turn speaker= "spk6" startTime="58.756" endTime="68.486">
+<Sync time ="58.756"/>
 [music] 아하. [noise] 어, 우와. 내 머리는 길지만 니 수명을 짧을 거야.
 </Turn>
-<Turn speaker="spk4" startTime=" 68.486" endTime=" 73.614">
-<Sync time="68.486"/>
+<Turn speaker ="spk4" startTime="68.486" endTime="73.614">
+<Sync time="68.486"/ >
 [laugh] 그래. 그럼 나는 영화 어 아저씨의 멋있는 원빈! [noise]
 </Turn>
 <Turn speaker="spk7" startTime=" 73.614" endTime=" 93.075">
