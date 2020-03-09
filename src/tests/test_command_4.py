@@ -38,7 +38,14 @@ CONTENT = [
     u"I attended &lt;initial&gt; ČSSD, ČSSD &lt;/initial&gt;.\n",                           # 27
     u"French l'&lt;initial&gt; ONU &lt;/initial&gt;\n",                                   # 28
     u"This one is correct... &lt;initial&gt; Ph.D. &lt;/initial&gt;\n"                    # 29
-    u"between the &lt;initial&gt; PTO &lt;/initial&gt;o"                                  # 30
+    u"between the &lt;initial&gt; PTO &lt;/initial&gt;o\n",                               # 30
+    u'&lt;initial&gt; AY &lt;/initial&gt;-liikkeen\n',                                    # 31
+    u'&lt;initial&gt; AY &lt;/initial&gt;!liikkeen\n',                                    # 32
+    u'&lt;initial&gt; AY &lt;/initial&gt;?liikkeen\n',                                    # 33
+    u'&lt;initial&gt; AY &lt;/initial&gt;:liikkeen\n',                                    # 34
+    u'&lt;initial&gt; AY &lt;/initial&gt;;liikkeen\n',                                    # 35
+    u'&lt;initial&gt; AY &lt;/initial&gt;_liikkeen\n',                                    # 36
+    u'&lt;initial&gt; AY &lt;/initial&gt;—liikkeen\n',                                    # 37
 ]
 
 
@@ -82,5 +89,12 @@ def test_command4(tmpdir):
     assert not 28 in found
     assert not 29 in found
     assert 30 in found
+    assert 31 not in found
+    assert 32 not in found
+    assert 33 not in found
+    assert 34 not in found
+    assert 35 not in found
+    assert 36 not in found
+    assert 37 not in found
 
-    #assert 0
+    assert 0

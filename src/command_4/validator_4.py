@@ -6,10 +6,10 @@ import re
 def command4(filepath):
     import io
 
-    punctuation = "[^'.,!?\s:;-_—\"]"
+    punctuation = u"""[^_'.,!?\s:;—"-]"""
     allowed_characters_after_tag = "s"
     allowed_expressions_before_tag = ["l'"]
-    regex = re.compile(r"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;|\<)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;|\>)(?P<inner_text>.*?)(?P<second_open>&lt;|\<)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;|\>)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
+    regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;|\<)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;|\>)(?P<inner_text>.*?)(?P<second_open>&lt;|\<)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;|\>)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
 
     found = {}
     with io.open(filepath, 'r', encoding='utf') as f:
@@ -51,7 +51,8 @@ def command4(filepath):
                 # Check for disallowed expressions after tag
                 if (
                     m.group('after_second') is not None and
-                    not m.group('after_second') in allowed_characters_after_tag
+                    not m.group('after_second') in allowed_characters_after_tag and
+                    not m.group('after_second').startswith(u'_')
                 ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
@@ -96,9 +97,9 @@ def command4(filepath):
 
 
 if __name__ == '__main__':
-    found = command4('../files/initial tag but inside spacing.trs')
+    found = command4('../files/Ykkosaamu_007.trs')
     keys = found.keys()
     keys = sorted(keys)
     print len(keys)
     for key in keys:
-        print key, found[key], found[key][2]
+        print key, found[key]
