@@ -27,7 +27,7 @@
 <Speaker id="spk23" name="소영" check="no" type="female" dialect="native" accent="" scope="local"/>
 <Speaker id="spk24" name="여자1" check="no" type="female" dialect="native" accent="" scope="global"/>
 <Speaker id="spk25" name="남자5" check="no" type="male" dialect="native" accent="" scope="global"/>
-<Speaker id="spk26" name="애정남 사회자" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk26" name="애정남 최효종" check="no" type="male" dialect="native" accent="" scope="global"/>
 <Speaker id="spk27" name="애정남 최효종" check="no" dialect="native" accent="" scope="global" type="male"/>
 <Speaker id="spk28" name="이세진" check="no" type="male" dialect="native" accent="" scope="global"/>
 <Speaker id="spk29" name="삼촌" check="no" type="male" dialect="native" accent="" scope="global"/>

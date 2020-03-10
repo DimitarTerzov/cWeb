@@ -3,8 +3,8 @@
 <Trans scribe="Winicius" audio_filename="MedfordSchoolCommitteeCandid_2019" version="2" version_date="200208">
 <Speakers>
 <Speaker id="spk1" name="Paul Donato" check="no" type="male" dialect="native" accent="" scope="global"/>
-<Speaker id="spk2" name="Paul Donato" check="no" type="male" dialect="native" accent="" scope="global"/>
-<Speaker id="spk3" name="Julia Novena" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk2" name="Henry Milorin" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk3" name="Mike Ruggiero" check="no" type="female" dialect="native" accent="" scope="global"/>
 <Speaker id="spk4" name="multiple" check="no" type="unknown" dialect="native" accent="" scope="global"/>
 <Speaker id="spk5" name="Mike Ruggiero" check="no" type="male" dialect="native" accent="" scope="global"/>
 <Speaker id="spk6" name="Jenny Graham" check="no" type="female" dialect="native" accent="" scope="global"/>
@@ -13,7 +13,8 @@
 <Speaker id="spk9" name="Mea Quinn Mustone" check="no" type="female" dialect="native" accent="" scope="global"/>
 <Speaker id="spk10" name="Cheryl Rodriguez" check="no" type="female" dialect="native" accent="" scope="global"/>
 <Speaker id="spk11" name="John Intoppa" check="no" type="male" dialect="native" accent="" scope="global"/>
-<Speaker id="spk12" name="Kathleen Kreatz" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk12" name="Kathleen Kreatz" 
+check="no" type="female" dialect="native" accent="" scope="global"/>
 <Speaker id="spk13" name="Paulette Van der Kloot" check="no" type="female" dialect="native" accent="" scope="global"/>
 <Speaker id="spk14" name="Paul Ruseau" check="no" type="male" dialect="native" accent="" scope="global"/>
 </Speakers>
@@ -21,50 +22,53 @@
 <Section type="report" startTime="0" endTime="3489.288">
 <Turn startTime="0" endTime="53.209" speaker="spk1">
 <Sync time="0"/>
-Good evening once again. My name is Paul Donato, I'm the Chairman of the Ward and City Committee, Democratic Ward and City Committee, along with my Co-Chair Nancy Denise White.
+&lt;initial&gt; error1 &lt;/initial&gt;&gt; Good evening once again. My name is Paul Donato, I'm the Chairman of the Ward and City Committee, Democratic Ward and City Committee, along with my Co-Chair Nancy Denise White. Test~.  
 <Sync time="10.776"/>
-And we're here to once again welcome the members of the school committee who are going to have, we're having a forum this evening but I want to take this opportunity to really thank, #uh, Henry Milorin and the Ward Six Committee.
+<initial> error2 </initial> And we're here to once again welcome the members of the school committee who are going to have, we're having a forum this evening but I want to take this opportunity to really thank, #uh, Henry Milorin and the Ward Six Committee. Test~,
 <Sync time="24.586"/>
-Who have demonstrated that #uh, democracy works because they have had the energy and the vibrancy to put this together and this is an important forum.
+&lt;initial&gt; error3 &lt;initial&gt; Who have demonstrated that #uh, democracy works because they have had the energy and the vibrancy to put this together and this is an important forum.
 <Sync time="36.664"/>
 For the people of the City of Medford to look at their potential school committee candidates and make that decision on November fifth. 
 <Sync time="45.135"/>
-So once again, thank you for watching but more important thank you Ward Six Democratic City Committee for your diligent work.
+&lt;initial&gt; error4 &lt;/Initial&gt; So once again, thank you for watching but more important 30 thank you Ward Six Democratic City Committee for your diligent work.
 </Turn>
 <Turn startTime="53.209" endTime="54.303">
 <Sync time="53.209"/>
-[no-speech]
+(music) &lt;initial&gt; error5 &lt; /initial&gt;
 </Turn>
 <Turn speaker="spk2" startTime="54.303" endTime="55.164">
 <Sync time="54.303"/>
-Thank you, Paul.
+Thank you, Paul. &lt; initial&gt; error6 &lt;/initial&gt;
 </Turn>
 <Turn startTime="55.164" endTime="57.662">
 <Sync time="55.164"/>
-[no-speech]
+[no-speech] &lt;initial&gt; error7 &lt;/iniial&gt;
 </Turn>
 <Turn speaker="spk3" startTime="57.662" endTime="70.529">
 <Sync time="57.662"/>
-My name is Julia Novena, a member of the Ward Six Committee. Thank you all for coming and those who are just joining us, thank you for coming. Those who stayed, thanks for staying. 
+&lt;initial&gt; error8&lt;/initial&gt; My name is Julia Novena, a member of the Ward Six Committee. Thank you all for coming and those who are just joining us, thank you for coming. Those who stayed, thanks for staying. 
 <Sync time="64.104"/>
 We are going to again, uh, salute the flag, so I welcome you to stand and we will, I will #uh, start you off in the Pledge of Allegiance.
 </Turn>
 <Turn startTime="70.529" endTime="72.088">
 <Sync time="70.529"/>
+[noise] &lt;initial&gt;error9 &lt;/initial&gt;
 </Turn>
 <Turn speaker="spk4" startTime="72.088" endTime="85.725">
 <Sync time="72.088"/>
-I pledge allegiance to the Flag of the United States of America and to the Republic for which it stands, one Nation under God, indivisible, with liberty and justice for all.
+I pledge allegiance to the Flag of the United States of America P1 and to the Republic for which it stands, one Nation under God, indivisible, with liberty and justice for all.
 </Turn>
-<Turn speaker="spk4" startTime="85.725" endTime="86.623">
+<Turn speaker="spk3" startTime="85.725" endTime="86.623">
 <Sync time="85.725"/>
+Thank you. &lt;/initial&gt; error10 &lt;/initial&gt;
 </Turn>
 <Turn speaker="spk2" startTime="86.623" endTime="88.487">
 <Sync time="86.623"/>
-Thank you, you may be seated. 
+Thank you, you may be seated.8  
 </Turn>
 <Turn startTime="88.487" endTime="94.373">
 <Sync time="88.487"/>
+[noise]  &lt;initial&gt; error 11 &lt;/initial&gt;
 </Turn>
 <Turn speaker="spk2" startTime="94.373" endTime="105.564">
 <Sync time="94.373"/>
@@ -72,19 +76,19 @@ We strongly believe it is important, if not crucial that we the citizen of this 
 </Turn>
 <Turn startTime="105.564" endTime="107.237">
 <Sync time="105.564"/>
-[no-speech]
+[no-speech]  &lt;&lt;initial&gt; error12 &lt;/initial&gt;
 </Turn>
 <Turn speaker="spk2" startTime="107.237" endTime="121.371">
 <Sync time="107.237"/>
-In a meaningful way. Your presence here to listen to the ten candidates. At the end in November fiv~ five, we will either have one no one for sure or more. 
+&lt;initial&gt; error 13 &lt;/initial &gt; In a meaningful way. Your presence here to listen to the ten candidates. At the end in November fiv~ five, we will either have one no one for sure or more. 
 </Turn>
 <Turn startTime="121.371" endTime="123.639">
 <Sync time="121.371"/>
-[no-speech]
+[no-speech]Z0001
 </Turn>
 <Turn speaker="spk2" startTime="123.639" endTime="149.545">
 <Sync time="123.639"/>
-It is not good enough to just go in the booth and select a candidate whose name we recognize. 
+It is not good enough to just go in the booth and select a candidate whose name we Z0000 recognize. 
 <Sync time="129.8"/>
 We must add, we must and need to make such a decision based on the qualification of the candidates, record of community and public service. 
 <Sync time="140.603"/>
@@ -92,7 +96,7 @@ In addition to their statement, they're gonna give you here tonight addressing i
 </Turn>
 <Turn startTime="149.545" endTime="150.797">
 <Sync time="149.545"/>
-[noise]
+[noise] &lt;initial&gt; FBI USA &lt;/initial&gt;
 </Turn>
 <Turn speaker="spk2" startTime="150.797" endTime="188.304">
 <Sync time="150.797"/>
@@ -102,9 +106,9 @@ For two years, municipal, four years, other office steps, six years, federal, an
 <Sync time="166.825"/>
 It's not good, that raise our stress level too high. 
 <Sync time="170.67"/>
-The decision to vote always have an impact on our lives, in our community, in our neighbors, in our health and safety of our family and possibly our own individual future. 
+The decision to vote always have an impact on our lives, # in our community, in our neighbors, in our health and safety of our family and possibly our own individual future. 
 <Sync time="184.755"/>
-This is why we are bringing you this forum tonight. 
+This is why we are bringing you this forum tonight.Z0000 
 </Turn>
 <Turn startTime="188.304" endTime="189.877">
 <Sync time="188.304"/>
@@ -112,19 +116,19 @@ This is why we are bringing you this forum tonight.
 </Turn>
 <Turn speaker="spk2" startTime="189.877" endTime="206.356">
 <Sync time="189.877"/>
-A lot of people talks about and what a debate with ten people. It's hard to sit down unlike see all the people are doing to conduct a fair and safe debate. 
+A lot of people talks about and what a debate with ten people. It's hard to sit down unlike see all the people are doing to conduct a fair and safe debate. #oo
 <Sync time="201.318"/>
-I believe in a forum that gives each of us a chance to speak.
+I believe in a forum that gives each of us a chance to speak-1.
 </Turn>
 <Turn startTime="206.356" endTime="208.506">
 <Sync time="206.356"/>
-[noise]
+&lt;lang:Foreign&gt; Четвърти обвинен за нелегалната фабрика за цигари, ม่ทราบว่าลูกค้าสนใจ  &lt;/lng:Foreign&gt;ม่ทราบว่าลูกค้าสนใจ
 </Turn>
 <Turn speaker="spk3" startTime="208.506" endTime="265.917">
 <Sync time="208.506"/>
-So just that you know the rules for the evening, each candidate will have the same amount of time to speak and which will be five minutes to make her or his case. 
+So just that you know the rules for the evening, each(music) candidate will have the same amount of time to speak and which will be five minutes to make her or his case. 
 <Sync time="216.476"/>
-The candidates, #uh, the order of the candidates was determined by a lottery. They drew ro~ #uh, they drew numbers in room two eight sev~ #uh, two zero seven away from the public and so the candidate who drew first will go first. 
+The candidates, #uh, the order of the candidates was determined by a lottery. They drew ro~ #uhhhhhh, they drew numbers in room two eight sev~ #uh, two zero seven away from the public and so the candidate who drew first will go first. 
 <Sync time="227.718"/>
 We have the order up here [lipsmack] and we believe this is a great opportunity for each, #uh, city counselor, #uh [laugh] sorry, school counselor candidate too [cough] to address the citizens of Medford.
 <Sync time="237.57"/>
@@ -144,65 +148,65 @@ Okay. #uh, one of the thing I want to share with you it's, what is the purpose o
 </Turn>
 <Turn startTime="274.24" endTime="275.536">
 <Sync time="274.24"/>
-[noise]
+[noise] &lt;lang:Foreign&gt; &lt;initial&gt; langerror1 &lt;/initial&gt; &lt;/lang:Foreign&gt;
 </Turn>
 <Turn speaker="spk2" startTime="275.536" endTime="326.695">
 <Sync time="275.536"/>
-The purpose of this forum is to give each candidate sitting here over the rail, five on each side.
+The purpose of this forum is to give each candidate sitting here over the rail, five on each side. &lt;lang:Foreign&gt; word, error2, word &lt;/lang:Foreign&gt;
 <Sync time="282.088"/>
-An opportunity to address policy issue to our school futures, to the education of our kids, our grandchildren. 
+An opportunity to address policy issue to our school futures, to the education of our kids, our grandchildren. &lt;lang:Foreign&gt; word, word? &lt;/lang:Foreign&gt;
 <Sync time="291.194"/>
-These issues involve a range of (()) matters that include education, planning, public education, special education, charter school, opioid crisis, inclusion.
+These issues involve a range of (())) matters that include education, planning, public education, special education, charter school, opioid crisis, inclusion.
 <Sync time="304.98"/>
 School system, land use, education development, school constructions and maintenance, preservation, cultural enhancement, youth issues.
 <Sync time="316.887"/>
-School budget, transportation, school breakfast, school lunch, trans growth, student health, and safety.
+School budget, transportation, school breakfast, school lunch, trans growth, student health, &lt;lang:Foreign&gt; (()) &lt;/lang:Foreign and safety.
 </Turn>
 <Turn startTime="326.695" endTime="328.548">
 <Sync time="326.695"/>
 [cough] [no-speech]
 </Turn>
 <Turn speaker="spk2" startTime="328.548" endTime="356.212">
-<Sync time="328.548"/>
+<Sync time="328.540"/>
 What's stated here was sent to each of the candidates and requested of them a five minutes preparation and we asked them what action would you take if elected.
 <Sync time="342.509"/>
-Those seeking office for the first time, or reelected, those who are seeking reelection and I'm sure they're ready.
+Those seeking office for the first time, or reelected, those who are seeking reelection and I'm sure they're ready.  #uhhhhhh
 <Sync time="350.73"/>
-Uhum. So the first one to draw was Mike Ruggiero. Welcome up.
+Uhum. So the first one to draw was Mike Ruggiero. Welcome up.  Tildeone ~ 
 </Turn>
 <Turn startTime="356.212" endTime="358.89">
 <Sync time="356.212"/>
-[noise] 
+[noise] (der)  Tildetwo~~ 
 </Turn>
-<Turn speaker="spk5" startTime="358.89" endTime="413.056">
+<Turn speaker="spk5" startTime="358.89" endTime="413.056">  
 <Sync time="358.89"/>
 Thank you, Henry. Thank you Ward Six. Friends and neighbors, my name is Michael Ruggiero and I wanna thank you for the opportunity to continue to serve you on the school committee. 
 <Sync time="369.566"/>
 In these past two years, we have completed many projects that were important to all of us. Beyond selecting a new Superintendent, we restructured the science and the mathematics curriculums. 
 <Sync time="382.851"/>
-We improved communications between the &lt;initial&gt; PTO &lt;/initial&gt;s and the school department. 
+We improved communications between the &lt;initial&gt; PTO &lt;/initial&gt;~ and the school department. 
 <Sync time="387.789"/>
 We've begun to address some of the inequalities between our two middle schools, but much work remains and I hope you will allow me to focus on two main areas.
 <Sync time="399.789"/>
 That I believe present the biggest challenge moving forward for Medford, health and transparency.
 <Sync time="407.431"/>
-Bodies do not just carry brains, they are the vehicles of education. 
+Bodies do not just carry brains, they are the vehicles of education. Tilde~three #uhH  
 </Turn>
 <Turn startTime="413.056" endTime="414.349">
 <Sync time="413.056"/>
-[no-speech]
+[no-speech] ~Tildefour  #uuuuh
 </Turn>
 <Turn speaker="spk5" startTime="414.349" endTime="626.373">
 <Sync time="414.349"/>
-[cough] Here are the issues that are ch~ are facing our cities in regards to health and here are my proposed solutions. 
+[cough] Here are the issues that are ch~ are facing our cities in regards to health and here are my proposed solutions.  Til~ ~ild
 <Sync time="422.259"/>
-First, while not unique to Medford, food insecurity and obesity are serious issues that we need to address. 
+First, while not unique to Medford, food insecurity and obesity are serious issues that we need to address. ,~.
 <Sync time="431.152"/>
 Currently, about one in six of our students suffer with obesity, problems that can later develop into diabetes, hypertension, and even cancer. 
 <Sync time="442.49"/>
-Also, some of our students don't know when they're gonna eat next. I propose a radical revision to our meals program.
+Also, some of our students don't know when they're gonna eat next. I propose a radical revision to our meals program.  #uh~
 <Sync time="452.181"/>
-While we are slowly moving towards a universal breakfast program in Medford, we need to finalize this program now. 
+While we are slowly moving towards a universal breakfast program in Medford, we need to finalize this program now.  #Uh
 <Sync time="460.567"/>
 Ensuring that our students have complete meals to start their day. We have some great people in the district working on nutrition, but the school committee needs more direct control over how our meal program is administered. 
 <Sync time="475.054"/>
@@ -250,7 +254,7 @@ Thank you candidate Ruggiero.
 <Sync time="632.555"/>
 And I think that our number two candidate was, #uh.
 </Turn>
-<Turn speaker="spk2" startTime="636.517" endTime="637.348">
+<Turn speaker="spk3" startTime="636.517" endTime="637.348">
 <Sync time="636.517"/>
 Jenny Graham.
 </Turn>
@@ -262,7 +266,7 @@ Jenny Graham. And do me a favor as you're speaking, I'm not sure if the other pe
 <Sync time="649.73"/>
 [noise]
 </Turn>
-<Turn speaker="spk6" startTime="653.959" endTime="701.329">
+<Turn speaker="spk6" startTime="653.959" endTime="701.6">
 <Sync time="653.959"/>
 Hi, everyone. My name is Jenny Graham. I am a mother to two children who are in the Medford Public Schools. Both Lyla and Lucas are third and fifth graders. 
 <Sync time="663.704"/>
@@ -489,7 +493,7 @@ We want to make sure that they're always safe and secure.
 My experience, motivation, presence in the community and commitment to the Medford Educational Community enable me to achieve results no matter what the obstacles may be. 
 <Sync time="1352.863"/>
 I look fondly back to the sixth grade, to a teacher that I had, Rosemarie Accomando. 
-<Sync time="1358.737"/>
+<Sync time="1351.737"/>
 She was a great lady, she instilled in all her charges that you can do whatever you want to do and remember if it's a challenge it won't be insurmountable if you stick to it and do it. 
 <Sync time="1371.173"/>
 That's why I continue to have an interest in Medford education. I taught in Medford, I coached the soccer team.
@@ -650,9 +654,9 @@ The next candidate up is Cheryl Rodriguez.
 </Turn>
 <Turn speaker="spk10" startTime="1901.915" endTime="2134.126">
 <Sync time="1901.915"/>
-Hello, I'm Cheryl Rodriguez and I am a candidate for the Medford School Committee. I wanna thank our hosts for giving us the opportunity to speak to the voters. 
+#Uh  Hello, I'm Cheryl Rodriguez and I am a candidate for the Medford School Committee. I wanna thank our hosts for giving us the opportunity to speak to the voters. 
 <Sync time="1910.015"/>
-We were asked to discuss action we would take if elected, and that's a great question. I'm well versed in both school and municipal issues and believe a solid school committee member must be up to date on both as they are intertwined. 
+#uhhhh We were asked to discuss action we would takeif elected, and that's a great question. I'm well versed in both school and municipal issues and believe a solid school committee member must be up to date on both as they are intertwined. 
 <Sync time="1923.445"/>
 Can our schools handle the load of thousands of apartments on Mr. Gaff in our physical buildings or budgetarily from the increases we'll have to pay to charter schools? No.
 <Sync time="1934.659"/>
@@ -818,7 +822,7 @@ You can see it on Facebook dot com slash Intoppa for Medford or Intoppa for Medf
 <Sync time="2490.729"/>
 Thank you, candidate, Intoppa. 
 </Turn>
-<Turn startTime="2492.488" endTime="2495.635">
+<Turn speaker="spk2" startTime="2492.488" endTime="2495.635">
 <Sync time="2492.488"/>
 [applause]
 </Turn>
@@ -966,7 +970,7 @@ I truly love this work and you can count on me to be there for you and your fami
 </Turn>
 <Turn startTime="3082.959" endTime="3084.519">
 <Sync time="3082.959"/>
-[applause]
+[applause] &lt;lang:Enlish&gt; misspelled language 1 &lt;/lang:English&gt;
 </Turn>
 <Turn speaker="spk2" startTime="3084.519" endTime="3086.814">
 <Sync time="3084.519"/>
@@ -974,7 +978,7 @@ Thank you, candidate, Vo~ Van der Kloot.
 </Turn>
 <Turn startTime="3086.814" endTime="3087.707">
 <Sync time="3086.814"/>
-[applause]
+[applause] &lt;lang:Foreign&gt; capitalization 2 &lt;/Lang:Foreign&gt;
 </Turn>
 <Turn speaker="spk2" startTime="3087.707" endTime="3093.168">
 <Sync time="3087.707"/>
@@ -982,9 +986,9 @@ Next and our last candidate for the night of school committees is Paul Ruseau.
 </Turn>
 <Turn startTime="3093.168" endTime="3098.798">
 <Sync time="3093.168"/>
-[noise]
+[noise] &lt;lang:Foreign&gt; capitalization 3 &lt;/lang:foreign&gt;
 </Turn>
-<Turn speaker="spk14" startTime="3098.798" endTime="3148.785">
+<Turn speaker="spk1" startTime="3098.798" endTime="3148.785">
 <Sync time="3098.798"/>
 Good evening. I'm really glad to see you're still here. #uh My name is Paul Ruseau and I am your representative on the Medford School Committee. My husband Bob and I live in the Hillside neighborhood with our, #uh, daughter Nev and son Matthew. 
 <Sync time="3111.638"/>
@@ -998,41 +1002,40 @@ In my first year, I was selected for the Superintendent Search Committee and hel
 </Turn>
 <Turn startTime="3148.785" endTime="3150.738">
 <Sync time="3148.785"/>
-[noise] 
+[noise]  &lt;lang:Foreign&gt;(()) spacing 4a &lt;/lang:Foreign&gt;
 </Turn>
-<Turn speaker="spk14" startTime="3150.738" endTime="3170.236">
+<Turn speaker="spk1" startTime="3150.738" endTime="3170.236">
 <Sync time="3150.738"/>
-Upon taking office, I quickly moved to increase our spending on cyber defenses to protect our students, staff and district and our computer infrastructure from attacks that have plagued other districts around our nation and in Massachusetts. 
+&lt;lang:Foreign&gt; spacing 4b (())&lt;/lang:Foreign&gt; Upon taking office, I quickly moved to increase our spending on cyber defenses to protect our students, staff and district and our computer infrastructure from attacks that have plagued other districts around our nation and in Massachusetts. 
 <Sync time="3164.305"/>
 I am proud to have supported and pushed for the rollout of the new middle school math curricula and elementary science curricula.
 </Turn>
 <Turn startTime="3170.236" endTime="3171.857">
 <Sync time="3170.236"/>
-[noise]
+[noise] &lt;lang:Foreign&gt;spacing 5&lt;/lang:Foreign&gt;
 </Turn>
-<Turn speaker="spk14" startTime="3171.857" endTime="3362.063">
+<Turn speaker="spk1" startTime="3171.857" endTime="3362.063">
 <Sync time="3171.857"/>
-I've also focused on barriers that many children face each day, such as hunger and a lack of dental care. One in nine Medford residents struggles with food insecurity and children are disproportionately affected. 
+&lt;lang: Foreign&gt; tag spacing 6 &lt;/lang:Foreign&gt; that many children face each day, such as hunger and a lack of dental care. One in nine Medford residents struggles with food insecurity and children are disproportionately affected. 
 <Sync time="3184.345"/>
 These barriers make it difficult for all of the children to take advantage of the education we offer. When a child is hungry or in pain, that child often displays behavioral challenges that affects everyone in the classroom. 
 <Sync time="3197.754"/>
-I grew up hungry and an extreme dental pain and these are personal issues for me. [lipsmack] In my first term, we have implemented free breakfast for all students in our district. 
+&lt;lang: Foreign&gt; missing slash 7 &lt;lang:Foreign&gt;I grew up hungry and an extreme dental pain and these are personal issues for me. [lipsmack] In my first term, we have implemented free breakfast for all students in our district. 
 <Sync time="3207.962"/>
-We've also started providing free dental checkups, cleanings, and sealants to our schools in our schools.
+&lt; lang:Foreign&gt; tag spacing 8 &lt;/lang:Foreign&gt; We've also started providing free dental checkups, cleanings, and sealants to our schools in our schools.
 <Sync time="3213.568"/>
-[lipsmack] Over the next two years, I will work to set a district goal of getting every child reading at grade level by the end of third grade. This is a critical inflection point for children. 
+[lipsmack] <lang:Spanish> wrong tags in code error 9 </lang:Spanish> Over the next two years, I will work to set a district goal of getting every child reading at grade level by the end of third grade. This is a critical inflection point for children. 
 <Sync time="3224.352"/>
-[lipsmack] It is at this time that a school turns away from teaching kids how to learn and teaches them content, expecting them to know how to actually learn it. 
+&lt;lang:Foreign&gt;&gt; double > error 10  &lt;/lang:Foreign&gt; [lipsmack] It is at this time that a school turns away from teaching kids how to learn and teaches them content, expecting them to know how to actually learn it. 
 <Sync time="3234.082"/>
-[breath] Being able to read at grade level is a critical requirement to accessing the content our teachers are attempting to provide. [breath] I will also work to find ways to increase the capacity of our afterschool programming. 
+&lt;lang:Foreign&gt; error 11. &lt;/lang:Foreign&gt; [breath] Being able to read at grade level is a critical requirement to accessing the content our teachers are attempting to provide. [breath] I will also work to find ways to increase the capacity of our afterschool programming. 
 <Sync time="3246.403"/>
-Afterschool waitlists cause incredible stress to families that need these services and I believe we do have ways we can increase our capacity.
+&lt;lang:Foreign&gt; error 12  &lt;//lang:Foreign&gt; Afterschool waitlists cause incredible stress to families that need these services and I believe we do have ways we can increase our capacity.
 <Sync time="3255.267"/>
-The new middle school selection process has caused stress for some families and I believe everyone agrees that the middle school model that brings all of our kids together and at the same time instead of waiting for high school is the best model. 
 <Sync time="3270.24"/>
-The first step to that is a feasibility study to understand the cost of renovations to our middle schools. I hope that we can move forward with such a study and engage a firm to perform the assessment required to fully understand the cost to our school system.
+&lt;lang:Foreign&gt; error 13  &lt;lang:Foreign&gt; The first step to that is a feasibility study to understand the cost of renovations to our middle schools. I hope that we can move forward with such a study and engage a firm to perform the assessment required to fully understand the cost to our school system.
 <Sync time="3285.186"/>
-Finally, I will do my best to keep the focus on the on needing to deal with our carbon footprint. As the environment continues to warm, we will have significant increases in the number of school days where it is too hot to actually learn anything at our high school. 
+&lt;lang:Foreign&gt; error 14  &lt;lang:Foreign&gt;&gt; Finally, I will do my best to keep the focus on the on needing to deal with our carbon footprint. As the environment continues to warm, we will have significant increases in the number of school days where it is too hot to actually learn anything at our high school. 
 <Sync time="3299.728"/>
 [lipsmack] Research has shown the classrooms get too when classrooms are too hot, students have diminished abilities to learn and perform. I am not convinced we can renovate our way out of this with our high school. 
 <Sync time="3311.854"/>
@@ -1050,7 +1053,7 @@ It is your perspective and voice that informs my work on the school committee. Y
 </Turn>
 <Turn speaker="spk2" startTime="3364.044" endTime="3366.663">
 <Sync time="3364.044"/>
-Thank you, candidate Ruseau. Thank you.
+Thank you, [overlap] candidate Ruseau. [overlap] Thank you.
 </Turn>
 <Turn startTime="3366.663" endTime="3368.826">
 <Sync time="3366.663"/>
@@ -1058,7 +1061,7 @@ Thank you, candidate Ruseau. Thank you.
 </Turn>
 <Turn speaker="spk3" startTime="3368.826" endTime="3398.372">
 <Sync time="3368.826"/>
-So this concludes the forum and before we depart tonight, my co-moderator Henry Milorin and I would like to thank the candidates first and foremost. Thank you. And #uh, all those who helped support the event this year. 
+So this concludes the forum and before we depart tonight,  my co-moderator Henry Milorin and I would like to thank the candidates first and foremost. Thank you. And #uh, all those who helped support the event this year. 
 <Sync time="3379.757"/>
 We wanna especially thank representative Paul Donato and Nancy White, the co-chairs of the Medford City Democratic Ward Committee for their continued support. We thank our television crew member, Patrick Gordon. 
 <Sync time="3390.406"/>
@@ -1098,7 +1101,6 @@ Thank you.
 </Turn>
 <Turn startTime="3415.916" endTime="3416.904">
 <Sync time="3415.916"/>
-[applause]
 </Turn>
 <Turn speaker="spk2" startTime="3416.904" endTime="3486.593">
 <Sync time="3416.904"/>
