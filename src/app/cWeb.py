@@ -6,6 +6,7 @@ import re
 import datetime
 import cgi, cgitb
 import binascii
+import io
 cgitb.enable()
 
 # Extracted from: https://www.tamasoft.co.jp/en/general-info/unicode.html
@@ -152,7 +153,6 @@ def command3(filepath):
 
 #Initial tag validator
 def command4(filepath):
-    import io
 
     punctuation = u"""[^_'.,!?\s:;—"-]"""
     allowed_characters_after_tag = "s"
@@ -246,7 +246,6 @@ def command4(filepath):
 
 #Language tag validator
 def command5(filepath):
-    import io
 
     #load the languages to array
     languages = [
@@ -268,12 +267,12 @@ def command5(filepath):
         'Susu','Swahili','Swedish','Sylhetti','Tagalog','Taiwanese','Tajik','Tamil','Telugu','Thai',
         'Tibetan','Tigre','Tigrinya','Toishanese','Tongan','Toucouleur','Trique','Tshiluba','Turkish','Ukrainian',
         'Urdu','Uyghur','Uzbek','Vietnamese','Visayan','Welsh','Wolof','Yiddish','Yoruba','Yupik',
-        'Ambonese', 'Betawinese', 'Latin', 'Manadonese', 'Māori'
+        'Ambonese', 'Betawinese', 'Latin', 'Manadonese'
     ]
 
-    punctuation_marks = u""":,-'_!—".?;""".encode('utf')
+    punctuation_marks = u""":,-'_!—".?;"""
 
-    regex = re.compile(r'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;)|\<)(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;)|\>)(?P<inner_text>.*?)(?P<second_open>(?:&lt;)|\<)(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;)|\>)(?P<after_second>\b\w*\b)?)', re.UNICODE)
+    regex = re.compile(ur'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;)|\<)(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;)|\>)(?P<inner_text>.*?)(?P<second_open>(?:&lt;)|\<)(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;)|\>)(?P<after_second>\b\w*\b)?)', re.UNICODE)
 
     found = {}
 
@@ -319,13 +318,13 @@ def command5(filepath):
                         continue
 
 
-                    inner_text = match.group('inner_text').strip().encode('utf')
+                    inner_text = match.group('inner_text').strip()
                     if not inner_text:
                         found[ln] = [5, 'Language tag is empty', match.group('content').encode('utf')]
                         continue
 
                     # Check for initial tag inside lang tag
-                    if re.search(r'(&lt;|\<)([int\w\s/\\]+)(&gt;|\>).*?(&lt;|\<)([\\/\s]*)([int\w\s]+)(&gt;|\>)', inner_text, re.UNICODE):
+                    if re.search(ur'(&lt;|\<)([int\w\s/\\]+)(&gt;|\>).*?(&lt;|\<)([\\/\s]*)([int\w\s]+)(&gt;|\>)', inner_text, re.UNICODE):
                         continue
 
                     # Check final punctuation
@@ -335,8 +334,8 @@ def command5(filepath):
 
     return found
 
-    
-    
+
+
 #Numeral hunter
 def command6(filepath):
 
@@ -358,19 +357,16 @@ def command6(filepath):
                     found[ln] = [6, 'Numerals not allowed', word]
     return found
 
-import string
-
 
 #Filler word validator
 def command7(filepath):
-    import io
 
     # Allowed punctuation after tag
-    punctuation = u"[:',!—_\".?\-;]".encode('utf')
+    punctuation = u"[:',!—_\".?\-;]"
     #default skip tags
-    skip_tags = u"(#uh|#um|#ah|#er|#hm)".encode('utf')
-    possible_missing_tag = u"(uh|um|ah|er|hm)".encode('utf')
-    filler_re = re.compile(r'[\W\w]?#\w*\W?', re.UNICODE)
+    skip_tags = u"(#uh|#um|#ah|#eh|#hm)"
+    possible_missing_tag = u"(uh|um|ah|eh|hm)"
+    filler_re = re.compile(ur'[\W\w]?#\w*\W?', re.UNICODE)
 
     found = {}
     in_section = False
@@ -387,23 +383,23 @@ def command7(filepath):
 
             for match in re.finditer(filler_re, line):
 
-                target = match.group().strip().encode('utf')
+                target = match.group().strip()
                 # Pass filler tag with tilde.
                 # They are reported in command 15.
                 if "~" in target:
                     continue
 
                 if (
-                    not re.match(r'^{0}{1}?$'.format(skip_tags, punctuation), target, re.UNICODE)
+                    not re.match(ur'^{0}{1}?$'.format(skip_tags, punctuation), target, re.UNICODE)
                     and in_section
                 ):
-                    found[ln] = [7, 'Invalid filler tag', target]
+                    found[ln] = [7, 'Invalid filler tag', target.encode('utf')]
                     continue
 
 
-            for match in re.finditer(r'\s{0}\W'.format(possible_missing_tag), line.encode('utf'), re.UNICODE):
+            for match in re.finditer(ur'\s{0}\W'.format(possible_missing_tag), line, re.UNICODE):
                 if ln not in found and in_section:
-                    found[ln] = [7, 'Possible filler tag missing #', match.group()]
+                    found[ln] = [7, 'Possible filler tag missing #', match.group().encode('utf')]
 
     return found
 
@@ -744,7 +740,7 @@ def command14(filepath):
                 #update current time
                 cur_time = seg_time
             for m in re.findall(regez, line):
-               
+
                 found[ln] = [14, 'Unexpected white space in sync time tag', line]
 
 
@@ -753,17 +749,16 @@ def command14(filepath):
 
 #Tilde checker
 def command15(filepath):
-    import io
 
-    punctuation = u":',!—_\".?\-;\]\[".encode('utf')
+    punctuation = u":',!—_\".?\-;\]\["
 
-    match_no_white_space = re.compile(r'(\b\w+~\w*\b)', re.UNICODE)
-    match_double_white_space = re.compile(r'\w* ~ \w*', re.UNICODE)
-    match_double_tilde = re.compile(r'\w*\s*~~\s*\w*', re.UNICODE)
-    match_punctuation_before = re.compile(r"[{0}]~[{0}]?".format(punctuation), re.UNICODE)
-    match_punctuation_after = re.compile(r"(?<=\s)~[{0}]".format(punctuation), re.UNICODE)
-    match_tilde_at_start = re.compile(r'^~[{}]'.format(punctuation + u"\s".encode('utf')), re.UNICODE)
-    match_filler = re.compile(r"#\w*~", re.UNICODE)
+    match_no_white_space = re.compile(ur'(\b\w+~\w*\b)', re.UNICODE)
+    match_double_white_space = re.compile(ur'\w* ~ \w*', re.UNICODE)
+    match_double_tilde = re.compile(ur'\w*\s*~~\s*\w*', re.UNICODE)
+    match_punctuation_before = re.compile(ur"[{0}]~[{0}]?".format(punctuation), re.UNICODE)
+    match_punctuation_after = re.compile(ur"(?<=\s)~[{0}]".format(punctuation), re.UNICODE)
+    match_tilde_at_start = re.compile(ur'^~[{}]'.format(punctuation + u"\s"), re.UNICODE)
+    match_filler = re.compile(ur"#\w*~", re.UNICODE)
 
 
     found = {}
@@ -802,7 +797,6 @@ def command15(filepath):
                 found[ln] = [15, 'Incorrect use of tilde', incorrect_tilde.group().encode('utf')]
 
     return found
-
 
 
 #Speaker labels
@@ -898,7 +892,7 @@ def command18(filepath):
 
 
 def command19(filepath):
-    #  WWwhitespacelist found in this file at: line 10 
+    #  WWwhitespacelist found in this file at: line 10
     regex = re.compile("&lt;initial&gt;\s*[a-zA-Z]+" + WWwhitespace + "+[a-zA-Z]+\s*&lt;\/initial&gt;")
 
     found = {}
@@ -954,7 +948,7 @@ def command21(filepath):
             if "speaker=" in line:
                 #print line
                 if re.match(".*speaker=(\"spk\d+\").*", line):
-                    if re.match(".*speaker=(\"spk\d+\").*", line).group(1) not in sectionspeakers: 
+                    if re.match(".*speaker=(\"spk\d+\").*", line).group(1) not in sectionspeakers:
                         sectionspeakers.append(re.match(".*speaker=(\"spk\d+\").*", line).group(1))
 
     with open (filepath, 'r') as f:
@@ -972,6 +966,7 @@ def command21(filepath):
 
     return found
 
+
 def command22(filepath):
     found = {}
     spknames = []
@@ -980,7 +975,7 @@ def command22(filepath):
         for line in f:
 
             if "<Speaker " in line:
-                spknames.append(re.match(".*name=(\".*\").*check", line).group(1))
+                spknames.append(re.match(".*name=(\".*?\")", line).group(1))
             elif "<Section" in line:
                 break
 
@@ -989,11 +984,12 @@ def command22(filepath):
         for line in f:
             ln = ln + 1
             if "<Speaker " in line:
-                nameregx = re.match(".*name=(\".*\").*check", line).group(1)
+                nameregx = re.match(".*name=(\".*?\")", line).group(1)
                 if spknames.count(nameregx) > 1:
                     found[ln] = [22, 'Multiple occurences of name=' + nameregx, 'Speaker id=' + re.match(".*(\"spk\d+\").*", line).group(1) + ' | name=' + nameregx]
 
     return found
+
 
 def command23(filepath):
     bad_strings = ['Who nb=', 'Topic id=', 'Event' 'mode=', 'channel=', 'fidelity=']
@@ -1027,7 +1023,7 @@ def command23(filepath):
                             break
                         elif bad == 'fidelity=':
                             found[ln] = [23, 'Do not change the fidelity setting', '(' + bad + ') | ' + line]
-                            break                            
+                            break
     return found
 
 print "Content-type:text/html; charset=UTF-8\r\n\r\n"
