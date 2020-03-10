@@ -31,12 +31,12 @@ CONTENT = [
     u"and, #um, I don't know with Bama\n",       # 20
     u"daje się #mmm we znaki rotawirus\n",       # 21
     u"[breath] #yyy taka łuna [breath].\n",      # 22
-    u"then #uh, who knows, maybe \n",            # 23
+    u"then #uh- who knows, maybe \n",            # 23
     u"So #uh and I don't think\n",               # 24
     u"#~ Thank thank God,\n",                    # 25
     u"because, #yes~ , he injured his neck,\n",  # 26
     u"I think, #uh~, I don't necessarily\n",     # 27
-    u"#uh, but this is just a wacky\n",          # 28
+    u"#uh— but this is just a wacky\n",          # 28
     u"team, uh does that weigh on your\n",       # 29
     u"I'm not um making too much out of that\n", # 30
     u"Lawrence is gonumna be there\n",           # 31
@@ -86,4 +86,4 @@ def test_command_7(tmpdir):
     assert not 31 in found
     assert not 32 in found
 
-    #assert 0
+    assert 0

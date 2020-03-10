@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 import re
+import io
 
 
 #Initial tag validator
 def command4(filepath):
-    import io
 
-    punctuation = u"""[^_'.,!?\s:;—"-]"""
+    punctuation = u"""[^_'.,!?\s:;—"\-]"""
     allowed_characters_after_tag = "s"
     allowed_expressions_before_tag = ["l'"]
     regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;|\<)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;|\>)(?P<inner_text>.*?)(?P<second_open>&lt;|\<)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;|\>)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)

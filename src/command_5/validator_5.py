@@ -1,9 +1,10 @@
+# -*- coding: utf-8 -*-
 import re
+import io
 
 
 #Language tag validator
 def command5(filepath):
-    import io
 
     #load the languages to array
     languages = [
@@ -28,9 +29,9 @@ def command5(filepath):
         'Ambonese', 'Betawinese', 'Latin', 'Manadonese'
     ]
 
-    punctuation_marks = u""":,-'_!—".?;""".encode('utf')
+    punctuation_marks = u""":,-'_!—".?;"""
 
-    regex = re.compile(r'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;)|\<)(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;)|\>)(?P<inner_text>.*?)(?P<second_open>(?:&lt;)|\<)(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;)|\>)(?P<after_second>\b\w*\b)?)', re.UNICODE)
+    regex = re.compile(ur'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;)|\<)(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;)|\>)(?P<inner_text>.*?)(?P<second_open>(?:&lt;)|\<)(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;)|\>)(?P<after_second>\b\w*\b)?)', re.UNICODE)
 
     found = {}
 
@@ -76,13 +77,13 @@ def command5(filepath):
                         continue
 
 
-                    inner_text = match.group('inner_text').strip().encode('utf')
+                    inner_text = match.group('inner_text').strip()
                     if not inner_text:
                         found[ln] = [5, 'Language tag is empty', match.group('content').encode('utf')]
                         continue
 
                     # Check for initial tag inside lang tag
-                    if re.search(r'(&lt;|\<)([int\w\s/\\]+)(&gt;|\>).*?(&lt;|\<)([\\/\s]*)([int\w\s]+)(&gt;|\>)', inner_text, re.UNICODE):
+                    if re.search(ur'(&lt;|\<)([int\w\s/\\]+)(&gt;|\>).*?(&lt;|\<)([\\/\s]*)([int\w\s]+)(&gt;|\>)', inner_text, re.UNICODE):
                         continue
 
                     # Check final punctuation

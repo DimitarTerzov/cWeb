@@ -1,20 +1,20 @@
 # -*- coding: utf-8 -*-
 import re
+import io
 
 
 #Tilde checker
 def command15(filepath):
-    import io
 
-    punctuation = u":',!—_\".?\-;\]\[".encode('utf')
+    punctuation = u":',!—_\".?\-;\]\["
 
-    match_no_white_space = re.compile(r'(\b\w+~\w*\b)', re.UNICODE)
-    match_double_white_space = re.compile(r'\w* ~ \w*', re.UNICODE)
-    match_double_tilde = re.compile(r'\w*\s*~~\s*\w*', re.UNICODE)
-    match_punctuation_before = re.compile(r"[{0}]~[{0}]?".format(punctuation), re.UNICODE)
-    match_punctuation_after = re.compile(r"(?<=\s)~[{0}]".format(punctuation), re.UNICODE)
-    match_tilde_at_start = re.compile(r'^~[{}]'.format(punctuation + u"\s".encode('utf')), re.UNICODE)
-    match_filler = re.compile(r"#\w*~", re.UNICODE)
+    match_no_white_space = re.compile(ur'(\b\w+~\w*\b)', re.UNICODE)
+    match_double_white_space = re.compile(ur'\w* ~ \w*', re.UNICODE)
+    match_double_tilde = re.compile(ur'\w*\s*~~\s*\w*', re.UNICODE)
+    match_punctuation_before = re.compile(ur"[{0}]~[{0}]?".format(punctuation), re.UNICODE)
+    match_punctuation_after = re.compile(ur"(?<=\s)~[{0}]".format(punctuation), re.UNICODE)
+    match_tilde_at_start = re.compile(ur'^~[{}]'.format(punctuation + u"\s"), re.UNICODE)
+    match_filler = re.compile(ur"#\w*~", re.UNICODE)
 
 
     found = {}

@@ -96,5 +96,3 @@ def test_command4(tmpdir):
     assert 35 not in found
     assert 36 not in found
     assert 37 not in found
-
-    assert 0

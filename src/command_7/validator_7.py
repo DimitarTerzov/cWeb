@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 import re
+import io
 
 
 #Filler word validator
 def command7(filepath):
-    import io
 
     # Allowed punctuation after tag
-    punctuation = u"[:',!—_\".?\-;]".encode('utf')
+    punctuation = u"[:',!—_\".?\-;]"
     #default skip tags
-    skip_tags = u"(#uh|#um|#ah|#eh|#hm)".encode('utf')
-    possible_missing_tag = u"(uh|um|ah|eh|hm)".encode('utf')
-    filler_re = re.compile(r'[\W\w]?#\w*\W?', re.UNICODE)
+    skip_tags = u"(#uh|#um|#ah|#eh|#hm)"
+    possible_missing_tag = u"(uh|um|ah|eh|hm)"
+    filler_re = re.compile(ur'[\W\w]?#\w*\W?', re.UNICODE)
 
     found = {}
     in_section = False
@@ -28,23 +28,23 @@ def command7(filepath):
 
             for match in re.finditer(filler_re, line):
 
-                target = match.group().strip().encode('utf')
+                target = match.group().strip()
                 # Pass filler tag with tilde.
                 # They are reported in command 15.
                 if "~" in target:
                     continue
 
                 if (
-                    not re.match(r'^{0}{1}?$'.format(skip_tags, punctuation), target, re.UNICODE)
+                    not re.match(ur'^{0}{1}?$'.format(skip_tags, punctuation), target, re.UNICODE)
                     and in_section
                 ):
-                    found[ln] = [7, 'Invalid filler tag', target]
+                    found[ln] = [7, 'Invalid filler tag', target.encode('utf')]
                     continue
 
 
-            for match in re.finditer(r'\s{0}\W'.format(possible_missing_tag), line.encode('utf'), re.UNICODE):
+            for match in re.finditer(ur'\s{0}\W'.format(possible_missing_tag), line, re.UNICODE):
                 if ln not in found and in_section:
-                    found[ln] = [7, 'Possible filler tag missing #', match.group()]
+                    found[ln] = [7, 'Possible filler tag missing #', match.group().encode('utf')]
 
     return found
 
