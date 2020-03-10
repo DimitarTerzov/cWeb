@@ -29,7 +29,7 @@ def command22(filepath):
 
 
 if __name__ == '__main__':
-    found = command22('../files/MedfordSchoolCommitteeCandid_2019.trs')
+    found = command22('../files/KBS_Gag_Concert_2020_02_01.trs')
     print(len(found))
 
     for key in sorted(found.keys()):
