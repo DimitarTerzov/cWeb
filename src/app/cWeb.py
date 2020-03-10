@@ -149,22 +149,25 @@ def command3(filepath):
                             prev_tag = m
     return found
 
+
 #Initial tag validator
 def command4(filepath):
+    import io
 
-    punctuation = "[^'.~,!?\s:;-_\"]"
+    punctuation = u"""[^_'.,!?\s:;—"-]"""
     allowed_characters_after_tag = "s"
     allowed_expressions_before_tag = ["l'"]
-    regex = re.compile(r"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;|\<)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;|\>)(?P<inner_text>.*?)(?P<second_open>&lt;|\<)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;|\>)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
+    regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;|\<)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;|\>)(?P<inner_text>.*?)(?P<second_open>&lt;|\<)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;|\>)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
 
     found = {}
-    with open(filepath,'r') as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
-            line = line.rstrip("\r\n").decode('utf')
+            line = line.rstrip("\r\n")
 
             for m in re.finditer(regex, line):
+                error_tag = m.group('content').encode('utf')
 
                 # Check tag syntax
                 if (
@@ -174,7 +177,7 @@ def command4(filepath):
                     m.group('second_close') != '&gt;' or
                     m.group('forward') != '/'
                 ):
-                    found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
+                    found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
                 # Check tag spelling
@@ -182,7 +185,7 @@ def command4(filepath):
                     m.group('first_tag') != 'initial' or
                     m.group('second_tag') != 'initial'
                 ):
-                    found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
+                    found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
                 # Check for disallowed expressions before tag
@@ -190,24 +193,24 @@ def command4(filepath):
                     m.group('before_first') is not None and
                     not m.group('before_first') in allowed_expressions_before_tag
                 ):
-                    found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
+                    found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
                 # Check for disallowed expressions after tag
                 if (
                     m.group('after_second') is not None and
-                    not m.group('after_second') in allowed_characters_after_tag
+                    not m.group('after_second') in allowed_characters_after_tag and
+                    not m.group('after_second').startswith(u'_')
                 ):
-                    found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
+                    found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
                 # Check for incorrect white space
                 if (
-                    #m.group('before_first') is not None or
                     not m.group('inner_text').startswith(' ') or
                     not m.group('inner_text').endswith(' ')
                 ):
-                    found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
+                    found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
                 # Check for errors in text
@@ -215,33 +218,35 @@ def command4(filepath):
                 inner_content = inner_text.split()
                 # If no text in tag -> error
                 if not inner_content:
-                    found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
+                    found[ln] = [4, 'Initial tag error', error_tag]
 
                 elif len(inner_content) == 1:
                     content = inner_content[0]
                     # Catch anything different from pattern `W`
                     if len(content) == 1 and re.match(r'\W', content, re.UNICODE):
-                        found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
+                        found[ln] = [4, 'Initial tag error', error_tag]
 
                     # Catch anything different from pattern `WE` and `W.`
                     elif len(content) == 2 and not re.match(r'^\w+\.?$', content, re.UNICODE):
-                        found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
+                        found[ln] = [4, 'Initial tag error', error_tag]
 
                     # Catch anything different from pattern `WEB`, `Ph.D.`
                     elif len(content) > 2:
                         if re.match(r'[\w.]*', content, re.UNICODE).group() != content:
-                            found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
+                            found[ln] = [4, 'Initial tag error', error_tag]
 
                 # If text doesn't feet pattern `W. E. B.` -> error
                 elif len(inner_content) > 1:
                     for content in inner_content:
                         if not re.match(r'^\w\.$', content, re.UNICODE):
-                            found[ln] = [4, 'Initial tag error', m.group('content').encode('ascii', 'replace')]
+                            found[ln] = [4, 'Initial tag error', error_tag]
 
     return found
 
+
 #Language tag validator
 def command5(filepath):
+    import io
 
     #load the languages to array
     languages = [
@@ -263,16 +268,16 @@ def command5(filepath):
         'Susu','Swahili','Swedish','Sylhetti','Tagalog','Taiwanese','Tajik','Tamil','Telugu','Thai',
         'Tibetan','Tigre','Tigrinya','Toishanese','Tongan','Toucouleur','Trique','Tshiluba','Turkish','Ukrainian',
         'Urdu','Uyghur','Uzbek','Vietnamese','Visayan','Welsh','Wolof','Yiddish','Yoruba','Yupik',
-        'Ambonese', 'Betawinese', 'Latin', 'Manadonese'
-     ]
+        'Ambonese', 'Betawinese', 'Latin', 'Manadonese', 'Māori'
+    ]
 
-    punctuation_marks = """:,-'—_!".?;"""
+    punctuation_marks = u""":,-'_!—".?;""".encode('utf')
 
-    regex = re.compile(r'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;)|\<)(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;)|\>)(?P<inner_text>.*?)(?P<second_open>(?:&lt;)|\<)(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;)|\>)(?P<after_second>\b\w*\b)?)')
+    regex = re.compile(r'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;)|\<)(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;)|\>)(?P<inner_text>.*?)(?P<second_open>(?:&lt;)|\<)(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;)|\>)(?P<after_second>\b\w*\b)?)', re.UNICODE)
 
     found = {}
 
-    with open(filepath,'r') as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
@@ -289,7 +294,7 @@ def command5(filepath):
                         not match.group('inner_text').endswith(" ") or
                         match.group('after_second') is not None
                     ):
-                        found[ln] = [5, "Tag syntax error", match.group('content')]
+                        found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
                         continue
 
                     # Check spelling
@@ -299,7 +304,7 @@ def command5(filepath):
                         match.group('first_tag_lang') not in languages or
                         match.group('second_tag_lang') not in languages
                     ):
-                        found[ln] = [5, "Tag syntax error", match.group('content')]
+                        found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
                         continue
 
                     # Check for wrong syntax `<lang:*>`
@@ -310,23 +315,23 @@ def command5(filepath):
                         match.group('second_close') != '&gt;' or
                         match.group('forward') != '/'
                     ):
-                        found[ln] = [5, "Tag syntax error", match.group('content')]
+                        found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
                         continue
 
 
-                    inner_text = match.group('inner_text').strip()
+                    inner_text = match.group('inner_text').strip().encode('utf')
                     if not inner_text:
-                        found[ln] = [5, 'Language tag is empty', match.group('content')]
+                        found[ln] = [5, 'Language tag is empty', match.group('content').encode('utf')]
                         continue
 
                     # Check for initial tag inside lang tag
-                    if re.search(r'(&lt;|\<)([int\w\s/\\]+)(&gt;|\>).*?(&lt;|\<)([\\/\s]*)([int\w\s]+)(&gt;|\>)', inner_text):
+                    if re.search(r'(&lt;|\<)([int\w\s/\\]+)(&gt;|\>).*?(&lt;|\<)([\\/\s]*)([int\w\s]+)(&gt;|\>)', inner_text, re.UNICODE):
                         continue
 
                     # Check final punctuation
                     inner_text_end = inner_text[-1]
                     if inner_text_end in punctuation_marks:
-                        found[ln] = [5, "Final punctuation marks should be outside the tag", match.group('content')]
+                        found[ln] = [5, "Final punctuation marks should be outside the tag", match.group('content').encode('utf')]
 
     return found
 
@@ -358,38 +363,47 @@ import string
 
 #Filler word validator
 def command7(filepath):
+    import io
 
     # Allowed punctuation after tag
-    punctuation = "[:',!—_\".?\-;]"
-    #default english skip tags
-    skip_tags = "(#uh|#um|#ah|#eh|#hm)"
-    possible_missing_tag = "(uh|um|ah|eh|hm)"
+    punctuation = u"[:',!—_\".?\-;]".encode('utf')
+    #default skip tags
+    skip_tags = u"(#uh|#um|#ah|#er|#hm)".encode('utf')
+    possible_missing_tag = u"(uh|um|ah|er|hm)".encode('utf')
     filler_re = re.compile(r'[\W\w]?#\w*\W?', re.UNICODE)
 
     found = {}
-
-    with open(filepath,'r') as f:
+    in_section = False
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
-            line = line.rstrip("\r\n").decode('utf')
+            line = line.rstrip("\r\n")
+
+            if '<Section' in line:
+                in_section = True
+            elif '</Section' in line:
+                in_section = False
 
             for match in re.finditer(filler_re, line):
 
-                target = match.group().strip()
+                target = match.group().strip().encode('utf')
                 # Pass filler tag with tilde.
                 # They are reported in command 15.
                 if "~" in target:
                     continue
 
-                if not re.match(r'^{0}{1}?$'.format(skip_tags, punctuation), target, re.UNICODE):
-                    found[ln] = [7, 'Invalid filler tag', match.group().encode('ascii', 'replace')]
+                if (
+                    not re.match(r'^{0}{1}?$'.format(skip_tags, punctuation), target, re.UNICODE)
+                    and in_section
+                ):
+                    found[ln] = [7, 'Invalid filler tag', target]
                     continue
 
 
-            for match in re.finditer(r'\s{0}\W'.format(possible_missing_tag), line, re.UNICODE):
-                if ln not in found:
-                    found[ln] = [7, 'Possible filler tag missing #', match.group().encode('ascii', 'replace')]
+            for match in re.finditer(r'\s{0}\W'.format(possible_missing_tag), line.encode('utf'), re.UNICODE):
+                if ln not in found and in_section:
+                    found[ln] = [7, 'Possible filler tag missing #', match.group()]
 
     return found
 
@@ -621,24 +635,28 @@ def command13(filepath):
             if line == '':
                 pass
             elif '<Turn' in line:
-                start_time = re.search(r'(?P<content>startTime="(?P<value>\d+\.?\d*)")', line)
-                start_value = float(start_time.group('value'))
+                start_time = re.search(r'(?P<content>startTime="(?P<value>\W*\d+\.?\d*\W*)")', line, re.UNICODE)
+                start_value = float(start_time.group('value').strip())
                 start_time = start_time.group('content')
 
                 # Catch turns out of order
                 if start_value != end_time:
                     found[ln] = [13, "Turn out of sync", start_time]
 
-                end_time = re.search(r'endTime="(?P<value>\d+\.?\d*)"', line)
-                end_time = float(end_time.group('value'))
+                end_time = re.search(r'endTime="(?P<value>\W*\d+\.?\d*\W*)"', line, re.UNICODE)
+                end_time = float(end_time.group('value').strip())
+
+                if start_value >= end_time:
+                    found[ln] = [13, "Turn out of sync", start_time]
+
                 sync_count = 0
 
             elif 'Sync' in line and not sync:
                 sync = True
                 sync_count += 1
-                new_sync = re.search(r'(?P<content>Sync time="(?P<value>\d+\.?\d*)")', line)
+                new_sync = re.search(r'(?P<content>Sync time="(?P<value>\W*\d+\.?\d*\W*)")', line, re.UNICODE)
                 new_sync_time = new_sync.group('content')
-                sync_time_value = float(new_sync.group('value'))
+                sync_time_value = float(new_sync.group('value').strip())
 
                 if sync_count == 1:
                     # compare sync_time with start_value
@@ -661,9 +679,9 @@ def command13(filepath):
             elif 'Sync' in line and sync:
                 found[ln] = [13, "Empty segments are not allowed", sync_time]
                 sync_count += 1
-                new_sync = re.search(r'(?P<content>Sync time="(?P<value>\d+\.?\d*)")', line)
+                new_sync = re.search(r'(?P<content>Sync time="(?P<value>\W*\d+\.?\d*\W*)")', line, re.UNICODE)
                 new_sync_time = new_sync.group('content')
-                sync_time_value = float(new_sync.group('value'))
+                sync_time_value = float(new_sync.group('value').strip())
 
                 # Compare new sync_time with old sync_time
                 old_sync_value = re.search(r'(\d+\.?\d*)', sync_time)
@@ -699,6 +717,8 @@ def command13(filepath):
                 prev_spk = speaker
 
     return found
+
+
 #Segment length validator
 def command14(filepath):
 
@@ -733,47 +753,53 @@ def command14(filepath):
 
 #Tilde checker
 def command15(filepath):
+    import io
 
-    punctuation = "[:',!—_\".?\-;\]\[]"
+    punctuation = u":',!—_\".?\-;\]\[".encode('utf')
 
     match_no_white_space = re.compile(r'(\b\w+~\w*\b)', re.UNICODE)
     match_double_white_space = re.compile(r'\w* ~ \w*', re.UNICODE)
     match_double_tilde = re.compile(r'\w*\s*~~\s*\w*', re.UNICODE)
-    match_punctuation_before = re.compile(r"(?<=\w|\W){0}~{0}?".format(punctuation), re.UNICODE)
-    match_punctuation_after = re.compile(r"(?<=\s)~{0}".format(punctuation), re.UNICODE)
+    match_punctuation_before = re.compile(r"[{0}]~[{0}]?".format(punctuation), re.UNICODE)
+    match_punctuation_after = re.compile(r"(?<=\s)~[{0}]".format(punctuation), re.UNICODE)
+    match_tilde_at_start = re.compile(r'^~[{}]'.format(punctuation + u"\s".encode('utf')), re.UNICODE)
     match_filler = re.compile(r"#\w*~", re.UNICODE)
 
 
     found = {}
 
-    with open(filepath,'r') as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
 
             no_white_space = re.findall(match_no_white_space, line)
             for match in no_white_space:
-                found[ln] = [15, 'Incorrect white space', match]
+                found[ln] = [15, 'Incorrect white space', match.encode('utf')]
 
             double_white_space = re.findall(match_double_white_space, line)
             for match in double_white_space:
-                found[ln] = [15, 'Incorrect white space', match]
+                found[ln] = [15, 'Incorrect white space', match.encode('utf')]
 
             double_tilde = re.findall(match_double_tilde, line)
             for match in double_tilde:
-                found[ln] = [15, 'Double tilde', match]
+                found[ln] = [15, 'Double tilde', match.encode('utf')]
 
             touching_punctuation_before = re.finditer(match_punctuation_before, line)
             for match in touching_punctuation_before:
-                found[ln] = [15, 'Punctuation touch tilde', match.group()]
+                found[ln] = [15, 'Punctuation touch tilde', match.group().encode('utf')]
 
             touching_punctuation_after = re.finditer(match_punctuation_after, line)
             for match in touching_punctuation_after:
-                found[ln] = [15, 'Punctuation touch tilde', match.group()]
+                found[ln] = [15, 'Punctuation touch tilde', match.group().encode('utf')]
 
             fillers = re.finditer(match_filler, line)
             for match in fillers:
-                found[ln] = [15, 'Filler word with tilde', match.group()]
+                found[ln] = [15, 'Filler word with tilde', match.group().encode('utf')]
+
+            incorrect_tilde = re.match(match_tilde_at_start, line)
+            if incorrect_tilde:
+                found[ln] = [15, 'Incorrect use of tilde', incorrect_tilde.group().encode('utf')]
 
     return found
 
