@@ -30,3 +30,13 @@ CONTENT = [
     u'<Speaker id="spk1" name="Paul Donato" check="no" type="male" dialect="native" accent="" scope="global"/>\n',
     u'<Speaker id="spk2" name="Henry Milorin" check="no" type="male" dialect="native" accent="" scope="global"/>'
 ]
+
+
+def test_command_22(tmpdir):
+    file_ = temporary_file(tmpdir, CONTENT)
+    found = command22(file_)
+
+    for key in sorted(found.keys()):
+        print(key, found[key])
+
+    assert 0

@@ -3,7 +3,7 @@
 <Trans scribe="Winicius" audio_filename="MedfordSchoolCommitteeCandid_2019" version="2" version_date="200208">
 <Speakers>
 <Speaker id="spk1" name="Paul Donato" check="no" type="male" dialect="native" accent="" scope="global"/>
-<Speaker id="spk2" name="Henry Milorin" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk2" name="Paul Donato" check="no" type="male" dialect="native" accent="" scope="global"/>
 <Speaker id="spk3" name="Julia Novena" check="no" type="female" dialect="native" accent="" scope="global"/>
 <Speaker id="spk4" name="multiple" check="no" type="unknown" dialect="native" accent="" scope="global"/>
 <Speaker id="spk5" name="Mike Ruggiero" check="no" type="male" dialect="native" accent="" scope="global"/>

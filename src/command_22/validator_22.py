@@ -12,7 +12,7 @@ def command22(filepath):
         for line in f:
 
             if "<Speaker " in line:
-                spknames.append(re.match(".*name=(\".*\").*check", line).group(1))
+                spknames.append(re.match(".*name=(\".*\")", line).group(1))
             elif "<Section" in line:
                 break
 
@@ -21,7 +21,7 @@ def command22(filepath):
         for line in f:
             ln = ln + 1
             if "<Speaker " in line:
-                nameregx = re.match(".*name=(\".*\").*check", line).group(1)
+                nameregx = re.match(".*name=(\".*\")", line).group(1)
                 if spknames.count(nameregx) > 1:
                     found[ln] = [22, 'Multiple occurences of name=' + nameregx, 'Speaker id=' + re.match(".*(\"spk\d+\").*", line).group(1) + ' | name=' + nameregx]
 
@@ -29,7 +29,7 @@ def command22(filepath):
 
 
 if __name__ == '__main__':
-    found = command22('../files/tesst.trs')
+    found = command22('../files/KBS_Gag_Concert_2020_02_01.trs')
     print(len(found))
 
     for key in sorted(found.keys()):
