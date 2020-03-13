@@ -7,7 +7,7 @@ from command_24.validator_24 import command24
 
 CONTENT = [
     u'<Turn startTime="0" endTime ="14.781" speaker="spk1">\n',    # 1
-    u'<Sync time="0"/>\n',                                         # 2
+    u'<Syncs time="0"/>\n',                                         # 2
     u'[overlap]\n'                                                 # 3
     u'</Turn>\n',                                                  # 4
     u'<Turn speaker="spk2" startTime="14.781" endTime=" 21.081">\n',  # 5
@@ -35,14 +35,14 @@ CONTENT = [
     u'[music] 아하. [noise] 어, 우와. 내 머리는 길지만 니 수명을 짧을 거야.\n',  # 27
     u'</Turn>\n',                                                             # 28
     u'<Turn speaker="spk2" startTime="956.003" endTime="957.894">\n',         # 29
-    u'<Sync time="59.003"/>\n',                                              # 30
+    u'<Sync time="59.003"/>\n',                                               # 30
     u'Thank you candidate Graham. [overlap] Thanks.\n',                       # 31
     u'</Turn>\n',                                                             # 32
     u'<Turn speaker ="spk4" startTime="68.486" endTime="73.614">\n',          # 33
-    u'<Sync time="68.486"/>\n',                                               # 34
+    u'<Sync tme="68.486"/>\n',                                                # 34
     u'[laugh] 그래. 그럼 나는 영화 어 아저씨의 멋있는 원빈! [noise]\n',          # 35
     u'</Turn>\n',                                                             # 36
-    u'<Turn startTime ="3170.236" endTime="3171.857">\n',                      # 37
+    u'<Turn startTime ="3170.236" endTime="3171.857">\n',                     # 37
     u'<Sync time="3170.236"/>\n',                                             # 38
     u'[noise] &lt;lang:Foreign&gt;ČSSDspacing 5ČSSD &lt;/lang:Foreign&gt;\n', # 39
     u'</Turn>\n',                                                             # 40
@@ -51,7 +51,17 @@ CONTENT = [
     u'<Turn startTime="3170.236 " endTime="3171.857">\n',                     # 43
     u'<Turn startTime ="3170.236" endTime="3171.857">\n',                     # 44
     u'<Turn startTime="3170.236" endTime= "3171.857">\n',                     # 45
-    u'<Turn startTime="3170.236" endTime="3171.857" speaker="spk2 ">'         # 46
+    u'<Turn startTime="3170.236" endTime="3171.857" speaker="spk2 ">\n',      # 46
+    u'<Turn startTime="3170.236" endime="3171.857" speaker="spk2">\n',        # 47
+    u'<Turn speaker="spk2" starterTime="3170.236" endTime="3171.857">\n',     # 48
+    u'<Turn speakers="spk2" startTime="3170.236" endTime="3171.857">\n',      # 49
+    u'<Turns speaker="spk2" startTime="3170.236" endTime="3171.857">\n',      # 50
+    u'<Turn startTime="3170.236" endTime="3171.857" speaker="spker2">\n',     # 51
+    u'<Speaker id="spk1" name="Paul Donato" check="no" type="male" dialect="native" accent="" scope="global"/>\n',   # 52
+    u'<Speaker id="spk2" name="Henry Milorin" check="no" type="male" dialect="native" accent="" scope="global"/>\n', # 53
+    u'<Speaker id="spk12" name="Kathleen Kreatz" \n',                                                                # 54
+    u'check="no" type="female" dialect="native" accent="" scope="global"/>\n',                                       # 55
+    u'<Speaker id="spk3" name="Mike Ruggiero" check="no" type="female" dialect="native" accent="" scope="global"/>\n'# 56
 ]
 
 
@@ -62,51 +72,61 @@ def test_command24(tmpdir):
     #for key in sorted(found.keys()):
         #print(key, found[key])
 
-    assert 1 in found
-    assert not 2 in found
+    assert "Unexpected white space in Turn tag" in found[1]
+    assert 'Tag syntax error' in found[2]
     assert not 3 in found
     assert not 4 in found
-    assert 5 in found
-    assert 6 in found
+    assert "Unexpected white space in Turn tag" in found[5]
+    assert "Unexpected white space in Sync tag" in found[6]
     assert not 7 in found
     assert not 8 in found
-    assert 9 in found
-    assert 10 in found
+    assert "Unexpected white space in Turn tag" in found[9]
+    assert "Unexpected white space in Sync tag" in found[10]
     assert not 11 in found
     assert not 12 in found
-    assert 13 in found
-    assert 14 in found
+    assert "Unexpected white space in Turn tag" in found[13]
+    assert "Unexpected white space in Sync tag" in found[14]
     assert not 15 in found
     assert not 16 in found
-    assert 17 in found
-    assert 18 in found
+    assert "Unexpected white space in Turn tag" in found[17]
+    assert "Unexpected white space in Sync tag" in found[18]
     assert not 19 in found
     assert not 20 in found
-    assert 21 in found
-    assert 22 in found
+    assert "Unexpected white space in Turn tag" in found[21]
+    assert "Unexpected white space in Sync tag" in found[22]
     assert not 23 in found
     assert not 24 in found
-    assert 25 in found
-    assert 26 in found
+    assert "Unexpected white space in Turn tag" in found[25]
+    assert "Unexpected white space in Sync tag" in found[26]
     assert not 27 in found
     assert not 28 in found
     assert not 29 in found
     assert not 30 in found
     assert not 31 in found
     assert not 32 in found
-    assert 33 in found
-    assert not 34 in found
+    assert "Unexpected white space in Turn tag" in found[33]
+    assert "Tag syntax error" in found[34]
     assert not 35 in found
     assert not 36 in found
-    assert 37 in found
-    assert 38 in found
+    assert "Unexpected white space in Turn tag" in found[37]
+    assert 38 not in found
     assert not 39 in found
     assert not 40 in found
-    assert 41 in found
-    assert 42 in found
-    assert 43 in found
-    assert 44 in found
-    assert 45 in found
-    assert 46 in found
+    assert "Unexpected white space in Turn tag" in found[41]
+    assert "Unexpected white space in Turn tag" in found[42]
+    assert "Unexpected white space in Turn tag" in found[43]
+    assert "Unexpected white space in Turn tag" in found[44]
+    assert "Unexpected white space in Turn tag" in found[45]
+    assert "Unexpected white space in Turn tag" in found[46]
+    assert "Tag syntax error" in found[47]
+    assert "Tag syntax error" in found[48]
+    #assert 49 in found
+    assert "Tag syntax error" in found[50]
+    #assert 51 in found
+    assert 52 not in found
+    assert 53 not in found
+    assert "Tag syntax error" in found[54]
+    assert 55 not in found
+    assert 56 not in found
 
     #assert 0
