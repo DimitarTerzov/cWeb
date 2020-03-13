@@ -1,10 +1,14 @@
+# -*- coding: utf-8 -*-
+import re
+
+
 #White space validator
 def command8(filepath):
     rv = {}
-    patterns = ['\[[^\]*]\]', '&lt;[^;&]*&gt;', '#[^ #\.,，。\s?!~‘s-]*', '\(\(\)\)', '\(\([^\)]*\)\)']
+    patterns = ['\[[^\]*]\]', '#[^ #\.,，。\s?!~‘s-]*', '\(\(\)\)', '\(\([^\)]*\)\)']
 
     for pat in patterns:
-        found = command8_real(f, pat)
+        found = command8_real(filepath, pat)
         rv.update(found)
     return rv
 
@@ -46,3 +50,9 @@ def command8_real(filepath, pattern):
                     elif not re.match(reg_allowed, rC):
                         found[ln] =  [8, 'Missing white space (invalid right char)', rC + '/' + m]
     return found
+
+
+if __name__ == "__main__":
+    found = command8('../files/test_4.trs')
+    for key in sorted(found.keys()):
+        print(key, found[key])
