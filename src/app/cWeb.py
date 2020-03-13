@@ -718,16 +718,14 @@ def command13(filepath):
 #Segment length validator
 def command14(filepath):
 
-    regex = re.compile('<Sync time="\s*([0-9\.]+)\s*"/>')
-    regez = re.compile("<Sync time=\"" + WWwhitespace +"+[0-9\.]+\"/>|<Sync time=\"[0-9\.]+"+ WWwhitespace+"\"/>|<Sync time=\""+ WWwhitespace +"+[0-9\.]+"+ WWwhitespace+"\"/>")
+    regex = re.compile(ur'<Sync\s*time\s*=\s*"\s*([0-9\.]+)\s*"\s*/>')
 
     found = {}
-    cur_time = 0.0
+    cur_time = 0
 
-    with open(filepath,'r') as f:
-        ln = -1
+    with io.open(filepath,'r') as f:
+        ln = 1
         for line in f:
-            ln = ln + 1
             line = line.rstrip("\r\n")
             for m in re.findall(regex, line):
 
@@ -735,14 +733,12 @@ def command14(filepath):
                 seg_len = seg_time - cur_time
 
                 if seg_len > 15.0:
-                    found[ln] = [14, 'Segment exceeds limit', 'Sync time="' + str(cur_time) + '" length: ' + str(seg_len) + ' seconds']
+                    found[ln] = [14, 'Segment exceeds limit', 'Sync time="{}"; length: {} seconds'.format(seg_time, seg_len)]
 
                 #update current time
                 cur_time = seg_time
-            for m in re.findall(regez, line):
 
-                found[ln] = [14, 'Unexpected white space in sync time tag', line]
-
+            ln += 1
 
     return found
 
@@ -839,6 +835,7 @@ def command16(filepath):
                 elif attrs['dialect'] == 'non-native' and attrs['accent'] == '':
                     found[ln] = [16, 'null accent', '']
     return found
+
 
 #Short turns
 def command17(filepath):
@@ -1026,9 +1023,60 @@ def command23(filepath):
                             break
     return found
 
+
+# Code errors
+def command24(filepath):
+
+    inspect_sync_re = re.compile(ur'<(\s*)[Sync\w]+(?:\s*)[time\w]+(\s*)=(\s*)"(\s*)[\d\.]+(\s*)"/(\s*)>', re.UNICODE)
+    inspect_turn_re = re.compile(ur'<[Turn\w]+(?:\s*[speaker\w]+(\s*)=(\s*)"(\s*)[spk\w]+\d+(\s*)")?\s*[startTime\w]+(\s*)=(\s*)"(\s*)[\d\.]+(\s*)"\s*[endTime\w]+(\s*)=(\s*)"(\s*)[\d\.]+(\s*)"(?:\s*[speaker\w]+(\s*)=(\s*)"(\s*)[spk\w]+\d+(\s*)")?>', re.UNICODE)
+
+    found = {}
+
+    with io.open(filepath, 'r', encoding='utf') as f:
+
+        ln = 0
+        for line in f:
+            ln += 1
+            line = line.rstrip("\r\n")
+
+            match = re.match(inspect_sync_re, line)
+            if match is not None:
+
+                if re.search(ur'\bSync\b\s*\btime\b', line, re.UNICODE) is None:
+                    found[ln] = [24, 'Tag syntax error', line.encode('utf')]
+                    continue
+
+                for group in match.groups():
+                    if group is not None and group != "":
+                        found[ln] = [24, 'Unexpected white space in Sync tag', line.encode('utf')]
+                        break
+
+                continue
+
+            match = re.match(inspect_turn_re, line)
+            if match is not None:
+
+                if re.search(ur'\bTurn\b.*?\bstartTime\b.*?\bendTime\b.*?>', line, re.UNICODE) is None:
+                    found[ln] = [24, 'Tag syntax error', line.encode('utf')]
+                    continue
+
+                for group in match.groups():
+                    if group is not None and group != "":
+                        found[ln] = [24, 'Unexpected white space in Turn tag', line.encode('utf')]
+                        break
+
+                continue
+
+            if u'<Speaker' in line and line != '<Speakers>':
+                if re.match(ur'<Speaker.*?/>', line, re.UNICODE) is None:
+                    found[ln] = [24, 'Tag syntax error', line.encode('utf')]
+
+    return found
+
+
 print "Content-type:text/html; charset=UTF-8\r\n\r\n"
 
-cmd_ids = range(1,24)
+cmd_ids = range(1,25)
 
 # Create instance of FieldStorage
 form = cgi.FieldStorage()
