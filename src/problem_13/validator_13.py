@@ -1,10 +1,14 @@
+# -*- coding: utf-8 -*-
+from __future__ import print_function
+
 import re
+import io
 
 
 #Speaker validator
 def command13(filepath):
 
-    regex = re.compile('<Turn (?:speaker="(spk[0-9]+)")?(?:.*)startTime="([0-9.]+)"(?:.*) (?:speaker="(spk[0-9]+)")?')
+    regex = re.compile(ur'<Turn\s*(?:speaker\s*=\s*"(spk[0-9]+)")?(?:.*)startTime\s*=\s*"([0-9.]+)"(?:.*) (?:speaker\s*=\s*"(spk[0-9]+)")?', re.UNICODE)
 
     found = {}
 
@@ -13,17 +17,17 @@ def command13(filepath):
     sync_count = 0
     end_time = 0
 
-    with open(filepath,'r') as f:
-        ln = -1
+    with io.open(filepath, 'r') as f:
+        ln = 0
         for line in f:
-            ln = ln + 1
+            ln += 1
             line = line.rstrip("\r\n")
 
             # Catch empty turns and empty segments.
             if line == '':
                 pass
             elif '<Turn' in line:
-                start_time = re.search(r'(?P<content>startTime="(?P<value>\W*\d+\.?\d*\W*)")', line, re.UNICODE)
+                start_time = re.search(ur'(?P<content>startTime\s*=\s*"\s*(?P<value>\W*\d+\.?\d*\W*)\s*")', line, re.UNICODE)
                 start_value = float(start_time.group('value').strip())
                 start_time = start_time.group('content')
 
@@ -31,7 +35,7 @@ def command13(filepath):
                 if start_value != end_time:
                     found[ln] = [13, "Turn out of sync", start_time]
 
-                end_time = re.search(r'endTime="(?P<value>\W*\d+\.?\d*\W*)"', line, re.UNICODE)
+                end_time = re.search(ur'endTime\s*=\s*"\s*(?P<value>\W*\d+\.?\d*\W*)\s*"', line, re.UNICODE)
                 end_time = float(end_time.group('value').strip())
 
                 if start_value >= end_time:
@@ -42,7 +46,7 @@ def command13(filepath):
             elif 'Sync' in line and not sync:
                 sync = True
                 sync_count += 1
-                new_sync = re.search(r'(?P<content>Sync time="(?P<value>\W*\d+\.?\d*\W*)")', line, re.UNICODE)
+                new_sync = re.search(ur'(?P<content>Sync\s*time\s*=\s*"\s*(?P<value>\W*\d+\.?\d*\W*)\s*")', line, re.UNICODE)
                 new_sync_time = new_sync.group('content')
                 sync_time_value = float(new_sync.group('value').strip())
 
@@ -111,5 +115,5 @@ def command13(filepath):
 if __name__ == "__main__":
 
     found = command13('../files/test_13.trs')
-    for key, value in found.iteritems():
-        print key, '; ', value
+    for key in sorted(found.keys()):
+        print(key, found[key])
