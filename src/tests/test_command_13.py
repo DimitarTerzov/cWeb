@@ -32,7 +32,7 @@ CONTENT = [
     u'<Sync time="51.747"/>\n',                                                      # 22
     u'[noise]\n',                                                                    # 23
     u'</Turn>\n',                                                                    # 24
-    u'<Turn speaker = " spk4 " startTime="55.643" endTime="112.245">\n',                 # 25
+    u'<Turn speaker = " spk4 " startTime="55.643" endTime="112.245">\n',             # 25
     u'<Sync time="55.643"/>\n',                                                      # 26
     u"I bounce on the Funafuti lagoon. It seems a world away from Fulafani.\n",      # 27
     u'<Sync time="67.998"/>\n',                                                      # 28
@@ -64,45 +64,45 @@ CONTENT = [
     u"Mr. ((Lucia)) has to go further out into the lagoon to get fish.\n",  # 54
     u'<Sync time="208.49"/>\n',                                             # 55
     u'</Turn>\n',                                                           # 56
-    u'<Turn startTime="0" endTime="1.351">\n',                              # 57
-    u'<Sync time="0"/>\n',                                                  # 57
-    u' \n',                                                                 # 58
-    u'</Turn>\n',                                                           # 59
-    u'<Turn speaker="spk64" startTime="3391.391" endTime="3391.334">\n',    # 60
-    u'<Sync time="3391.391"/>\n',                                           # 61
-    u'김아영씨 저희가 심폐소생 해드렸습니다.\n',                               # 62
-    u'</Turn>\n',                                                           # 63
-    u'<Turn speaker="spk4" startTime="197.187" endTime="210.034">\n',       # 64
-    u'<Sync time="196.187"/>\n',                                            # 65
-    u"Mr. ((Lucia)) has to go further out into the lagoon to get fish.\n",  # 66
-    u'</Turn>\n',                                                           # 67
-    u'<Turn speaker="spk5" startTime =" 197.187 " endTime= " 210.034 ">\n', # 68
-    u'<Sync time=" 196.187"/>\n',                                           # 69
-    u"Mr. ((Lucia)) has to go further out into the lagoon to get fish.\n",  # 70
-    u'<Sync time= "197.187"/>\n',                                           # 71
-    u"Mr. ((Lucia)) has to go further out into the lagoon to get fish.\n",  # 72
-    u'<Sync time ="197.187"/>\n',                                           # 73
-    u"Mr. ((Lucia)) has to go further out into the lagoon to get fish.\n",  # 74
-    u'</Turn>\n',                                                           # 75
-    u'<Turn speaker ="spk6" startTime=" 197.187" endTime="210.034 ">\n',    # 76
-    u'<Sync time="197.187"/>\n',                                            # 77
-    u"Mr. ((Lucia)) has to go further out into the lagoon to get fish.\n",  # 78
-    u'<Sync time="197.187 "/>\n',                                           # 79
-    u"Mr. ((Lucia)) has to go further out into the lagoon to get fish.\n",  # 80
-    u'</Turn>    \n',                                                       # 81
-    u'<Turn startTime="454.698" endTime="460.184">\n',                      # 82
-    u'<Sync time=" 454.698"/>\n',                                           # 83
-    u'[no-speech]\n',                                                       # 84
-    u'<Sync time="460.424"/>\n',                                            # 85
-    u'[no-speech]\n',                                                       # 86
-    u'<Sync time="462.832"/>\n',                                            # 87
-    u'[no-speech]\n',                                                       # 88
-    u'</Turn>\n',                                                           # 89
+    u'<Turn startTime="210.034" endTime="211.351">\n',                      # 57
+    u'<Sync time="210.034"/>\n',                                            # 58
+    u' \n',                                                                 # 59
+    u'</Turn>\n',                                                           # 60
+    u'<Turn speaker="spk64" startTime="3391.391" endTime="3391.334">\n',    # 61
+    u'<Sync time="3391.391"/>\n',                                           # 62
+    u'김아영씨 저희가 심폐소생 해드렸습니다.\n',                               # 63
+    u'</Turn>\n',                                                           # 64
+    u'<Turn speaker="spk4" startTime="197.187" endTime="210.034">\n',       # 65
+    u'<Sync time="196.187"/>\n',                                            # 66
+    u"Mr. ((Lucia)) has to go further out into the lagoon to get fish.\n",  # 67
+    u'</Turn>\n',                                                           # 68
+    u'<Turn speaker="spk5" startTime =" 197.187 " endTime= " 210.034 ">\n', # 69
+    u'<Sync time=" 196.187"/>\n',                                           # 70
+    u"Mr. ((Lucia)) has to go further out into the lagoon to get fish.\n",  # 71
+    u'<Sync time= "197.187"/>\n',                                           # 72
+    u"Mr. ((Lucia)) has to go further out into the lagoon to get fish.\n",  # 73
+    u'<Sync time ="197.187"/>\n',                                           # 74
+    u"Mr. ((Lucia)) has to go further out into the lagoon to get fish.\n",  # 75
+    u'</Turn>\n',                                                           # 76
+    u'<Turn speaker ="spk6" startTime=" 197.187" endTime="210.034 ">\n',    # 77
+    u'<Sync time="197.187"/>\n',                                            # 78
+    u"Mr. ((Lucia)) has to go further out into the lagoon to get fish.\n",  # 79
+    u'<Sync time="197.187 "/>\n',                                           # 80
+    u"Mr. ((Lucia)) has to go further out into the lagoon to get fish.\n",  # 81
+    u'</Turn>    \n',                                                       # 82
+    u'<Turn startTime="454.698" endTime="460.184">\n',                      # 83
+    u'<Sync time=" 454.698"/>\n',                                           # 84
+    u'[no-speech]\n',                                                       # 85
+    u'<Sync time="460.424"/>\n',                                            # 86
+    u'[no-speech]\n',                                                       # 87
+    u'<Sync time="462.832"/>\n',                                            # 88
+    u'[no-speech]\n',                                                       # 89
+    u'</Turn>\n',                                                           # 90
 ]
 
 EXCLUDE_ROWS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20,
-                21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 38, 41,
-                42, 43, 44, 45, 46, 47, 49, 50, 51, 53, 54, 55, 58, 59, 60, 62,
+                21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 34, 36, 39,
+                42, 43, 44, 45, 46, 47, 49, 50, 51, 53, 54, 56, 57, 59, 60, 62,
                 63, 64, 67, 68, 71, 72, 73, 75, 76, 78, 79, 81]
 
 
@@ -117,15 +117,17 @@ def test_command_13(tmpdir):
         assert row not in found
 
     assert "Sequential turns by the same speaker" in found[11]
+    assert "Empty segments are not allowed" in found[32]
     assert "Empty segments are not allowed" in found[33]
-    assert "Empty segments are not allowed" in found[36]
+    assert "Empty segments are not allowed" in found[35]
     assert "Turn out of sync" in found[37]
-    assert "Empty turns are not allowed" in found[39]
+    assert "Empty segments are not allowed" in found[38]
     assert "Turn out of sync" in found[40]
+    assert "Empty segments are not allowed" in found[41]
     assert "Sequential turns by the same speaker" in found[48]
     assert "Turn out of sync" in found[52]
-    assert "Empty segments are not allowed" in found[56]
-    assert "Turn out of sync" in found[57]
+    assert "Empty segments are not allowed" in found[55]
+    assert "Empty segments are not allowed" in found[58]
     assert "Turn out of sync" in found[61]
     assert "Turn out of sync" in found[65]
     assert "Segment out of sync" in found[66]

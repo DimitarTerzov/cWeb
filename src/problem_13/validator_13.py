@@ -21,12 +21,9 @@ def command13(filepath):
         ln = 0
         for line in f:
             ln += 1
-            line = line.rstrip("\r\n")
+            line = line.strip()
 
-            # Catch empty turns and empty segments.
-            if line == '':
-                pass
-            elif '<Turn' in line:
+            if '<Turn' in line:
                 start_time = re.search(ur'(?P<content>startTime\s*=\s*"\s*(?P<value>\W*\d+\.?\d*\W*)\s*")', line, re.UNICODE)
                 start_value = float(start_time.group('value').strip())
                 start_time = start_time.group('content')
@@ -64,12 +61,12 @@ def command13(filepath):
                 sync_time = new_sync_time
 
             elif "</Turn>" == line and sync and sync_count == 1:
-                found[ln] = [13, "Empty turns are not allowed", start_time]
+                found[ln - 1] = [13, "Empty segments are not allowed", sync_time]
                 sync = False
                 sync_count = 0
 
             elif 'Sync' in line and sync:
-                found[ln] = [13, "Empty segments are not allowed", sync_time]
+                found[ln - 1] = [13, "Empty segments are not allowed", sync_time]
                 sync_count += 1
                 new_sync = re.search(r'(?P<content>Sync time="(?P<value>\W*\d+\.?\d*\W*)")', line, re.UNICODE)
                 new_sync_time = new_sync.group('content')
@@ -83,10 +80,13 @@ def command13(filepath):
                 sync_time = new_sync_time
 
             elif 'Sync' not in line and line != "</Turn>":
+                if line == '':
+                    found[ln - 1] = [13, "Empty segments are not allowed", sync_time]
+
                 sync = False
 
             elif "</Turn>" == line and sync and sync_count > 1:
-                found[ln] = [13, "Empty segments are not allowed", sync_time]
+                found[ln - 1] = [13, "Empty segments are not allowed", sync_time]
                 sync = False
                 sync_count = 0
 
