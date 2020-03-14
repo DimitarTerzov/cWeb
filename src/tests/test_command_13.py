@@ -103,7 +103,8 @@ CONTENT = [
 EXCLUDE_ROWS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20,
                 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 34, 36, 39,
                 42, 43, 44, 45, 46, 47, 49, 50, 51, 53, 54, 56, 57, 59, 60, 62,
-                63, 64, 67, 68, 71, 72, 73, 75, 76, 78, 79, 81]
+                63, 64, 67, 68, 71, 72, 73, 75, 76, 78, 79, 81, 82, 84, 85, 87,
+                89, 90]
 
 
 def test_command_13(tmpdir):
@@ -137,5 +138,7 @@ def test_command_13(tmpdir):
     assert "Turn out of sync" in found[77]
     assert "Segment out of sync" in found[80]
     assert "Turn out of sync" in found[83]
+    assert "Segment out of sync" in found[86]
+    assert "Segment out of sync" in found[88]
 
     assert 0

@@ -55,7 +55,10 @@ def command13(filepath):
                 elif sync_count > 1:
                     # compare new sync_time with old sync_time
                     old_sync_value = re.search(r'(\d+\.?\d*)', sync_time)
-                    if sync_time_value <= float(old_sync_value.group()):
+                    if (
+                        sync_time_value <= float(old_sync_value.group()) or
+                        sync_time_value > end_time
+                    ):
                         found[ln] = [13, "Segment out of sync", new_sync_time]
 
                 sync_time = new_sync_time
@@ -69,15 +72,7 @@ def command13(filepath):
                 found[ln - 1] = [13, "Empty segments are not allowed", sync_time]
                 sync_count += 1
                 new_sync = re.search(r'(?P<content>Sync time="(?P<value>\W*\d+\.?\d*\W*)")', line, re.UNICODE)
-                new_sync_time = new_sync.group('content')
-                sync_time_value = float(new_sync.group('value').strip())
-
-                # Compare new sync_time with old sync_time
-                old_sync_value = re.search(r'(\d+\.?\d*)', sync_time)
-                if sync_time_value <= float(old_sync_value.group()):
-                    found[ln] = [13, "Segment out of sync", new_sync_time]
-
-                sync_time = new_sync_time
+                sync_time = new_sync.group('content')
 
             elif 'Sync' not in line and line != "</Turn>":
                 if line == '':
@@ -103,7 +98,7 @@ def command13(filepath):
                     speaker = m[0] if m[0] != '' else m[2]
 
                     if speaker == prev_spk:
-                        found[ln] = [13, 'Sequential turns by the same speaker', speaker + " at " + m[1]]
+                        found[ln] = [13, 'Sequential turns by the same speaker', '{} at {}'.format(speaker, m[1])]
 
                 #save speaker
                 prev_spk = speaker

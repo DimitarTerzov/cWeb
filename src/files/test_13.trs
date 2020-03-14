@@ -105,6 +105,14 @@ Mr. ((Lucia)) has to go further out into the lagoon to get fish. The pigs look h
 <Sync time="3391.391"/>
 김아영씨 저희가 심폐소생 해드렸습니다.
 </Turn>
+<Turn startTime="454.698" endTime="460.184">
+<Sync time="454.698"/>
+[no-speech]
+<Sync time="460.424"/>
+[no-speech]
+<Sync time="462.832"/>
+[no-speech]
+</Turn>
 </Section>
 </Episode>
 </Trans>
