@@ -141,4 +141,4 @@ def test_command_13(tmpdir):
     assert "Segment out of sync" in found[86]
     assert "Segment out of sync" in found[88]
 
-    assert 0
+    #assert 0

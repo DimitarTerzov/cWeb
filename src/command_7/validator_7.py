@@ -50,7 +50,7 @@ def command7(filepath):
 
 
 if __name__ == '__main__':
-    found = command7("../files/initial tag but inside spacing.trs")
+    found = command7("../files/Daai_Religion_01.trs")
     keys = sorted(found.keys())
     for key in keys:
         print key, found[key], found[key][2]
