@@ -1,10 +1,14 @@
+# -*- coding: utf-8 -*-
+from __future__ import print_function
+
 import re
+import io
 
 
 #Speaker validator
 def command13(filepath):
 
-    regex = re.compile('<Turn (?:speaker="(spk[0-9]+)")?(?:.*)startTime="([0-9.]+)"(?:.*) (?:speaker="(spk[0-9]+)")?')
+    regex = re.compile(ur'<Turn\s*(?:speaker\s*=\s*"(spk[0-9]+?)")?(?:.*?)startTime\s*=\s*"([0-9.]+)"(?:.*?)(?:speaker\s*=\s*"(spk[0-9]+?)")?', re.UNICODE)
 
     found = {}
 
@@ -13,76 +17,71 @@ def command13(filepath):
     sync_count = 0
     end_time = 0
 
-    with open(filepath,'r') as f:
-        ln = -1
+    with io.open(filepath, 'r') as f:
+        ln = 0
         for line in f:
-            ln = ln + 1
-            line = line.rstrip("\r\n")
+            ln += 1
+            line = line.strip()
 
-            # Catch empty turns and empty segments.
-            if line == '':
-                pass
-            elif '<Turn' in line:
-                start_time = re.search(r'(?P<content>startTime="(?P<value>\W*\d+\.?\d*\W*)")', line, re.UNICODE)
-                start_value = float(start_time.group('value').strip())
-                start_time = start_time.group('content')
+            if '<Turn' in line:
+                start_time_match = re.search(ur'(?P<content>startTime\s*=\s*"\s*(?P<value>[\d.]+?)\s*")', line, re.UNICODE)
+                start_value = float(start_time_match.group('value').strip())
+                start_time = start_time_match.group('content')
 
                 # Catch turns out of order
                 if start_value != end_time:
-                    found[ln] = [13, "Turn out of sync", start_time]
+                    found[ln] = [13, "Turn out of sync", start_time.encode('utf')]
 
-                end_time = re.search(r'endTime="(?P<value>\W*\d+\.?\d*\W*)"', line, re.UNICODE)
+                end_time = re.search(ur'endTime\s*=\s*"\s*(?P<value>[\d.]+?)\s*"', line, re.UNICODE)
                 end_time = float(end_time.group('value').strip())
 
                 if start_value >= end_time:
-                    found[ln] = [13, "Turn out of sync", start_time]
+                    found[ln] = [13, "Turn out of sync", start_time.encode('utf')]
 
                 sync_count = 0
 
             elif 'Sync' in line and not sync:
                 sync = True
                 sync_count += 1
-                new_sync = re.search(r'(?P<content>Sync time="(?P<value>\W*\d+\.?\d*\W*)")', line, re.UNICODE)
+                new_sync = re.search(ur'(?P<content>Sync\s*time\s*=\s*"\s*(?P<value>[\d.]+?)\s*")', line, re.UNICODE)
                 new_sync_time = new_sync.group('content')
                 sync_time_value = float(new_sync.group('value').strip())
 
                 if sync_count == 1:
                     # compare sync_time with start_value
                     if sync_time_value != start_value:
-                        found[ln] = [13, "Segment out of sync", new_sync_time]
+                        found[ln] = [13, "Segment out of sync", new_sync_time.encode('utf')]
 
                 elif sync_count > 1:
                     # compare new sync_time with old sync_time
-                    old_sync_value = re.search(r'(\d+\.?\d*)', sync_time)
-                    if sync_time_value <= float(old_sync_value.group()):
-                        found[ln] = [13, "Segment out of sync", new_sync_time]
+                    old_sync_value = re.search(ur'([\d.]+)', sync_time)
+                    if (
+                        sync_time_value <= float(old_sync_value.group()) or
+                        sync_time_value > end_time
+                    ):
+                        found[ln] = [13, "Segment out of sync", new_sync_time.encode('utf')]
 
                 sync_time = new_sync_time
 
             elif "</Turn>" == line and sync and sync_count == 1:
-                found[ln] = [13, "Empty turns are not allowed", start_time]
+                found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
                 sync = False
                 sync_count = 0
 
             elif 'Sync' in line and sync:
-                found[ln] = [13, "Empty segments are not allowed", sync_time]
+                found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
                 sync_count += 1
-                new_sync = re.search(r'(?P<content>Sync time="(?P<value>\W*\d+\.?\d*\W*)")', line, re.UNICODE)
-                new_sync_time = new_sync.group('content')
-                sync_time_value = float(new_sync.group('value').strip())
-
-                # Compare new sync_time with old sync_time
-                old_sync_value = re.search(r'(\d+\.?\d*)', sync_time)
-                if sync_time_value <= float(old_sync_value.group()):
-                    found[ln] = [13, "Segment out of sync", new_sync_time]
-
-                sync_time = new_sync_time
+                new_sync = re.search(ur'(?P<content>Sync\s*time=\s*"\s*(?P<value>[\d.]+?)\s*")', line, re.UNICODE)
+                sync_time = new_sync.group('content')
 
             elif 'Sync' not in line and line != "</Turn>":
+                if line == '':
+                    found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
+
                 sync = False
 
             elif "</Turn>" == line and sync and sync_count > 1:
-                found[ln] = [13, "Empty segments are not allowed", sync_time]
+                found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
                 sync = False
                 sync_count = 0
 
@@ -99,7 +98,8 @@ def command13(filepath):
                     speaker = m[0] if m[0] != '' else m[2]
 
                     if speaker == prev_spk:
-                        found[ln] = [13, 'Sequential turns by the same speaker', speaker + " at " + m[1]]
+                        report = '{} at {}'.format(speaker, m[1])
+                        found[ln] = [13, 'Sequential turns by the same speaker', report.encode('utf')]
 
                 #save speaker
                 prev_spk = speaker
@@ -107,9 +107,8 @@ def command13(filepath):
     return found
 
 
-
 if __name__ == "__main__":
 
-    found = command13('../files/test_13.trs')
-    for key, value in found.iteritems():
-        print key, '; ', value
+    found = command13('../files/Daai_Religion_01.trs')
+    for key in sorted(found.keys()):
+        print(key, found[key])
