@@ -9,16 +9,16 @@ def command7(filepath):
     # Allowed punctuation after tag
     punctuation = u"[:',!—_\".?\-;]"
     #default skip tags
-    skip_tags = u"(#uh|#um|#ah|#eh|#hm)"
+    skip_tags = u"(#uh|#um|#ah|#eh|#hm|#อื|#อ่|#เอ่)"
     possible_missing_tag = u"(uh|um|ah|eh|hm)"
     filler_re = re.compile(ur'[\W\w]?#\w*\W?', re.UNICODE)
 
     found = {}
     in_section = False
     with io.open(filepath, 'r', encoding='utf') as f:
-        ln = -1
+        ln = 0
         for line in f:
-            ln = ln + 1
+            ln += 1
             line = line.rstrip("\r\n")
 
             if '<Section' in line:
@@ -50,7 +50,7 @@ def command7(filepath):
 
 
 if __name__ == '__main__':
-    found = command7("../files/Daai_Religion_01.trs")
+    found = command7("../files/AsiaWaveNews_05.trs")
     keys = sorted(found.keys())
     for key in keys:
         print key, found[key], found[key][2]
