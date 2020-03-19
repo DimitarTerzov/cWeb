@@ -176,7 +176,7 @@ def command4(filepath):
                     m.group('second_open') != '&lt;' or
                     m.group('second_close') != '&gt;' or
                     m.group('forward') != '/'
-                ):
+                    ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
@@ -184,7 +184,7 @@ def command4(filepath):
                 if (
                     m.group('first_tag') != 'initial' or
                     m.group('second_tag') != 'initial'
-                ):
+                    ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
@@ -192,7 +192,7 @@ def command4(filepath):
                 if (
                     m.group('before_first') is not None and
                     not m.group('before_first') in allowed_expressions_before_tag
-                ):
+                    ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
@@ -201,7 +201,7 @@ def command4(filepath):
                     m.group('after_second') is not None and
                     not m.group('after_second') in allowed_characters_after_tag and
                     not m.group('after_second').startswith(u'_')
-                ):
+                    ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
@@ -209,7 +209,7 @@ def command4(filepath):
                 if (
                     not m.group('inner_text').startswith(' ') or
                     not m.group('inner_text').endswith(' ')
-                ):
+                    ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
@@ -292,7 +292,7 @@ def command5(filepath):
                         not match.group('inner_text').startswith(" ") or
                         not match.group('inner_text').endswith(" ") or
                         match.group('after_second') is not None
-                    ):
+                        ):
                         found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
                         continue
 
@@ -302,7 +302,7 @@ def command5(filepath):
                         match.group('second_tag') != 'lang' or
                         match.group('first_tag_lang') not in languages or
                         match.group('second_tag_lang') not in languages
-                    ):
+                        ):
                         found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
                         continue
 
@@ -313,7 +313,7 @@ def command5(filepath):
                         match.group('second_open') != '&lt;' or
                         match.group('second_close') != '&gt;' or
                         match.group('forward') != '/'
-                    ):
+                        ):
                         found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
                         continue
 
@@ -392,7 +392,7 @@ def command7(filepath):
                 if (
                     not re.match(ur'^{0}{1}?$'.format(skip_tags, punctuation), target, re.UNICODE)
                     and in_section
-                ):
+                    ):
                     found[ln] = [7, 'Invalid filler tag', target.encode('utf')]
                     continue
 
@@ -662,7 +662,7 @@ def command13(filepath):
                     if (
                         sync_time_value <= float(old_sync_value.group()) or
                         sync_time_value > end_time
-                    ):
+                        ):
                         found[ln] = [13, "Segment out of sync", new_sync_time.encode('utf')]
 
                 sync_time = new_sync_time
@@ -1138,14 +1138,14 @@ for f in json_files:
         sync_times = build_sync_times(f)
 
         file_div = '<table border="1">' \
-                 + '<tr><th>#</th><th>Line no.</th><th>Sync time</th><th>Error Code</th><th>Error Type</th><th>Content</th></tr>';
+            + '<tr><th>#</th><th>Line no.</th><th>Sync time</th><th>Error Code</th><th>Error Type</th><th>Content</th></tr>';
 
         item_no = 0
         for found in res:
             for ln in sorted(found.keys()):
                 res = found[ln]
                 file_div += '<tr><td>' + str(item_no)       + '</td>' + \
-                        '<td>' + str(ln).ljust(5)           + '</td>' + \
+                    '<td>' + str(ln).ljust(5)           + '</td>' + \
                         '<td>' + cgi.escape(sync_times[ln]) + '</td>' + \
                         '<td>' + str(res[0])                + '</td>' + \
                         '<td>' + res[1]                     + '</td>' + \
