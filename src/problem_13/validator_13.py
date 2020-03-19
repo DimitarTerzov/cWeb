@@ -17,7 +17,7 @@ def command13(filepath):
     sync_count = 0
     end_time = 0
 
-    with io.open(filepath, 'r') as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = 0
         for line in f:
             ln += 1

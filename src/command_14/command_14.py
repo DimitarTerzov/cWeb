@@ -12,7 +12,7 @@ def command14(filepath):
     found = {}
     cur_time = 0
 
-    with io.open(filepath,'r') as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = 1
         for line in f:
             line = line.rstrip("\r\n")
