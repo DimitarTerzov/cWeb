@@ -59,7 +59,7 @@ def test_command4(tmpdir):
         print(key, found[key])
 
     assert 0 in found
-    assert 1 in found
+    assert 1 not in found
     assert 2 in found
     assert not 3 in found
     assert 4 in found

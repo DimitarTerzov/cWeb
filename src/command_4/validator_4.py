@@ -19,14 +19,17 @@ def command4(filepath):
             line = line.rstrip("\r\n")
 
             for m in re.finditer(regex, line):
-                error_tag = m.group('content').encode('utf')
+                error_tag = m.group('content')
+                error_tag = error_tag.replace('&lt;', '<')
+                error_tag = error_tag.replace('&gt;', '>')
+                error_tag.encode('utf')
 
                 # Check tag syntax
                 if (
-                    m.group('first_open') != '&lt;' or
-                    m.group('first_close') != '&gt;' or
-                    m.group('second_open') != '&lt;' or
-                    m.group('second_close') != '&gt;' or
+                    m.group('first_open') != '&lt;' and m.group('first_open') != '<' or
+                    m.group('first_close') != '&gt;' and m.group('first_close') != '>' or
+                    m.group('second_open') != '&lt;' and m.group('second_open') != '<' or
+                    m.group('second_close') != '&gt;' and m.group('second_close') != '>' or
                     m.group('forward') != '/'
                 ):
                     found[ln] = [4, 'Initial tag error', error_tag]
@@ -97,7 +100,7 @@ def command4(filepath):
 
 
 if __name__ == '__main__':
-    found = command4('../files/Ykkosaamu_007.trs')
+    found = command4('../files/test_4.trs')
     keys = found.keys()
     keys = sorted(keys)
     print len(keys)
