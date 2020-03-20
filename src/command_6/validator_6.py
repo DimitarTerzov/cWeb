@@ -25,3 +25,10 @@ def command6(filepath):
                 if re.match('\S*\d+\S*', word) and not (word.startswith('<') and word.endswith('>')):
                     found[ln] = [6, 'Numerals not allowed', word]
     return found
+
+
+if __name__ == '__main__':
+    found = command6('../files/AsiaWaveNews_01_sample_chawankorn.trs')
+
+    for key in sorted(found.keys()):
+        print(key, found[key])
