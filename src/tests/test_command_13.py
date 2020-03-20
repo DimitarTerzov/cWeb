@@ -96,7 +96,7 @@ CONTENT = [
     u'<Sync time="460.424"/>\n',                                            # 86
     u'[no-speech]\n',                                                       # 87
     u'<Sync time="462.832"/>\n',                                            # 88
-    u'[no-speech]\n',                                                       # 89
+    u'Sync Ike Rann ja tema uus album &lt;lang:English&gt; Synchronize &lt;/lang:English&gt; Me kuulame\n',  # 89
     u'</Turn>\n',                                                           # 90
 ]
 
