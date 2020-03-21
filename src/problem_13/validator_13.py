@@ -40,7 +40,7 @@ def command13(filepath):
 
                 sync_count = 0
 
-            elif 'Sync' in line and not sync:
+            elif line.startswith('<Sync') and not sync:
                 sync = True
                 sync_count += 1
                 new_sync = re.search(ur'(?P<content>Sync\s*time\s*=\s*"\s*(?P<value>[\d.]+?)\s*")', line, re.UNICODE)
@@ -68,13 +68,13 @@ def command13(filepath):
                 sync = False
                 sync_count = 0
 
-            elif 'Sync' in line and sync:
+            elif line.startswith('<Sync') and sync:
                 found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
                 sync_count += 1
                 new_sync = re.search(ur'(?P<content>Sync\s*time=\s*"\s*(?P<value>[\d.]+?)\s*")', line, re.UNICODE)
                 sync_time = new_sync.group('content')
 
-            elif 'Sync' not in line and line != "</Turn>":
+            elif not line.startswith('<Sync') and line != "</Turn>":
                 if line == '':
                     found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
 
@@ -109,6 +109,6 @@ def command13(filepath):
 
 if __name__ == "__main__":
 
-    found = command13('../files/Daai_Religion_01.trs')
+    found = command13('../files/Rahva_oma_kaitse_05.trs')
     for key in sorted(found.keys()):
         print(key, found[key])
