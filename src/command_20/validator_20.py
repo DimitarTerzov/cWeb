@@ -1,24 +1,38 @@
+# -*- coding: utf-8 -*-
+from __future__ import print_function
+
+import re
+import io
+
+
 def command20(filepath):
-    # WWpunctuatio found in this file at: line 13
-    regex = re.compile("&lt;initial&gt;[a-zA-z\s]*" + WWpunctuatio + "+[a-zA-z\s]*&lt;\/initial&gt;|&lt;lang:\s?[a-zA-Z]*&gt;.*" + WWpunctuatio + "+\s+&lt;\/lang:\s?[a-zA-z]*&gt;")
+    disallowed_punctuation = re.compile(ur"<.*?>", re.UNICODE)
 
     found = {}
-
-    with open (filepath, 'r') as f:
-        ln = -1
+    with io.open (filepath, 'r', encoding='utf') as f:
+        ln = 0
+        sync = False
         for line in f:
-            ln = ln + 1
-            line = line.rstrip("\r\n")
+            line = line.strip()
 
-            for m in re.findall(regex, line):
+            if line.startswith(u'<Sync'):
+                sync = True
 
-                if re.match("&lt;initial&gt;", m):
+            elif sync and not line == u'</Turn>':
+                match = re.search(disallowed_punctuation, line)
+                if match is not  None:
+                    found[ln] = [20, 'Disallowed punctuation', match.group().encode('utf')]
+                sync = False
 
+            else:
+                sync = False
 
-                    if not re.search("&lt;initial&gt;\s?[A-Za-zÀ-ÖØ-öø-ÿ]{1}\.\s?&lt;\/initial&gt;", line):
-                        found[ln] = [20, 'Disallowed punctuation inside initial tag', m]
-                    else:
-                        if re.search("&lt;initial&gt;\s?[A-Za-zÀ-ÖØ-öø-ÿ]{1}\.\s?&lt;\/initial&gt;\s*$", line) != None:
-                            found[ln] = [20, 'Disallowed punctuation inside initial tag', m]
+            ln += 1
 
     return found
+
+
+if __name__ == '__main__':
+    found = command20('../files/test_5.trs')
+    for key in sorted(found.keys()):
+        print(key, found[key])

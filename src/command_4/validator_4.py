@@ -7,8 +7,8 @@ import io
 def command4(filepath):
 
     punctuation = u"""[^_'.,!?\s:;—"\-]"""
-    allowed_characters_after_tag = "s"
-    allowed_expressions_before_tag = ["l'"]
+    allowed_characters_after_tag = u"s"
+    allowed_expressions_before_tag = [u"l'"]
     regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;|\<)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;|\>)(?P<inner_text>.*?)(?P<second_open>&lt;|\<)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;|\>)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
 
     found = {}
@@ -16,13 +16,13 @@ def command4(filepath):
         ln = -1
         for line in f:
             ln = ln + 1
-            line = line.rstrip("\r\n")
+            line = line.strip()
 
             for m in re.finditer(regex, line):
                 error_tag = m.group('content')
                 error_tag = error_tag.replace('&lt;', '<')
                 error_tag = error_tag.replace('&gt;', '>')
-                error_tag.encode('utf')
+                error_tag = error_tag.encode('utf')
 
                 # Check tag syntax
                 if (
@@ -78,29 +78,29 @@ def command4(filepath):
                 elif len(inner_content) == 1:
                     content = inner_content[0]
                     # Catch anything different from pattern `W`
-                    if len(content) == 1 and re.match(r'\W', content, re.UNICODE):
+                    if len(content) == 1 and re.match(ur'\W', content, re.UNICODE):
                         found[ln] = [4, 'Initial tag error', error_tag]
 
                     # Catch anything different from pattern `WE` and `W.`
-                    elif len(content) == 2 and not re.match(r'^\w+\.?$', content, re.UNICODE):
+                    elif len(content) == 2 and not re.match(ur'^\w+\.?$', content, re.UNICODE):
                         found[ln] = [4, 'Initial tag error', error_tag]
 
                     # Catch anything different from pattern `WEB`, `Ph.D.`
                     elif len(content) > 2:
-                        if re.match(r'[\w.]*', content, re.UNICODE).group() != content:
+                        if re.match(ur'[\w.]*', content, re.UNICODE).group() != content:
                             found[ln] = [4, 'Initial tag error', error_tag]
 
                 # If text doesn't feet pattern `W. E. B.` -> error
                 elif len(inner_content) > 1:
                     for content in inner_content:
-                        if not re.match(r'^\w\.$', content, re.UNICODE):
+                        if not re.match(ur'^\w\.$', content, re.UNICODE):
                             found[ln] = [4, 'Initial tag error', error_tag]
 
     return found
 
 
 if __name__ == '__main__':
-    found = command4('../files/test_4.trs')
+    found = command4('../files/test_5.trs')
     keys = found.keys()
     keys = sorted(keys)
     print len(keys)
