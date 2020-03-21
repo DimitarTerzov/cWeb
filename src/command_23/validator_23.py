@@ -1,5 +1,10 @@
+from __future__ import print_function
+
+import re
+
+
 def command23(filepath):
-    bad_strings = ['Who nb=', 'Topic id=', 'Event' 'mode=', 'channel=', 'fidelity=']
+    bad_strings = ['Who nb=', 'Topic id=', 'Event' 'mode=', 'channel=', 'fidelity=', 'Background time=']
     found = {}
     regex = re.compile(".*<(.*)>.*")
 
@@ -31,4 +36,13 @@ def command23(filepath):
                         elif bad == 'fidelity=':
                             found[ln] = [23, 'Do not change the fidelity setting', '(' + bad + ') | ' + line]
                             break
+                        elif bad == 'Background time=':
+                            found[ln] = [23, 'Disallowed use of Transcriber', '(' + bad + ') | ' + line]
+                            break
     return found
+
+
+if __name__ == '__main__':
+    found = command23('../files/P3_News_2020_01_13_1_part2.trs')
+    for key in sorted(found.keys()):
+        print(key, found[key])
