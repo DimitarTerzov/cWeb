@@ -23,23 +23,25 @@ CONTENT = [
     u'<Sync time="85.725"/>\n',                                                                      # 12
     u'[lipsmack] <lang:Spanish> ČSSD wrong tags in code error 9 </lang:Spanish> Over\n',  # 13
     u'<Sync time="86.623"/>\n',                                                                                               # 14
-    u'Flag of the United <lang:respect> States of America\n',                                                   # 15
-    u'<Sync time="88.487"/>\n',                                                                              # 16
-    u"We strongly believe it l\'&lt;initial&gt; ONU &lt;/initial&gt; is important,\n",    # 17
-    u'<Sync time="94.373"/>\n',                                                                              # 18
-    u'<Sync time="3415.916"/>\n',                                                               # 19
-    u'Your presence here to <lang:body> listen to the ten candidates.\n',    # 20
-    u'</Turn>\n',                                                                           # 21
-    u'<Turn startTime="3415.916" endTime="3416.904">\n',    # 22
-    u'<Sync time="3415.916"/>\n',    # 23
-    u'</Turn>\n',         # 24
-    u'</Section>\n',    # 25
-    u'</Episode>\n',   # 26
-    u'</Trans>\n',       # 27
+    u'<Background time="4.263" type="other" level="high"/>\n',                                           # 15
+    u'Flag of the United <lang:respect> States of America\n',                                                   # 16
+    u'<Sync time="88.487"/>\n',                                                                              # 17
+    u"We strongly believe it l\'&lt;initial&gt; ONU &lt;/initial&gt; is important,\n",    # 18
+    u'<Sync time="94.373"/>\n',                                                                              # 19
+    u'<Sync time="3415.916"/>\n',                                                               # 20
+    u'<Background time="4.263" type="other" level="high"/>\n',               # 21
+    u'Your presence here to <lang:body> listen to the ten candidates.\n',    # 22
+    u'</Turn>\n',                                                                           # 23
+    u'<Turn startTime="3415.916" endTime="3416.904">\n',    # 24
+    u'<Sync time="3415.916"/>\n',    # 25
+    u'</Turn>\n',         # 26
+    u'</Section>\n',     # 27
+    u'</Episode>\n',    # 28
+    u'</Trans>\n',       # 29
 ]
 EXCLUDE = [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 14,
-                    16, 17, 18,  19, 21, 22, 23, 24, 25, 26, 27]
-CATCH = [9, 13, 15, 20]
+                    15, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 29]
+CATCH = [9, 13, 16, 22]
 
 
 def test_command_20(tmpdir):
@@ -55,4 +57,4 @@ def test_command_20(tmpdir):
     for row in CATCH:
         assert row in found
 
-    #assert 0
+    assert 0

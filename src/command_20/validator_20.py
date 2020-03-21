@@ -11,21 +11,16 @@ def command20(filepath):
     found = {}
     with io.open (filepath, 'r', encoding='utf') as f:
         ln = 0
-        sync = False
         for line in f:
             line = line.strip()
 
-            if line.startswith(u'<Sync'):
-                sync = True
+            if line.startswith(u'<') and line.endswith(u'>'):
+                ln += 1
+                continue
 
-            elif sync and not line == u'</Turn>':
-                match = re.search(disallowed_punctuation, line)
-                if match is not  None:
-                    found[ln] = [20, 'Disallowed punctuation', match.group().encode('utf')]
-                sync = False
-
-            else:
-                sync = False
+            match = re.search(disallowed_punctuation, line)
+            if match is not  None:
+                found[ln] = [20, 'Disallowed punctuation', match.group().encode('utf')]
 
             ln += 1
 
@@ -33,6 +28,6 @@ def command20(filepath):
 
 
 if __name__ == '__main__':
-    found = command20('../files/test_5.trs')
+    found = command20('../files/P3_News_2020_01_13_1_part2.trs')
     for key in sorted(found.keys()):
         print(key, found[key])
