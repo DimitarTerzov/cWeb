@@ -36,14 +36,17 @@ def command5(filepath):
     found = {}
 
     with io.open(filepath, 'r', encoding='utf') as f:
-        ln = -1
+        ln = 0
         for line in f:
-            ln = ln + 1
-            line = line.rstrip("\r\n")
+            line = line.strip()
 
             matches = re.finditer(regex, line)
             for match in matches:
                 if match:
+                    content = match.group('content')
+                    content = content.replace('&lt;' , '<')
+                    content = content.replace('&gt;' , '>')
+                    content = content.encode('utf')
 
                     # Check for stucked words
                     if (
@@ -52,7 +55,7 @@ def command5(filepath):
                         not match.group('inner_text').endswith(" ") or
                         match.group('after_second') is not None
                     ):
-                        found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
+                        found[ln] = [5, "Tag syntax error", content]
                         continue
 
                     # Check spelling
@@ -62,24 +65,24 @@ def command5(filepath):
                         match.group('first_tag_lang') not in languages or
                         match.group('second_tag_lang') not in languages
                     ):
-                        found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
+                        found[ln] = [5, "Tag syntax error", content]
                         continue
 
                     # Check for wrong syntax `<lang:*>`
                     if (
-                        match.group('first_open') != '&lt;' or
-                        match.group('first_close') != '&gt;' or
-                        match.group('second_open') != '&lt;' or
-                        match.group('second_close') != '&gt;' or
+                        match.group('first_open') != '&lt;' and match.group('first_open') != '<' or
+                        match.group('first_close') != '&gt;' and match.group('first_close') != '>' or
+                        match.group('second_open') != '&lt;' and match.group('second_open') != '<' or
+                        match.group('second_close') != '&gt;' and match.group('second_close') != '>' or
                         match.group('forward') != '/'
                     ):
-                        found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
+                        found[ln] = [5, "Tag syntax error", content]
                         continue
 
 
                     inner_text = match.group('inner_text').strip()
                     if not inner_text:
-                        found[ln] = [5, 'Language tag is empty', match.group('content').encode('utf')]
+                        found[ln] = [5, 'Language tag is empty', content]
                         continue
 
                     # Check for initial tag inside lang tag
@@ -89,13 +92,15 @@ def command5(filepath):
                     # Check final punctuation
                     inner_text_end = inner_text[-1]
                     if inner_text_end in punctuation_marks:
-                        found[ln] = [5, "Final punctuation marks should be outside the tag", match.group('content').encode('utf')]
+                        found[ln] = [5, "Final punctuation marks should be outside the tag", content]
+
+            ln += 1
 
     return found
 
 
 if __name__ == "__main__":
-    found = command5('../files/test_5.trs')
+    found = command5('../files/CT_Newsevents_34.trs')
     keys = found.keys()
     sorted_keys = sorted(keys)
     print "Errors:", len(sorted_keys)
