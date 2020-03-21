@@ -9,8 +9,8 @@ def command7(filepath):
     # Allowed punctuation after tag
     punctuation = u"[:',!—_\".?\-;]"
     #default skip tags
-    skip_tags = u"(#uh|#um|#ah|#eh|#hm|#อื|#อ่|#เอ่)"
-    possible_missing_tag = u"(uh|um|ah|eh|hm)"
+    skip_tags = u"(#uh|#um|#ah|#er|#hm|#อื|#อ่|#เอ่)"
+    possible_missing_tag = u"(uh|um|ah|er|hm)"
     filler_re = re.compile(ur'[\W\w]?#\w*\W?', re.UNICODE)
 
     found = {}
