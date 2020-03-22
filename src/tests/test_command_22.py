@@ -39,4 +39,4 @@ def test_command_22(tmpdir):
     for key in sorted(found.keys()):
         print(key, found[key])
 
-    assert 0
+    #assert 0

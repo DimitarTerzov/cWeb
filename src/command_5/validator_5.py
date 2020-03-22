@@ -38,7 +38,7 @@ def command5(filepath):
     with io.open(filepath, 'r', encoding='utf') as f:
         ln = 0
         for line in f:
-            line = line.strip()
+            line = line.rstrip('\r\n')
 
             matches = re.finditer(regex, line)
             for match in matches:

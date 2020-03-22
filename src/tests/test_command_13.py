@@ -41,7 +41,7 @@ CONTENT = [
     u'[noise]\n',                                                           # 31
     u'<Sync time="81.713"/> \n',                                            # 32
     u'<Sync time="91.488"/>\n',                                             # 33
-    u' \n',                                                                 # 34
+    u'\n',                                                                 # 34
     u'<Sync time="101.239"/>\n',                                            # 35
     u'</Turn>\n',                                                           # 36
     u'<Turn startTime="114.68" endTime="135.900">\n',                       # 37
@@ -49,7 +49,7 @@ CONTENT = [
     u'</Turn>\n',                                                           # 39
     u'<Turn speaker="spk4" startTime="138.482" endTime="152.316">\n',       # 40
     u'<Sync time="138.482"/>\n',                                            # 41
-    u' \n',                                                                 # 42
+    u'\n',                                                                 # 42
     u'</Turn>\n',                                                           # 43
     u'<Turn speaker="spk5" startTime="152.316" endTime="156.423">\n',       # 44
     u'<Sync time="152.316"/>\n',                                            # 45
@@ -66,7 +66,7 @@ CONTENT = [
     u'</Turn>\n',                                                           # 56
     u'<Turn startTime="210.034" endTime="211.351">\n',                      # 57
     u'<Sync time="210.034"/>\n',                                            # 58
-    u' \n',                                                                 # 59
+    u'\n',                                                                 # 59
     u'</Turn>\n',                                                           # 60
     u'<Turn speaker="spk64" startTime="3391.391" endTime="3391.334">\n',    # 61
     u'<Sync time="3391.391"/>\n',                                           # 62

@@ -31,4 +31,4 @@ def test_command_14(tmpdir):
     assert 5 not in found
     assert 6 in found
 
-    assert 0
+    #assert 0

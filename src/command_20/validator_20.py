@@ -12,7 +12,7 @@ def command20(filepath):
     with io.open (filepath, 'r', encoding='utf') as f:
         ln = 0
         for line in f:
-            line = line.strip()
+            line = line.rstrip('\r\n')
 
             if line.startswith(u'<') and line.endswith(u'>'):
                 ln += 1
@@ -28,6 +28,6 @@ def command20(filepath):
 
 
 if __name__ == '__main__':
-    found = command20('../files/P3_News_2020_01_13_1_part2.trs')
+    found = command20('../files/RNZ_Insight_002.trs')
     for key in sorted(found.keys()):
         print(key, found[key])

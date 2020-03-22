@@ -16,7 +16,7 @@ def command4(filepath):
         ln = -1
         for line in f:
             ln = ln + 1
-            line = line.strip()
+            line = line.rstrip('\r\n')
 
             for m in re.finditer(regex, line):
                 error_tag = m.group('content')
