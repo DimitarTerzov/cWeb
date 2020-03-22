@@ -31,7 +31,7 @@ def command5(filepath):
 
     punctuation_marks = u""":,-'_!—".?;"""
 
-    regex = re.compile(ur'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;)|\<)(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;)|\>)(?P<inner_text>.*?)(?P<second_open>(?:&lt;)|\<)(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;)|\>)(?P<after_second>\b\w*\b)?)', re.UNICODE)
+    regex = re.compile(ur'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;))(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;))(?P<inner_text>.*?)(?P<second_open>(?:&lt;))(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;))(?P<after_second>\b\w*\b)?)', re.UNICODE)
 
     found = {}
 
@@ -68,12 +68,12 @@ def command5(filepath):
                         found[ln] = [5, "Tag syntax error", content]
                         continue
 
-                    # Check for wrong syntax `<lang:*>`
+                    # Check for wrong syntax
                     if (
-                        match.group('first_open') != '&lt;' and match.group('first_open') != '<' or
-                        match.group('first_close') != '&gt;' and match.group('first_close') != '>' or
-                        match.group('second_open') != '&lt;' and match.group('second_open') != '<' or
-                        match.group('second_close') != '&gt;' and match.group('second_close') != '>' or
+                        match.group('first_open') != '&lt;' or
+                        match.group('first_close') != '&gt;' or
+                        match.group('second_open') != '&lt;' or
+                        match.group('second_close') != '&gt;' or
                         match.group('forward') != '/'
                     ):
                         found[ln] = [5, "Tag syntax error", content]

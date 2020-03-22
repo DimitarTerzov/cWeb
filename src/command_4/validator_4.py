@@ -9,7 +9,7 @@ def command4(filepath):
     punctuation = u"""[^_'.,!?\s:;—"\-]"""
     allowed_characters_after_tag = u"s"
     allowed_expressions_before_tag = [u"l'"]
-    regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;|\<)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;|\>)(?P<inner_text>.*?)(?P<second_open>&lt;|\<)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;|\>)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
+    regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;)(?P<inner_text>.*?)(?P<second_open>&lt;)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
 
     found = {}
     with io.open(filepath, 'r', encoding='utf') as f:
@@ -26,10 +26,10 @@ def command4(filepath):
 
                 # Check tag syntax
                 if (
-                    m.group('first_open') != '&lt;' and m.group('first_open') != '<' or
-                    m.group('first_close') != '&gt;' and m.group('first_close') != '>' or
-                    m.group('second_open') != '&lt;' and m.group('second_open') != '<' or
-                    m.group('second_close') != '&gt;' and m.group('second_close') != '>' or
+                    m.group('first_open') != '&lt;' or
+                    m.group('first_close') != '&gt;' or
+                    m.group('second_open') != '&lt;' or
+                    m.group('second_close') != '&gt;' or
                     m.group('forward') != '/'
                 ):
                     found[ln] = [4, 'Initial tag error', error_tag]
@@ -100,7 +100,7 @@ def command4(filepath):
 
 
 if __name__ == '__main__':
-    found = command4('../files/test_5.trs')
+    found = command4('../files/channel0_824.trs')
     keys = found.keys()
     keys = sorted(keys)
     print len(keys)

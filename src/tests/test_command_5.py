@@ -49,7 +49,7 @@ CONTENT = [
     u'<Sync time="3270.24"/>\n', # 35
     u'The first step &lt;lang:English&gt; to ČSSD that is a, feasibility, study—  &lt;/lang:English&gt; to that\n', # 36
     u'<Sync time="3336.788"/>\n', # 37
-    u'There &lt;lang:English&gt; word, word (()) <initial> ČSSD </initial>, etc. &lt;/lang:English&gt;\n', # 38
+    u'There &lt;lang:English&gt; word, word (()) <initial> ČSSD <initial>, etc. &lt;/lang:English&gt;\n', # 38
     u'<Sync time="3349.75"/>\n', # 39
     u"It is your &lt;lang:English&gt; ČSSD perspective &lt;lang:English&gt; lang tag inside lang \
     tag &lt;/lang:English&gt; ČSSD and voice &lt;/lang:English&gt; perspective\n", # 40

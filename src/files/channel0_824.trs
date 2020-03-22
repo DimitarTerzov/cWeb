@@ -17,7 +17,7 @@
 </Turn>
 <Turn speaker="spk1" startTime="10.396" endTime="14.692">
 <Sync time="10.396"/>
-В емисията ще видите. Десетки хиляди без ток във Флорида.
+В емисията ще видите. Десетки <lang:blahblah>хиляди без ток във Флорида.
 </Turn>
 <Turn startTime="14.692" endTime="17.719">
 <Sync time="14.692"/>
@@ -25,7 +25,7 @@
 </Turn>
 <Turn speaker="spk1" startTime="17.719" endTime="20.768">
 <Sync time="17.719"/>
-Тридневен траур в Мексико. [music]
+Тридневен траур <lang:strong>в Мексико. [music]
 </Turn>
 <Turn startTime="20.768" endTime="25.357">
 <Sync time="20.768"/>
@@ -33,7 +33,7 @@
 </Turn>
 <Turn speaker="spk1" startTime="25.357" endTime="28.504">
 <Sync time="25.357"/>
-Ремонтират улица Богориди. [music]
+Ремонтират улица <initial>Богориди<initial>. [music]
 </Turn>
 <Turn startTime="28.504" endTime="46.553">
 <Sync time="28.504"/>
