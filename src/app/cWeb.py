@@ -46,15 +46,15 @@ def list_files(path):
 #Disallowed characters
 def command1(filepath):
     ## String: Update with new chars between the regex brackets [..] ##
-    bad_chars = "[£$@}%^&*{…–—;:\"/❛❜❝❞〃״＇״‷⁗‴「」『』„”‚“”‘„”»«""‘“”«»‹›„““”‘‹›«»„（）［］｛｝｟｠⦅⦆〚〛⦃⦄「」〈〉《》【】〔〕⦗⦘『』〖〗〘〙｢｣⟦⟧⟨⟩⟪⟫⟮⟯⟬⟭⌈⌉⌊⌋⦇⦈⦉⦊❨❩❪❫❴❵❬❭❮❯❰❱❲❳﴾﴿〈〉⦑⦒⧼⧽﹙﹚﹛﹜﹝﹞⁽⁾₍₎⦋⦌⦍⦎⦏⦐⁅⁆⸢⸣⸤⸥⟅⟆⦓⦔⦕⦖⸦⸧⸨⸩⧘⧙⧚⧛᚛᚜༺༻༼༽⸜⸝⸌⸍⸂⸃⸄⸅⸉⸊⏜⏝⎴⎵⏞⏟⏠⏡﹁ ﹂﹃﹄︹︺︻︼︗︘︿﹀︽︾﹇﹈︷︸]"
+    bad_chars = "[£$@}%^&*{…–—;:\"/❛❜❝❞〃״＇״‷⁗‴「」『』„”‚“”‘„”»«""‘“”«»‹›„““”‘‹›«»„（）［］｛｝｟｠⦅⦆〚〛⦃⦄「」〈〉《》【】〔〕⦗⦘『』〖〗〘〙｢｣⟦⟧⟨⟩⟪⟫⟮⟯⟬⟭⌈⌉⌊⌋⦇⦈⦉⦊❨❩❪❫❴❵❬❭❮❯❰❱❲❳﴾﴿〈〉⦑⦒⧼⧽﹙﹚﹛﹜﹝﹞⁽⁾₍₎⦋⦌⦍⦎⦏⦐⁅⁆⸢⸣⸤⸥⟅⟆⦓⦔⦕⦖⸦⸧⸨⸩⧘⧙⧚⧛᚛᚜༺༻༼༽⸜⸝⸌⸍⸂⸃⸄⸅⸉⸊⏜⏝⎴⎵⏞⏟⏠⏡﹁ ﹂﹃﹄︹︺︻︼︗︘︿﹀︽︾﹇﹈︷︸]".decode('utf')
     ## strip off any remaining whitespace char
-    s = "".join(bad_chars.split())
+    s = u"".join(bad_chars.split())
     ## from utf-8 to unicode encode
-    regex = unicode(s, "utf-8")
+    regex = s
 
     found = {}
 
-    with open(filepath) as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
@@ -70,23 +70,24 @@ def command1(filepath):
             p2 = line.find('&gt;')
             while p1 >= 0 and p2 > p1:
                 if (p2 + 4) == len(line):
-                    line = ''
+                    line = u''
                 else:
                     line = line[0:p1] + line[p2+4]
                 p1 = line.find('&lt;')
                 p2 = line.find('&gt;')
 
-            uniline = unicode(line,"utf-8")
+            #uniline = unicode(line,"utf-8")
 
-            dissch = re.findall(regex, uniline)
-            s = ''.join(dissch)
+            dissch = re.findall(regex, line)
+            s = u''.join(dissch)
 
             if len(dissch) > 1:
-                found[ln] = [1, 'Disallowed characters', s.encode("utf-8") + '/' + line]
+                found[ln] = [1, 'Disallowed characters', s.encode("utf-8") + '/' + line.encode('utf')]
             if len(dissch)==1:
-                found[ln] = [1, 'Disallowed character', s.encode("utf-8") + '/' + line ]
+                found[ln] = [1, 'Disallowed character', s.encode("utf-8") + '/' + line.encode('utf')]
 
     return found
+
 
 #Bracket hunter
 def command2(filepath):
@@ -155,19 +156,22 @@ def command3(filepath):
 def command4(filepath):
 
     punctuation = u"""[^_'.,!?\s:;—"\-]"""
-    allowed_characters_after_tag = "s"
-    allowed_expressions_before_tag = ["l'"]
-    regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;|\<)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;|\>)(?P<inner_text>.*?)(?P<second_open>&lt;|\<)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;|\>)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
+    allowed_characters_after_tag = u"s"
+    allowed_expressions_before_tag = [u"l'"]
+    regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;)(?P<inner_text>.*?)(?P<second_open>&lt;)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
 
     found = {}
     with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
-            line = line.rstrip("\r\n")
+            line = line.rstrip('\r\n')
 
             for m in re.finditer(regex, line):
-                error_tag = m.group('content').encode('utf')
+                error_tag = m.group('content')
+                error_tag = error_tag.replace('&lt;', '<')
+                error_tag = error_tag.replace('&gt;', '>')
+                error_tag = error_tag.encode('utf')
 
                 # Check tag syntax
                 if (
@@ -176,7 +180,7 @@ def command4(filepath):
                     m.group('second_open') != '&lt;' or
                     m.group('second_close') != '&gt;' or
                     m.group('forward') != '/'
-                    ):
+                ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
@@ -184,7 +188,7 @@ def command4(filepath):
                 if (
                     m.group('first_tag') != 'initial' or
                     m.group('second_tag') != 'initial'
-                    ):
+                ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
@@ -192,7 +196,7 @@ def command4(filepath):
                 if (
                     m.group('before_first') is not None and
                     not m.group('before_first') in allowed_expressions_before_tag
-                    ):
+                ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
@@ -201,7 +205,7 @@ def command4(filepath):
                     m.group('after_second') is not None and
                     not m.group('after_second') in allowed_characters_after_tag and
                     not m.group('after_second').startswith(u'_')
-                    ):
+                ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
@@ -209,7 +213,7 @@ def command4(filepath):
                 if (
                     not m.group('inner_text').startswith(' ') or
                     not m.group('inner_text').endswith(' ')
-                    ):
+                ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
@@ -223,22 +227,22 @@ def command4(filepath):
                 elif len(inner_content) == 1:
                     content = inner_content[0]
                     # Catch anything different from pattern `W`
-                    if len(content) == 1 and re.match(r'\W', content, re.UNICODE):
+                    if len(content) == 1 and re.match(ur'\W', content, re.UNICODE):
                         found[ln] = [4, 'Initial tag error', error_tag]
 
                     # Catch anything different from pattern `WE` and `W.`
-                    elif len(content) == 2 and not re.match(r'^\w+\.?$', content, re.UNICODE):
+                    elif len(content) == 2 and not re.match(ur'^\w+\.?$', content, re.UNICODE):
                         found[ln] = [4, 'Initial tag error', error_tag]
 
                     # Catch anything different from pattern `WEB`, `Ph.D.`
                     elif len(content) > 2:
-                        if re.match(r'[\w.]*', content, re.UNICODE).group() != content:
+                        if re.match(ur'[\w.]*', content, re.UNICODE).group() != content:
                             found[ln] = [4, 'Initial tag error', error_tag]
 
                 # If text doesn't feet pattern `W. E. B.` -> error
                 elif len(inner_content) > 1:
                     for content in inner_content:
-                        if not re.match(r'^\w\.$', content, re.UNICODE):
+                        if not re.match(ur'^\w\.$', content, re.UNICODE):
                             found[ln] = [4, 'Initial tag error', error_tag]
 
     return found
@@ -272,19 +276,22 @@ def command5(filepath):
 
     punctuation_marks = u""":,-'_!—".?;"""
 
-    regex = re.compile(ur'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;)|\<)(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;)|\>)(?P<inner_text>.*?)(?P<second_open>(?:&lt;)|\<)(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;)|\>)(?P<after_second>\b\w*\b)?)', re.UNICODE)
+    regex = re.compile(ur'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;))(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;))(?P<inner_text>.*?)(?P<second_open>(?:&lt;))(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;))(?P<after_second>\b\w*\b)?)', re.UNICODE)
 
     found = {}
 
     with io.open(filepath, 'r', encoding='utf') as f:
-        ln = -1
+        ln = 0
         for line in f:
-            ln = ln + 1
-            line = line.rstrip("\r\n")
+            line = line.rstrip('\r\n')
 
             matches = re.finditer(regex, line)
             for match in matches:
                 if match:
+                    content = match.group('content')
+                    content = content.replace('&lt;' , '<')
+                    content = content.replace('&gt;' , '>')
+                    content = content.encode('utf')
 
                     # Check for stucked words
                     if (
@@ -292,8 +299,8 @@ def command5(filepath):
                         not match.group('inner_text').startswith(" ") or
                         not match.group('inner_text').endswith(" ") or
                         match.group('after_second') is not None
-                        ):
-                        found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
+                    ):
+                        found[ln] = [5, "Tag syntax error", content]
                         continue
 
                     # Check spelling
@@ -302,25 +309,25 @@ def command5(filepath):
                         match.group('second_tag') != 'lang' or
                         match.group('first_tag_lang') not in languages or
                         match.group('second_tag_lang') not in languages
-                        ):
-                        found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
+                    ):
+                        found[ln] = [5, "Tag syntax error", content]
                         continue
 
-                    # Check for wrong syntax `<lang:*>`
+                    # Check for wrong syntax
                     if (
                         match.group('first_open') != '&lt;' or
                         match.group('first_close') != '&gt;' or
                         match.group('second_open') != '&lt;' or
                         match.group('second_close') != '&gt;' or
                         match.group('forward') != '/'
-                        ):
-                        found[ln] = [5, "Tag syntax error", match.group('content').encode('utf')]
+                    ):
+                        found[ln] = [5, "Tag syntax error", content]
                         continue
 
 
                     inner_text = match.group('inner_text').strip()
                     if not inner_text:
-                        found[ln] = [5, 'Language tag is empty', match.group('content').encode('utf')]
+                        found[ln] = [5, 'Language tag is empty', content]
                         continue
 
                     # Check for initial tag inside lang tag
@@ -330,10 +337,11 @@ def command5(filepath):
                     # Check final punctuation
                     inner_text_end = inner_text[-1]
                     if inner_text_end in punctuation_marks:
-                        found[ln] = [5, "Final punctuation marks should be outside the tag", match.group('content').encode('utf')]
+                        found[ln] = [5, "Final punctuation marks should be outside the tag", content]
+
+            ln += 1
 
     return found
-
 
 
 #Numeral hunter
@@ -341,7 +349,7 @@ def command6(filepath):
 
     found = {}
 
-    with open(filepath) as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
@@ -352,9 +360,21 @@ def command6(filepath):
                 #we skip everythin between <>
                 continue
 
-            for word in line.split():
-                if re.match('\S*\d+\S*', word) and not (word.startswith('<') and word.endswith('>')):
-                    found[ln] = [6, 'Numerals not allowed', word]
+            words = re.findall(ur'\b\w+\b', line, re.UNICODE)
+            for word in words:
+
+                if re.match(ur'\S*\d+\S*', word, re.UNICODE) and not (word.startswith('<') and word.endswith('>')):
+
+                    index = words.index(word)
+                    if index > 0:
+                        content = u'{} {}'.format(words[index - 1], word).encode('utf')
+                    elif index == 0 and len(words) > 1:
+                        content = u'{} {}'.format(word, words[1]).encode('utf')
+                    else:
+                        content = u'{}'.format(word).encode('utf')
+
+                    found[ln] = [6, 'Numerals not allowed', content]
+
     return found
 
 
@@ -364,16 +384,16 @@ def command7(filepath):
     # Allowed punctuation after tag
     punctuation = u"[:',!—_\".?\-;]"
     #default skip tags
-    skip_tags = u"(#uh|#um|#ah|#eh|#hm)"
-    possible_missing_tag = u"(uh|um|ah|eh|hm)"
+    skip_tags = u"(#uh|#um|#ah|#er|#hm|#อื|#อ่|#เอ่)"
+    possible_missing_tag = u"(uh|um|ah|er|hm)"
     filler_re = re.compile(ur'[\W\w]?#\w*\W?', re.UNICODE)
 
     found = {}
     in_section = False
     with io.open(filepath, 'r', encoding='utf') as f:
-        ln = -1
+        ln = 0
         for line in f:
-            ln = ln + 1
+            ln += 1
             line = line.rstrip("\r\n")
 
             if '<Section' in line:
@@ -392,7 +412,7 @@ def command7(filepath):
                 if (
                     not re.match(ur'^{0}{1}?$'.format(skip_tags, punctuation), target, re.UNICODE)
                     and in_section
-                    ):
+                ):
                     found[ln] = [7, 'Invalid filler tag', target.encode('utf')]
                     continue
 
@@ -402,7 +422,6 @@ def command7(filepath):
                     found[ln] = [7, 'Possible filler tag missing #', match.group().encode('utf')]
 
     return found
-
 
 
 #White space validator
@@ -621,11 +640,11 @@ def command13(filepath):
     sync_count = 0
     end_time = 0
 
-    with io.open(filepath, 'r') as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = 0
         for line in f:
             ln += 1
-            line = line.strip()
+            line = line.rstrip('\r\n')
 
             if '<Turn' in line:
                 start_time_match = re.search(ur'(?P<content>startTime\s*=\s*"\s*(?P<value>[\d.]+?)\s*")', line, re.UNICODE)
@@ -644,7 +663,7 @@ def command13(filepath):
 
                 sync_count = 0
 
-            elif 'Sync' in line and not sync:
+            elif line.startswith('<Sync') and not sync:
                 sync = True
                 sync_count += 1
                 new_sync = re.search(ur'(?P<content>Sync\s*time\s*=\s*"\s*(?P<value>[\d.]+?)\s*")', line, re.UNICODE)
@@ -662,7 +681,7 @@ def command13(filepath):
                     if (
                         sync_time_value <= float(old_sync_value.group()) or
                         sync_time_value > end_time
-                        ):
+                    ):
                         found[ln] = [13, "Segment out of sync", new_sync_time.encode('utf')]
 
                 sync_time = new_sync_time
@@ -672,13 +691,13 @@ def command13(filepath):
                 sync = False
                 sync_count = 0
 
-            elif 'Sync' in line and sync:
+            elif line.startswith('<Sync') and sync:
                 found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
                 sync_count += 1
                 new_sync = re.search(ur'(?P<content>Sync\s*time=\s*"\s*(?P<value>[\d.]+?)\s*")', line, re.UNICODE)
                 sync_time = new_sync.group('content')
 
-            elif 'Sync' not in line and line != "</Turn>":
+            elif not line.startswith('<Sync') and line != "</Turn>":
                 if line == '':
                     found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
 
@@ -719,7 +738,7 @@ def command14(filepath):
     found = {}
     cur_time = 0
 
-    with io.open(filepath,'r') as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = 1
         for line in f:
             line = line.rstrip("\r\n")
@@ -832,7 +851,6 @@ def command16(filepath):
                     found[ln] = [16, 'null accent', '']
     return found
 
-
 #Short turns
 def command17(filepath):
 
@@ -904,29 +922,26 @@ def command19(filepath):
 
 
 def command20(filepath):
-    # WWpunctuatio found in this file at: line 13
-    regex = re.compile("&lt;initial&gt;[a-zA-z\s]*" + WWpunctuatio + "+[a-zA-z\s]*&lt;\/initial&gt;|&lt;lang:\s?[a-zA-Z]*&gt;.*" + WWpunctuatio + "+\s+&lt;\/lang:\s?[a-zA-z]*&gt;")
+    disallowed_punctuation = re.compile(ur"<.*?>", re.UNICODE)
 
     found = {}
-
-    with open (filepath, 'r') as f:
-        ln = -1
+    with io.open (filepath, 'r', encoding='utf') as f:
+        ln = 0
         for line in f:
-            ln = ln + 1
-            line = line.rstrip("\r\n")
+            line = line.rstrip('\r\n')
 
-            for m in re.findall(regex, line):
+            if line.startswith(u'<') and line.endswith(u'>'):
+                ln += 1
+                continue
 
-                if re.match("&lt;initial&gt;", m):
+            match = re.search(disallowed_punctuation, line)
+            if match is not  None:
+                found[ln] = [20, 'Disallowed punctuation', match.group().encode('utf')]
 
-
-                    if not re.search("&lt;initial&gt;\s?[A-Za-zÀ-ÖØ-öø-ÿ]{1}\.\s?&lt;\/initial&gt;", line):
-                        found[ln] = [20, 'Disallowed punctuation inside initial tag', m]
-                    else:
-                        if re.search("&lt;initial&gt;\s?[A-Za-zÀ-ÖØ-öø-ÿ]{1}\.\s?&lt;\/initial&gt;\s*$", line) != None:
-                            found[ln] = [20, 'Disallowed punctuation inside initial tag', m]
+            ln += 1
 
     return found
+
 
 #Unused speakers
 def command21(filepath):
@@ -985,7 +1000,7 @@ def command22(filepath):
 
 
 def command23(filepath):
-    bad_strings = ['Who nb=', 'Topic id=', 'Event' 'mode=', 'channel=', 'fidelity=']
+    bad_strings = ['Who nb=', 'Topic id=', 'Event' 'mode=', 'channel=', 'fidelity=', 'Background time=']
     found = {}
     regex = re.compile(".*<(.*)>.*")
 
@@ -1016,6 +1031,9 @@ def command23(filepath):
                             break
                         elif bad == 'fidelity=':
                             found[ln] = [23, 'Do not change the fidelity setting', '(' + bad + ') | ' + line]
+                            break
+                        elif bad == 'Background time=':
+                            found[ln] = [23, 'Disallowed use of Transcriber', '(' + bad + ') | ' + line]
                             break
     return found
 
@@ -1072,7 +1090,7 @@ def command24(filepath):
 
 print "Content-type:text/html; charset=UTF-8\r\n\r\n"
 
-cmd_ids = range(1,25)
+cmd_ids = range(1,24)
 
 # Create instance of FieldStorage
 form = cgi.FieldStorage()
@@ -1138,14 +1156,14 @@ for f in json_files:
         sync_times = build_sync_times(f)
 
         file_div = '<table border="1">' \
-            + '<tr><th>#</th><th>Line no.</th><th>Sync time</th><th>Error Code</th><th>Error Type</th><th>Content</th></tr>';
+                 + '<tr><th>#</th><th>Line no.</th><th>Sync time</th><th>Error Code</th><th>Error Type</th><th>Content</th></tr>';
 
         item_no = 0
         for found in res:
             for ln in sorted(found.keys()):
                 res = found[ln]
                 file_div += '<tr><td>' + str(item_no)       + '</td>' + \
-                    '<td>' + str(ln).ljust(5)           + '</td>' + \
+                        '<td>' + str(ln).ljust(5)           + '</td>' + \
                         '<td>' + cgi.escape(sync_times[ln]) + '</td>' + \
                         '<td>' + str(res[0])                + '</td>' + \
                         '<td>' + res[1]                     + '</td>' + \
