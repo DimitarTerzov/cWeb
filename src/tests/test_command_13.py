@@ -4,7 +4,7 @@ from __future__ import print_function
 import pytest
 
 from utils import temporary_file
-from problem_13.validator_13 import command13
+from command_13.validator_13 import command13
 
 
 CONTENT = [

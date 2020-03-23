@@ -3,7 +3,7 @@ from __future__ import print_function
 
 import pytest
 
-from problem_15.validator_15 import command15
+from command_15.validator_15 import command15
 from utils import temporary_file
 
 
