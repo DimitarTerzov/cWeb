@@ -36,13 +36,14 @@ def command15(filepath):
             for match in double_tilde:
                 found[ln] = [15, 'Double tilde', match.encode('utf')]
 
-            touching_punctuation_before = re.finditer(match_punctuation_before, line)
-            for match in touching_punctuation_before:
-                found[ln] = [15, 'Punctuation touch tilde', match.group().encode('utf')]
+            if re.search(match_punctuation_before, line) is not None:
+                for word in line.split():
+                    if u'~' in word and not word.endswith(u'&gt;~'):
+                        found[ln] = [15, 'Punctuation touching tilde', word.encode('utf')]
 
             touching_punctuation_after = re.finditer(match_punctuation_after, line)
             for match in touching_punctuation_after:
-                found[ln] = [15, 'Punctuation touch tilde', match.group().encode('utf')]
+                found[ln] = [15, 'Punctuation touching tilde', match.group().encode('utf')]
 
             fillers = re.finditer(match_filler, line)
             for match in fillers:

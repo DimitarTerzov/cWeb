@@ -23,18 +23,19 @@ CONTENT =[
     u"word ~ \n",               # 12
     u"hello ~~.\n",             # 13
     u"~~hi\n",                  # 14
-    u"where ~Tilde milde\n",           # 15
-    u"So,~ not allowed\n",             # 16
-    u"also .~ not allowed\n",          # 17
-    u"this ,~. too not allowed\n",     # 18
+    u"where ~Tilde milde\n",              # 15
+    u"So,~ not allowed\n",                  # 16
+    u"also .~ not allowed\n",               # 17
+    u"this ,~. too not allowed\n",         # 18
     u"filler #uh~ tilde not allowed\n"   # 19
-    u"filler #uhaa~. dot\n"              # 20
-    u"filler #uha~a bla\n"               # 21
-    u"[noise]~. ala bala\n"              # 22
-    u"ala ~. bala\n",                    # 23
-    u",~. bala\n",                       # 24
-    u"~. alabala\n",                     # 25
-    u"~ Čhalai babuli"                   # 26
+    u"filler #uhaa~. dot\n"                   # 20
+    u"filler #uha~a bla\n"                     # 21
+    u"[noise]~. ala bala\n"                    # 22
+    u"ala ~. bala\n",                              # 23
+    u",~. bala\n",                                   # 24
+    u"~. alabala\n",                               # 25
+    u"~ Čhalai babuli\n",                       # 26
+    u'of &lt;initial&gt; U &lt;/initial&gt;~ people\n'    # 27
 ]
 
 
@@ -57,17 +58,18 @@ def test_command15(tmpdir):
     assert "hello ~~" in found[13]
     assert "~~hi" in found[14]
     assert not 15 in found
-    assert ",~" in found[16]
+    assert "So,~" in found[16]
     assert ".~" in found[17]
     assert ",~." in found[18]
     assert "#uh~" in found[19]
     assert "#uhaa~" in found[20]
     assert "#uha~" in found[21]
-    assert "]~." in found[22]
+    assert "[noise]~." in found[22]
     assert "~." in found[23]
     assert ",~." in found[24]
     assert "~." in found[25]
     assert "~ " in found[26]
+    assert 27 not in found
     assert len(found) == 19
 
     #assert 0

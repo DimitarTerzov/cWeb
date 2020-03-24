@@ -47,6 +47,7 @@ CONTENT = [
     u'&lt;initial&gt; AY &lt;/initial&gt;_liikkeen\n',                                    # 36
     u'&lt;initial&gt; AY &lt;/initial&gt;—liikkeen\n',                                   # 37
     u'Ремонтират улица <initial>Богориди<initial>.\n',                       # 38
+    u'&lt;initial&gt; AY &lt;/initial&gt;~ ',                                                  # 39
 ]
 
 
@@ -98,3 +99,4 @@ def test_command4(tmpdir):
     assert 36 not in found
     assert 37 not in found
     assert 38 not in found
+    assert 39 not in found
