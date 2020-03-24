@@ -20,18 +20,37 @@ BasicPunctuation = "[.,，。\-?! ]"
 def build_sync_times(filepath):
     sync_t = {}
 
-    last_sync = ""
+    last_sync = u""
 
-    with open(filepath) as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
 
             line = line.rstrip("\r\n")
-            if re.match("<Sync time=\"[\s\d\.]+\"/>", line):
+            if re.match(ur"<Sync time=\"[\s\d\.]+\"/>", line, re.UNICODE):
                 last_sync = line
-            sync_t[ln] = last_sync
+
+            sync_t[ln] = last_sync.encode('utf')
+
     return sync_t
+
+
+def build_audio_times(sync_times):
+    audio_times = {}
+
+    for key, value in sync_times.iteritems():
+        if value:
+            audio_times[key] = get_audio_time(value)
+        else:
+            audio_times[key] = value
+
+    return audio_times
+
+
+def get_audio_time(sync_time):
+    time = re.search(r'\d+', sync_time).group()
+    return str(datetime.timedelta(seconds=int(time)))
 
 
 def list_files(path):
@@ -155,7 +174,7 @@ def command3(filepath):
 #Initial tag validator
 def command4(filepath):
 
-    punctuation = u"""[^_'.,!?\s:;—"\-]"""
+    punctuation = u"""[^_'.,!?\s:;—"\-~]"""
     allowed_characters_after_tag = u"s"
     allowed_expressions_before_tag = [u"l'"]
     regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;)(?P<inner_text>.*?)(?P<second_open>&lt;)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
@@ -791,13 +810,14 @@ def command15(filepath):
             for match in double_tilde:
                 found[ln] = [15, 'Double tilde', match.encode('utf')]
 
-            touching_punctuation_before = re.finditer(match_punctuation_before, line)
-            for match in touching_punctuation_before:
-                found[ln] = [15, 'Punctuation touch tilde', match.group().encode('utf')]
+            if re.search(match_punctuation_before, line) is not None:
+                for word in line.split():
+                    if u'~' in word and not word.endswith(u'&gt;~'):
+                        found[ln] = [15, 'Punctuation touching tilde', word.encode('utf')]
 
             touching_punctuation_after = re.finditer(match_punctuation_after, line)
             for match in touching_punctuation_after:
-                found[ln] = [15, 'Punctuation touch tilde', match.group().encode('utf')]
+                found[ln] = [15, 'Punctuation touching tilde', match.group().encode('utf')]
 
             fillers = re.finditer(match_filler, line)
             for match in fillers:
@@ -1090,7 +1110,7 @@ def command24(filepath):
 
 print "Content-type:text/html; charset=UTF-8\r\n\r\n"
 
-cmd_ids = range(1,24)
+cmd_ids = range(1,25)
 
 # Create instance of FieldStorage
 form = cgi.FieldStorage()
@@ -1154,9 +1174,10 @@ for f in json_files:
         all_stats['valid_files'] = all_stats['valid_files'] + 1
     else:
         sync_times = build_sync_times(f)
+        audio_times = build_audio_times(sync_times)
 
         file_div = '<table border="1">' \
-                 + '<tr><th>#</th><th>Line no.</th><th>Sync time</th><th>Error Code</th><th>Error Type</th><th>Content</th></tr>';
+                 + '<tr><th>#</th><th>Line no.</th><th>Audio time</th><th>Sync time</th><th>Error Code</th><th>Error Type</th><th>Content</th></tr>';
 
         item_no = 0
         for found in res:
@@ -1164,6 +1185,7 @@ for f in json_files:
                 res = found[ln]
                 file_div += '<tr><td>' + str(item_no)       + '</td>' + \
                         '<td>' + str(ln).ljust(5)           + '</td>' + \
+                        '<td>' + audio_times[ln] + '</td>' +\
                         '<td>' + cgi.escape(sync_times[ln]) + '</td>' + \
                         '<td>' + str(res[0])                + '</td>' + \
                         '<td>' + res[1]                     + '</td>' + \
