@@ -6,10 +6,7 @@ import io
 #Initial tag validator
 def command4(filepath):
 
-    punctuation = u"""[^_'.,!?\s:;—"\-~]"""
-    allowed_characters_after_tag = u"s"
-    allowed_expressions_before_tag = [u"l'"]
-    regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;)(?P<inner_text>.*?)(?P<second_open>&lt;)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
+    regex = re.compile(ur"(?P<content>(?P<before_first>\s)?(?P<first_open>&lt;)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;)(?P<inner_text>.*?)(?P<second_open>&lt;)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;)(?P<after_second>\s)?)", re.UNICODE)
 
     found = {}
     with io.open(filepath, 'r', encoding='utf') as f:
@@ -43,27 +40,17 @@ def command4(filepath):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
-                # Check for disallowed expressions before tag
                 if (
-                    m.group('before_first') is not None and
-                    not m.group('before_first') in allowed_expressions_before_tag
-                ):
-                    found[ln] = [4, 'Initial tag error', error_tag]
-                    continue
-
-                # Check for disallowed expressions after tag
-                if (
-                    m.group('after_second') is not None and
-                    not m.group('after_second') in allowed_characters_after_tag and
-                    not m.group('after_second').startswith(u'_')
+                    m.group('before_first') is not None or
+                    m.group('after_second') is not None
                 ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
                 # Check for incorrect white space
                 if (
-                    not m.group('inner_text').startswith(' ') or
-                    not m.group('inner_text').endswith(' ')
+                    m.group('inner_text').startswith(u' ') or
+                    m.group('inner_text').endswith(u' ')
                 ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
@@ -100,7 +87,7 @@ def command4(filepath):
 
 
 if __name__ == '__main__':
-    found = command4('../files/test_4.trs')
+    found = command4('../files/Daai_Religion_08.trs')
     keys = found.keys()
     keys = sorted(keys)
     print len(keys)
