@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Trans SYSTEM "trans-14.dtd">
+<Trans scribe="Administrator" audio_filename="FTV_JiGongDrama_011" version="1" version_date="200314">
+<Speakers>
+<Speaker id="spk1" name="阿福" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk2" name="衙役" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk3" name="師爺" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk4" name="濟公" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk5" name="商販" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk6" name="眾人" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk7" name="包子生" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk11" name="黑衣人" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk12" name="蕭應龍" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk13" name="縣令" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk14" name="柳夫人" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk15" name="明月" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk16" name="壞人" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk17" name="清風" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk18" name="小販" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk19" name="算命" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk20" name="差役" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk21" name="雜貨老闆" check="no" type="female" dialect="native" accent="" scope="local"/>
+</Speakers>
+<Episode>
+<Section type="report" startTime="0" endTime="1182.8476875">
+<Turn startTime="0" endTime="14.755">
+<Sync time="0"/>
+[music] 
+<Sync time="11.577"/>
+[music] 
+</Turn>
+<Turn speaker="spk1" startTime="14.755" endTime="33.263">
+<Sync time="14.755"/>
+菩薩，您一定要原諒我
+<Sync time="18.209"/>
+我是為了救師傅，不得已才會這麼做
+<Sync time="21.978"/>
+您一定要保佑我
+<Sync time="31.423"/>
+[music] 
+</Turn>
+<Turn speaker="spk2" startTime="33.263" endTime="37.157">
+<Sync time="33.263"/>
+師爺，為何還未抓到刺客，縣太爺就叫我們放了瘋濟公
+</Turn>
+<Turn speaker="spk3" startTime="37.157" endTime="61.447">
+<Sync time="37.157"/>
+你以為我們會這麼笨麼
+<Sync time="39.567"/>
+我們會放了瘋濟公，當然是另有用意
+<Sync time="44.033"/>
+現在我已經派人跟蹤他，相信很快就能抓到那兩個刺客
+<Sync time="49.787"/>
+[laugh]
+<Sync time="51.235"/>
+這個阿福真是滿嘴胡言
+<Sync time="57.342"/>
+說什麼急著救他師傅，怎麼至今人還沒到
+</Turn>
+<Turn speaker="spk2" startTime="61.447" endTime="67.562">
+<Sync time="61.447"/>
+對了，師爺
+<Sync time="63.526"/>
+我們都把瘋濟癲放了，為什麼你還叫阿福拿錢來放人啊
+</Turn>
+<Turn speaker="spk3" startTime="67.562" endTime="76.002">
+<Sync time="67.562"/>
+若講到你懂，鬍鬚就打結了
+<Sync time="73.051"/>
+[laugh]
+</Turn>
+<Turn speaker="spk1" startTime="76.002" endTime="94.283">
+<Sync time="76.002"/>
+師爺，師爺，我來了，我來了
+<Sync time="78.406"/>
+快，幫我拿，重得要命
+<Sync time="85.301"/>
+[noise]
+</Turn>
+<Turn speaker="spk3" startTime="94.283" endTime="96.158">
+<Sync time="94.283"/>
+這袋子裏裝什麼東西
+</Turn>
+<Turn speaker="spk1" startTime="96.158" endTime="102.087">
+<Sync time="96.158"/>
+錢啊，你不是說要救我師傅要一千兩銀子
+</Turn>
+<Turn speaker="spk3" startTime="102.087" endTime="120.234">
+<Sync time="102.087"/>
+什麼
+<Sync time="103.637"/>
+你把一千兩銀子裝在布袋裏啊
+<Sync time="107.556"/>
+你怎麼會這麼笨
+<Sync time="112.263"/>
+你不會把這些銀兩拿到錢莊換成銀票，難怪你會背得喘籲籲
+</Turn>
+<Turn speaker="spk1" startTime="120.234" endTime="131.549">
+<Sync time="120.234"/>
+沒辦法啊，師爺，你給我的期限才多久
+<Sync time="126.104"/>
+半天而已耶，我等得到你就該偷笑了
+</Turn>
+<Turn speaker="spk3" startTime="131.549" endTime="159.766">
+<Sync time="131.549"/>
+好了，廢話少說，快將布袋打開，好讓他們點一點
+<Sync time="137.774"/>
+[music]
+<Sync time="150.615"/>
+[music]
+<Sync time="156.052"/>
+喂，你這是什麼意思
+</Turn>
+<Turn speaker="spk1" startTime="159.766" endTime="168.676">
+<Sync time="159.766"/>
+錢啊
+<Sync time="161.6"/>
+你別看不起這一尊，他在我們寺裏已經超過五百年
+<Sync time="166.676"/>
+價值絕對不只一千兩耶
+</Turn>
+<Turn speaker="spk3" startTime="168.676" endTime="189.808">
+<Sync time="168.676"/>
+好了，臭小子
+<Sync time="171.263"/>
+你以為我會這麼傻，拿你從寺廟裏偷出的佛像去變賣
+<Sync time="176.675"/>
+好讓別人把我當賊打得半死
+<Sync time="179.928"/>
+很好，既然你想拿你師父瘋濟癲的性命開玩笑
+<Sync time="186.1"/>
+那我現在就趕快回去，好好修理修理他
+<Sync time="189.053"/>
+走
+</Turn>
+<Turn speaker="spk1" startTime="189.808" endTime="199.844">
+<Sync time="189.808"/>
+師爺，你別這樣啦，師爺
+<Sync time="191.603"/>
+你別把氣出在我師父身上，不然這樣吧，你再給我一點期限，我拿這尊去當鋪換錢好嗎
+</Turn>
+<Turn speaker="spk3" startTime="199.844" endTime="209.331">
+<Sync time="199.844"/>
+你要怎麼做跟我無關，不過要記得
+<Sync time="202.983"/>
+千萬不可牽扯到我這兒來，不然你就準備替那瘋濟癲收屍
+</Turn>
+<Turn speaker="spk1" startTime="209.331" endTime="211.877">
+<Sync time="209.331"/>
+好，我知道
+</Turn>
+<Turn speaker="spk3" startTime="211.877" endTime="219.85">
+<Sync time="211.877"/>
+現在再給你一個時辰，我一樣在這裏等你，若是換不到錢，你就不用來了
+</Turn>
+<Turn speaker="spk1" startTime="219.85" endTime="225.596">
+<Sync time="219.85"/>
+錢錢錢
+<Sync time="222.309"/>
+世間有多少人都是為你而死
+</Turn>
+<Turn speaker="spk4" startTime="225.596" endTime="249.521">
+<Sync time="225.596"/>
+錢錢錢，一文錢，不可看得大於天
+<Sync time="232.824"/>
+錢來錢去有道理，金剛經裏早說起
+<Sync time="242.463"/>
+今世若肯施佈施，他年錢銀滿滿是
+</Turn>
+<Turn speaker="spk5" startTime="249.521" endTime="255.914">
+<Sync time="249.521"/>
+瘋子，愛占人家的便宜，還說什麼佈施，別裝了
+</Turn>
+<Turn speaker="spk4" startTime="255.914" endTime="286.557">
+<Sync time="255.914"/>
+看到和尚要高興
+<Sync time="259.958"/>
+有緣才受你佈施
+<Sync time="262.386"/>
+心裏若貪這小錢，佛祖罰入地獄去
+<Sync time="268.527"/>
+有緣才受你佈施
+<Sync time="270.279"/>
+[laugh]
+<Sync time="270.626"/>
+各位，各位，別笑
+<Sync time="272.441"/>
+錢財本是身外物，哪個子孫用真錢，放在棺材裏讓你帶走
+<Sync time="280.1"/>
+還是海海去佈施，才會庇蔭子孫萬萬年
+</Turn>
+<Turn speaker="spk5" startTime="286.557" endTime="289.925">
+<Sync time="286.557"/>
+瘋濟癲，又要吃又要挖苦，我真被你氣死
+</Turn>
+<Turn speaker="spk4" startTime="289.925" endTime="306.895">
+<Sync time="289.925"/>
+別氣，別氣，你若不想佈施跟我結善緣
+<Sync time="295.847"/>
+不然這樣吧，這個還你不就好了
+<Sync time="298.743"/>
+本來我是好意要與你結緣，指點你一件事
+</Turn>
+<Turn speaker="spk5" startTime="306.895" endTime="309.219">
+<Sync time="306.895"/>
+我哪會有什麼事
+</Turn>
+<Turn speaker="spk4" startTime="309.219" endTime="342.138">
+<Sync time="309.219"/>
+怎麼沒有，你趕快回去
+<Sync time="310.768"/>
+若看到你娘一直咳不停，那你等會見
+<Sync time="316.27"/>
+[music]
+<Sync time="321.44"/>
+手來啦，這個趕快讓你娘服下，回去
+<Sync time="329.337"/>
+[laugh]
+<Sync time="332.919"/>
+這個賣水果的雖然為人小氣了點，不過他事母至孝，所以這種人需要幫助，對不對
+</Turn>
+<Turn speaker="spk6" startTime="342.138" endTime="345.972">
+<Sync time="342.138"/>
+對對對
+</Turn>
+<Turn speaker="spk7" startTime="345.972" endTime="349.275">
+<Sync time="345.972"/>
+濟癲師父
+</Turn>
+<Turn speaker="spk4" startTime="349.275" endTime="349.519">
+<Sync time="349.275"/>
+什麼事啊
+</Turn>
+<Turn speaker="spk7" startTime="349.519" endTime="363.541">
+<Sync time="349.519"/>
+濟癲師父，你跑到哪兒去了，這幾天都沒來跟我化緣
+<Sync time="352.356"/>
+害我的生意一落千丈，這是這幾天的份，拜託
+<Sync time="356.862"/>
+你要保佑我一次全賺回來
+<Sync time="359.675"/>
+不然月底繳不出稅金，我就淒慘了
+</Turn>
+<Turn speaker="spk4" startTime="363.541" endTime="364.561">
+<Sync time="363.541"/>
+這個啊
+</Turn>
+<Turn speaker="spk7" startTime="364.561" endTime="368.755">
+<Sync time="364.561"/>
+我要趕緊去做生意，明天再來找你
+</Turn>
+<Turn speaker="spk4" startTime="368.755" endTime="377.528">
+<Sync time="368.755"/>
+不，喂，包子生
+<Sync time="371.613"/>
+一下拿這麼多，我要吃到何時啊
+</Turn>
+<Turn speaker="spk6" startTime="377.528" endTime="378.998">
+<Sync time="377.528"/>
+濟癲師父啊
+</Turn>
+<Turn speaker="spk6" startTime="378.998" endTime="380.447">
+<Sync time="378.998"/>
+濟癲師父啊
+</Turn>
+<Turn speaker="spk6" startTime="380.447" endTime="382.695">
+<Sync time="380.447"/>
+濟癲師父啊
+</Turn>
+<Turn speaker="spk6" startTime="382.695" endTime="402.247">
+<Sync time="382.695"/>
+濟癲師父啊
+<Sync time="384.382"/>
+[noise]
+<Sync time="393.503"/>
+[noise]
+</Turn>
+<Turn speaker="spk4" startTime="402.247" endTime="435.115">
+<Sync time="402.247"/>
+這麼多東西，我要吃到何時啊，我真是
+<Sync time="410.89"/>
+難兄，請你吃一口，抱歉
+<Sync time="421.427"/>
+冤有頭，債有主，不是我抓你來的，幸好
+<Sync time="426.462"/>
+朋友，來
+</Turn>
+<Turn speaker="spk1" startTime="435.115" endTime="435.462">
+<Sync time="435.115"/>
+師傅
+</Turn>
+<Turn speaker="spk4" startTime="435.462" endTime="436.441">
+<Sync time="435.462"/>
+阿福
+</Turn>
+<Turn speaker="spk1" startTime="436.441" endTime="446.152">
+<Sync time="436.441"/>
+師傅，你何時被人放出來的
+<Sync time="439.154"/>
+還在這兒賣菜賣水果賣雞還賣古董
+<Sync time="444.045"/>
+師父，你何時改行的啊
+</Turn>
+<Turn speaker="spk4" startTime="446.152" endTime="448.882">
+<Sync time="446.152"/>
+沒有啦，改什麼行，我是因為
+</Turn>
+<Turn speaker="spk1" startTime="448.882" endTime="454.39">
+<Sync time="448.882"/>
+不對，怎麼會有人如此好心，替你出一千兩銀子
+</Turn>
+<Turn speaker="spk4" startTime="454.39" endTime="456.779">
+<Sync time="454.39"/>
+什麼一千兩銀子啊
+</Turn>
+<Turn speaker="spk1" startTime="456.779" endTime="461.084">
+<Sync time="456.779"/>
+縣衙裏那個師爺，他說我如果籌不到一千兩就要準備幫你收屍
+</Turn>
+<Turn speaker="spk4" startTime="461.084" endTime="480.767">
+<Sync time="461.084"/>
+原來牢裏那些兄弟所言都是事實
+<Sync time="467.253"/>
+你這傢伙，這下我要讓你慘兮兮
+<Sync time="473.595"/>
+[noise]
+<Sync time="478.115"/>
+阿福，你背那包是什麼
+</Turn>
+<Turn speaker="spk1" startTime="480.767" endTime="494.334">
+<Sync time="480.767"/>
+沒有，沒有，沒什麼東西啊
+<Sync time="487.101"/>
+這香蕉看起來好漂亮耶，一定很好吃
+<Sync time="490.056"/>
+師父，來，我剝給你吃哦，很香耶
+<Sync time="493.156"/>
+來，師父
+</Turn>
+<Turn speaker="spk4" startTime="494.334" endTime="498.619">
+<Sync time="494.334"/>
+阿福，你慢慢吃，別噎到了
+</Turn>
+<Turn speaker="spk1" startTime="498.619" endTime="510.894">
+<Sync time="498.619"/>
+師父，不要，師父
+<Sync time="506.082"/>
+[music]
+</Turn>
+<Turn speaker="spk4" startTime="510.894" endTime="523.936">
+<Sync time="510.894"/>
+不用拜了，拜沒用了
+<Sync time="515.184"/>
+你真是大膽，連寺廟的佛像也敢偷出來
+<Sync time="519.342"/>
+師爺才限我半天，我要去哪兒籌一千兩銀子，沒辦法， 我才
+</Turn>
+<Turn speaker="spk4" startTime="523.936" endTime="529.46">
+<Sync time="523.936"/>
+我不知道該怎麼罵你才好
+<Sync time="525.384"/>
+快點，把韋駝爺請回去啦，不然我要生氣了
+</Turn>
+<Turn speaker="spk1" startTime="529.46" endTime="532.955">
+<Sync time="529.46"/>
+好，是
+</Turn>
+<Turn speaker="spk4" startTime="532.955" endTime="534.977">
+<Sync time="532.955"/>
+給我好好的請
+</Turn>
+<Turn speaker="spk1" startTime="534.977" endTime="537.28">
+<Sync time="534.977"/>
+好，師父，師爺那邊呢
+</Turn>
+<Turn speaker="spk4" startTime="537.28" endTime="553.816">
+<Sync time="537.28"/>
+那邊你就不必擔心了，他是要利用你
+<Sync time="542.887"/>
+不知道他已經放我出來，要多跟你敲這筆錢
+<Sync time="546.433"/>
+聽不懂吧，聽不懂就算了，趕快，請回去啦
+</Turn>
+<Turn speaker="spk1" startTime="553.816" endTime="554.593">
+<Sync time="553.816"/>
+好
+</Turn>
+<Turn speaker="spk4" startTime="554.593" endTime="590.753">
+<Sync time="554.593"/>
+好啊，你會心貪，我就讓你偷雞不著蝕把米
+<Sync time="563.714"/>
+[noise]
+<Sync time="571.134"/>
+[music]
+<Sync time="574.005"/>
+玉蓮不是在找他麼，走這麼急要做什麼
+<Sync time="578.777"/>
+[noise]
+<Sync time="588.106"/>
+[noise]
+</Turn>
+<Turn speaker="spk11" startTime="590.753" endTime="593.874">
+<Sync time="590.753"/>
+老賊，廢話少說，今天就要讓你死
+</Turn>
+<Turn speaker="spk12" startTime="593.874" endTime="604.545">
+<Sync time="593.874"/>
+他怎麼會進縣衙，你還真大膽，明知道我要抓你，你還敢自投羅網
+</Turn>
+<Turn speaker="spk13" startTime="604.545" endTime="610.276">
+<Sync time="604.545"/>
+什麼，刺客竟然跑到我府上
+</Turn>
+<Turn speaker="spk14" startTime="610.276" endTime="616.809">
+<Sync time="610.276"/>
+那該怎辦才好
+<Sync time="613.128"/>
+老爺，你是否趕快派人將他抓起來
+</Turn>
+<Turn speaker="spk12" startTime="616.809" endTime="630.001">
+<Sync time="616.809"/>
+柳夫人，請你別著急，那天我是怕有其他刺客要來行刺我爹
+<Sync time="622.604"/>
+所以才讓他們跑了，今天既然又讓我遇上，我絕對不會這麼輕易就讓他離開縣衙
+</Turn>
+<Turn speaker="spk13" startTime="630.001" endTime="631.125">
+<Sync time="630.001"/>
+賢侄
+</Turn>
+<Turn speaker="spk12" startTime="631.125" endTime="633.728">
+<Sync time="631.125"/>
+柳夫人，能否帶我四處看看
+</Turn>
+<Turn speaker="spk13" startTime="633.728" endTime="659.715">
+<Sync time="633.728"/>
+好啊
+<Sync time="635.17"/>
+[music]
+<Sync time="641.227"/>
+[music]
+<Sync time="648.035"/>
+[music]
+</Turn>
+<Turn speaker="spk15" startTime="659.715" endTime="671.636">
+<Sync time="659.715"/>
+娘，這兒的風景好美耶
+<Sync time="662.603"/>
+娘，快來啊
+<Sync time="665.582"/>
+[laugh]
+</Turn>
+<Turn speaker="spk14" startTime="671.636" endTime="676.756">
+<Sync time="671.636"/>
+這兒的風景確實很美，空氣也很好
+</Turn>
+<Turn speaker="spk16" startTime="676.756" endTime="683.992">
+<Sync time="676.756"/>
+[laugh]
+<Sync time="681.119"/>
+漂亮姑娘，你們在這兒看風景啊
+</Turn>
+<Turn speaker="spk15" startTime="683.992" endTime="694.694">
+<Sync time="683.992"/>
+你們想做什麼
+<Sync time="685.541"/>
+你們別怕啦，我們只不過看你們穿著還不錯，所以要跟你們借點錢
+</Turn>
+<Turn speaker="spk15" startTime="694.694" endTime="700.839">
+<Sync time="694.694"/>
+要借錢啊，不會自己去賺啊
+<Sync time="698.162"/>
+娘，我們別理他們，走，我們走
+</Turn>
+<Turn speaker="spk14" startTime="700.839" endTime="703.104">
+<Sync time="700.839"/>
+好，走，我們快走
+</Turn>
+<Turn speaker="spk16" startTime="703.104" endTime="712.253">
+<Sync time="703.104"/>
+閃開啦，再跑啊，把身上值錢的東西都拿出來
+</Turn>
+<Turn speaker="spk15" startTime="712.253" endTime="733.687">
+<Sync time="712.253"/>
+放開我，走開，娘，快
+<Sync time="714.678"/>
+[noise]
+<Sync time="722.32"/>
+[noise]
+</Turn>
+<Turn speaker="spk16" startTime="733.687" endTime="744.501">
+<Sync time="733.687"/>
+快走
+<Sync time="739.558"/>
+[music]
+</Turn>
+<Turn speaker="spk17" startTime="744.501" endTime="754.795">
+<Sync time="744.501"/>
+姑娘，你要不要緊
+<Sync time="746.601"/>
+[music]
+</Turn>
+<Turn speaker="spk15" startTime="754.795" endTime="768.245">
+<Sync time="754.795"/>
+清風，清風
+<Sync time="761.03"/>
+清風，清風，你為什麼躲著不出來見我
+</Turn>
+<Turn speaker="spk17" startTime="768.245" endTime="779.577">
+<Sync time="768.245"/>
+明月
+<Sync time="773.727"/>
+[music]
+</Turn>
+<Turn speaker="spk15" startTime="779.577" endTime="781.19">
+<Sync time="779.577"/>
+你為什麼不說一聲就走
+</Turn>
+<Turn speaker="spk17" startTime="781.19" endTime="784.461">
+<Sync time="781.19"/>
+我急著要救濟癲
+</Turn>
+<Turn speaker="spk15" startTime="784.461" endTime="800.109">
+<Sync time="784.461"/>
+你騙我，你是因為我爹提起蕭應龍的事，才離開的對不對
+<Sync time="791.359"/>
+你為什麼不敢看我，是不是因為我所言是真的
+</Turn>
+<Turn speaker="spk17" startTime="800.109" endTime="806.704">
+<Sync time="800.109"/>
+明月，你別胡思亂想，我現在不是回來了
+</Turn>
+<Turn speaker="spk15" startTime="806.704" endTime="821.968">
+<Sync time="806.704"/>
+哼，誰知道你什麼時候會偷偷離開
+<Sync time="811.23"/>
+好，你如果不相信，我答應與你當一輩子的夫妻，那我現在就跟你走
+<Sync time="819.544"/>
+走，走啊
+</Turn>
+<Turn speaker="spk17" startTime="821.968" endTime="829.304">
+<Sync time="821.968"/>
+明月，你冷靜點，我就是認真想過才回來找你的
+</Turn>
+<Turn speaker="spk15" startTime="829.304" endTime="833.747">
+<Sync time="829.304"/>
+那你現在決定如何
+</Turn>
+<Turn speaker="spk17" startTime="833.747" endTime="835.082">
+<Sync time="833.747"/>
+我
+</Turn>
+<Turn speaker="spk13" startTime="835.082" endTime="836.387">
+<Sync time="835.082"/>
+蕭公子，請
+</Turn>
+<Turn speaker="spk15" startTime="836.387" endTime="845.754">
+<Sync time="836.387"/>
+爹怎麼這麼糊塗呢，竟然把人帶進內院
+<Sync time="841.11"/>
+我先離開，晚點再來
+<Sync time="842.66"/>
+[noise]
+</Turn>
+<Turn speaker="spk13" startTime="845.754" endTime="852.3">
+<Sync time="845.754"/>
+有刺客，來人呐
+<Sync time="847.389"/>
+[noise]
+</Turn>
+<Turn speaker="spk17" startTime="852.3" endTime="857.399">
+<Sync time="852.3"/>
+別過來，我不想傷及無辜
+</Turn>
+<Turn speaker="spk13" startTime="857.399" endTime="862.773">
+<Sync time="857.399"/>
+好，我們有話好好說，別傷害我的千金
+</Turn>
+<Turn speaker="spk12" startTime="862.773" endTime="872.71">
+<Sync time="862.773"/>
+大膽刺客，之前去太守府行刺，現在又來行刺柳知縣
+<Sync time="868.982"/>
+你的目的究竟是什麼
+</Turn>
+<Turn speaker="spk17" startTime="872.71" endTime="875.523">
+<Sync time="872.71"/>
+什麼目的，回去問你爹就知道了
+</Turn>
+<Turn speaker="spk13" startTime="875.523" endTime="879.526">
+<Sync time="875.523"/>
+我們柳家究竟跟你有何深仇大恨，你要來此鬧事
+</Turn>
+<Turn speaker="spk15" startTime="879.526" endTime="881.076">
+<Sync time="879.526"/>
+爹
+</Turn>
+<Turn speaker="spk12" startTime="881.076" endTime="885.982">
+<Sync time="881.076"/>
+你先放開明月小姐，我保證讓你能平安離開
+</Turn>
+<Turn startTime="885.982" endTime="890.594">
+<Sync time="885.982"/>
+[noise]
+</Turn>
+<Turn speaker="spk15" startTime="890.594" endTime="893.219">
+<Sync time="890.594"/>
+爹
+</Turn>
+<Turn speaker="spk13" startTime="893.219" endTime="895.581">
+<Sync time="893.219"/>
+沒關係，沒事了
+</Turn>
+<Turn speaker="spk12" startTime="895.581" endTime="936.652">
+<Sync time="895.581"/>
+明月小姐請放心，就算他躲到天涯海角，我都會把他找出來
+<Sync time="899.769"/>
+[music]
+<Sync time="902.563"/>
+難道他們兩個本來就認識
+<Sync time="905.191"/>
+[music]
+<Sync time="915.278"/>
+刺客出現在此，究竟有何目的，難道是為了明月
+<Sync time="923.55"/>
+柳大人，我相信今晚之事，只是個巧合，我不會誤會
+<Sync time="933.185"/>
+[laugh]
+</Turn>
+<Turn speaker="spk13" startTime="936.652" endTime="946.864">
+<Sync time="936.652"/>
+還是應龍你明理，不然我們一家人跳進大海怎麼洗也洗不清
+</Turn>
+<Turn speaker="spk12" startTime="946.864" endTime="955.776">
+<Sync time="946.864"/>
+明月小姐，請放心
+<Sync time="949.862"/>
+我回府裏調一些武藝高強的侍衛，來保證你們一家的安全
+</Turn>
+<Turn speaker="spk14" startTime="955.776" endTime="961.662">
+<Sync time="955.776"/>
+明月，還不快向蕭公子道謝
+</Turn>
+<Turn speaker="spk15" startTime="961.662" endTime="963.984">
+<Sync time="961.662"/>
+娘
+</Turn>
+<Turn speaker="spk12" startTime="963.984" endTime="971.769">
+<Sync time="963.984"/>
+柳夫人，這沒什麼，這是做我該做的事
+<Sync time="969.733"/>
+[laugh]
+</Turn>
+<Turn speaker="spk13" startTime="971.769" endTime="979.72">
+<Sync time="971.769"/>
+還是應龍你懂事，不像我這個女兒，一天到晚關在閨房裏，都不曾見過世面
+</Turn>
+<Turn speaker="spk12" startTime="979.72" endTime="983.974">
+<Sync time="979.72"/>
+柳大人過獎，我現在就回府處理侍衛之事
+</Turn>
+<Turn speaker="spk13" startTime="983.974" endTime="1007.226">
+<Sync time="983.974"/>
+不送
+<Sync time="988.707"/>
+[music]
+<Sync time="996.759"/>
+為什麼這刺客會跑到我府上，難道是府裏的人認識這刺客
+</Turn>
+<Turn speaker="spk15" startTime="1007.226" endTime="1015.835">
+<Sync time="1007.226"/>
+爹，難道你在懷疑我
+</Turn>
+<Turn speaker="spk14" startTime="1015.835" endTime="1028.967">
+<Sync time="1015.835"/>
+是啊，老爺，你也真是老糊塗，我們女兒整天都關在閨房裏
+<Sync time="1023.651"/>
+而且她又是位千金小姐，怎麼可能認識那江湖人士呢
+</Turn>
+<Turn speaker="spk13" startTime="1028.967" endTime="1041.078">
+<Sync time="1028.967"/>
+你們以為只有我一個人懷疑麼
+<Sync time="1031.626"/>
+其實蕭應龍表面上說相信，他派侍衛來府裏，就是要監我們
+</Turn>
+<Turn speaker="spk14" startTime="1041.078" endTime="1047.35">
+<Sync time="1041.078"/>
+是這樣啊，啊呦
+<Sync time="1043.77"/>
+既然如此，你怎麼還答應他派人來我們府裏呢
+</Turn>
+<Turn speaker="spk13" startTime="1047.35" endTime="1059.436">
+<Sync time="1047.35"/>
+不答應，更加深他們的懷疑啊
+<Sync time="1051.035"/>
+他會認定我對他爹不忠，故意派刺客刺殺他
+<Sync time="1055.873"/>
+[music]
+</Turn>
+<Turn speaker="spk14" startTime="1059.436" endTime="1080.455">
+<Sync time="1059.436"/>
+老爺，我想應龍這孩子，應該不會這樣才對
+<Sync time="1065.35"/>
+這是歪曲事實啊，可是無緣無故，府裏怎麼會發生這種事呢
+<Sync time="1072.609"/>
+老爺，老爺
+<Sync time="1076.971"/>
+[music]
+</Turn>
+<Turn speaker="spk18" startTime="1080.455" endTime="1084.46">
+<Sync time="1080.455"/>
+新鮮的，新鮮的，蘋果現摘
+</Turn>
+<Turn speaker="spk4" startTime="1084.46" endTime="1084.667">
+<Sync time="1084.46"/>
+算命的額，生意好嗎
+</Turn>
+<Turn speaker="spk19" startTime="1084.667" endTime="1091.571">
+<Sync time="1084.667"/>
+托你的福
+</Turn>
+<Turn speaker="spk4" startTime="1091.571" endTime="1092.053">
+<Sync time="1091.571"/>
+漂亮啊
+</Turn>
+<Turn speaker="spk1" startTime="1092.053" endTime="1097.075">
+<Sync time="1092.053"/>
+師父，你每天一早都出來逛街，難道逛不膩嗎
+</Turn>
+<Turn speaker="spk4" startTime="1097.075" endTime="1101.069">
+<Sync time="1097.075"/>
+你每天都吃三餐怎麼吃不膩呢
+</Turn>
+<Turn speaker="spk1" startTime="1101.069" endTime="1102.637">
+<Sync time="1101.069"/>
+那不同啊
+</Turn>
+<Turn speaker="spk4" startTime="1102.637" endTime="1115.529">
+<Sync time="1102.637"/>
+什麼不同，天底下的事都是利益眾生
+<Sync time="1106.565"/>
+知道嗎
+<Sync time="1107.237"/>
+早
+<Sync time="1108.97"/>
+[noise]
+</Turn>
+<Turn speaker="spk20" startTime="1115.529" endTime="1120.328">
+<Sync time="1115.529"/>
+不繳稅，押回去
+</Turn>
+<Turn speaker="spk4" startTime="1120.328" endTime="1122.549">
+<Sync time="1120.328"/>
+發生什麼事了
+</Turn>
+<Turn speaker="spk3" startTime="1122.549" endTime="1135.44">
+<Sync time="1122.549"/>
+瘋濟癲，我們這是依法行事，你最好別干涉
+<Sync time="1130.087"/>
+不然再加你一條妨礙公務，你又要去牢裏吃牢飯
+</Turn>
+<Turn speaker="spk4" startTime="1135.44" endTime="1153.248">
+<Sync time="1135.44"/>
+我若是進牢裏，對你最有利了
+<Sync time="1141.659"/>
+那我們師爺就可多賺一筆，一千兩銀子對不對
+<Sync time="1146.502"/>
+我沒時間跟你說這些廢話
+<Sync time="1151.962"/>
+[laugh]
+</Turn>
+<Turn speaker="spk3" startTime="1153.248" endTime="1167.414">
+<Sync time="1153.248"/>
+你們聽好
+<Sync time="1154.632"/>
+這個賣雜貨的欠稅不繳
+<Sync time="1157.155"/>
+你們誰要是好心，認識她的家人
+<Sync time="1160.588"/>
+就去通知他們，叫他們快去籌錢繳稅
+<Sync time="1164.702"/>
+好來縣衙換人，押回去
+</Turn>
+<Turn speaker="spk20" startTime="1167.414" endTime="1168.54">
+<Sync time="1167.414"/>
+是，走
+</Turn>
+<Turn speaker="spk21" startTime="1168.54" endTime="1182.8476875">
+<Sync time="1168.54"/>
+濟公師父，你快救我
+<Sync time="1171.251"/>
+[music]
+</Turn>
+</Section>
+</Episode>
+</Trans>

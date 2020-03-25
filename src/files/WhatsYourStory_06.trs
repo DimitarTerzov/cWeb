@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Trans SYSTEM "trans-14.dtd">
+<Trans scribe="Administrator" audio_filename="WhatsYourStory_06" version="3" version_date="200322">
+<Speakers>
+<Speaker id="spk1" name="Justin" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk2" name="Boy" check="no" type="male" dialect="native" accent="" scope="local"/>
+</Speakers>
+<Episode>
+<Section type="report" startTime="0" endTime="2150.478">
+<Turn startTime="0" endTime="3.157">
+<Sync time="0"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="3.157" endTime="88.996">
+<Sync time="3.157"/>
+歡迎收聽&lt;lang:English&gt;whats your story&lt;/lang:English&gt;創業那檔事，我們啟發創業者在未知環境中成長茁壯並給社會帶來長久和正面的影響。
+<Sync time="11.819"/>
+人的潛力是無窮的，只有你可以給自己設限。
+<Sync time="15.059"/>
+節目中我會探討和瞭解不同商業模式的成功要素，創業家背後的酸甜苦辣，
+<Sync time="21.256"/>
+自我勵志和提升的相關資源，每個人都有故事，你的是什麼？
+<Sync time="26.093"/>
+[music]
+<Sync time="28.931"/>
+我很高興我現在給大家做的這個系列叫做&lt;lang:English&gt;Amazon&lt;/lang:English&gt;的創業系列
+<Sync time="35.284"/>
+然後我為了要把這個系列做的比較有一點互動性。
+<Sync time="39.758"/>
+所以我很高興邀請到我很好很好的朋友，((柏巧))來到我們的節目，
+<Sync time="44.977"/>
+當我們的共同主持人&lt;lang:English&gt;cohost&lt;/lang:English&gt;
+<Sync time="47.221"/>
+那在我們進行前，我想和各位聽眾寒噓問暖一下，然後特地的講出說這個系列其實設計是給誰去聽的，
+<Sync time="57.302"/>
+不管你是生產商和工廠想要去轉型更接近終端市場#啊，或者是八零和九零後想要自創品牌，
+<Sync time="65.832"/>
+因為之前我們&lt;lang:English&gt;core word&lt;/lang:English&gt;群眾有做過相關一系列的成功案例的報導。
+<Sync time="72.077"/>
+或者是想要做副業的上班族，還是你真的是已經被收購，被通路和貿易商控制的老闆們，
+<Sync time="79.897"/>
+這個系列真的就是專門設計為你們而打造的，
+<Sync time="83.963"/>
+那我們現在正式開始前，&lt;lang:English&gt;boy&lt;/lang:English&gt;你可不可以給我們介紹下你的背景。
+</Turn>
+<Turn speaker="spk2" startTime="88.996" endTime="136.701">
+<Sync time="88.996"/>
+&lt;lang:English&gt;Hi&lt;/lang:English&gt;，大家好，我叫&lt;lang:English&gt;boy&lt;/lang:English&gt;，
+<Sync time="90.533"/>
+是這樣子，我自己過去幾年呢，我都是在中國大陸內地工作，那過去相關其實做的都是跟貿易相關的，
+<Sync time="99.464"/>
+所以當時就是有問到我有沒有信心去做個&lt;lang:English&gt;((parcase))&lt;/lang:English&gt;的時候，
+<Sync time="103.854"/>
+當然我就想說可以用我過去的一些經驗，那為什麼過去的經驗為什麼跟這一次的系列有關呢，
+<Sync time="110.583"/>
+最主要的事情是因為我們過去的一些合作的&lt;lang:English&gt;((lender))&lt;/lang:English&gt;或是合作夥伴都是像美國大型零售商，
+<Sync time="117.173"/>
+比如說像&lt;lang:English&gt;Wal-Mart&lt;/lang:English&gt;，大家聽過的&lt;lang:English&gt;Target&lt;/lang:English&gt;也好，那也是，因為有這樣子獨特的過去工作經驗，
+<Sync time="124.036"/>
+所以也可以借這個機會跟大家分享一下，在跟未來在跟美國電商溝通上或是在合作性上面的話的一些經驗分享，
+<Sync time="135.903"/>
+大概就是這個樣子。
+</Turn>
+<Turn speaker="spk1" startTime="136.701" endTime="272.659">
+<Sync time="136.701"/>
+好，那我們現在在這一集，我們會去&lt;lang:English&gt;((copy))&lt;/lang:English&gt;幾個點哦。
+<Sync time="141.66"/>
+我先大概和各位介紹一下，第一就是目前全世界的零售環境，線上和線下平臺這些通路的整合，
+<Sync time="150.816"/>
+再來美國市場的分析還有亞馬遜公司的一些背景，為什麼你要從亞馬遜去切入美國的市場，
+<Sync time="159.8"/>
+然後最後我們去總結一下臺灣的現況。
+<Sync time="162.905"/>
+假如說我們現在主要聽眾都是落在臺灣，當然有一些海外的華僑會聽到我們中文的秀，
+<Sync time="170.028"/>
+這是我們今天這一集會主要&lt;lang:English&gt;((copy))&lt;/lang:English&gt;的幾點。
+<Sync time="173.865"/>
+那現在第一點我們先講一下就是其實全世界的零售環境一直在變，很多人會去發現說怎麼像前一陣子一個新聞鬧很大，
+<Sync time="185.285"/>
+就是&lt;lang:English&gt;((Toys R Us))&lt;/lang:English&gt;，玩具反鬥城，你看這麼大的一個玩具通用商居然還會倒閉，
+<Sync time="190.512"/>
+&lt;lang:English&gt;((found fortuned))&lt;/lang:English&gt;，然後嘞，你看&lt;lang:English&gt;((series))&lt;/lang:English&gt;，
+<Sync time="194.191"/>
+美國一些很大很大的，我們叫&lt;lang:English&gt;((debashidoor))&lt;/lang:English&gt;，
+<Sync time="198.136"/>
+就是一些實體的店面你看他們都相對的要不就是被整合#啊要不是關店#啊，
+<Sync time="204.805"/>
+當然他們租金跟((玉米))的結構模式當然是不一樣，
+<Sync time="207.496"/>
+那從表面上來看的話可能會覺得說&lt;lang:English&gt;Oh，my god&lt;/lang:English&gt;，
+<Sync time="211.024"/>
+今天要世界末日，零售，零售商，零售通路都已經要完全掛掉了，
+<Sync time="215.787"/>
+其實我個人想要去看這個其實不竟然是這樣子去世，
+<Sync time="220.635"/>
+他其實反倒是顯現出一個線上線下品牌的通路的一個整合跟一個洗牌。
+<Sync time="228.159"/>
+那其實我個人覺得其實也是很多圈子內朋友他們其實指出來零售業並沒有凋零，
+<Sync time="236.991"/>
+只是說市場結構和消費者的一個購買習性的一個變化，
+<Sync time="241.253"/>
+那&lt;lang:English&gt;boy&lt;/lang:English&gt;這邊你有沒有在，因為我們畢竟在國外或者一些其他國家也看到很多這樣子情況，
+<Sync time="248.176"/>
+是你在中國大陸這邊看，我記得有一個現在正在發生的河馬零售，是阿裏巴巴在做的一個實體的超市這邊的變化，
+<Sync time="256.984"/>
+你給大家講一下那個&lt;lang:English&gt;case&lt;/lang:English&gt;，
+<Sync time="260.154"/>
+或者是你有沒有碰過說在一些，可能在中國大陸，因為中國大陸在新零售這一塊，
+<Sync time="266.083"/>
+他們叫&lt;lang:English&gt;((newretail))&lt;/lang:English&gt;，
+<Sync time="267.178"/>
+變得其實我個人覺得中國大陸變得最快的，
+<Sync time="270.073"/>
+你有沒有碰到什麼有意思的一些情況呢。
+</Turn>
+<Turn speaker="spk2" startTime="272.659" endTime="335.247">
+<Sync time="272.659"/>
+我現在可以首先從我個人經驗分享的話其實我覺得中國大陸這個市場確實是一個很不一樣的市場，
+<Sync time="280.125"/>
+我像如果有一些聽眾朋友，本身如果在跟大陸那邊接觸的話，大概會有些經驗。
+<Sync time="286.218"/>
+他們之所以他們成功其實從電商的開始，
+<Sync time="289.937"/>
+那更重要其實以這幾年的遠大轉變在我個人而言看來是所謂的線上線下的整合。
+<Sync time="296.767"/>
+那當然他們線上的崛起之後其實某部分就像&lt;lang:English&gt;Justin&lt;/lang:English&gt;前面提到了，
+<Sync time="301.757"/>
+同時兼線上崛起之後也改變了線下的一個結構，那就像比如以阿裏巴巴的這個例子，河馬線上來講，
+<Sync time="312.068"/>
+他就是，當然最主要的是他有阿裏巴巴本身跟這些系統，他可以很快的在實體店面這樣的拓展，
+<Sync time="321.367"/>
+但他很大的一個來源其實是透過他的&lt;lang:English&gt;App&lt;/lang:English&gt;，
+<Sync time="325.556"/>
+其實他主要的銷售在我的理解還是透過線上的銷售轉換成線下，就他店面比較多像是一個展示中心。
+</Turn>
+<Turn speaker="spk1" startTime="335.247" endTime="340.192">
+<Sync time="335.247"/>
+因為我是沒有實際去看過他們的店面，你是在哪，深圳麼，
+</Turn>
+<Turn speaker="spk2" startTime="340.192" endTime="345.919">
+<Sync time="340.192"/>
+深圳，因為我之前在中國比較常見是在深圳，因為我自己的個人經歷也是如此。
+</Turn>
+<Turn speaker="spk1" startTime="345.919" endTime="370.302">
+<Sync time="345.919"/>
+所以你會覺得說他其實是把你因為你畢竟是人嘛對不對，不管線上線下都是代表了一個個體，
+<Sync time="353.795"/>
+所以他是你去他的店面裏面感覺像是普通的超級市場，
+<Sync time="359.113"/>
+然後透過他的&lt;lang:English&gt;App&lt;/lang:English&gt;，&lt;lang:English&gt;App&lt;/lang:English&gt;下單麼，
+<Sync time="361.447"/>
+還是我一樣去購買，假如說我去家樂福或者是&lt;lang:English&gt;((carkokoo))&lt;/lang:English&gt;一樣就是拿東西放在我的購物籃
+<Sync time="367.079"/>
+然後出去的時候要&lt;lang:English&gt;((BBB))&lt;/lang:English&gt;結賬麼還是不止
+</Turn>
+<Turn speaker="spk2" startTime="370.302" endTime="405.142">
+<Sync time="370.302"/>
+在我個人的使用經驗上他其實還是一個傳統的所謂節奏模式，但他更多的鼓勵是用所謂的&lt;lang:English&gt;(())&lt;/lang:English&gt;，
+<Sync time="377.695"/>
+就所謂的這種透過你的在中國大陸第三方支付，不管是你的，但他們最主要是阿裏集團，
+<Sync time="383.382"/>
+就是所謂的支付寶作為結賬的一個手段，
+<Sync time="386.917"/>
+那更多很多他們其實部分鼓勵是在還沒有進入店裏面前的時候，
+<Sync time="391.997"/>
+你就透過河馬現在的城市，手機開發城市就先下單了，然後你可以直接去領貨，
+<Sync time="399.916"/>
+甚至讓他們幫你送到的助手，連店面就去都不用去。
+</Turn>
+<Turn speaker="spk1" startTime="405.142" endTime="420.995">
+<Sync time="405.142"/>
+那假如說他因為之前&lt;lang:English&gt;Amazon&lt;/lang:English&gt;發現一個，
+<Sync time="409.3"/>
+就是怎麼避免他偷東西，因為你自己自助的一些&lt;lang:English&gt;((checkout))&lt;/lang:English&gt;櫃檯，
+<Sync time="413.8"/>
+我可不可以拿一些東西被偷，偷香蕉#啊偷什麼神仙水果，可能有這樣子的結構上的漏洞嗎
+</Turn>
+<Turn speaker="spk2" startTime="420.995" endTime="443.77">
+<Sync time="420.995"/>
+這個部分我必須說可能沒觀察那麼仔細啦，但是在我的個人經驗裏面，
+<Sync time="426.374"/>
+我就回想他們至少在我去清單他們至少還是有人引導你去做這些事情，
+<Sync time="432.404"/>
+所以他們包括店內的一些人員都會集中在所謂&lt;lang:English&gt;((checkout))&lt;/lang:English&gt;，就是你要結賬的那個地方所以其實你說你要真的有辦法，
+<Sync time="440.542"/>
+拿了要走那個比例，在我觀察來相對的低
+</Turn>
+<Turn speaker="spk1" startTime="443.77" endTime="559.06">
+<Sync time="443.77"/>
+好，那我們來另外提到那時候我們有之前聊到美國例子，
+<Sync time="450.831"/>
+我自己有看到的，就是很多在市中心，不管是在紐約#啊，
+<Sync time="456.443"/>
+或者是&lt;lang:English&gt;san fransico&lt;/lang:English&gt;舊金山，前一陣子我在紐約市中心有一些店面，
+<Sync time="461.436"/>
+他們非常非常好的黃金地段，就像臺灣的東區一樣，他們甚至是把他關掉不開，
+<Sync time="468.064"/>
+長期的店面他們不是什麼所謂開&lt;lang:English&gt;ZARA&lt;/lang:English&gt;，
+<Sync time="471.03"/>
+或者是美式的一些賣鐘錶，他就純粹把他當做一個&lt;lang:English&gt;showroom&lt;/lang:English&gt;，
+<Sync time="475.411"/>
+然後嘞，背後的不知道是集團還是個體，或者是私人公司等等，他把他一整年的&lt;lang:English&gt;showroom&lt;/lang:English&gt;把他&lt;lang:English&gt;book&lt;/lang:English&gt;下來，
+<Sync time="483.305"/>
+他的模式很有意思，就是地點，這個房地產的位置，店面是在一個黃金地段上面，
+<Sync time="490.18"/>
+可是嘞，他們經營的模式是和不同的品牌商去合作，
+<Sync time="496.126"/>
+然後可能說今年一到三月時，他甚至不用長期簽約的方式，
+<Sync time="502.048"/>
+他可能說這週末和下周末，你每次經過看到東西都是不一樣，品牌不一樣，什麼連賣的產品不一樣，
+<Sync time="509.94"/>
+甚至還有一些更拽的一邊品牌商他們純粹就是放到那邊&lt;lang:English&gt;showcase&lt;/lang:English&gt;，
+<Sync time="515.378"/>
+你要買，請掃你的&lt;lang:English&gt;((qrcom))&lt;/lang:English&gt;買，
+<Sync time="518.233"/>
+然後嘞，消費者會直接線上上去做結賬，所以在實際的店面現場的時候沒有所謂的任何的刷卡，也沒有什麼店源，
+<Sync time="527.998"/>
+只有展示源他給你解釋一下說我的品牌是什麼#啊這些產品什麼等等。
+<Sync time="533.108"/>
+我發現這樣子的商業模式開始越來越普及，
+<Sync time="535.856"/>
+你看從紐約的&lt;lang:English&gt;brooklyn&lt;/lang:English&gt;，
+<Sync time="538.026"/>
+到舊金山甚至&lt;lang:English&gt;Seattle&lt;/lang:English&gt;也開始有，
+<Sync time="540.474"/>
+個也會牽扯到另外一個，不算牽扯到就是
+<Sync time="547.444"/>
+有另外一個公司叫&lt;lang:English&gt;((battom))&lt;/lang:English&gt;，&lt;lang:English&gt;((bi))&lt;/lang:English&gt;，&lt;lang:English&gt;((ba))&lt;/lang:English&gt;，他的變成這個&lt;lang:English&gt;((ba))&lt;/lang:English&gt;，&lt;lang:English&gt;((ta))&lt;/lang:English&gt;，&lt;lang:English&gt;((battom))&lt;/lang:English&gt;，
+<Sync time="554.003"/>
+那這個店面也很有意思。
+<Sync time="556.011"/>
+那&lt;lang:English&gt;boy&lt;/lang:English&gt;那個時候你有看一下這個公司的背景麼
+</Turn>
+<Turn speaker="spk2" startTime="559.06" endTime="602.387">
+<Sync time="559.06"/>
+我大概去瞭解了一下啦，
+<Sync time="560.645"/>
+但其實我覺得實際很有趣的可能剛才聽&lt;lang:English&gt;Justin&lt;/lang:English&gt;在描述過程中加上我之前看了一些資料，
+<Sync time="568.617"/>
+我覺得他有趣的是說他最終，他的算是很多東西都是不放在店裏面去賣的，
+<Sync time="575.2"/>
+但他最終的目的還是透過一個實體店面去做一個導購，變成一個修路概念，
+<Sync time="582.559"/>
+然後去達成最後的一個目的。
+<Sync time="584.729"/>
+所以可能如果先從一個零售的角度來看，從消費者的角度來看，如果我覺得有趣的地方是像他這樣的店可能他店型不會多，
+<Sync time="593.066"/>
+他也並不需要多，但他更重要的是希望的是一個人流，所以他為什麼選擇像是紐約市中心的一個這樣的光鮮地段去做這樣的事情，對
+</Turn>
+<Turn speaker="spk1" startTime="602.387" endTime="731.923">
+<Sync time="602.387"/>
+其實&lt;lang:English&gt;((battam))&lt;/lang:English&gt;的商業模式蠻有意思，因為之前他們銷售的經理有和我們聯絡過做過一些，
+<Sync time="610.091"/>
+因為我們之前有一些其他品牌的專案，那時候蠻有意思就是他們的合作模式有好多種，
+<Sync time="618.091"/>
+有一種是取決於在你的貨要不要放在他們美國店面。
+<Sync time="624.154"/>
+我舉例來說，&lt;lang:English&gt;((battam))&lt;/lang:English&gt;可能在舊金山可能有三個店面，
+<Sync time="628.074"/>
+那他們在不同的時間段，不同的&lt;lang:English&gt;season&lt;/lang:English&gt;，不同的&lt;lang:English&gt;location&lt;/lang:English&gt;地方都會取決說你要不要放在那邊，
+<Sync time="635.19"/>
+你等於講我是品牌商，
+<Sync time="637.023"/>
+我可以去決定要不要透過&lt;lang:English&gt;((Battam))&lt;/lang:English&gt;來當做我的一個&lt;lang:English&gt;showroom&lt;/lang:English&gt;，
+<Sync time="641.735"/>
+那他的收費方式就好像你和他收店租一樣，臺灣好像有一個東西叫格子區，你去跟他租一個櫃子，
+<Sync time="649.306"/>
+就是我一個月，一個產品就是租兩千塊台幣差不多是美金六七十塊，
+<Sync time="657.66"/>
+然後可能就是放在你那邊，
+<Sync time="659.16"/>
+可是&lt;lang:English&gt;((battam))&lt;/lang:English&gt;整個的店面形象#啊什麼其實都做的很不錯，甚至也有專業的一些店員，
+<Sync time="666.288"/>
+像我們問他的時候，他賣的很多東西其實都是&lt;lang:English&gt;((cakestory))&lt;/lang:English&gt;，
+<Sync time="669.222"/>
+美國募資品牌上面成功的專案，比較好奇的是，那時候我以為他純粹只是showroo&lt;lang:English&gt;((showroom))&lt;/lang:English&gt;，
+<Sync time="676.262"/>
+結果沒想到他們當下也有放一些庫存，甚至的一些產品，
+<Sync time="681.194"/>
+你看比較新穎的像是&lt;lang:English&gt;AppLE&lt;/lang:English&gt;的一些，&lt;lang:English&gt;Apple&lt;/lang:English&gt;的東西沒有在那邊賣，可是很多&lt;lang:English&gt;googlehome&lt;/lang:English&gt; 的東西會在那裏買，
+<Sync time="688.024"/>
+甚至是可以當下買就直接提貨的，有時候消費者購買欲望就是看到爽，有錢就是要買，就想拿回來。
+<Sync time="696.078"/>
+那有一些是可以放，有一些是不能放，可結賬的方式有一些都是做線上的方式，
+<Sync time="701.708"/>
+那我就覺得說他們這個商業模式其實是蠻值得有一些臺灣的品牌，
+<Sync time="707.254"/>
+甚至廠商去看，假如說我沒有資金去拓點，或者是在國外請什麼樣的銷售團隊。
+<Sync time="714.586"/>
+你的產品本身就是很厲害，
+<Sync time="716.391"/>
+那為什麼不透過這樣子的商業模式把你的東西透過別人通路放在實體店面讓別人去觸摸，去使用，
+<Sync time="724.98"/>
+他才知道說哦，你的產品價值是在哪邊，所以光是從行銷和品牌的價值就我是覺著是非常非常大的。
+</Turn>
+<Turn speaker="spk2" startTime="731.923" endTime="806.862">
+<Sync time="731.923"/>
+我可以分享一個我覺著另外一個有趣的例子，因為我剛才聽&lt;lang:English&gt;Justin&lt;/lang:English&gt;講的過程中會想到，
+<Sync time="737.714"/>
+幾年前在網路上非常熱的一個例子就是&lt;lang:English&gt;Daniel Wellington&lt;/lang:English&gt;這個牌子，就是&lt;lang:English&gt;dw&lt;/lang:English&gt;，
+<Sync time="743.51"/>
+我相信可能很多的聽眾朋友如果有在接觸電商或大概有接觸過行銷這方面聽過這個牌子，
+<Sync time="750.068"/>
+他一開始的一個早期的崛起就是透過所謂的&lt;lang:English&gt;instagram&lt;/lang:English&gt;，跟所謂的&lt;lang:English&gt;((influence))&lt;/lang:English&gt;去做合作，
+<Sync time="757.261"/>
+然後瞬間把他的熱度炒起來的品牌都起來。
+<Sync time="761.3"/>
+那反而看到說建立起來變成一個很成功的品牌，但更有趣的是你看他近幾年，
+<Sync time="768.405"/>
+甚至因為我個人在中國大陸，當他有一定資金的時候，反過來他是很投入實體的開店的部分，
+<Sync time="778.607"/>
+為的是什麼，這可能和剛剛&lt;lang:English&gt;Justin&lt;/lang:English&gt;提到有點關聯的是很多東西做到後來不管說網路的一個時代，
+<Sync time="786.652"/>
+最終還是回到消費者的一個習慣，說是你進來買東西，我更&lt;lang:English&gt;care&lt;/lang:English&gt;的不是所謂誰推薦我，
+<Sync time="793.882"/>
+或者是哪個&lt;lang:English&gt;((influence))&lt;/lang:English&gt;告訴我之外，我更加注意說我要摸到，我知道他的貨到底好不好，
+<Sync time="800.463"/>
+我才要可能去把這個市場不斷的再去做大，那這個品牌才有辦法越做越大。
+</Turn>
+<Turn speaker="spk1" startTime="806.862" endTime="1003.776">
+<Sync time="806.862"/>
+因為其實要總結到最後的話，市場其實是由不同的群主，不同的年齡層到最後還是人
+<Sync time="815.886"/>
+都是透過什麼樣的媒介去和你接觸，其實你剛剛講的&lt;lang:English&gt;dw&lt;/lang:English&gt;在臺灣甚至蠻火的，
+<Sync time="820.893"/>
+好像還會有人拿來代購，我本身是沒有帶表的，&lt;lang:English&gt;((down she close))&lt;/lang:English&gt;，
+<Sync time="828.271"/>
+好像其他國外很多品牌做成功，他們也是變成線上品牌很有名，然後變成他們想到做到線下這一塊，
+<Sync time="835.451"/>
+這個東西我都會放到&lt;lang:English&gt;((shownouse))&lt;/lang:English&gt;，剛剛所謂講到的&lt;lang:English&gt;((Battom))&lt;/lang:English&gt;甚至剛剛所說的&lt;lang:English&gt;dw&lt;/lang:English&gt;品牌，
+<Sync time="842.094"/>
+他們其實有個東西叫做&lt;lang:English&gt;((video-commercial))&lt;/lang:English&gt;，
+<Sync time="844.272"/>
+就是垂直品牌電子商務的店長，他們電子商務對他來講只是一個手段，講到最後還是一個品牌和產品，
+<Sync time="853.53"/>
+你的故事是什麼，其實老外做這一塊真的蠻厲害的。
+<Sync time="857.732"/>
+那我們現在，剛剛有提到全球零售環境的變化，
+<Sync time="862.447"/>
+你看很多實體店面他的凋零，可是他其實是透過不同的方式去轉型，
+<Sync time="867.83"/>
+然後再來我們也講到說美國市場的分析什麼等等。
+<Sync time="872.631"/>
+其實我想要切入一點就是線上的消費的模式和營業額他從其實到零九年的時候，
+<Sync time="882.086"/>
+我會把美國他們官方的數據也&lt;lang:English&gt;((po))&lt;/lang:English&gt;在我們的筆記裏面，
+<Sync time="887.814"/>
+其實每一年都是很穩定的十帕十帕在成長，你想一想這倍數來看是多麼可怕的一件事情，這個就會讓我們帶到亞馬遜這一公司的背景
+<Sync time="898.498"/>
+亞馬遜其實今年是全美國第二大的公司，那當然，他們是上市公司，
+<Sync time="908.11"/>
+有光是美國市場線上產生的銷售有百分之四十到五十都是在亞馬遜上面發生的，
+<Sync time="917.36"/>
+等下我還會再細分在亞馬遜發生什麼事情，他二零一八年的營業額是兩千三百二十億美金，是美金哦，
+<Sync time="928.708"/>
+你可以想一下這個樣子的金額是多大。
+<Sync time="931.625"/>
+那當然不是所有的營業都是由他們所謂的電商部門去帶來的，
+<Sync time="938.239"/>
+那有一部分是他們有雲端服務，很多臺灣的廠商都有做&lt;lang:English&gt;((series))&lt;/lang:English&gt;，
+<Sync time="943.446"/>
+軟體公司都知道&lt;lang:English&gt;((aws))&lt;/lang:English&gt;，
+<Sync time="945.726"/>
+&lt;lang:English&gt;((amazon wap services))&lt;/lang:English&gt;，
+<Sync time="947.189"/>
+我記得他們在臺北一零一裏面也有辦公室，然後嘞有一塊很有意思，在&lt;lang:English&gt;amzon&lt;/lang:English&gt;其實有一塊業務成長非常非常快，
+<Sync time="956.29"/>
+在二零一八年的時候做到&lt;lang:English&gt;ten billion&lt;/lang:English&gt;，&lt;lang:English&gt;ten billion&lt;/lang:English&gt;差不多是一百億美金，
+<Sync time="961.042"/>
+是哪一塊，是他們的廣告收入，很多人不知道&lt;lang:English&gt;amzon&lt;/lang:English&gt;在做廣告，
+<Sync time="966.276"/>
+不止說他們的銷售品在做廣告，
+<Sync time="969.428"/>
+其實嘞，他們有準備在跟&lt;lang:English&gt;google&lt;/lang:English&gt;這邊幹架，因為其實大的廣告商尤豔瓊&lt;lang:English&gt;google&lt;/lang:English&gt;，
+<Sync time="976.654"/>
+&lt;lang:English&gt;((fbig))&lt;/lang:English&gt;的一部分是&lt;lang:English&gt;amzon&lt;/lang:English&gt;這一塊是很快很快的在傳響，
+<Sync time="982.676"/>
+很多人其實不知道這一點。
+<Sync time="984.43"/>
+然後&lt;lang:English&gt;((aws))&lt;/lang:English&gt;，&lt;lang:English&gt;((aws))&lt;/lang:English&gt;我們所說的亞馬遜雲端服務這一塊的收益也是占他們蠻大一塊的業務量，
+<Sync time="994.778"/>
+可是最大最大，不超過一半都還是亞馬遜這個平臺銷售這邊帶來的業務量。
+<Sync time="1000.955"/>
+&lt;lang:English&gt;Boy&lt;/lang:English&gt;這邊有什麼要回饋的麼
+</Turn>
+<Turn speaker="spk2" startTime="1003.776" endTime="1089.983">
+<Sync time="1003.776"/>
+關於亞馬遜這一塊我覺得確實他是一個真的是非常成功而且當然對很多人是遙不可及的一個例子，
+<Sync time="1012.643"/>
+那就這樣子講，其實我覺得我個人而言，我怎麼看待亞馬遜這樣的例子，
+<Sync time="1018.87"/>
+他其實就像前面所說的我也同意，他們所謂電商的崛起其實有時候更多並不是完全淘汰了舊的零售商，
+<Sync time="1028.839"/>
+舊的零售商其實還是會存在的，他們其實某種程度說只是改變了很多的所謂遊戲的規則。
+<Sync time="1034.899"/>
+但我覺得從另外一個角度上，他們也提供了很好的良性的競爭。
+<Sync time="1039.306"/>
+因為有他們的崛起，那讓大家知道這個世道在變化，那也讓傳統零售商來去想要去如何應對他的挑戰。
+<Sync time="1047.806"/>
+比如就我個人的例子，我前面有提到，
+<Sync time="1050.052"/>
+我之前過去配合的一個公司就是&lt;lang:English&gt;Wal-Mart&lt;/lang:English&gt;，
+<Sync time="1052.945"/>
+&lt;lang:English&gt;Wal-Mart&lt;/lang:English&gt;也是曾經全美最大公司，那他們的家族在零售的勢力，放眼全球都還是相對於很有影響力的。
+<Sync time="1063.266"/>
+那他們自己，
+<Sync time="1064.887"/>
+因為前幾年我有觀察到，
+<Sync time="1066.814"/>
+因為亞馬遜的崛起變得他們在各國商業市場上他們兩個是在面對面的競爭。
+<Sync time="1077.314"/>
+不管美國市場，甚至印度市場，甚至到，反正是海外只要有亞馬遜涉及的市場，
+<Sync time="1085.33"/>
+你都可以看到&lt;lang:English&gt;Wal-Mart&lt;/lang:English&gt;影子，這是非常有趣的一個現象。
+</Turn>
+<Turn speaker="spk1" startTime="1089.983" endTime="1493.659">
+<Sync time="1089.983"/>
+其實你剛講的所謂良性競爭我剛剛就在笑，其實就是要看你是對誰說，
+<Sync time="1096.499"/>
+對消費者和整個市場的機制一直在往前演化我覺得一定是一個良性的競爭，
+<Sync time="1103.646"/>
+可是對亞馬遜來說，因為我們自己不管是客戶，或者是圈子內，有很多是在亞馬遜銷售過，我自己也都參與過，
+<Sync time="1112.731"/>
+我們算是第三方的銷售方。
+<Sync time="1116.204"/>
+所以對第三方的銷售方的時候嘞，他等於是說他開了一個賭場，
+<Sync time="1121.669"/>
+像是賭場，我們在公園開了一個我們叫&lt;lang:English&gt;((sanpark))&lt;/lang:English&gt;，
+<Sync time="1127.878"/>
+大家都可以打架，變成是說誰的肌肉比較大就會把體型比較小的打掉，
+<Sync time="1134.436"/>
+什麼意思嘞，就是說今天亞馬遜他一個平臺，
+<Sync time="1137.596"/>
+然後嘞我假如是臺灣的廠商是買記憶卡，那當然是資金大的，
+<Sync time="1143.375"/>
+你經濟規模大的，你價位可以壓低，你在亞馬遜平臺，
+<Sync time="1147.243"/>
+這邊的流量和你的返單率才會越來越高，這個東西對廠商來講是惡性循環，對消費者來講非常非常好。
+<Sync time="1155.959"/>
+我可以得到性價比越來越高的東西，可是廠商就會說奇怪，怎麼單量一直起來，可是問題是我的利潤率一直在降低，
+<Sync time="1163.799"/>
+所以這是亞馬遜他設計這一塊非常非常厲害的。
+<Sync time="1167.78"/>
+真正更，我不能說下流啦，更奸詐的&lt;lang:English&gt;((robbery))&lt;/lang:English&gt;把他想的很厲害的一個點什麼嘞，
+<Sync time="1177.135"/>
+他投入很多資金資源和時間，講難聽點，不是他的錢，那都是投資人的錢，只是說他知道怎麼畫這個餅，
+<Sync time="1185.723"/>
+然後他吸引好多第三方的買家來賣，然後嘞，他賣賣賣賣賣賣，發現記憶卡這個市場可以做，
+<Sync time="1193.306"/>
+他得到好多第三方的資訊之後，他自己來賣，亞馬遜開始代工找別人做，
+<Sync time="1199.126"/>
+這塊其實你們去&lt;lang:English&gt;((amzon us))&lt;/lang:English&gt;，全名可以打&lt;lang:English&gt;((amzon basic))&lt;/lang:English&gt;
+<Sync time="1206.638"/>
+舉例來說是&lt;lang:English&gt;iphone&lt;/lang:English&gt;的充電線已經做爛了，
+<Sync time="1213.214"/>
+可能是說&lt;lang:English&gt;Apple&lt;/lang:English&gt;一條賣十幾塊錢美金，十五塊美金，
+<Sync time="1217.264"/>
+可是&lt;lang:English&gt;Amzon business&lt;lang:English&gt;為什麼一條可以做到八塊九塊錢，就是因為太低得到了好多市場的諮詢，
+<Sync time="1223.466"/>
+奇怪，我大概可以確定說這一個品項，這一個產品種類，我一個月就可以做到多少的銷量，
+<Sync time="1230.589"/>
+然後就下去自己做，其實這樣子經濟規模模式你可以在&lt;lang:English&gt;coscto&lt;/lang:English&gt;也可以看到，
+<Sync time="1235.635"/>
+&lt;lang:English&gt;((casale))&lt;/lang:English&gt;他們做自己的&lt;lang:English&gt;((bray))&lt;/lang:English&gt;，什麼&lt;lang:English&gt;coscto&lt;/lang:English&gt;
+<Sync time="1239.47"/>
+為什麼要賣其他人的新人股或者是一些吃吃喝喝的東西，&lt;lang:English&gt;coscto&lt;/lang:English&gt;他們自己做自己的牛奶，做自己的水果，
+<Sync time="1248.542"/>
+多常常發生嘛，那我們講了這麼多這麼多這麼多，其實要講一個重點說你看全世界的零售環境一直在變，
+<Sync time="1258.577"/>
+你現在的佈局是在哪里，好，既然在變，美國的市場的情況又是什麼，
+<Sync time="1264.249"/>
+然後現在講到了一個美國巨頭剛剛說沃爾瑪其實也被下了狠皮皮歘，
+<Sync time="1270.018"/>
+我們會在連接筆記裏放一個很有意思的比較圖，
+<Sync time="1275.105"/>
+我忘記確切的數據，不過基本上意思是這樣子，
+<Sync time="1279.082"/>
+亞馬遜光是過去五年來增長的營業額銷售額大於整個過去好像沃爾瑪五年的銷售，
+<Sync time="1290.227"/>
+所以你可以看一下成長的數字多快多快，這個&lt;lang:English&gt;number&lt;/lang:English&gt;是很&lt;lang:English&gt;crazy&lt;/lang:English&gt;。
+<Sync time="1294.856"/>
+當然我們到時候可以看我那個筆記上的確切數據來給聽眾來看，
+<Sync time="1300.753"/>
+那講了這麼多，我們就來想說，那已經基本上強調說為什麼你要從&lt;lang:English&gt;Amzon&lt;lang:English&gt;去切入美國的市場，
+<Sync time="1307.967"/>
+很多我們前面提到的不管你是生產商，工廠想要轉型更接近市場#啊，
+<Sync time="1315.168"/>
+八零九零想自創品牌，上班族想要自創副業#啊，甚至是我這邊做服務人設的一些阿伯，
+<Sync time="1322.324"/>
+他們覺得受夠被通路和貿易商控制的老闆們，他們想要做市場要做品牌又不敢做，
+<Sync time="1328.574"/>
+要馬兒好又不給馬兒吃草。
+<Sync time="1330.701"/>
+這個是我覺得蠻奇怪的，聽眾可能聽到我的，可以跟老一輩溝通一下，
+<Sync time="1336.135"/>
+可以把我的&lt;lang:English&gt;show&lt;lang:English&gt;&lt;lang:English&gt;show&lt;lang:English&gt;給他們聽，記得給五顆星。
+<Sync time="1338.918"/>
+總結就是說你看你想切入美國市場，
+<Sync time="1343.455"/>
+&lt;lang:English&gt;Justin&lt;lang:English&gt;現在給你分析這麼多，沒有說叫你繼續做，因為我們都是很客觀的講一些事實，
+<Sync time="1348.267"/>
+美國其實是&lt;lang:English&gt;Amzon&lt;lang:English&gt;，為什麼是&lt;lang:English&gt;((game us market))&lt;/lang:English&gt;，全美國他占了百分之五的營業額，他的市占率是占這麼多，
+<Sync time="1359.682"/>
+線上你再看它的銷售，它又賺了一半以上。
+<Sync time="1363.136"/>
+你說這個平臺能不做麼，所以我們現在總結一下就臺灣的現況，我們現在也是到處來跑去嘛，
+<Sync time="1371.403"/>
+然後現在回來其實看到臺灣很多的窘境，那當然最近的貿易戰啦，臺灣有受到一些益處，
+<Sync time="1379.491"/>
+是我個人覺得這個東西都是政治上的東西，沒有辦法長久去仰賴，所以很多人覺得說哇，臺灣要起來了，
+<Sync time="1387.079"/>
+什麼外商回流，台商回流#啊，可是抱歉，臺灣回流臺灣有什麼樣的價值。
+<Sync time="1394.042"/>
+我的藥店沒有店，一天到晚在燒煤，不要牽扯太多政治上問題的話，
+<Sync time="1402.919"/>
+就是臺灣其實在基礎設施建設上面是很&lt;lang:English&gt;ok&lt;/lang:English&gt;的，從人工成本上我個人覺得可能沒有那麼多的優勢，
+<Sync time="1410.851"/>
+那當然可以找一些叫做製造業的一些大佬們也可以給我回饋一下。
+<Sync time="1417.009"/>
+&lt;lang:English&gt;Justin&lt;/lang:English&gt;有任何錯誤的訊息，歡迎給我們留言，給我們回饋，
+<Sync time="1422.286"/>
+所以我個人覺得其實臺灣有一個窘境是想要走出去可是不知道怎麼走出去，不知道怎麼去做品牌#啊
+<Sync time="1429.809"/>
+或者是不知道怎麼開始做起#啊，成本這邊控制#啊，定位#啊，
+<Sync time="1433.858"/>
+有些人是什麼，尚葉蓓#啊，結果到最後還是呆呆的就是在這裏做，好像就是開了一家店，
+<Sync time="1440.807"/>
+在阿裏巴巴開了一個店，想要賣，可是好多人詢盤為什麼卻沒有人下單，
+<Sync time="1446.11"/>
+其實我們之前做的一系列阿裏巴巴的採訪，很多人，很多廠商，就是我們採訪的受訪者，
+<Sync time="1456.54"/>
+我都覺得很適合做&lt;lang:English&gt;Amazon&lt;/lang:English&gt;。
+<Sync time="1458.323"/>
+甚至這些阿裏巴巴賣家的客戶就是亞馬遜的賣家，那你想一下價值鏈的排行，
+<Sync time="1469.243"/>
+老外透過阿裏巴巴找到你的店家，買了你的產品，
+<Sync time="1474.408"/>
+為什麼你自己的東西不自己賣到&lt;lang:English&gt;Amazon&lt;lang:English&gt;上面呢，這是我在會後很多採訪的時候都去問這些受訪者，
+<Sync time="1484.175"/>
+我都覺得蠻匪夷所思，當然他們語言隔閡#啊什麼，
+<Sync time="1488.281"/>
+不同不同的瓶頸跟障礙要去克服嘛，可是這個我覺得是值得大家去深思的。
+</Turn>
+<Turn speaker="spk2" startTime="1493.659" endTime="1513.16">
+<Sync time="1493.659"/>
+那我們很好奇剛剛聽你這樣講，
+<Sync time="1495.733"/>
+那&lt;lang:English&gt;Justin&lt;/lang:English&gt;，就你個人而言除了可能那些他們供應商反映自己的一些原因所在回饋，
+<Sync time="1503.934"/>
+那就你個人而言你怎麼看待這個事情，
+<Sync time="1505.979"/>
+你認為說他們之所以沒辦法跨出那一步的原因你追根究底你所看到的是什麼
+</Turn>
+<Turn speaker="spk1" startTime="1513.16" endTime="1834.463">
+<Sync time="1513.16"/>
+我個人覺得沒有所謂的緣由，因為每一個情況都不大一樣，有一些廠商是從父輩，
+<Sync time="1521.05"/>
+甚至阿公那一輩是已經，
+<Sync time="1523.808"/>
+提個皮箱，臺灣經濟起飛七零年代八零年代那時候做很多&lt;lang:Foreign&gt;&lt;initial&gt;PC&lt;/initial&gt;&lt;/lang:Foreign&gt;原件，
+<Sync time="1530.586"/>
+鍵盤呐什麼((錨了忒忒))，
+<Sync time="1532.346"/>
+臺灣很多的時候&lt;lang:English&gt;((M))&lt;/lang:English&gt;it，我們在講這個，追根究原之前，我們看下整個世界的趨勢，
+<Sync time="1540.111"/>
+你看從二戰之後，很多東西變到哪里，
+<Sync time="1543.741"/>
+&lt;lang:English&gt;((Made in japan))&lt;/lang:English&gt;，對不對，&lt;lang:English&gt;((Made in japan))&lt;/lang:English&gt;之後呢，變到哪里，
+<Sync time="1547.674"/>
+&lt;lang:English&gt;((Made in Taiwan))&lt;/lang:English&gt;。
+<Sync time="1548.309"/>
+以前九零八零年代舊的片子會調侃說阿媽這個東西垃圾，因為是&lt;lang:English&gt;((Made in Taiwan))&lt;/lang:English&gt;，
+<Sync time="1555.243"/>
+那後來現在&lt;lang:English&gt;((Made in China))&lt;/lang:English&gt;，你像&lt;lang:English&gt;((Made in China))&lt;/lang:English&gt;變了，&lt;lang:English&gt;((Made in yuenan))&lt;/lang:English&gt;，&lt;lang:English&gt;((Made in bigindash))&lt;/lang:English&gt;，
+<Sync time="1561.597"/>
+越來越便宜，製造業這個本來就是人力勞工密集的東西他一定是往越便宜的地方去做，
+<Sync time="1568.18"/>
+像我們現在在參與的專案在菲律賓，
+<Sync time="1570.468"/>
+他們一個月可能薪水才九千一萬塊錢，這就是他們當地的行情，所以你看一直在&lt;lang:English&gt;Move&lt;/lang:English&gt;，一直在&lt;lang:English&gt;Move&lt;/lang:English&gt;，
+<Sync time="1577.455"/>
+那說到這一個，就是說我們要追根究底就是說那時候有一段期間，很多東西都是&lt;lang:English&gt;((Made in taiwan))&lt;/lang:English&gt;，
+<Sync time="1586.197"/>
+單子一直進來，一直進來。
+<Sync time="1587.9"/>
+舊的老一輩人，他們可能現在是六七十歲，甚至有些剛上七八十歲，
+<Sync time="1594.009"/>
+他們就說我就提一個皮箱到處去參加展會，&lt;lang:English&gt;((passcic))&lt;/lang:English&gt;，
+<Sync time="1597.225"/>
+現在很多老外根本都不想參加展會，參加展會也是成本呐，我去看展會要花那麼多的時間，
+<Sync time="1602.975"/>
+這邊看來看去也很浪費我的資源跟經歷，對不對，所以整個大膽的通路貿易商他們採購的習性也在變的，
+<Sync time="1612.943"/>
+回到你所說的我要追根究底這個原因是什麼，很多二代他們跟上一輩去溝通的時候會有隔閡。
+<Sync time="1622.038"/>
+現在你就是要花錢去刷流量，關鍵字#啊，你要去做曝光，怎麼做行銷等等，
+<Sync time="1628.898"/>
+可是老一輩覺得說不實在，網路上都是虛的，我看不到，
+<Sync time="1632.999"/>
+可是我個人覺得那才是最准的，與其你去參加展會，
+<Sync time="1636.595"/>
+與其你去參加展會，去花三百萬換那幾張名片，換你幾張名片，呵，十幾萬的名片，
+<Sync time="1642.323"/>
+然後那個單子到底怎麼，有沒有&lt;lang:English&gt;((relay))&lt;/lang:English&gt;，那東西我都已經覺得有越來越不實際，
+<Sync time="1648.49"/>
+當然是我個人的看法。
+<Sync time="1650.127"/>
+可能是因為我做電商，我看這個產業也看了很久，我們總結下就是可能他們跟二代上一代的溝通的隔閡，
+<Sync time="1660.364"/>
+他們沒有辦法去溝通，那當然語言這邊當然還是有一個很大很大的障礙，
+<Sync time="1665.937"/>
+所以我覺得你要做國際貿易不會說英文，
+<Sync time="1668.935"/>
+那你要怪誰，是要自己開始學英文嘞還是說想辦法去投資人去請一個有外貿能力的一個職員。
+<Sync time="1677.929"/>
+那我甚至也知道說很多的二代很願意送小孩子出國，很多都是海歸，三四十歲接家裏的公司，
+<Sync time="1685.199"/>
+這個就是一個矛盾點，
+<Sync time="1686.68"/>
+你看上一代的願意把小朋友送出去，都已經有語言能力了，回到家裏兼自己的事情的時候卻不讓他發揮自己的效用，
+<Sync time="1695.314"/>
+這是一個矛盾點。
+<Sync time="1696.211"/>
+但這個我相信不是我能去解決的，這是他們自己家庭裏面的溝通，還有這些掌權者跟掌控者需要去控制的，
+<Sync time="1705.108"/>
+那我相信聽眾很多，我不希望說冒犯到任何人呐，只是說我應該知道很多聽眾，就是有圈子內的朋友，
+<Sync time="1716.428"/>
+有的二三代他們接手就覺得自己沒有辦法發揮自己的實力，當然我覺得一步一腳印，
+<Sync time="1724.719"/>
+你這邊把成績做出來&lt;lang:English&gt;show&lt;/lang:English&gt;給別人看，用數據去說話，而不要用義氣#啊，或用一些&lt;lang:English&gt;Motion&lt;/lang:English&gt;，
+<Sync time="1732.561"/>
+用情緒這邊去表達，我覺得這個東西是很難長久持續下去的。
+<Sync time="1737.211"/>
+剛剛是講到隔代的一個隔閡，然後又講到什麼，語言這邊的一個問題，
+<Sync time="1744.204"/>
+當然最最重要的還是一個就是你做品牌的還是一個蠻長久的計畫跟資源的投放，
+<Sync time="1752.266"/>
+所以這一塊的話就是要看你們自己公司的規劃什麼，
+<Sync time="1757.722"/>
+可能是說每一年的營業要投多少，廣告的投放，品牌的建立#啊，
+<Sync time="1762.888"/>
+行銷#啊，等等等等，我覺得這都是非常重要的，對對對。
+<Sync time="1766.763"/>
+所以給大家總結幾點，沒有辦法去說完全是確切的一點，
+<Sync time="1771.724"/>
+可是也有很多廠商，最多是貿易商他們知道說哎，
+<Sync time="1778.781"/>
+這個市場一直在變哦，你看我可能是貿易商，或者是工廠出身，然後你看去展會，單子越來越少，
+<Sync time="1788.576"/>
+然後嘞，開始開阿裏巴巴開店，希望可以在線上找到一些訂單，我們的客戶買家結果都是&lt;lang:English&gt;Amazon&lt;lang:English&gt;的賣家，
+<Sync time="1799.382"/>
+我們的客戶就開始動腦了，&lt;lang:English&gt;Maybe&lt;/lang:English&gt;我們做同樣的時間之後呢我自己可能放一些其他東西在&lt;lang:English&gt;Amazon&lt;lang:English&gt;上去賣，
+<Sync time="1806.225"/>
+那當然臺灣可能會覺得說哎，我不想跟客戶競爭，可是你也要記得客戶現在沒有所謂的忠誠度，
+<Sync time="1813.054"/>
+你假如是在賣一些沒有什麼特別性的東西的時候嘞，他就一定是往最低&lt;lang:English&gt;((costcostcost))&lt;/lang:English&gt;，
+<Sync time="1819.824"/>
+都是成本屈伸，他不會說因為我跟你有多久的關係，他轉單就馬上就轉單了，他轉單也不會先跟你告知他在轉單，
+<Sync time="1828.52"/>
+都是轉單之後你發現哇，怎麼被別人丟棄了，這種不要的小孩
+</Turn>
+<Turn speaker="spk2" startTime="1834.463" endTime="1910.424">
+<Sync time="1834.463"/>
+這個可以分享如果從過去貿易的經驗確實是，因為我也接觸過，當然從工程端一路到我們所謂的客人，
+<Sync time="1842.016"/>
+這些大型零售商，那當然從零售商的一個角度而言，他最終他希望買來的東西一定是最便宜的，永遠要找最便宜的東西。
+<Sync time="1850.619"/>
+那這個東西當然對中間的貿易商就是一個不斷的挑戰，永遠是要想辦法維持客人的品質同時可以如期交貨，
+<Sync time="1859.263"/>
+更重要是說價錢要夠市場競爭力。
+<Sync time="1863.629"/>
+那這個當中也看了很多有趣的一個點，那可能過去我們有接觸過的的一些工廠端，
+<Sync time="1872.725"/>
+一路從小小的小型工廠，五個人十個人小型的工廠做大規模，甚至到後期，
+<Sync time="1881.013"/>
+當然從不同的程度瞭解到他們是直接跟所謂的零售商合作，那這裏面除了所謂傳統的美國零售商之外，
+<Sync time="1890.458"/>
+更有跟說所謂的&lt;lang:English&gt;Amazon&lt;lang:English&gt;直接就合作了。
+<Sync time="1893.774"/>
+就他們當然就是本身在做剛好是市場可以接受的這些品項，然後做了一個管道，成立了一家公司，那就直接用一個自由品牌，
+<Sync time="1904.9"/>
+直接就是賣到&lt;lang:English&gt;factory derict&lt;/lang:English&gt;，直接就是賣到&lt;lang:English&gt;Amazon&lt;lang:English&gt;這樣的一個平臺上面去。
+</Turn>
+<Turn speaker="spk1" startTime="1910.424" endTime="1922.21">
+<Sync time="1910.424"/>
+所以你是說我們觀察到很多的趨勢，
+<Sync time="1916.423"/>
+所以你是說大陸的工廠廠商直接在&lt;lang:English&gt;Amzon&lt;lang:English&gt;銷售了
+</Turn>
+<Turn speaker="spk2" startTime="1922.21" endTime="1929.508">
+<Sync time="1922.21"/>
+我自己個人的例子是除了大陸也有其他海外東南沿線國家，不只是中國大陸
+</Turn>
+<Turn speaker="spk1" startTime="1929.508" endTime="1983.904">
+<Sync time="1929.508"/>
+這也是我們觀察到的，所以這個東西感覺是一個火車要開了，然後嘞好像要趕不上的一個感覺，
+<Sync time="1936.486"/>
+那當然今年第一個節目不是讓大家唱衰，而是要把事實&lt;lang:English&gt;((lay out))&lt;/lang:English&gt;，給大家講出來，&lt;lang:English&gt;ok&lt;/lang:English&gt;，
+<Sync time="1946.142"/>
+因為你是我們聽眾，事實上我就是想辦法要提供價值給你們。
+<Sync time="1950.642"/>
+現況是這樣子，
+<Sync time="1953.144"/>
+&lt;lang:English&gt;((what can you do about))&lt;/lang:English&gt;
+<Sync time="1954.675"/>
+你要怎麼去做，這個不是你沒有辦法改變的，你假如不願意去改變，那&lt;lang:English&gt;ok&lt;/lang:English&gt;，&lt;lang:English&gt;Maybe&lt;/lang:English&gt;你就會被沖刷掉，
+<Sync time="1961.26"/>
+有關係#啊，有些人就是可能賺了十幾年，他覺得夠賺了什麼的，他好好的退休什麼，
+<Sync time="1968.402"/>
+那都&lt;lang:English&gt;ok&lt;/lang:English&gt;，可是我相信我們的聽眾不是這樣子，他們想要聽詢，一直一直的去自我提升，一直去改變，
+<Sync time="1975.417"/>
+怎麼樣做的更好，能去提升他們的市場價值，那最後，&lt;lang:English&gt;boy&lt;/lang:English&gt;這邊有什麼東西想要跟我們聽眾總結的麼還是
+</Turn>
+<Turn speaker="spk2" startTime="1983.904" endTime="2039.327">
+<Sync time="1983.904"/>
+最後的部分我想提一下就說，就是剛剛提到了，
+<Sync time="1991.329"/>
+我覺得一切這個其實是看你要從哪個角度，當然你是從所謂的製造商角度而言，
+<Sync time="1997.738"/>
+或者是所謂的中間商，資源整合
+<Sync time="2001.197"/>
+我相信可能有很多更多的聽眾，尤其是年輕的聽眾，多數切入點都是肯知識，但是他并沒有任何的資源，
+<Sync time="2009.342"/>
+他並不是傳統的製造商，那既然不是傳統製造商的時候，他現在要思考點就是，我如何整合兩邊的資源，就是好，
+<Sync time="2018.53"/>
+打個比方，像&lt;lang:English&gt;Amazon&lt;lang:English&gt;，我知道有這個市場需求，像&lt;lang:English&gt;Amazon&lt;lang:English&gt;平臺，
+<Sync time="2024.436"/>
+那加上我同時又可以找到所謂的製造商做這個東西，那我就可以當個媒合者，
+<Sync time="2030.144"/>
+這就是把你的資源最大利益化，那你也可以不用再投入很大的資金做這樣的事情。
+<Sync time="2038.14"/>
+這也是現在的一個機會啦
+</Turn>
+<Turn speaker="spk1" startTime="2039.327" endTime="2072.023">
+<Sync time="2039.327"/>
+其實我想要驗證剛剛&lt;lang:English&gt;boy&lt;/lang:English&gt;的這個論點其實因為我自己圈子內朋友甚至是客戶就是在做這樣的角色，
+<Sync time="2049.266"/>
+很多都可能從二十五歲到三十歲不到都有，團隊可能就幾個人而已，甚至有一人團隊。
+<Sync time="2057.549"/>
+一年做差不多，從五十幾萬美金到八位數，就是破一千萬美金的人都有，
+<Sync time="2064.306"/>
+所以你剛剛所說存在中間媒合者的價值是真真真真，是事實的，
+</Turn>
+<Turn speaker="spk1" startTime="2072.023" endTime="2115.547">
+<Sync time="2072.023"/>
+因為已經發生過，這些朋友他們&lt;lang:English&gt;number&lt;/lang:English&gt;我也都看過。
+<Sync time="2075.121"/>
+那最後我們在結束前給大家做一個下集的預告就是我，&lt;lang:English&gt;Justin&lt;/lang:English&gt;個人怎麼透過群眾募資品牌&lt;lang:English&gt;((key story))&lt;/lang:English&gt;，
+<Sync time="2083.656"/>
+找到可以在&lt;lang:English&gt;Amzon&lt;lang:English&gt;，亞馬遜平臺銷售半年，美金八十萬的專案。
+<Sync time="2089.186"/>
+那下集我們再和大家說，今天很感謝大家和我們攝影的耳朵，
+<Sync time="2095.33"/>
+那假如覺得我們講的有價值的話可以多去幫我們評論，不一定要給五顆星可是對我們都有很大的幫助，
+<Sync time="2103.458"/>
+有任何的問題的話可以直接上我們的網站，&lt;lang:English&gt;wysJustin.com&lt;/lang:English&gt;
+<Sync time="2108.165"/>
+然後今天我們提到的所有的資源都會在&lt;lang:English&gt;((shownouse))&lt;/lang:English&gt;的筆記裏面，今天謝謝大家，謝謝&lt;lang:English&gt;Boy&lt;/lang:English&gt;
+</Turn>
+<Turn speaker="spk2" startTime="2115.547" endTime="2121.485">
+<Sync time="2115.547"/>
+謝謝，謝謝&lt;lang:English&gt;Justin&lt;/lang:English&gt;
+<Sync time="2117.958"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="2121.485" endTime="2150.478">
+<Sync time="2121.485"/>
+恭喜你又發掘了一個不同的故事，也希望有吸收到有用的知識哦，內容有提到的鏈接，詳細的筆記，
+<Sync time="2128.565"/>
+資源都可以在&lt;lang:English&gt;wysjustin.com&lt;/lang:English&gt;裏面找到哦。
+<Sync time="2135.027"/>
+如果您覺得這樣子的內容有價值也麻煩可以動動手指在收聽收看的平臺給我們評價並且分享，
+<Sync time="2143.585"/>
+讓更多的人瞭解我們想要散播的理念，那麼下期再會，&lt;lang:English&gt;please&lt;/lang:English&gt;
+</Turn>
+</Section>
+</Episode>
+</Trans>

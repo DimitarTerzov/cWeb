@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Trans SYSTEM "trans-14.dtd">
+<Trans scribe="Administrator" audio_filename="FTV_JiGongDrama_001" version="7" version_date="200316">
+<Speakers>
+<Speaker id="spk1" name="voice over" check="no" dialect="native" accent="" scope="local" type="male"/>
+<Speaker id="spk2" name="Xianglong" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk3" name="Lianhua" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk4" name="Fuhu" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk5" name="Yangjian" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk6" name="Man1" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk7" name="Man2" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk8" name="Liqi" check="no" dialect="native" accent="" scope="local" type="female"/>
+<Speaker id="spk9" name="Lifu" check="no" dialect="native" accent="" scope="local" type="male"/>
+<Speaker id="spk10" name="Huida" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk11" name="Man3" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk12" name="Liufu" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk13" name="Man4" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk14" name="Afu" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk15" name="Lixiuyuan" check="no" dialect="native" accent="" scope="local" type="male"/>
+<Speaker id="spk16" name="Man5" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk17" name="Man6" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk18" name="Man7" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk19" name="Liuyulian" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk20" name="Man8" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk21" name="Man9" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk22" name="Xiiaoqing" check="no" type="female" dialect="native" accent="" scope="local"/>
+</Speakers>
+<Episode>
+<Section type="report" startTime="0" endTime="1337.632">
+<Turn startTime="0" endTime="22.829" speaker="spk1">
+<Sync time="0"/>
+[music]
+<Sync time="11.984"/>
+[music] 人間本是因緣聚，天間竟來斷情緣。
+<Sync time="17.384"/>
+降龍與蓮花這一日，違背天命私自來到西湖畔。
+</Turn>
+<Turn speaker="spk2" startTime="22.829" endTime="35.258">
+<Sync time="22.829"/>
+蓮花，妳看這西湖的風景很美，就像人間仙境。
+<Sync time="27.724"/>
+我看以後我們就在此結盧同修，要下去看看嗎？
+</Turn>
+<Turn speaker="spk3" startTime="35.258" endTime="36.927">
+<Sync time="35.258"/>
+好啊！
+</Turn>
+<Turn speaker="spk2" startTime="36.927" endTime="37.544">
+<Sync time="36.927"/>
+走
+</Turn>
+<Turn speaker="spk4" startTime="37.544" endTime="44.394">
+<Sync time="37.544"/>
+[music] 等一下。
+</Turn>
+<Turn speaker="spk2" startTime="44.394" endTime="50.535">
+<Sync time="44.394"/>
+[music] 師兄，要與我們一起下去西湖玩嗎？
+</Turn>
+<Turn speaker="spk4" startTime="50.535" endTime="61.865">
+<Sync time="50.535"/>
+玩，你們倆真是不知死活，你們談戀愛已經犯天規了，楊戩已經要來捉你們了，你們還不快走，快走啊，走越遠越好。
+</Turn>
+<Turn speaker="spk5" startTime="61.865" endTime="65.433">
+<Sync time="61.865"/>
+大膽，伏虎，你竟敢私縱人犯。
+</Turn>
+<Turn speaker="spk4" startTime="65.433" endTime="68.532">
+<Sync time="65.433"/>
+三隻眼，好歹大家都是。
+</Turn>
+<Turn speaker="spk5" startTime="68.532" endTime="77.514">
+<Sync time="68.532"/>
+現在不是套交情的時候，玉帝有令，將降龍和蓮花仙子帶回天宮治罪。
+</Turn>
+<Turn speaker="spk2" startTime="77.514" endTime="79.537">
+<Sync time="77.514"/>
+蓮花，妳快走。
+</Turn>
+<Turn speaker="spk3" startTime="79.537" endTime="81.579">
+<Sync time="79.537"/>
+不要，要走一起走。
+</Turn>
+<Turn speaker="spk5" startTime="81.579" endTime="82.323">
+<Sync time="81.579"/>
+捉起來。
+</Turn>
+<Turn speaker="spk6" startTime="82.323" endTime="92.105">
+<Sync time="82.323"/>
+是。
+<Sync time="82.84"/>
+[noise]
+</Turn>
+<Turn speaker="spk2" startTime="92.105" endTime="138.712">
+<Sync time="92.105"/>
+[noise] 蓮花，[noise]
+<Sync time="108.235"/>
+[noise]
+<Sync time="119.963"/>
+[noise]
+<Sync time="131.616"/>
+[noise]
+</Turn>
+<Turn speaker="spk5" startTime="138.712" endTime="142.635">
+<Sync time="138.712"/>
+降龍，你還不快束手就擒，難道不怕蓮花仙子沒命嗎？
+</Turn>
+<Turn speaker="spk7" startTime="142.635" endTime="152.007">
+<Sync time="142.635"/>
+[noise] 降龍、蓮花接旨。
+</Turn>
+<Turn speaker="spk7" startTime="152.007" endTime="176.092">
+<Sync time="152.007"/>
+[music] 玉帝有令，天心慈憫。
+<Sync time="161.902"/>
+辜念蓮花仙子千年修煉不易，只因未能褪去愛恨離別苦，致犯天規，罰即刻打落凡間。
+<Sync time="173.255"/>
+終生受情所困。
+</Turn>
+<Turn speaker="spk3" startTime="176.092" endTime="179.976">
+<Sync time="176.092"/>
+[music] 多謝玉帝開恩。
+</Turn>
+<Turn speaker="spk2" startTime="179.976" endTime="187.964">
+<Sync time="179.976"/>
+[music] 蓮花仙子，蓮花仙子。
+</Turn>
+<Turn speaker="spk4" startTime="187.964" endTime="194.203">
+<Sync time="187.964"/>
+斬不斷一點情愫，引來天界一段風波。
+</Turn>
+<Turn speaker="spk7" startTime="194.203" endTime="211.086">
+<Sync time="194.203"/>
+降龍尊者，因七世塵緣未了，致有今日之劫，然天規不可不罰。
+<Sync time="204.545"/>
+且今日人間百姓有難，命汝入人間曆劫濟渡，渡化眾生。
+</Turn>
+<Turn speaker="spk4" startTime="211.086" endTime="220.252">
+<Sync time="211.086"/>
+降龍，這下子你賺到了，你到凡間，還可以跟蓮花仙子。
+</Turn>
+<Turn speaker="spk7" startTime="220.252" endTime="226.957">
+<Sync time="220.252"/>
+伏虎尊者，降龍犯戒，一樣會為情所困，非如汝想的那麼好的。
+</Turn>
+<Turn speaker="spk4" startTime="226.957" endTime="235.332">
+<Sync time="226.957"/>
+是。
+<Sync time="227.532"/>
+誒，可是沒關係，等你們劫數一滿，就沒事了，想開點。
+</Turn>
+<Turn speaker="spk2" startTime="235.332" endTime="241.736">
+<Sync time="235.332"/>
+[music] 多謝玉帝開恩。
+</Turn>
+<Turn speaker="spk4" startTime="241.736" endTime="258.468">
+<Sync time="241.736"/>
+[music] 喂，騎龍的，你記住，我們都在天庭等你哦。
+<Sync time="252.84"/>
+[noise]
+</Turn>
+<Turn speaker="spk8" startTime="258.468" endTime="270.998">
+<Sync time="258.468"/>
+[music] 菩薩慈悲，請保佑信女生產順利，早得貴子，替李家傳後嗣。
+</Turn>
+<Turn speaker="spk9" startTime="270.998" endTime="296.296">
+<Sync time="270.998"/>
+感謝觀世音菩薩。
+<Sync time="274.393"/>
+[music] 來，夫人，小心點。
+<Sync time="285.86"/>
+夫人，若不是妳每天在此，懇求觀世音菩薩，我們李家今日怎麼會有後嗣呢?
+<Sync time="293.617"/>
+[music]
+</Turn>
+<Turn speaker="spk8" startTime="296.296" endTime="296.866">
+<Sync time="296.296"/>
+#啊 
+</Turn>
+<Turn speaker="spk9" startTime="296.866" endTime="297.496">
+<Sync time="296.866"/>
+夫人
+</Turn>
+<Turn speaker="spk8" startTime="297.496" endTime="297.988">
+<Sync time="297.496"/>
+#啊 #啊
+</Turn>
+<Turn speaker="spk9" startTime="297.988" endTime="298.915">
+<Sync time="297.988"/>
+怎麼了嗎？
+</Turn>
+<Turn speaker="spk8" startTime="298.915" endTime="311.047">
+<Sync time="298.915"/>
+#啊 可能要生了
+<Sync time="300.435"/>
+[noise]
+</Turn>
+<Turn speaker="spk10" startTime="311.047" endTime="333.025">
+<Sync time="311.047"/>
+[noise]
+<Sync time="320.379"/>
+[noise] 哈哈哈，善哉善哉，積善之家註定該有一番喜慶。
+<Sync time="331.422"/>
+呵呵哈哈哈
+</Turn>
+<Turn speaker="spk11" startTime="333.025" endTime="336.875">
+<Sync time="333.025"/>
+李老爺，恭喜恭喜恭喜。
+</Turn>
+<Turn speaker="spk9" startTime="336.875" endTime="346.351">
+<Sync time="336.875"/>
+謝謝你，謝謝。各位貴賓，我們後院請入席。[overlap] 謝謝，謝謝。
+</Turn>
+<Turn speaker="spk12" startTime="346.351" endTime="353.094">
+<Sync time="346.351"/>
+哈哈哈，李兄，恭喜，恭喜，恭喜。
+</Turn>
+<Turn speaker="spk9" startTime="353.094" endTime="353.459">
+<Sync time="353.094"/>
+劉賢弟。
+</Turn>
+<Turn speaker="spk12" startTime="353.459" endTime="354.168">
+<Sync time="353.459"/>
+來，恭喜。
+</Turn>
+<Turn speaker="spk9" startTime="354.168" endTime="362.487">
+<Sync time="354.168"/>
+謝謝你，來，請坐，哈哈哈，劉賢弟，你也剛生了一個千金啊。
+</Turn>
+<Turn speaker="spk12" startTime="362.487" endTime="377.406">
+<Sync time="362.487"/>
+呵呵呵，是啦，只是我今天來，全是你弟媳婦的意思。
+<Sync time="368.968"/>
+你忘了嗎？之前我們兩家有約定，如果我生兒子，你生女兒
+</Turn>
+<Turn speaker="spk9" startTime="377.406" endTime="387.677">
+<Sync time="377.406"/>
+哎呦，你看我，我這陳子被嬰兒哭得，我快煩死了，卻忘了去你府上向你提親。
+</Turn>
+<Turn speaker="spk12" startTime="387.677" endTime="391.509">
+<Sync time="387.677"/>
+哈哈哈，沒關係啦，今天我來也一樣啊。
+</Turn>
+<Turn speaker="spk9" startTime="391.509" endTime="393.37">
+<Sync time="391.509"/>
+呵呵呵
+</Turn>
+<Turn speaker="spk12" startTime="393.37" endTime="401.549">
+<Sync time="393.37"/>
+李兄，既然要遵照約定，你不快點叫人，把我未來的女婿抱出來，讓我這個岳父看看啊。
+</Turn>
+<Turn speaker="spk9" startTime="401.549" endTime="405.562">
+<Sync time="401.549"/>
+哈哈哈，這是應該的，這是應該的。[overlap]
+</Turn>
+<Turn speaker="spk13" startTime="405.562" endTime="407.845">
+<Sync time="405.562"/>
+老爺，老爺，老爺。
+</Turn>
+<Turn speaker="spk9" startTime="407.845" endTime="409.022">
+<Sync time="407.845"/>
+什麼事
+</Turn>
+<Turn speaker="spk13" startTime="409.022" endTime="411.02">
+<Sync time="409.022"/>
+老爺，外面有個和尚要找你。
+</Turn>
+<Turn speaker="spk10" startTime="411.02" endTime="415.575">
+<Sync time="411.02"/>
+阿彌陀佛，阿彌陀佛。
+</Turn>
+<Turn speaker="spk9" startTime="415.575" endTime="416.177">
+<Sync time="415.575"/>
+師父。
+</Turn>
+<Turn speaker="spk10" startTime="416.177" endTime="419.953">
+<Sync time="416.177"/>
+貧僧不請自來，施主別介意。
+</Turn>
+<Turn speaker="spk9" startTime="419.953" endTime="424.137">
+<Sync time="419.953"/>
+師父佛駕光臨，是為了小犬而來。
+</Turn>
+<Turn speaker="spk10" startTime="424.137" endTime="436.142">
+<Sync time="424.137"/>
+聽說令郎出生至今哭個不停，請把令郎抱出來跟貧僧見個面。
+<Sync time="433.775"/>
+貧僧自有辦法。
+</Turn>
+<Turn speaker="spk9" startTime="436.142" endTime="443.046">
+<Sync time="436.142"/>
+喔，劉賢弟，不然你代我招呼師父，我進去馬上出來。
+</Turn>
+<Turn speaker="spk12" startTime="443.046" endTime="452.112">
+<Sync time="443.046"/>
+嗯，[noise] 請坐 [noise]
+</Turn>
+<Turn speaker="spk8" startTime="452.112" endTime="460.704">
+<Sync time="452.112"/>
+[nosie] 惜惜惜，惜惜惜，
+</Turn>
+<Turn speaker="spk10" startTime="460.704" endTime="505.032">
+<Sync time="460.704"/>
+李施主 ，你知道為何令郎從出生到現在都哭個不停嗎？
+<Sync time="467.662"/>
+[noise] 落土苦，人間塵緣苦。
+<Sync time="474.16"/>
+所以他才會哭個不停。[noise]
+<Sync time="483.114"/>
+佛子應時運，人間渡晨昏，別哭，別哭，人來是苦，你來是樂啊。
+<Sync time="494.077"/>
+哈哈，緣來緣去，你應該高興才對呀。[noise]
+</Turn>
+<Turn speaker="spk9" startTime="505.032" endTime="511.808">
+<Sync time="505.032"/>
+[music] 哈哈哈哈哈
+</Turn>
+<Turn speaker="spk12" startTime="511.808" endTime="514.434">
+<Sync time="511.808"/>
+呵呵呵呵呵
+</Turn>
+<Turn speaker="spk10" startTime="514.434" endTime="518.431">
+<Sync time="514.434"/>
+李施主，你幫令郎取名了嗎？
+</Turn>
+<Turn speaker="spk9" startTime="518.431" endTime="520.022">
+<Sync time="518.431"/>
+還沒有。
+</Turn>
+<Turn speaker="spk10" startTime="520.022" endTime="527.229">
+<Sync time="520.022"/>
+既然如此，那貧僧踰矩，替他取個好名字。
+</Turn>
+<Turn speaker="spk9" startTime="527.229" endTime="548.292">
+<Sync time="527.229"/>
+請師父賜名。
+<Sync time="531.678"/>
+你來人間修好緣，日後元辰自願現。
+<Sync time="539.907"/>
+嗯，那你就取名李修緣，別號叫修元。
+</Turn>
+<Turn speaker="spk9" startTime="548.292" endTime="555.276">
+<Sync time="548.292"/>
+[music] 李修緣，別號修元。
+</Turn>
+<Turn speaker="spk12" startTime="555.276" endTime="560.646">
+<Sync time="555.276"/>
+嗯，這個名字有意義又好叫，我讚成。
+</Turn>
+<Turn speaker="spk9" startTime="560.646" endTime="568.337">
+<Sync time="560.646"/>
+既然劉賢弟，你這位未來的丈人都讚成了，我也不反對，就這麼決定。
+</Turn>
+<Turn speaker="spk10" startTime="568.337" endTime="571.913">
+<Sync time="568.337"/>
+李施主，貧僧還有一件事。
+</Turn>
+<Turn speaker="spk9" startTime="571.913" endTime="574.925">
+<Sync time="571.913"/>
+師父，請說。
+</Turn>
+<Turn speaker="spk10" startTime="574.925" endTime="582.392">
+<Sync time="574.925"/>
+此子大有根器，日後千萬別出仕。[music]
+</Turn>
+<Turn speaker="spk9" startTime="582.392" endTime="586.498">
+<Sync time="582.392"/>
+[music] 為什麼？
+</Turn>
+<Turn speaker="spk10" startTime="586.498" endTime="595.221">
+<Sync time="586.498"/>
+記住，記住，找名師，印別峰，遠學堂，阿彌陀佛。
+</Turn>
+<Turn speaker="spk9" startTime="595.221" endTime="602.44">
+<Sync time="595.221"/>
+師父，師父，找名師，印別峰，遠學堂，究竟什麼意思，師父。
+</Turn>
+<Turn speaker="spk12" startTime="602.44" endTime="642.619">
+<Sync time="602.44"/>
+李兄，高僧說的話，你參考就好，別放在心上。[music]
+<Sync time="613.904"/>
+[music]
+<Sync time="624.402"/>
+[music]
+<Sync time="635.441"/>
+[music]
+</Turn>
+<Turn speaker="spk14" startTime="642.619" endTime="658.561">
+<Sync time="642.619"/>
+公子，公子，一大早你不去書房讀書。
+<Sync time="653.316"/>
+跑來這裡做什麼？[music]
+</Turn>
+<Turn speaker="spk15" startTime="658.561" endTime="669.019">
+<Sync time="658.561"/>
+我現在遵照佛經所言，釋迦摩尼佛坐在菩提樹下，靜坐成佛，我也想有樣學樣，看能否成佛。
+</Turn>
+<Turn speaker="spk14" startTime="669.019" endTime="685.388">
+<Sync time="669.019"/>
+哦 [music]
+<Sync time="680.379"/>
+[music]
+</Turn>
+<Turn speaker="spk15" startTime="685.388" endTime="704.9">
+<Sync time="685.388"/>
+[music]緣起緣滅，因緣離合，萬物生滅不絕。
+<Sync time="693.983"/>
+就如佛經所言，世事如幻。[music]
+</Turn>
+<Turn speaker="spk14" startTime="704.9" endTime="714.946">
+<Sync time="704.9"/>
+公子，你不要再緣來緣去了，我只知道，你如果不快跟我回去，我們倆就沒緣了，因為我一定會被老爺打死。
+</Turn>
+<Turn speaker="spk15" startTime="714.946" endTime="719.783">
+<Sync time="714.946"/>
+老爺，我爹不是出去賑災，要好幾天才會回來，怎麼現在就回來了。
+</Turn>
+<Turn speaker="spk14" startTime="719.783" endTime="724.455">
+<Sync time="719.783"/>
+我怎麼知道，他昨晚就回來了，只是公子睡得早不知道而已。
+</Turn>
+<Turn speaker="spk15" startTime="724.455" endTime="738.358">
+<Sync time="724.455"/>
+慘了，我爹如果知道我來此悟道，事情又無法收拾了，阿福，我們快回去。
+<Sync time="734.956"/>
+[music] 快點
+</Turn>
+<Turn speaker="spk16" startTime="738.358" endTime="743.009">
+<Sync time="738.358"/>
+[noise] 客人，要菜嗎，絲瓜，白菜，高麗菜。
+</Turn>
+<Turn speaker="spk17" startTime="743.009" endTime="748.363">
+<Sync time="743.009"/>
+[noise] 哦，不知道在倒什麼霉，手氣真差。
+</Turn>
+<Turn speaker="spk16" startTime="748.363" endTime="752.618">
+<Sync time="748.363"/>
+要買菜嗎？[noise]
+</Turn>
+<Turn speaker="spk17" startTime="752.618" endTime="757.154">
+<Sync time="752.618"/>
+就是你這個臭老頭，帶給我霉運，我昨晚賭博才會輸。
+</Turn>
+<Turn speaker="spk16" startTime="757.154" endTime="759.98">
+<Sync time="757.154"/>
+年輕人，你賭博輸了關我什麼事啊。
+</Turn>
+<Turn speaker="spk17" startTime="759.98" endTime="761.025">
+<Sync time="759.98"/>
+我說有就有。
+</Turn>
+<Turn speaker="spk16" startTime="761.025" endTime="762.544">
+<Sync time="761.025"/>
+誒誒誒誒誒。
+</Turn>
+<Turn speaker="spk17" startTime="762.544" endTime="767.042">
+<Sync time="762.544"/>
+你要賠我三十兩銀子，否則
+</Turn>
+<Turn speaker="spk16" startTime="767.042" endTime="768.747">
+<Sync time="767.042"/>
+我
+</Turn>
+<Turn speaker="spk17" startTime="768.747" endTime="769.62">
+<Sync time="768.747"/>
+你賠不賠。
+</Turn>
+<Turn speaker="spk16" startTime="769.62" endTime="770.905">
+<Sync time="769.62"/>
+我沒有錢。
+</Turn>
+<Turn speaker="spk17" startTime="770.905" endTime="771.833">
+<Sync time="770.905"/>
+沒錢。
+</Turn>
+<Turn speaker="spk16" startTime="771.833" endTime="774.179">
+<Sync time="771.833"/>
+誒誒誒誒誒
+</Turn>
+<Turn speaker="spk17" startTime="774.179" endTime="777.334">
+<Sync time="774.179"/>
+沒錢。[noise]
+</Turn>
+<Turn speaker="spk16" startTime="777.334" endTime="779.077">
+<Sync time="777.334"/>
+你怎麼這樣啦。
+</Turn>
+<Turn speaker="spk17" startTime="779.077" endTime="780.407">
+<Sync time="779.077"/>
+我怎麼樣，我是怎麼樣。
+</Turn>
+<Turn speaker="spk16" startTime="780.407" endTime="784.069">
+<Sync time="780.407"/>
+[noise] 劉姑娘。
+</Turn>
+<Turn speaker="spk17" startTime="784.069" endTime="788.925">
+<Sync time="784.069"/>
+[noise] 你 [noise]
+</Turn>
+<Turn speaker="spk18" startTime="788.925" endTime="794.56">
+<Sync time="788.925"/>
+劉姑娘來了，他慘了。[noise][applause]
+</Turn>
+<Turn speaker="spk19" startTime="794.56" endTime="799.876">
+<Sync time="794.56"/>
+欺負老人家，算什麼英雄好漢。[applause]
+</Turn>
+<Turn speaker="spk17" startTime="799.876" endTime="806.164">
+<Sync time="799.876"/>
+我就不相信你有多厲害。[noise]
+</Turn>
+<Turn speaker="spk15" startTime="806.164" endTime="814.908">
+<Sync time="806.164"/>
+誒誒誒，這位仁兄，佛經有說人生在世，要處處結好緣，冤家莫結。
+<Sync time="813.269"/>
+免得來世，惡業纏身。
+</Turn>
+<Turn speaker="spk17" startTime="814.908" endTime="823.717">
+<Sync time="814.908"/>
+少啰嗦。[noise]
+</Turn>
+<Turn speaker="spk19" startTime="823.717" endTime="830.103">
+<Sync time="823.717"/>
+呆書生，閃開。[noise]
+</Turn>
+<Turn speaker="spk14" startTime="830.103" endTime="839.783">
+<Sync time="830.103"/>
+公子，你有沒有怎樣，這位姑娘，你為何無緣無故打我家公子。
+</Turn>
+<Turn speaker="spk19" startTime="839.783" endTime="845.174">
+<Sync time="839.783"/>
+小青，被他們一鬧，壞人跑了啦，我們回去。
+</Turn>
+<Turn speaker="spk14" startTime="845.174" endTime="848.916">
+<Sync time="845.174"/>
+喂……事情還沒說清楚以前，你們倆別想走。
+</Turn>
+<Turn speaker="spk15" startTime="848.916" endTime="858.17">
+<Sync time="848.916"/>
+阿福，孔子說過，唯女子與小人難養也，算我們倒霉，別和她們計較。[music]
+</Turn>
+<Turn speaker="spk19" startTime="858.17" endTime="865.922">
+<Sync time="858.17"/>
+好啊，是你們是非不分，在這邊胡鬧，我還沒問你們跟剛才欺負人的惡徒什麼關係，你們竟然先罵我。
+</Turn>
+<Turn speaker="spk15" startTime="865.922" endTime="869.146">
+<Sync time="865.922"/>
+你們不是在吵架哦，你們是
+</Turn>
+<Turn speaker="spk20" startTime="869.146" endTime="870.791">
+<Sync time="869.146"/>
+是劉姑娘在教訓壞人啦。
+</Turn>
+<Turn speaker="spk15" startTime="870.791" endTime="874.235">
+<Sync time="870.791"/>
+劉姑娘，她是哪一家的劉姑娘呢。
+</Turn>
+<Turn speaker="spk21" startTime="874.235" endTime="876.381">
+<Sync time="874.235"/>
+是劉千戶家的女兒劉玉蓮啦。
+</Turn>
+<Turn speaker="spk14" startTime="876.381" endTime="885.136">
+<Sync time="876.381"/>
+[noise] [music] 這下子有趣了，真是大水沖倒龍王廟，自己人打自己人。
+</Turn>
+<Turn speaker="spk22" startTime="885.136" endTime="886.314">
+<Sync time="885.136"/>
+誰跟你是自己人啊。
+</Turn>
+<Turn speaker="spk14" startTime="886.314" endTime="889.176">
+<Sync time="886.314"/>
+妳知道我們公子是誰嗎？
+</Turn>
+<Turn speaker="spk19" startTime="889.176" endTime="893.563">
+<Sync time="889.176"/>
+管他是誰，小青，我們回去練功。
+</Turn>
+<Turn speaker="spk14" startTime="893.563" endTime="903.722">
+<Sync time="893.563"/>
+公子，你好可憐，這麼多年不見，你的未婚妻不但不疼惜你，還差點打得你滿地爬。[music]
+</Turn>
+<Turn speaker="spk19" startTime="903.722" endTime="909.618">
+<Sync time="903.722"/>
+你在胡說什麼，你如果敢再胡說，破壞本姑娘的名節，我就把你舌頭割下來餵狗。
+</Turn>
+<Turn speaker="spk14" startTime="909.618" endTime="911.601">
+<Sync time="909.618"/>
+我哪有胡說，他是，
+</Turn>
+<Turn speaker="spk15" startTime="911.601" endTime="914.872">
+<Sync time="911.601"/>
+阿福，別說了，我們走。
+</Turn>
+<Turn speaker="spk19" startTime="914.872" endTime="918.552">
+<Sync time="914.872"/>
+等等，把話說清楚，否則你們別想走。
+</Turn>
+<Turn speaker="spk15" startTime="918.552" endTime="925.44">
+<Sync time="918.552"/>
+姑娘，你何必苦苦相逼呢。
+</Turn>
+<Turn speaker="spk14" startTime="925.44" endTime="928.784">
+<Sync time="925.44"/>
+公子，你為何不讓我說出你真實身份。
+</Turn>
+<Turn speaker="spk15" startTime="928.784" endTime="932.216">
+<Sync time="928.784"/>
+現在誤會已經產生了，你如果說出來只會更難堪。
+</Turn>
+<Turn speaker="spk19" startTime="932.216" endTime="941.077">
+<Sync time="932.216"/>
+我有什麼好難堪的，是你們自己怕難堪，小青，我們別理他們，走。
+</Turn>
+<Turn speaker="spk14" startTime="941.077" endTime="950.885">
+<Sync time="941.077"/>
+喂，公子，你要是不說，以後一定會被她吃定，妳不說我說，妳聽好了，我們公子就是，你指腹為婚的未婚夫李修緣。
+</Turn>
+<Turn speaker="spk19" startTime="950.885" endTime="959.073">
+<Sync time="950.885"/>
+[music] 你是李修緣。[noise]
+</Turn>
+<Turn speaker="spk22" startTime="959.073" endTime="970.014">
+<Sync time="959.073"/>
+[music] 糟了啦，小姐，這下真如他所言，大水衝倒龍王廟，他是你未來的姑爺耶。
+</Turn>
+<Turn speaker="spk19" startTime="970.014" endTime="979.386">
+<Sync time="970.014"/>
+[music] 你真的是李修緣嗎？
+</Turn>
+<Turn speaker="spk19" startTime="979.386" endTime="987.186">
+<Sync time="979.386"/>
+我聽我爹說，你每天都在家用功，怎麼現在出來當和事佬啊。
+</Turn>
+<Turn speaker="spk14" startTime="987.186" endTime="994.971">
+<Sync time="987.186"/>
+糟了，說到老爺我才想到，老爺還在家裡等我們，公子，走，我們快回去。
+</Turn>
+<Turn speaker="spk14" startTime="994.971" endTime="1005.194">
+<Sync time="994.971"/>
+借過，借過，快點，快點，公子快點 [noise]
+</Turn>
+<Turn speaker="spk19" startTime="1005.194" endTime="1013.805">
+<Sync time="1005.194"/>
+佛經，回去找爹問清楚。
+</Turn>
+<Turn speaker="spk12" startTime="1013.805" endTime="1023.102">
+<Sync time="1013.805"/>
+這十幾年來，妳一直跟我說，修緣都在讀詩書，準備赴考，我今天才知道，他讀的都是佛經。
+</Turn>
+<Turn speaker="spk8" startTime="1023.102" endTime="1027.094">
+<Sync time="1023.102"/>
+我也以為，你早就知道修緣他。
+</Turn>
+<Turn speaker="spk9" startTime="1027.094" endTime="1036.084">
+<Sync time="1027.094"/>
+哈哈哈，劉賢弟，少年人可能比較好奇。
+<Sync time="1034.554"/>
+才會讀這些經書。
+</Turn>
+<Turn speaker="spk12" startTime="1036.084" endTime="1044.648">
+<Sync time="1036.084"/>
+李兄，你忘了嗎？當年修緣剛出生沒多久，那個老和尚所說的話。
+</Turn>
+<Turn speaker="spk10" startTime="1044.648" endTime="1054.855">
+<Sync time="1044.648"/>
+[music] 此子大有根器，日後千萬別出仕。
+</Turn>
+<Turn speaker="spk9" startTime="1054.855" endTime="1058.2">
+<Sync time="1054.855"/>
+[music] 劉賢弟。
+</Turn>
+<Turn speaker="spk12" startTime="1058.2" endTime="1068.375">
+<Sync time="1058.2"/>
+我想你一定很了解，他說的這句話，簡單說，就是修緣與佛門有緣。
+<Sync time="1066.888"/>
+我現在是在擔心。
+</Turn>
+<Turn speaker="spk9" startTime="1068.375" endTime="1073.199">
+<Sync time="1068.375"/>
+這怎麼行呢？李家只有修緣這個命脈而已。
+</Turn>
+<Turn speaker="spk12" startTime="1073.199" endTime="1087.442">
+<Sync time="1073.199"/>
+那就對了，我們兩家是否會成為親家，這是小事，可是你們李家是單丁。
+<Sync time="1081.734"/>
+我怕你們李家沒人能傳香火，那麼事情就嚴重了。
+</Turn>
+<Turn speaker="spk8" startTime="1087.442" endTime="1107.49">
+<Sync time="1087.442"/>
+[music] 對啦，對啦，我們一把年紀了，只生修緣這個兒子，我已經覺得，對李家祖先很過意不去了。
+<Sync time="1098.774"/>
+如果他真與佛門有緣，又真的讓他出家，我怎麼有臉去見祖先呢？
+</Turn>
+<Turn speaker="spk9" startTime="1107.49" endTime="1111.848">
+<Sync time="1107.49"/>
+這，[noise]
+</Turn>
+<Turn speaker="spk12" startTime="1111.848" endTime="1129.718">
+<Sync time="1111.848"/>
+我在想，最好的辦法，就是選個日子，讓他與玉蓮成親，說不定他如果生了孩子，夫妻感情好。
+<Sync time="1122.998"/>
+修緣就不會出家了，那李家就不怕沒人傳香火了。
+</Turn>
+<Turn speaker="spk8" startTime="1129.718" endTime="1132.529">
+<Sync time="1129.718"/>
+好辦法，那我現在就去告訴修緣。
+</Turn>
+<Turn speaker="spk12" startTime="1132.529" endTime="1161.618">
+<Sync time="1132.529"/>
+大嫂，你千萬別打草驚蛇，萬一修緣不答應怎麼辦，我看別告訴他了，這一切我們大人做主就好了。
+<Sync time="1142.14"/>
+屆時我們硬逼修緣，去接花轎回來拜堂，屆時他想反悔都來不及了。
+<Sync time="1151.397"/>
+那我快回去準備，三天之後就讓他們倆成親。[music]
+</Turn>
+<Turn speaker="spk15" startTime="1161.618" endTime="1176.022">
+<Sync time="1161.618"/>
+阿福。[noise]
+<Sync time="1167.007"/>
+阿福，[noise] 阿福，這兩天在幹嘛，為什麼到處張燈結彩呢？
+</Turn>
+<Turn speaker="spk14" startTime="1176.022" endTime="1180.06">
+<Sync time="1176.022"/>
+[music] 明天你就知道了。[music]
+</Turn>
+<Turn speaker="spk15" startTime="1180.06" endTime="1199.249">
+<Sync time="1180.06"/>
+明天，奇怪，我爹和娘壽誕還未到，什麼事這麼值得慶祝？[music]
+<Sync time="1191.272"/>
+阿福，[music] 阿福，你坦白說，明天到底是什麼好日子，什麼好事？
+</Turn>
+<Turn speaker="spk14" startTime="1199.249" endTime="1207.028">
+<Sync time="1199.249"/>
+[music] 公子，老爺特別交代不能讓你知道。[music]
+</Turn>
+<Turn speaker="spk15" startTime="1207.028" endTime="1208.655">
+<Sync time="1207.028"/>
+為什麼不能讓我知道？
+</Turn>
+<Turn speaker="spk14" startTime="1208.655" endTime="1215.187">
+<Sync time="1208.655"/>
+[music] 反正你去睡一覺，明天一早起來你就知道了，別為難我這個下人。[music]
+</Turn>
+<Turn speaker="spk15" startTime="1215.187" endTime="1227.718">
+<Sync time="1215.187"/>
+好， [music] 既然如此，我現在去找我爹，我就告訴他，你告訴我明天是我的好日子。
+<Sync time="1224.428"/>
+是你叫我去問我爹，是什麼好事的。
+</Turn>
+<Turn speaker="spk14" startTime="1227.718" endTime="1234.605">
+<Sync time="1227.718"/>
+誒誒誒，公子，你別害我，如果讓老爺知道我就慘了。[music]
+</Turn>
+<Turn speaker="spk15" startTime="1234.605" endTime="1243.122">
+<Sync time="1234.605"/>
+你坦白說，我向你保證，這件事，天知，地知，你知，我知，絕對不會有第三者知道。
+</Turn>
+<Turn speaker="spk14" startTime="1243.122" endTime="1270.999">
+<Sync time="1243.122"/>
+這，[music] 公子，公子，好，既然你保證不會告訴第三者，我就坦白告訴你。
+<Sync time="1252.918"/>
+[music] 明天老爺要讓你娶妻，跟劉姑娘完婚拜堂成親了耶。
+<Sync time="1261.304"/>
+[music]
+</Turn>
+<Turn speaker="spk19" startTime="1270.999" endTime="1275.155">
+<Sync time="1270.999"/>
+你真的是李修緣嗎？[music]
+</Turn>
+<Turn speaker="spk15" startTime="1275.155" endTime="1315.335">
+<Sync time="1275.155"/>
+多年不見，玉蓮也變成一個如花似玉的漂亮姑娘，我是為什麼。
+<Sync time="1284.598"/>
+一想到要跟她完婚拜堂，心裡一點高興的感覺都沒有。[music]
+<Sync time="1294.918"/>
+還是我受了佛經的影響呢？[music]
+<Sync time="1305.824"/>
+[music]
+</Turn>
+<Turn speaker="spk5" startTime="1315.335" endTime="1337.632">
+<Sync time="1315.335"/>
+[noise] 你還不快束手就擒，難道不怕蓮花仙子沒命嗎？
+<Sync time="1321.608"/>
+[music] 玉蓮。
+<Sync time="1324.711"/>
+[music]
+</Turn>
+</Section>
+</Episode>
+</Trans>

@@ -1,0 +1,1438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Trans SYSTEM "trans-14.dtd">
+<Trans scribe="Administrator" audio_filename="WhatsYourStory_05" version="3" version_date="200321">
+<Speakers>
+<Speaker id="spk1" name="Justin" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk2" name="Berac" check="no" type="male" dialect="native" accent="" scope="local"/>
+</Speakers>
+<Episode>
+<Section type="report" startTime="0" endTime="3829.734">
+<Turn startTime="0" endTime="2.76">
+<Sync time="0"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="2.76" endTime="43.975">
+<Sync time="2.76"/>
+&lt;lang:English&gt;Hi&lt;/lang:English&gt;，我是&lt;lang:English&gt;Justin&lt;/lang:English&gt;。歡迎來到&lt;lang:English&gt;Whats Your Story&lt;/lang:English&gt;的節目。我深刻相信人的潛能沒有上限，而且可以被開發。只要通過學習，應用，改變，就會成長。 
+<Sync time="12.86"/>
+&lt;lang:English&gt;What's Your Story&lt;/lang:English&gt;的核心理念通過故事啟發創業者在未知的環境下成長，並幫助他們對社會帶來正面的影響。 每個人都有他的故事，你呢？
+<Sync time="23.802"/>
+[music]
+<Sync time="27.278"/>
+哎，大家好。歡迎來到&lt;lang:English&gt;What's Your Story&lt;/lang:English&gt;創業那兩個事的播客節目，我是你的主持人&lt;lang:English&gt;Justin&lt;/lang:English&gt;。
+<Sync time="33.419"/>
+那我們今天也是很高興的可以歡迎到((無極))公司的&lt;lang:English&gt;((Barrak))&lt;/lang:English&gt;來到我們這一集阿里巴巴特輯系列採訪。
+<Sync time="42.897"/>
+歡迎&lt;lang:English&gt;((berac))&lt;/lang:English&gt;。
+</Turn>
+<Turn speaker="spk2" startTime="43.975" endTime="46.108">
+<Sync time="43.975"/>
+&lt;lang:English&gt;Hello&lt;/lang:English&gt;大家好，主持人好。
+</Turn>
+<Turn speaker="spk1" startTime="46.108" endTime="62.056">
+<Sync time="46.108"/>
+哎，&lt;lang:English&gt;((berac))&lt;/lang:English&gt;我們之前其實在採訪前在電話上一起聊過蠻多你們公司算式比#啊，特別的情況。
+<Sync time="55.06"/>
+你可以和我們聽眾大家介紹一下說你們的公司背景的起源，然後是做什麼樣的業務範圍嗎？
+</Turn>
+<Turn speaker="spk2" startTime="62.056" endTime="114.457">
+<Sync time="62.056"/>
+我們公司其實分兩塊，那在過去一開始創業的時候，其實就是做女性服飾，設計配件的一家公司。
+<Sync time="72.952"/>
+然後也是從電商開始，然後甚至擺地攤，也擺過夜市，也開過店。
+<Sync time="78.189"/>
+那在近三年的時候開始轉向藝術圈。
+<Sync time="84.078"/>
+那因為轉向藝術圈之後，公司就開始進行兩個部門的分配，一個是走藝術圈的，走藝術策展的部分，
+<Sync time="92.903"/>
+那我們也有去盧浮宮參展策展過，
+<Sync time="96.708"/>
+那也有在寫作我們台灣中華民國的((元奈山崎))編輯過。
+<Sync time="102.568"/>
+那另外一部分是走電商的部分，當時其實在走電商的時候，也是引用之前的產品線。
+<Sync time="110.64"/>
+所以才有今天走到阿里巴巴這個部分。
+</Turn>
+<Turn speaker="spk1" startTime="114.457" endTime="130.209">
+<Sync time="114.457"/>
+那其實那你們現在主要假如說大家是透過阿里巴巴認識讓你們可能會認為你們可能是做一個箱包皮具的工廠。
+<Sync time="125.099"/>
+那你會跟他解釋說什麼樣的定位，然後你們為什麼會想要在阿里巴巴上面開始賣呢。
+</Turn>
+<Turn speaker="spk2" startTime="130.209" endTime="173.631">
+<Sync time="130.209"/>
+恩，這部分的話，其實我們如果只是針對阿里來的客戶我們就比較不會去強調藝術這一塊的。
+<Sync time="139.151"/>
+那，那這部分我們就可能是比較強調的是我們是一個貿易公司。
+<Sync time="143.306"/>
+那讓他知道說我們的專業度跟以前的一些成績，那甚至是因為我們自己也創業過。
+<Sync time="150.105"/>
+所以很多來找產品的客人他可能有這樣子的需求，但他不懂什麼是創業，
+<Sync time="155.912"/>
+他只知道他想要找什麼樣的產品，什麼樣的東西，但他其實很多價格跟成本他是不會去把控的。
+<Sync time="163.84"/>
+那甚至是有一些行銷方法他是不會去用的，我們都可以用這種方法去，去共同學習，
+<Sync time="171.11"/>
+甚至是讓他可以相信我們。
+</Turn>
+<Turn speaker="spk1" startTime="173.631" endTime="198.263">
+<Sync time="173.631"/>
+恩，所以其實&lt;lang:English&gt;((berac))&lt;/lang:English&gt;你這邊因為我們也是透過阿里巴巴的一些比賽活動了解到你們的嘛。
+<Sync time="181.228"/>
+那在你們的阿里的頁面上看起來其實像是個箱包皮具廠，
+<Sync time="187.511"/>
+那你剛剛說你們這邊定位其實是比較偏向貿易商的方向去走的話，
+<Sync time="193.94"/>
+那你會對這些就是潛在的一些用戶進來的時候，你會怎麼跟他去解釋？
+</Turn>
+<Turn speaker="spk2" startTime="198.263" endTime="248.411">
+<Sync time="198.263"/>
+解釋的部分的話當然我會跟他講說我們跟工廠上的一些連接性到底有什麼不一樣。
+<Sync time="206.299"/>
+那甚至是說我們可以取得比工廠還要更特殊的一些合作方式跟一些經驗。
+<Sync time="213.486"/>
+讓他知道說，哎，其實找我們，就算是東西貴那麼一點點，其實是有價值的。
+<Sync time="219.118"/>
+因為現在很多很多網絡上其實的東西，很多人他為了找工廠就算想撿便宜。
+<Sync time="226.847"/>
+但，其實我們都很清楚一件事情，大陸也好，台灣也好，甚至其他國家的工廠也好，
+<Sync time="234.229"/>
+大家都在比低價為主，其實我是覺得說，
+<Sync time="238.602"/>
+怎麼樣把東西加上它的附加價值，然後再加它的價格賣出去才是重點。
+<Sync time="244.523"/>
+如果每個都要比低價的話，有可能比不贏其他品牌商。
+</Turn>
+<Turn speaker="spk1" startTime="248.411" endTime="253.602">
+<Sync time="248.411"/>
+而且你們比較特別的是，你們在網站上你們都是一件就可以做的&lt;lang:Foreign&gt;&lt;initial&gt;MOQ&lt;initial&gt;&lt;/lang:Foreign&gt;。
+</Turn>
+<Turn speaker="spk2" startTime="253.602" endTime="254.322">
+<Sync time="253.602"/>
+對對對。
+</Turn>
+<Turn speaker="spk1" startTime="254.322" endTime="267.519">
+<Sync time="254.322"/>
+這樣子的話，你們在供應鏈是怎麼去管理的，
+<Sync time="256.933"/>
+就假如說客戶真的他要那個東西，是說你們在工廠這邊他們是算是常規貨呢，還是說因為都是手工做的皮件，所以是真的一件就可以開始做。
+</Turn>
+<Turn speaker="spk2" startTime="267.519" endTime="314.224">
+<Sync time="267.519"/>
+#呃，通常是，我們會，我們每個月會先有固定的一些常規貨，透過阿里的數據去了解。
+<Sync time="274.365"/>
+那這常規貨的部分的話，讓他了解下來就知道說，哎，那什麼東西的量可能要備多一點，什麼東西備少一點。
+<Sync time="281.811"/>
+那這些甚至是如果像你剛剛說的，
+<Sync time="285.921"/>
+有客人就是想要指定某一種特殊的款式，
+<Sync time="288.798"/>
+那可能就是，假設一個&lt;lang:English&gt;A&lt;/lang:English&gt;款好了，&lt;lang:English&gt;Hi&lt;/lang:English&gt;款他今天想要多加一些東西，
+<Sync time="294.691"/>
+那因為他的手工的關係，所以他可以為了它做一些附加的設計跟改變。
+<Sync time="300.016"/>
+但客人當然的話要付比較再高一點的費用，因為它畢竟是為了他個人設計的。
+<Sync time="307.36"/>
+所以數量，數量的話我們不會每一款都抓特別多。
+<Sync time="312.524"/>
+就主要是看那個銷售狀況。
+</Turn>
+<Turn speaker="spk1" startTime="314.224" endTime="339.707">
+<Sync time="314.224"/>
+了解。那我真的蠻好奇那就這樣子跟你們採買的客群，
+<Sync time="318.958"/>
+大部分落在什麼，因為我能想象說，&lt;lang:English&gt;maybe&lt;/lang:English&gt;說一些可能是已經培養很西端的消費者，
+<Sync time="327.203"/>
+甚至是說設計加刊擬的東西，哇，一批就可以做。
+<Sync time="329.84"/>
+還是說，很多是貿易商，或者是通路找你們，然後用樣品的方式跟你買，然後再去談更低的價位，假如他們數量更多的話。
+</Turn>
+<Turn speaker="spk2" startTime="339.707" endTime="406.817">
+<Sync time="339.707"/>
+#呃，目前因為網絡上創業的習慣性的關係吧，我覺得，
+<Sync time="345.456"/>
+因為，我們常常講什麼訂單碎片化，
+<Sync time="348.669"/>
+那訂單碎片化的關係就會變成是網絡上來的客人他會賣小單，其實這些人他的資金其實沒有特別的多。
+<Sync time="356.677"/>
+他可能想要創業，或者想要來銷售，那就有可能都是一些賣家，
+<Sync time="361.496"/>
+或者是一些小品牌商。
+<Sync time="364.262"/>
+那真正會遇到那些做大貨的也是有，但是問題是那種大貨的他通常也不太可能一開始就給你下大單。
+<Sync time="373.477"/>
+就像你剛剛說的，他可能就是一開始先買一兩個，先看一下品質跟質量不錯，然後陸陸續續，然後再慢慢加量慢慢加量。
+<Sync time="381.441"/>
+因為這種人通常他手頭資金有，也是一個可能在市場上比較，怎麼講，比較久的一種廠商。
+<Sync time="391.906"/>
+歷史可能比較久的一種廠商，那他可能已經有穩定的合作對象了，
+<Sync time="397.295"/>
+他對於我們來，他看待我們來說可能會覺得我們太，會怕怕的，陌生陌生。
+<Sync time="404.542"/>
+所以他也會慢慢用試的方式去處理。
+</Turn>
+<Turn speaker="spk1" startTime="406.817" endTime="442.999">
+<Sync time="406.817"/>
+&lt;lang:English&gt;((berac))&lt;/lang:English&gt;，我想要把它在時間點網，再更之前一點，就是比較在談個人跟背景說你其實在夜市也擺過地攤，
+<Sync time="416.566"/>
+然後也做過不同的模式，然後你特別其實我們之前在聊的時候，你們蠻特殊是從&lt;lang:Foreign&gt;&lt;initial&gt;BtoC&lt;initial&gt;&lt;/lang:Foreign&gt;再做做做轉到&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;initial&gt;&lt;/lang:Foreign&gt;。
+<Sync time="426.123"/>
+這一塊你可不可以和大家分享一下。
+<Sync time="428.212"/>
+因為我們的聽眾其實範圍真的也是蠻廣的，有不管是想要創業的學生吶，甚至公司的一些白領階級，管理階層，
+<Sync time="435.687"/>
+甚至有二代或是接班的，甚至白手起家創業的一些老闆，其實都有，那都是海外，有海外的華人也蠻多。
+</Turn>
+<Turn speaker="spk2" startTime="442.999" endTime="540.323">
+<Sync time="442.999"/>
+因為我創業的過程，其實來說，我不是那種資源很多的那種，
+<Sync time="449.216"/>
+你剛剛前面也聽到我是我有擺過地攤，所以其實我不是那種資源特別多的人。
+<Sync time="455.954"/>
+那之前有一次跟著跟著那種商務團吧去大陸走一趟，我發現了一件事情。
+<Sync time="464.079"/>
+台灣阿里跟大陸阿里不太一樣，
+<Sync time="467.423"/>
+台灣的阿里在推的部分，因為台灣的中小企業結構非常非常完整，所以它在推的過程之中，很多都是二代為主，
+<Sync time="476.955"/>
+甚至是轉型為主，那我為什麼當時會從&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端直接會投入到&lt;lang:Foreign&gt;&lt;initial&gt;B&lt;initial&gt;&lt;/lang:Foreign&gt;端來，其實我是在大陸看到了，看到了一個機會。
+<Sync time="487.047"/>
+因為我覺得說，大陸當時其實就是很，他沒有台灣前，可能二三十年前那些龍景。
+<Sync time="494.489"/>
+所以它必須在很短的時間之內去選擇他該做什麼，那甚至是要用最快的方式去接觸他的客戶。
+<Sync time="502.916"/>
+所以阿里在大陸推廣的過程之中變成很多都是創業者來源。
+<Sync time="509.246"/>
+那我在看這個，看這個過程中我發現哎呀，其實是有機會跟有商機的。
+<Sync time="515.167"/>
+譬如說&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端好了，&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端我們以前在做廣告的話可能三個月，三個月左右就要砸一百萬左右的台幣。
+<Sync time="523.353"/>
+我就覺得，這費用可能產值來說是有，但問題是費用來說，他的投入層級非常非常的高。
+<Sync time="530.803"/>
+那可能你走&lt;lang:Foreign&gt;&lt;initial&gt;B&lt;initial&gt;&lt;/lang:Foreign&gt;端的話，可能平台費用加上一些關鍵字的費用，一整年下來可能用到三百，我剛剛講的一百萬。
+</Turn>
+<Turn speaker="spk1" startTime="540.323" endTime="542.356">
+<Sync time="540.323"/>
+恩，我們現在講的都是台幣。
+</Turn>
+<Turn speaker="spk2" startTime="542.356" endTime="573.355">
+<Sync time="542.356"/>
+對對，都是台幣，都是台幣。甚至是打對折的狀況。
+<Sync time="546.782"/>
+所以我會覺得說，他的投入成本可能會比較大。
+<Sync time="551.846"/>
+而且他甚至有可能會有，就像我們剛才前面提到的，可能會有大單的出現。
+<Sync time="557.295"/>
+他不一定都是小量，所以我那時候在想說，那如果我用這種方式轉行走批發貿易的路線的話，
+<Sync time="565.139"/>
+或許可以量數量可能會比做品牌來的更大更穩定一些。所以那時候我在去想說那好吧，那我試試看走這個。
+</Turn>
+<Turn speaker="spk1" startTime="573.355" endTime="591.574">
+<Sync time="573.355"/>
+&lt;lang:English&gt;((berac))&lt;/lang:English&gt;，你剛剛提到的這個就是台灣跟大陸的生態不同是以阿里用戶的角度去思考嘛，對不對。
+<Sync time="584.129"/>
+那這個你說所謂的你看到了機會，那是在什麼樣的什麼時候的時間點，是在兩千年呢還是說兩千一零年呢？
+</Turn>
+<Turn speaker="spk2" startTime="591.574" endTime="594.932">
+<Sync time="591.574"/>
+大概就我簽阿里大概三年，三四年左右。
+</Turn>
+<Turn speaker="spk1" startTime="594.932" endTime="610.587">
+<Sync time="594.932"/>
+&lt;lang:English&gt;ok&lt;/lang:English&gt;那所以這是你最近看到的趨勢嘛，你說大陸這邊很多在阿里他只是可能工廠或者他們自己為了創業然後上阿里巴巴去開賬戶。
+<Sync time="604.272"/>
+和台灣是可能是已經很多既有的中小企業廠商，甚至二三代他要轉型，他才上阿里。
+</Turn>
+<Turn speaker="spk2" startTime="610.587" endTime="637.496">
+<Sync time="610.587"/>
+對對對。
+<Sync time="611.826"/>
+那甚至是大陸也有很多，我說大陸他，恩，雖然說，工廠更人一樣嘛，
+<Sync time="619.624"/>
+就是也會有數值上的問題，所以，可是是他們在執行上面，甚至是會常常應客戶的需求而做調整。
+<Sync time="626.672"/>
+他們是我比較覺得他們可能就像我們以前的長輩，二三十年前的那種長輩，
+<Sync time="633.51"/>
+有單他就接，但是他數量多少他可以自己想辦法去控制。
+</Turn>
+<Turn speaker="spk1" startTime="637.496" endTime="642.826">
+<Sync time="637.496"/>
+恩。那品質這一塊其實你個人覺得，以你的經驗來講也是控管的住嗎？
+</Turn>
+<Turn speaker="spk2" startTime="642.826" endTime="697.087">
+<Sync time="642.826"/>
+對對，品質是可以控管的。當然我們要去挑嘛，我們不可能挑那種奇怪的廠去合作。
+<Sync time="648.205"/>
+對，那另外的部分的話，在台灣的話，可能就因為長時間已經在二三十年下來那時候經濟起飛的時候已經習慣有大單的出現。
+<Sync time="658.668"/>
+所以，所以你瞬間叫他要去接受&lt;lang:Foreign&gt;&lt;initial&gt;PS&lt;initial&gt;&lt;/lang:Foreign&gt;數很少的，或者量很少的訂單，他是很難接受的。
+<Sync time="667.631"/>
+所以為什麼阿里在台灣推的時候會有一點跟大陸來的推發不太一樣呢，
+<Sync time="675.652"/>
+很大的原因也是因為這個，因為在創業上面，他們會覺得說，哎，他們小單就可以，他們工廠應應上可以做調整。
+<Sync time="683.047"/>
+台灣的話可能就有這個心態面臨廠商不多。
+<Sync time="687.536"/>
+那很多都是因為有接大單，那我來養個電商部門，或是我做個轉型。
+<Sync time="693.029"/>
+那這種東西對於創業者來講他就是很困難困難的地方在台灣。
+</Turn>
+<Turn speaker="spk1" startTime="697.087" endTime="750.886">
+<Sync time="697.087"/>
+恩，((李琦))講的這個東西我蠻有共鳴，
+<Sync time="699.714"/>
+因為我們不管是圈子內甚至受訪的一些團隊很多，
+<Sync time="703.412"/>
+真正我們叫做&lt;lang:English&gt;decision maker&lt;/lang:English&gt;嘛，就是可以做決策的可能都掌控在比較老的那一輩。
+<Sync time="711.614"/>
+那他們做這一塊他們就覺得可能是小孩子在玩兒戲。
+<Sync time="715.671"/>
+那當然我們先不講說什麼是對和錯啦，
+<Sync time="718.875"/>
+就是說整個市場趨勢不管是走向網絡化，訂單的碎片化等等，
+<Sync time="724.186"/>
+那你可能是因為老一輩台灣這邊在之前幾十年前，他們就習慣用貿易，或者是接貿易商的單。
+<Sync time="731.28"/>
+然後都是很穩定的出的時候，他們我覺得比較沒有這個危機意識說要去做轉型。
+<Sync time="737.214"/>
+那有這樣子想法可是他卻不讓把這個決策的能力放下去。
+<Sync time="741.672"/>
+所以這個我蠻，蠻能同意的。
+<Sync time="743.473"/>
+這是不是也是相對的原因，你這邊會想要做給內箱操作去在市場上突出呢。
+</Turn>
+<Turn speaker="spk2" startTime="750.886" endTime="781.048">
+<Sync time="750.886"/>
+恩，對，我當時想了一下，我發現因為台灣的市場，阿里這幾年才開始比較大家可以接受因為市場因為國際趨勢的關係。
+<Sync time="760.89"/>
+所以再加上這種操作方式在台灣算比較少，
+<Sync time="765.411"/>
+那我現在，我那時候就想說那既然如此，我倒不如嘗試放開，反正以前到現在創業都是在這種狀況之下去試出來的，
+<Sync time="773.622"/>
+那我想說既然如此我在阿里上或許可以試出一個方法出來，所以就是就開始阿里的生涯。
+</Turn>
+<Turn speaker="spk1" startTime="781.048" endTime="812.805">
+<Sync time="781.048"/>
+那我這邊可不可以去丟一個，怎麼講，一個反思說，&lt;lang:English&gt;ok&lt;/lang:English&gt;可是你看級網絡的東西大家都都是平等的，
+<Sync time="791.047"/>
+它其實不管是台灣還是大陸，那你這邊我們現在是這樣從潛在用戶面，
+<Sync time="797.727"/>
+來去想要買你的產品，&lt;lang:English&gt;that's say&lt;/lang:English&gt;就是你的女性背包或是皮件式的產品。
+<Sync time="804.147"/>
+他不會管你是台灣或大陸，那可是大陸的廠商也可以去提供你這邊家提供的服務或產品的時候，你怎麼又去跟他們差異化呢？
+</Turn>
+<Turn speaker="spk2" startTime="812.805" endTime="848.53">
+<Sync time="812.805"/>
+主要是服務上的一些特殊吧，
+<Sync time="815.777"/>
+因為像我們的我們的習慣我們會養客戶，
+<Sync time="819.567"/>
+就是類似用台灣的講法可能就是用類似&lt;lang:English&gt;lie at&lt;/lang:English&gt;的方式去養一些客戶群。
+<Sync time="826.107"/>
+因為工廠他沒有辦法做到這個東西。
+<Sync time="829.676"/>
+那因為我自己是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端出來的，所以我等於是把這個東西結合到了&lt;lang:Foreign&gt;&lt;initial&gt;B&lt;initial&gt;&lt;/lang:Foreign&gt;端來，
+<Sync time="834.284"/>
+那用這種方式去讓這些曾經跟我買過的客戶知道說，哦我們定時會出什麼東西，
+<Sync time="841.646"/>
+可以提供他什麼新的服務，甚至是一些什麼樣的資訊可以提供給他，這些都是我們一直入服下去的。
+</Turn>
+<Turn speaker="spk1" startTime="848.53" endTime="858.186">
+<Sync time="848.53"/>
+恩，那其實既然你講到&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端這一塊，我們其實可不可以再回到更之前就是你轉到做&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;initial&gt;&lt;/lang:Foreign&gt;這一塊前，你&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端的這個背景故事。
+</Turn>
+<Turn speaker="spk2" startTime="858.186" endTime="1039.772">
+<Sync time="858.186"/>
+這個時候，這時候其實當時一開始創業是因為，
+<Sync time="863.368"/>
+我那時候我記得我那時候退伍前最後一個禮拜我還在寫履歷表，
+<Sync time="868.452"/>
+我還在想要找工作，
+<Sync time="870.541"/>
+對，那我是退伍後我才我才跟家人溝通後我才決定說那不然我試試看創業好了。
+<Sync time="878.271"/>
+因為那時候我母親，我母親的，因為以前的人，以前長輩比較不會有保險的觀念，
+<Sync time="886.056"/>
+那那時候等於是，等於我母親身體的關係，她要換肝的問題嘛，
+<Sync time="894.758"/>
+她肝臟有換過，那所以她醫藥費加上又沒有保險，所以她每個月的開銷其實都快要二十萬，將近三十萬塊錢。
+<Sync time="902.450"/>
+那那時候跟家人溝通好之後，那那時候的基本薪資又沒有像現在來的什麼兩萬三千五之類的，
+<Sync time="909.813"/>
+對，所以那時候討論完之後又想說那既然如此，要不去，就是賭個賭個一兩年，
+<Sync time="915.892"/>
+去試一個可能會把這個錢變大的機會，
+<Sync time="920.747"/>
+創業的一開始是為了這個，那進入之後，
+<Sync time="924.936"/>
+當時為什麼會選擇女性服飾，其實是因為算我妹妹的關係吧，
+<Sync time="929.696"/>
+因為當時為了要讓媽媽有一個，因為媽媽開完刀回來，讓她有一個比較好修養的環境，
+<Sync time="937.434"/>
+所以那個時候從一個台北的一個工業區比較多的地方，搬到了台北的北頭。
+<Sync time="944.438"/>
+那搬到北頭之後，因為北頭的房價比較高一點，所以同樣的價格在原本的地方可能平數比較大，
+<Sync time="952.409"/>
+到了北頭平數就小了。也因為這樣子所以很多很多的二手衣物，我妹的，甚至是我的二手衣物都清出來了。
+<Sync time="961.724"/>
+那一開始其實我們是賣二手衣物的，
+<Sync time="965.605"/>
+那賣著買著買著以前的那些客人就會來粉絲團#啊，來問說，哎，那你們有沒有什麼樣的新東西呀或者什麼的，
+<Sync time="974.424"/>
+才開始我們正式去進一些貨的一個一個旅程。
+<Sync time="979.484"/>
+那也因為這樣子，為什麼會進夜市，因為進貨它在((武魂鋪))或者什麼地方進貨也好，
+<Sync time="986.825"/>
+台北的一個一個批發商場商城裡面去批的話，
+<Sync time="991.656"/>
+他一定都是一個有數量才能去拿貨的限制。
+<Sync time="996.132"/>
+他不是一件就可以拿。所以一定會有庫存問題。
+<Sync time="1000.136"/>
+那當時其實去夜市其實是為了銷庫存，
+<Sync time="1005.333"/>
+所以我們那時候進夜市的時候，其實常常被旁邊的攤友就是攤商的朋友去嘲笑說那我們這邊才三件五百。
+<Sync time="1013.506"/>
+你一件就要賣一千多，誰給你買#啊。
+<Sync time="1016.836"/>
+對，但是其實我們也算是用密箱操作的方式讓大家覺得說哎在夜市其實有好東西。
+<Sync time="1024.676"/>
+所以那時候反而在夜市賺到了第一桶金以後，我們就到東區去開店，
+<Sync time="1031.067"/>
+也因為這樣子，所以之後就一直在服飾女性用品的這個圈圈裡。
+<Sync time="1035.54"/>
+那其實最好為了做阿里之後就挑了個挑了包包這塊入手。
+</Turn>
+<Turn speaker="spk1" startTime="1039.772" endTime="1052.328">
+<Sync time="1039.772"/>
+不過，剛剛你講到了有一點就是說你會去做夜市這一塊，
+<Sync time="1045.505"/>
+然後在夜市這邊你價位又沒有競爭力的時候你怎麼去和其他的攤友去做的差異化競爭呢？
+</Turn>
+<Turn speaker="spk2" startTime="1052.328" endTime="1085.681">
+<Sync time="1052.328"/>
+恩，因為我那時候其實，一開始其實生意真的很差，因為畢竟價格這麼高。
+<Sync time="1058.34"/>
+那因為像我們那個夜市擺的方式就很像學校裡面優惠的那種棚子，
+<Sync time="1065.775"/>
+一個人就一個棚，
+<Sync time="1067.95"/>
+那我當時就想說把它佈置一下好了，
+<Sync time="1070.377"/>
+所以，所以當時整個環境跟打燈光的效果，
+<Sync time="1073.999"/>
+甚至是一些試鞋試衣的一些陳列的方式我基本上是把店面裡的感覺整個呈現出來。
+</Turn>
+<Turn speaker="spk1" startTime="1085.681" endTime="1089.884">
+<Sync time="1085.681"/>
+在街上，在一個夜市的一個街上可以把它這樣做出來。
+</Turn>
+<Turn speaker="spk2" startTime="1089.884" endTime="1114.048">
+<Sync time="1089.884"/>
+對對對，甚至把光纖的強化，然後透過旁邊的棚子的反射，
+<Sync time="1094.695"/>
+如何讓裡面的效果，就是讓人家走過去的時候發現哎，這家是最亮的。
+<Sync time="1099.533"/>
+那甚至是進去之後，因為夜市的地板幾乎都是水泥地板((不然不會入))，
+<Sync time="1105.267"/>
+那如何能去把一些透過一些巧思可能地板上鋪一些碎步#啊，或花布#啊，讓人家踩在上面試鞋子。
+</Turn>
+<Turn speaker="spk1" startTime="1114.048" endTime="1114.852">
+<Sync time="1114.048"/>
+哇。
+</Turn>
+<Turn speaker="spk2" startTime="1114.852" endTime="1119.301">
+<Sync time="1114.852"/>
+讓人家不會覺得說，不會覺得好像說進來好像就是一個很夜市的地方。
+</Turn>
+<Turn speaker="spk1" startTime="1119.301" endTime="1132.252">
+<Sync time="1119.301"/>
+哇，那這樣子的話，第一場地這邊的限制，還有其他攤友會不會因為嫉妒#啊 什麼故意去跟你搞破壞，
+<Sync time="1126.833"/>
+因為據我所知的話，夜市應該它有一個營業的一個規範和限制吧。
+</Turn>
+<Turn speaker="spk2" startTime="1132.252" endTime="1150.492">
+<Sync time="1132.252"/>
+其實我是覺得，可能我運氣好一些。
+<Sync time="1136.776"/>
+就是我在那關地方遇到的都還算是不錯的攤友。
+<Sync time="1140.407"/>
+雖然說，雖然大家還是會有點眼紅#啊，但是我們還是互相可能客人會互相介紹來介紹去的。
+<Sync time="1147.582"/>
+所以其實是還，還好我沒遇到這個問題。
+</Turn>
+<Turn speaker="spk1" startTime="1150.492" endTime="1158.526">
+<Sync time="1150.492"/>
+台灣這邊畢竟他圈子又小的話，會不會看到說，哎，你這邊邁的比我貴，你生意卻比我好，那我也跟你賣一樣的東西呢？
+</Turn>
+<Turn speaker="spk2" startTime="1158.526" endTime="1195.843">
+<Sync time="1158.526"/>
+有。我們那時候一開始之後，我們那時候是整個夜市最貴的，然後之後就開始有陸陸續續有其它的店也換成那種類型的衣服在賣。
+<Sync time="1168.349"/>
+那但是我是覺得有可能是，他們可能賣習慣那種，
+<Sync time="1176.352"/>
+就是介紹產品的方式可能習慣在那種乾淨無白的方式，
+<Sync time="1181.561"/>
+所以你硬要他們去介紹那種，那種價格比較高的方式的時候，他們反而很難去介紹，
+<Sync time="1188.451"/>
+所以他們生意也不會超過我，甚至，甚至有些廠商也因為這樣子又回去賣他原來賣的。
+</Turn>
+<Turn speaker="spk1" startTime="1195.843" endTime="1210.259">
+<Sync time="1195.843"/>
+因為其實他可能自己都不相信或是心虛，甚至說他打從來，他就不是用這樣子的思維去做這些事情的時候，其實很難去打動潛在的消費者，
+<Sync time="1204.714"/>
+即使走到你的攤位，那你賣的人都不相信自己的東西，你怎麼去讓他買單。
+</Turn>
+<Turn speaker="spk2" startTime="1210.259" endTime="1252.278">
+<Sync time="1210.259"/>
+對，那甚至有時候是猜忌，有的廠商不知道為什麼可以賣這麼貴，
+<Sync time="1214.743"/>
+甚至是我之前遇過一個，有個客人到我攤位來，然後拿了一件衣服，
+<Sync time="1220.509"/>
+就比著我那件衣服說為什麼那一家也買一模一樣，那家才賣三百塊，這邊要賣一千二。
+<Sync time="1226.778"/>
+然後，然後我就說，我當時，因為當天其實算是，營業額算是還&lt;lang:English&gt;ok&lt;/lang:English&gt;的啦，
+<Sync time="1232.935"/>
+所以我這也沒想太多，我就跟他說，不然你拿這隻衣架去那家店面比比看吶，
+<Sync time="1239.32"/>
+你去摸摸看它的材質有沒有差，因為我根本不知道那個人賣的是什麼，我就說你去摸摸看有沒有差，有差的話，你再回來跟我說。
+<Sync time="1245.923"/>
+結果那個人去了之後大概，過了大概十五分鐘吧，然後就回來從，就要這邊買了。
+</Turn>
+<Turn speaker="spk1" startTime="1252.278" endTime="1260.647">
+<Sync time="1252.278"/>
+哇塞，那&lt;lang:English&gt;((berac))&lt;/lang:English&gt;這一段期間，那是什麼時候，是二零一幾年的時候？
+</Turn>
+<Turn speaker="spk2" startTime="1260.647" endTime="1262.775">
+<Sync time="1260.647"/>
+一一，一一，一二。
+</Turn>
+<Turn speaker="spk1" startTime="1262.775" endTime="1271.463">
+<Sync time="1262.775"/>
+哇，所以這是二零一一，一二年的時候，然後你這時候是什麼，每天都擺攤，然後一周七天，然後一天多久呢？
+</Turn>
+<Turn speaker="spk2" startTime="1271.463" endTime="1281.746">
+<Sync time="1271.463"/>
+一天大概就從下午三點半開始去佈置，大概四點半就開始吃飯，
+<Sync time="1277.473"/>
+然後擺到大概都十二點，到一點多左右才離開。
+</Turn>
+<Turn speaker="spk1" startTime="1281.746" endTime="1323.619">
+<Sync time="1281.746"/>
+哇塞，其實我真的很感謝，我其實很感謝像你這樣跟我們分享這個故事，
+<Sync time="1288.123"/>
+因為&lt;lang:English&gt;What's Your Story&lt;/lang:English&gt;其實從英文看的話，它就是你的故事是什麼，
+<Sync time="1292.53"/>
+那我自己很深刻的相信說每個人都有他的故事，那大家有不同的成長背景，我們沒有去批判說什麼是對和錯，
+<Sync time="1301.514"/>
+但是可以透過我們的平台和這樣子的溝通，來希望說聽到的人可以說，哇，我之前也是跟&lt;lang:English&gt;((berac))&lt;/lang:English&gt;一樣，
+<Sync time="1309.678"/>
+甚至說，我可能也碰到一樣的類似的困難，說家裡有一些困境，可是你看我因為敢去搏了一下，
+<Sync time="1317.044"/>
+你看我現在有這樣今天一番的成就，所以我真的很謝謝&lt;lang:English&gt;((berac))&lt;/lang:English&gt;你這樣子和我們分享怎樣怎樣的過去啦。
+</Turn>
+<Turn speaker="spk2" startTime="1323.619" endTime="1324.692">
+<Sync time="1323.619"/>
+謝謝，謝謝。
+</Turn>
+<Turn speaker="spk1" startTime="1324.692" endTime="1350.444">
+<Sync time="1324.692"/>
+好，那我們現在好，跳到所以在&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端的一個故事嘛，你從夜市擺攤，然後勒，你看你賺到第一桶金。
+<Sync time="1331.891"/>
+然後進而到東區去開店，在東區這時候，東區假如說，不熟悉的海外聽眾，
+<Sync time="1339.766"/>
+哎呀其實上算是台北算是精華地區嘛，是一些女生會去逛的服飾店吶，店面租金都非常高嘛，
+<Sync time="1348.3"/>
+怎麼會想要去做這件事情呢？
+</Turn>
+<Turn speaker="spk2" startTime="1350.444" endTime="1430.073">
+<Sync time="1350.444"/>
+因為當時其實是，因為還是必須找，夜市有一個問題，
+<Sync time="1355.321"/>
+因為夜市其實在台灣的話，其實四月到，四月到六月，然後甚至是六月到九月，
+<Sync time="1362.268"/>
+這段時間就是梅雨季節跟颱風季，
+<Sync time="1365.561"/>
+那所以基本上你想要下大雨刮大風，夜市是不會有人來逛的，
+<Sync time="1370.969"/>
+除非今天是為了肚子餓來買一個吃的東西，吃的東西回去，那可能還有還有機會。
+<Sync time="1376.988"/>
+但是你真的要讓他逛街買衣服，這幾個月份是非常非常的困難的。
+<Sync time="1383.747"/>
+也因為這樣子我們就想說，那是不是應該要找一個遮風避雨的地方去，
+<Sync time="1388.67"/>
+就不用在那邊每天，每天在那邊載著衣服來來回回載#啊，每天還要重新披重新掛 #啊，
+<Sync time="1394.224"/>
+還要擔心下雨，
+<Sync time="1396.291"/>
+那那時候就想說，那既然我們賣的價格是偏貴的，那應該是要去一些比較可以賣這個價格的市場上去，
+<Sync time="1404.724"/>
+所以當時就選擇了台北東區。
+<Sync time="1407.582"/>
+我當時，當時選擇那邊的時候，算是也比較，比較方便一點的啦，
+<Sync time="1413.999"/>
+因為也不用這樣子跟客人說我們今天大概有沒有下雨#啊，還要每天跟他們確認來確認去，
+<Sync time="1419.953"/>
+那因為有店面，客人就可能隨時說要來，我們隨時就歡迎他來，甚至要來試鞋試衣呀，
+<Sync time="1427.122"/>
+甚至是要提貨，都是可以的。
+</Turn>
+<Turn speaker="spk1" startTime="1430.073" endTime="1458.524">
+<Sync time="1430.073"/>
+其實我一直很好奇&lt;lang:English&gt;((berac))&lt;/lang:English&gt;因為這個在風險結構上面又完全是截然不同，因為我相信你在走入店面這一塊，甚至在易擠佔區，
+<Sync time="1438.575"/>
+第一它成本會提高很多嘛，第二你在挑貨的時候，&lt;lang:English&gt;maybe&lt;/lang:English&gt;來夜市消費的族群跟在東區，
+<Sync time="1446.08"/>
+假如說在上海靜安什麼這一帶&lt;lang:English&gt;shopping&lt;/lang:English&gt;，他的&lt;lang:English&gt;taste&lt;/lang:English&gt;是不一樣的，則問你們以一個管理團隊或是一個#呃，創辦人，
+<Sync time="1454.958"/>
+你又是怎麼去篩選你所謂的產品線跟範圍呢？
+</Turn>
+<Turn speaker="spk2" startTime="1458.524" endTime="1514.425">
+<Sync time="1458.524"/>
+產品線跟範圍，我當時，當然嘛，為了要開店自行，其實你當然要去做一些功課，
+<Sync time="1464.806"/>
+比如說了解當地大概賣的價位大概落在什麼區間，
+<Sync time="1469.513"/>
+那甚至是他的市場結構跟一些消費者族群大概是落在什麼年紀，
+<Sync time="1475.161"/>
+所以當時基本上批的貨跟拿的貨大部分都是屬於比原本的貨再高一點點，
+<Sync time="1482.946"/>
+也不會差太多啦，所以在介紹上跟一些使用上來說，算是也還算順手。
+<Sync time="1490.323"/>
+算是比較有習慣的，所以當時在挑選的時候，比較不會覺得好像把以前的客戶給丟掉了。
+<Sync time="1498.46"/>
+因為以前的客戶你如果說他加一個五百塊左右，他可能還會接受。
+<Sync time="1502.6"/>
+那等於說以前累積下來的這群粉絲正是這一群客戶群，他可以沿用。
+<Sync time="1509.428"/>
+那就，等於說我們今年轉到東區去之後，我們就有個基本盤在。
+</Turn>
+<Turn speaker="spk1" startTime="1514.425" endTime="1523.986">
+<Sync time="1514.425"/>
+在這些，你所謂的店面實力通他們還存在在&lt;lang:English&gt;run&lt;/lang:English&gt;嗎，還是說是不同的團隊，甚至說你已經轉型轉接去投入到&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;initial&gt;&lt;/lang:Foreign&gt;這一塊了。
+</Turn>
+<Turn speaker="spk2" startTime="1523.986" endTime="1581.414">
+<Sync time="1523.986"/>
+#呃，可以這麼講，中間其實發生了一些事情，在東區的時候發生了一個二房東的事情。
+<Sync time="1530.926"/>
+那當時二房東，就有一天，有一天我妹我妹在裡面顧店嘛，那時候我在外出，
+<Sync time="1538.233"/>
+然後她就顧店她就突然間有一天有個七十多歲八十多歲的老先生突然，因為服飾店不都是落地窗嘛，
+<Sync time="1544.121"/>
+然後，就就，突然間有個老先生，突然間不管裡面店面有沒有人就開起門就跟我妹講什麼時候說什麼時候把店面還他。
+<Sync time="1553.704"/>
+然後我妹覺得很奇怪，這個人是誰，她就不知道不懂，然後我們簽約的那個房東也叫我們不要理他，
+<Sync time="1562.56"/>
+但是越想越不對，因為那個老先生他太常來了，就不管你裡面有沒有客人，他就一直這樣跟你講，
+<Sync time="1569.224"/>
+所以我們想說，那既然如此，因為有些年輕嘛，所以想說，也不知道怎麼辦，就問了很多長輩，
+<Sync time="1575.244"/>
+長輩說你可以去那個，台灣的那個地鎮所去看看，去問問看這個土地到底是誰的？
+</Turn>
+<Turn speaker="spk1" startTime="1581.414" endTime="1584.829">
+<Sync time="1581.414"/>
+意思是這個土，店面的所有權。
+</Turn>
+<Turn speaker="spk2" startTime="1584.829" endTime="1804.308">
+<Sync time="1584.829"/>
+對對對對對。然後我們去問，後來發現真的是那個老先生的。
+<Sync time="1589.987"/>
+然後我們才知道說，原來那個人是因為長時間，那個老先生是因為長時間旅居在國外，不常回台灣。
+<Sync time="1597.664"/>
+那有個二房東等於是跟他簽了一個很長的約，
+<Sync time="1602.173"/>
+但是就因為知道他不常來台灣所以把他的店面隔了很多間轉租出去，
+<Sync time="1607.639"/>
+然後這老先生等於是有一點算是回家了，但是怎麼看到自己家變成這個樣子。
+<Sync time="1613.475"/>
+對，那當時為什麼會離開東區其實是因為跟二房東那邊有談妥啦，
+<Sync time="1619.57"/>
+但是算是，他們說之後算是以後天天在耍流氓，那一開始談的狀況就是說，
+<Sync time="1625.906"/>
+那我們把東西，因為他們，等於是他們兩個自己，二房東跟大房東自己的糾紛嘛。
+<Sync time="1631.875"/>
+但是他又擔心說因為我們這邊會常常牽扯進去，因為那個老先生也算是我感覺影響到我們做生意啦。
+<Sync time="1640.752"/>
+那因為這樣子我就覺得該找二房東，就我們真跟簽約那人談一談，
+<Sync time="1648.071"/>
+然後在談的過程的時候，他們二房東就認為說，那不然你們把所有單據，這段時間的所有東西都收集起來，
+<Sync time="1656.695"/>
+然後甚至是這段時間所有的開銷都收集起來，那我們約定一個時間，然後我們把東西撤出去。
+<Sync time="1663.277"/>
+撤出去之後呢，然後和他約定一個時間再把這些單據上的錢給我們的。
+<Sync time="1669.828"/>
+然後我們想說好吧，反正如果說你真的願意給這筆錢我們也沒虧嘛。
+<Sync time="1674.747"/>
+我們聊過去重新找個地方就好了。
+<Sync time="1676.723"/>
+那當時就找了一個辦公大樓先租起來，然後把所有的當時批的一季的貨跟所有的裝潢全部都先丟了進去。
+<Sync time="1687.647"/>
+那丟進去之後，結果回去找，找那二房東的時候就出現狀況了，因為當時其實二房東是藉故躲起來了。
+<Sync time="1697.146"/>
+那跟我們談的是他媽媽。
+<Sync time="1701.283"/>
+那他媽媽，當時服飾店其實是，服飾店其實最怕的就是交易糾紛。所有其實都有錄音錄影的。
+<Sync time="1709.376"/>
+對，那當時因為這件事情之後，我們整個搬到了那個大樓，那什麼辦公室裡面把東西放進去之後，然後開始去找這個二房東的媽媽。
+<Sync time="1719.566"/>
+就找不到他媽媽了，那就二房東突然之間就出現了，他前面不是不見了嘛。
+<Sync time="1725.44"/>
+然後他突然之間出現，出現了之後就只回了一句說，只回了一句說我媽媽答應的事情不等於我答應的事情。
+<Sync time="1734.075"/>
+然後，然後甚至就是後面還撂了一句狠話，我為什麼說他耍流氓，他就是說，有本事你去告我#啊。
+<Sync time="1742.31"/>
+因為我東區有四個律師在幫我處理這件事情。
+<Sync time="1747.78"/>
+對。所以我們當時就是，因為當時本來是期待這個這個二房東可以把錢賠給我們。
+<Sync time="1754.878"/>
+結果變成是沒有賠到錢，還自己摸了一鼻子的灰，然後只能在辦公大樓裡。
+<Sync time="1762.482"/>
+所以當時其實，以前的狀況是實體，以前，從這個分界點之前，都是以實體銷售為主。
+<Sync time="1770.659"/>
+然後，網絡銷售為輔。
+<Sync time="1774.549"/>
+因為大部分不是在夜市就是在店面。這個分界線之後，就正式進入了全電商的時候了。
+<Sync time="1783.239"/>
+我們就開始想辦法怎麼把這批貨清掉，我們真的要真的要謝謝&lt;lang:English&gt;facebook&lt;/lang:English&gt;當時還沒有還沒有收廣告費，出幾率還很高。
+<Sync time="1791.82"/>
+對，當時就用這種方式先處理掉這些東西，那從那之後就開始進行一次篩選，我們要怎麼去走品牌，怎麼走&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端。
+<Sync time="1801.649"/>
+所以那時候才正式走進了包包。
+</Turn>
+<Turn speaker="spk1" startTime="1804.308" endTime="1832.528">
+<Sync time="1804.308"/>
+其實，我覺得這樣子的&lt;lang:English&gt;lesson&lt;/lang:English&gt;是對一些很多想要創業的一些聽眾是很好的一些經驗吶。
+<Sync time="1811.868"/>
+因為其實你講到這二房東店面的東西在香港其實也有，蠻常見，因為畢竟寸土寸金嘛。
+<Sync time="1817.577"/>
+那你這邊方便((選人))的時候你說，承租的這個店面的&lt;lang:English&gt;size&lt;/lang:English&gt;然後那時候因為，
+<Sync time="1823.707"/>
+這個等於是房東跟二房東之間的產權糾紛或者是物業糾紛導致你這邊屯的庫存的損傷會有到多大嗎？
+</Turn>
+<Turn speaker="spk2" startTime="1832.528" endTime="1857.777">
+<Sync time="1832.528"/>
+#呃，我是不知道其他，其他地區，其他香港或者是說美國的什麼其他地方的算法，押金是怎麼算的，
+<Sync time="1839.631"/>
+台灣的押金當時還沒有規定，所以，所以當時是壓了三個月加第一個月租金，現在法律是有規定，所以壓兩個月。
+<Sync time="1848.561"/>
+那那以前沒有規定的時候是壓三個月加一個月的租金，那時候一個月要十萬塊。
+<Sync time="1854.019"/>
+所以當時第一個月付租就付了四十萬。
+</Turn>
+<Turn speaker="spk1" startTime="1857.777" endTime="1860.777">
+<Sync time="1857.777"/>
+四十萬台幣差不多等於八萬人民幣。
+</Turn>
+<Turn speaker="spk2" startTime="1860.777" endTime="1902.613">
+<Sync time="1860.777"/>
+恩，對。然後付了四十萬台幣，四十萬台幣之後然後#呃，
+<Sync time="1865.908"/>
+要它裝潢嘛，又要用貨嘛，所以前前後後大概一開始下去大概，
+<Sync time="1872.414"/>
+連那個，連三季，連那一季的衣服全部拉回來，大概花了快一百多萬。
+<Sync time="1877.445"/>
+所以，所以所以當時狀況下其實基本上夜市離開的那第一桶金也用的差不多了。
+<Sync time="1885.726"/>
+所以也是因為為什麼我們回到辦公大樓之後只是想怎麼去賣東西暫時沒有想要去告這個東西，
+<Sync time="1893.64"/>
+因為根本沒有辦法告。對。
+<Sync time="1896.423"/>
+所以，所以你說平數，我剛才提到平數嘛，平數大概，我們大概只有三平而已吧。
+</Turn>
+<Turn speaker="spk1" startTime="1902.613" endTime="1908.833">
+<Sync time="1902.613"/>
+哦，三平那時候在東區有到這樣子的租金，你都是一個月十萬是差不多兩萬人民幣這邊。
+</Turn>
+<Turn speaker="spk2" startTime="1908.833" endTime="1921.115">
+<Sync time="1908.833"/>
+對。那時候那時候剛好是四大，台北剛好有個四大夜市，
+<Sync time="1914.077"/>
+有一個部分去被被政府，怎麼講，台北市的單位算是有點舉發，然後，
+</Turn>
+<Turn speaker="spk1" startTime="1921.115" endTime="1926.910">
+<Sync time="1921.115"/>
+恩，被拆遷的然後等於說那邊的一些廠商回流到東區這一塊的。
+</Turn>
+<Turn speaker="spk2" startTime="1926.910" endTime="1933.502">
+<Sync time="1926.910"/>
+對。他有些有些人進的是夜市，有些人進的東區，所以當時的租金價格是往上拉的。
+</Turn>
+<Turn speaker="spk1" startTime="1933.502" endTime="1950.27">
+<Sync time="1933.502"/>
+那假如說，你要給一些年輕人或者是想要剛起步的建議他們要做實體店面，你這邊會有什麼樣的建議，
+<Sync time="1940.362"/>
+因為，你去跟房東簽你也很難去知道，除非你可能在做，就是在租約之前，你去做功課去證明說這個產權就是你的。
+<Sync time="1949.086"/>
+是這樣子嗎？
+</Turn>
+<Turn speaker="spk2" startTime="1950.27" endTime="1993.255">
+<Sync time="1950.27"/>
+對。我會覺得先建議去做一下這件事情。
+<Sync time="1953.7"/>
+然後再來就是要處理一件事情就是，因為我當時也犯了一個錯誤，我那時候沒有去搞到，沒有去確認清楚，
+<Sync time="1961.683"/>
+除了這個產權的問題之外，再來就是很多人他在身份證影印的時候是會用影本，黑白的，
+<Sync time="1970.732"/>
+那盡可能還是要這個房東去出示一下他的證本。
+<Sync time="1977.054"/>
+核做一下，核做一下是不是這個本人，我們當時就犯了一個問題，簽約的是弟弟，但是身份證上因為是黑白照，他拿的是哥哥的。
+<Sync time="1987.016"/>
+所以你要告的話，哥哥常年在國外你也告不了他。
+<Sync time="1990.524"/>
+這是一個很大的問題，對。
+</Turn>
+<Turn speaker="spk1" startTime="1993.255" endTime="2034.178">
+<Sync time="1993.255"/>
+好，那所以我們在&lt;lang:English&gt;recap&lt;/lang:English&gt;就是同整一下這些事件，你看因為你家庭，可能母親這邊身體的醫療費的因素，
+<Sync time="2002.068"/>
+然後你自己這邊跑去就是自己給賭了一下去做創業。
+<Sync time="2006.79"/>
+開始從地攤夜市這邊開始做，做到說你進到台北的一級戰區，就是所謂的東區這邊很多的&lt;lang:English&gt;shopping&lt;/lang:English&gt;的百貨公司，
+<Sync time="2017.862"/>
+開了店面，然後現在店面又出現了這些情況，因為房東產權的糾紛，然後導致你會全心全意跑到就是做電商，
+<Sync time="2028.008"/>
+然後做品牌這一塊，那接下來的時間軸還有發生的事件可以再跟我們&lt;lang:English&gt;share&lt;/lang:English&gt;一下嗎？
+</Turn>
+<Turn speaker="spk2" startTime="2034.178" endTime="2096.478">
+<Sync time="2034.178"/>
+接下來，接下來因為就把，先把庫存做了，因為當時在進辦公大樓的時候其實主要就是突然間已經有一段時間已經習慣有那種路過客人。
+<Sync time="2044.947"/>
+可是突然間就變成沒有路過客人，就關起門來，所以變成是我們只能透過網絡去把這些東西處理掉。
+<Sync time="2051.913"/>
+那處理完之後我們也，就重新思考了一下說，是不是就挑一個品項來做就好了，因為當時資金其實也沒有特別足。
+<Sync time="2063.176"/>
+所以當時在選擇上就選擇了包包，
+<Sync time="2066.72"/>
+那選擇包包之後，當時也跟((遠傳))電信旗下當時有一個電商平台也跟他們合作。
+<Sync time="2075.273"/>
+所以我們當時的包包的品牌陸出全台灣的((遠傳))門市都有。
+<Sync time="2080.334"/>
+那甚至是一些，甚至是當時有談到說比如半門號可以打什麼折#啊 這種類型的，
+<Sync time="2088.674"/>
+當時其實算是還&lt;lang:English&gt;ok&lt;/lang:English&gt;啦，有把那個，有把那個氣勢跟錢拉回來。
+</Turn>
+<Turn speaker="spk1" startTime="2096.478" endTime="2103.722">
+<Sync time="2096.478"/>
+為什麼會想要說包，背包這一塊，是因為當初有什麼樣的原因讓你去選擇這一塊而不是服飾。
+</Turn>
+<Turn speaker="spk2" startTime="2103.722" endTime="2144.482">
+<Sync time="2103.722"/>
+#呃，選品上來說，怎麼講。
+<Sync time="2107.479"/>
+因為因為整個整個選品上來說包包的東西它，我不會擔心有庫存嘛。
+<Sync time="2113.172"/>
+所以包包的東西它其實是，它雖然是，季節它雖然季節性的強度比較不強。
+<Sync time="2120.551"/>
+它不像衣服，衣服只要天氣一熱，你賣長袖就一定沒人買。
+<Sync time="2126.009"/>
+所以包包的季節性比較不強。然後再來是包包可以可以運可以怎麼講，可以運作的客群會比衣服來的廣一點。
+<Sync time="2136.007"/>
+對，因為衣服可能，譬如說，你今天是很&lt;lang:English&gt;lady&lt;/lang:English&gt;它就是一定要有&lt;lang:English&gt;lady&lt;/lang:English&gt;個性的或是&lt;lang:English&gt;lady&lt;/lang:English&gt;長相的才能穿得起它。
+</Turn>
+<Turn speaker="spk1" startTime="2144.482" endTime="2147.897">
+<Sync time="2144.482"/>
+它不同大小，而且衣服是變得空寬。
+</Turn>
+<Turn speaker="spk2" startTime="2147.897" endTime="2152.306">
+<Sync time="2147.897"/>
+對，然後包包可能就就還好，就比較沒有。
+</Turn>
+<Turn speaker="spk1" startTime="2152.306" endTime="2220.635">
+<Sync time="2152.306"/>
+好，那那我們現在在跳再跳到阿里巴巴這一塊，
+<Sync time="2157.951"/>
+你剛剛講到阿里巴巴這塊其實你有說不同三個的定位，
+<Sync time="2162.334"/>
+那我們這個系列，其實就是在探討說不管你是貿易商或者是廠家，就是生產商，
+<Sync time="2170.94"/>
+那在阿里巴巴平台上的賣家大部分他們接觸到的客群，或是潛在的用戶其實都是也是&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;initial&gt;&lt;/lang:Foreign&gt;這一塊。
+<Sync time="2182.616"/>
+那我們之前有聊到的一些受訪者他們也知道說自己的東西可能賣到老外手上，
+<Sync time="2190.144"/>
+老外還是透過假如舉例是&lt;lang:English&gt;amazon&lt;/lang:English&gt;他直接賣給終端消費者。
+<Sync time="2194.703"/>
+那這一些阿里巴巴賣家主要思考說&lt;lang:English&gt;maybe&lt;/lang:English&gt;我可以直接就賣給終端消費者。
+<Sync time="2200.663"/>
+那我沒有說，&lt;lang:English&gt;knowhow&lt;/lang:English&gt;是一樣，因為這需要另外去建立團隊，你需要知道什麼去做當地的行銷，
+<Sync time="2208.836"/>
+然後甚至一些臉書的投放，甚至語言這邊的隔閡，那你這一塊的話，第一，有沒有做過這樣子的思考，
+<Sync time="2216.432"/>
+然後再來，假如說有或是沒有，原因又是什麼。
+</Turn>
+<Turn speaker="spk2" startTime="2220.635" endTime="2296.792">
+<Sync time="2220.635"/>
+因為我是從&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端走出來，所以我可能跟其他的廠商想的方式可能有點不太一樣吧。
+<Sync time="2230.551"/>
+很多人可能他會想著急著進&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;或者什麼，但是因為我是這樣過來的，所以我會發現#呃，怎麼講，
+<Sync time="2239.628"/>
+這幾年下來，這幾年下來其實品牌大大小小陸陸續續一直在換，
+<Sync time="2245.019"/>
+那甚至平台也會有所謂的強勢平台跟弱勢平台，
+<Sync time="2250.543"/>
+包含亞馬遜，亞馬遜阿里是很強，所以台灣台灣現在就已經進入到那個另外一個另外一種平台的時期了。
+<Sync time="2258.423"/>
+所以，所以我現在發現問題就是說廠商有可能，就是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端的品牌商有可能一直消失，
+<Sync time="2265.899"/>
+但是工廠跟貿易端其實他如果真的願意，真的認真做，他其實可以做很久，雖然做的價格可能不會有直接做&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端來的多。
+<Sync time="2276.502"/>
+但是如果說，這樣子做的話，會比較穩。就像剛剛你有提到說，可能當地可達至往賣美國賣日本，可是當地的文化我不了解，
+<Sync time="2287.161"/>
+當地的東西我不了解，如果硬要去嘗試的話，可能投入的成本也會非常非常高。
+<Sync time="2293.098"/>
+那倒不如開放性的去找當地的經銷商可能還會有希望。
+</Turn>
+<Turn speaker="spk1" startTime="2296.792" endTime="2407.356">
+<Sync time="2296.792"/>
+&lt;lang:English&gt;((berac))&lt;/lang:English&gt;的意思你講這分析蠻有意思就是我們大家都&lt;lang:English&gt;open discuss&lt;/lang:English&gt;因為並沒有什麼對和錯，只是我覺得重點是要找到自己的立足點，
+<Sync time="2307.27"/>
+然後你自己的價值和優勢是在哪邊。
+<Sync time="2309.993"/>
+其實你剛才所說的因為&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端詬病也蠻多就是在庫存風險上，風險結構，還有甚至你說有淡旺季的差異啦，
+<Sync time="2320.185"/>
+甚至&lt;lang:Foreign&gt;&lt;initial&gt;SKU&lt;initial&gt;&lt;/lang:Foreign&gt;要備很多，你不可能一家店可能就只有小模兩三隻。
+<Sync time="2325.134"/>
+然後，你一定要備很多的東西去銷售嘛。
+<Sync time="2328.839"/>
+所以這個我覺得你剛才提到這個也是蠻有意思的。
+<Sync time="2332.715"/>
+那剛才你，我們在探討到說，&lt;lang:English&gt;ok&lt;/lang:English&gt;既然你知道說不要去碰&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端這個，因為你原本就是從&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端開始，
+<Sync time="2340.47"/>
+你剛剛有說，恩，你覺得平台這邊也一直在推陳出新。可是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端的品牌也是一直在消失，是指說包包這一塊就是&lt;lang:English&gt;fashion&lt;/lang:English&gt;這種比較像潮流式服飾#啊，這種&lt;lang:English&gt;fashion&lt;/lang:English&gt;品牌嗎？還是說你覺得大部分的其實快，就是消防產品都是這樣。我覺得大部分做&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端的品牌都會遇到這個問題，
+<Sync time="2364.588"/>
+因為#呃，可能一個東西差個幾十塊可能就可以把一家店整個改掉了。
+<Sync time="2373.52"/>
+假設我跟我跟工廠關係好一點我拿它價格更低，另外一家可能跟工廠關係不好，拿它價格可能一般，
+<Sync time="2380.873"/>
+又同時進入到同一個平台去，有可能就完全是另外一個，可能就會把把那個品牌辭掉。
+<Sync time="2387.687"/>
+所以所以我那個時候也講說，講說，如果，就算我自己要做品牌的話，我進去的價格一定不能，我覺得很多人他是因為我有優勢說我進去我就賣便宜，
+<Sync time="2397.955"/>
+但是如果說今天真的是這樣子，我進去我一定不能不能比其他經銷來的價格還要再低，
+<Sync time="2405.114"/>
+因為一定會造成大家沒有辦法做。
+</Turn>
+<Turn speaker="spk1" startTime="2407.356" endTime="2415.166">
+<Sync time="2407.356"/>
+恩。我們可以再再深入的再分析一下，你可以舉例一個&lt;lang:English&gt;case&lt;/lang:English&gt;來解釋，這樣子的例子嗎？
+<Sync time="2413.04"/>
+這樣子的邏輯#啊。
+</Turn>
+<Turn speaker="spk2" startTime="2415.166" endTime="2489.869">
+<Sync time="2415.166"/>
+恩，我舉例想想，
+<Sync time="2420.041"/>
+因為之前我自己在做&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端在看的時候我就常常看到譬如說很明顯，就是這個東西它是賣給，我叫((五鏠鐠))以前((五鏠鐠))就有這個問題。
+<Sync time="2431.388"/>
+就比如說這個人跟老闆比較好，那他可能拿的價格可能都比其他的廠商的價格低一點點，
+<Sync time="2439.035"/>
+那那這樣子情況下，以前跟他拿的廠商他不可能只給一家，所以給，只給，在這麼多廠商裡面，他放在同一個平台，
+<Sync time="2448.075"/>
+或者是放在什麼地方去銷售跟競爭的時候，他們每個人都是自己的小品牌。
+<Sync time="2452.248"/>
+但是突然間有一個人價格更低，東西賣的也是一樣的東西，因為都是跟同一個地方拿的，
+<Sync time="2459.623"/>
+那就會變成客流量他是會吸過去的，那展現的形式就是消費者會全部跑到便宜的那邊去。
+<Sync time="2467.06"/>
+甚至你產品一樣，價格一樣，東西也一樣，那邊價格比較低，東西還一樣的時候，
+<Sync time="2473.323"/>
+那那就會造成造成其他沒有優勢的品牌商批發出去自己做銷售的品牌商，
+<Sync time="2481.864"/>
+他會直接，可能就斷炊了吧。因為他完全沒有辦法再繼續有優勢的活下去。
+</Turn>
+<Turn speaker="spk1" startTime="2489.869" endTime="2537.359">
+<Sync time="2489.869"/>
+不過，&lt;lang:English&gt;((berac))&lt;/lang:English&gt;我會恩，怎麼講，去反向，去&lt;lang:English&gt;argue&lt;/lang:English&gt;說那你講的這種情況是不是因為這產品別家沒有太大的差異，產業沒有太大的差異化。
+<Sync time="2500.375"/>
+因為你說說消費者會不斷惡性競爭就可能是說，
+<Sync time="2506.836"/>
+他可能這兩個沒有差異性。
+<Sync time="2509.323"/>
+那假如是真的品牌要做起來的時候，像手機的例子好了，其實手機講白一點，它使用的功能都差不多，可是不同品牌它帶來的一些怎麼講，
+<Sync time="2519.188"/>
+像&lt;lang:English&gt;Apple&lt;/lang:English&gt;就是一個很好的例子#啊。它其實東西規格來講並沒有比其他的安卓手機好，
+<Sync time="2525.75"/>
+可是這個&lt;lang:English&gt;Apple&lt;/lang:English&gt;的品牌，它就是建立到有一定的怎麼講，一個，可能讓別人覺得買了之後就是可能我是很厲害的設計師 #啊，或者是我就是很會拍照，
+<Sync time="2535.362"/>
+你覺得有沒有這樣的可能呢？
+</Turn>
+<Turn speaker="spk2" startTime="2537.359" endTime="2595.141">
+<Sync time="2537.359"/>
+有。但是它需要醞釀非常非常長的時間，就像#呃，
+<Sync time="2543.774"/>
+因為我自己是創業者，所以我會覺得除非資金很雄厚，不然要搞小品牌除非他有辦法創新跟設計出市場上沒有的東西。
+<Sync time="2555.495"/>
+不然絕大多數的做小品牌的人，他可能一開始的做法都是拿拿貿易商設計好的或者工廠設計好的貨來賣。
+<Sync time="2565.682"/>
+那這樣子的情況之下，就很難達到剛剛&lt;lang:English&gt;Apple&lt;/lang:English&gt;的這種效果。
+<Sync time="2571.294"/>
+因為它是可以比較的到的。但是&lt;lang:English&gt;Apple&lt;/lang:English&gt;這種效果它也是醞釀到這段時間下來，它達到一個很大很強大很強大的標準。
+<Sync time="2581.324"/>
+我會覺得有有這個可能性，會可以做到&lt;lang:English&gt;Apple&lt;/lang:English&gt;，但是它需要醞釀一段時間，
+<Sync time="2589.307"/>
+他很難立即做品牌就達到這種感覺，然後讓消費者覺得買他貴的是值得的。
+</Turn>
+<Turn speaker="spk1" startTime="2595.141" endTime="2600.347">
+<Sync time="2595.141"/>
+其實在資金和資源上的投放是一個完全天壤之別的事#啊，對。
+</Turn>
+<Turn speaker="spk2" startTime="2600.347" endTime="2608.489">
+<Sync time="2600.347"/>
+對對對。就是比較難的一件事。但是，因為，但是每個做小品牌的人，每個做品牌的人都希望走到那一天吧。
+</Turn>
+<Turn speaker="spk1" startTime="2608.489" endTime="2626.754">
+<Sync time="2608.489"/>
+對對對。那你剛剛有想到說什麼跟老闆比較好，基本上就是講說上源拿貨這一塊不管是和工廠的哪一個階段，
+<Sync time="2617.098"/>
+甚至是跟貿易商，可是這都應該有相對經濟規模的因素在吧。他畢竟不會因為什麼個人關係而拿到比較好的取得成本吧。
+</Turn>
+<Turn speaker="spk2" startTime="2626.754" endTime="2672.44">
+<Sync time="2626.754"/>
+他的取得成本其實就是看給他的，給他產品的這個人他他要賺多賺少而已啦。
+<Sync time="2635.732"/>
+就是他如果今天#呃想賺個一百塊好了，那大概他一百塊裡面還可以少賺五十塊嘛。
+<Sync time="2645.129"/>
+那那這樣子的話，他其實不可能每一個人都達到老總等級啦，
+<Sync time="2653.22"/>
+他應該應該是說大部分的人還是正常的邏輯在在操作，那只是說如果真的有遇到那種狀況的時候就會就會有一種連鎖反應跟影響的。
+<Sync time="2665.437"/>
+因為我之前真的有看過這種品牌一搞搞了一搞下去搞了大概三十幾個小品牌一起倒閉了。
+</Turn>
+<Turn speaker="spk1" startTime="2672.44" endTime="2677.806">
+<Sync time="2672.44"/>
+&lt;lang:English&gt;ok&lt;/lang:English&gt;你說他故意分散化讓市場會覺得說你有好多的選擇嘛，是這個原因嗎？
+</Turn>
+<Turn speaker="spk2" startTime="2677.806" endTime="2687.348">
+<Sync time="2677.806"/>
+就是就是一模一樣的貨然後分給了大概三十幾家的客人，但是有一家的客人就永遠都有一個更低價。
+</Turn>
+<Turn speaker="spk1" startTime="2687.348" endTime="2691.86">
+<Sync time="2687.348"/>
+哦，他等於說自己上游廠商把市場給玩壞。
+</Turn>
+<Turn speaker="spk2" startTime="2691.86" endTime="2712.211">
+<Sync time="2691.86"/>
+對對對對。玩壞之後變得是其他品牌就做不下，這也是我剛剛講的，如果說今天貿易商或批發商的的心態夠好的話，
+<Sync time="2701.658"/>
+他其實在運作這一塊他應該是要大家一致的。
+<Sync time="2705.465"/>
+因為如果說一玩壞掉，它有可能連鎖反應下來影響到的反而是自己，因為這些品牌一倒掉也沒人跟你拿貨。
+</Turn>
+<Turn speaker="spk1" startTime="2712.211" endTime="2807.813">
+<Sync time="2712.211"/>
+其實&lt;lang:English&gt;((berac))&lt;/lang:English&gt;你講的這讓我想到了一個蠻重要的&lt;lang:English&gt;case&lt;/lang:English&gt;是，也不算是，算是相對內部的消息就是#呃，
+<Sync time="2719.304"/>
+在&lt;lang:English&gt;amazon&lt;/lang:English&gt;上面，&lt;lang:English&gt;amazon&lt;/lang:English&gt;畢竟是做品牌，先不要講他的資金和資源上來講，那是已經毋庸置疑的。
+<Sync time="2726.244"/>
+他們其實很多亞馬遜的賣家，&lt;lang:English&gt;amazon&lt;/lang:English&gt;在之前沒有賣自己產品的時候，他們都是看賣家是在賣什麼東西，
+<Sync time="2735.39"/>
+我舉例最好的例子就是&lt;lang:English&gt;iphone&lt;/lang:English&gt;的充電線，甚至#呃一些行動電源。
+<Sync time="2742.492"/>
+那&lt;lang:English&gt;amazon&lt;/lang:English&gt;是一個平台，他可以讓很多的第三方的賣家在他們的平台上銷售。
+<Sync time="2748.411"/>
+那到銷售的一定的時間之後，他在平台上已經積累了很多用戶資源，甚至是已經有成單的一些情報好了，
+<Sync time="2760.283"/>
+然後&lt;lang:English&gt;amazon&lt;/lang:English&gt;會自己跳下去做&lt;lang:English&gt;iphone&lt;/lang:English&gt;的線，行動電源。
+<Sync time="2765.073"/>
+那當然因為他有經濟規模，所以把整個市場就吃下，也不算是蠶食，整個是鯨吞了，你知道嗎。
+<Sync time="2773.6"/>
+對對對。這個你剛才講的讓我想到這個&lt;lang:English&gt;case&lt;/lang:English&gt;，我想說給大家&lt;lang:English&gt;share&lt;/lang:English&gt;一下。
+<Sync time="2779.308"/>
+那這個東西不會逆向，它只會越來越快速和，這其實蠻可怕的啦。
+<Sync time="2786.646"/>
+那&lt;lang:English&gt;again&lt;/lang:English&gt;並不是說這一塊市場不能做，因為我們有碰到客戶是朋友他們就是，
+<Sync time="2793.62"/>
+他知道大的趨勢這樣走，可是我在還沒有發生的時候我可能自己本身撈過幾百萬，我&lt;lang:English&gt;exit&lt;/lang:English&gt;抽身，公司賣掉什麼都&lt;lang:English&gt;ok&lt;/lang:English&gt;。
+<Sync time="2803.233"/>
+那這個東西我覺得也很不錯，只是說自己要有這樣子的一個危機意識就好了。
+</Turn>
+<Turn speaker="spk2" startTime="2807.813" endTime="2818.288">
+<Sync time="2807.813"/>
+對#啊。就是公司跟創業就是看怎麼做，因為每個人，有些人他可能想要進一個一百年，有些人可能就是我賺錢我就退。
+<Sync time="2816.095"/>
+有些，每個人的想法不一樣。
+</Turn>
+<Turn speaker="spk1" startTime="2818.288" endTime="2837.104">
+<Sync time="2818.288"/>
+對對對。那我們現在跳到就是你現在在做的這一塊的定位很不，
+<Sync time="2823.379"/>
+因為我們其實也蠻明確的去剖析到什麼是好什麼不好，&lt;lang:Foreign&gt;&lt;initial&gt;BtoC&lt;initial&gt;&lt;/lang:Foreign&gt;跟&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;initial&gt;&lt;/lang:Foreign&gt;基本差異，
+<Sync time="2829.229"/>
+優勢，劣勢等等，結構的不同。
+<Sync time="2831.456"/>
+你這邊有沒有再目前的公司定位和方向來講，有沒有碰到什麼最大的痛點呢？
+</Turn>
+<Turn speaker="spk2" startTime="2837.104" endTime="2878.546">
+<Sync time="2837.104"/>
+最大的痛點應該是應該是跟客戶講的時候，
+<Sync time="2843.437"/>
+因為我是，我還是講一下，就是說因為因為我自己是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端出來的，我比較可以理解客戶為什麼要這些東西。
+<Sync time="2851.852"/>
+那我也可以比較理解說他接下來可能遇到什麼問題，那最大的問題點是在於工廠並不了解。
+<Sync time="2859.668"/>
+所以要花很多很多的時間跟工廠溝通。
+<Sync time="2863.858"/>
+這是一個痛點。第二個痛點最花時間的就是有些客戶他，他想創品牌，他想要創立，或者是想說做自己的東西，
+<Sync time="2875.512"/>
+但是太異想天開。
+</Turn>
+<Turn speaker="spk1" startTime="2878.546" endTime="2891.035">
+<Sync time="2878.546"/>
+我打個岔，你說所謂的客戶就是透過阿里巴巴，不管在世界哪一個國家找到你的這一些潛在的客戶，
+<Sync time="2887.521"/>
+他們可能是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端可能是&lt;lang:Foreign&gt;&lt;initial&gt;B&lt;initial&gt;&lt;/lang:Foreign&gt;端反正這些就是客戶。
+</Turn>
+<Turn speaker="spk2" startTime="2891.035" endTime="2917.083">
+<Sync time="2891.035"/>
+對對對。但是，因為我知道很多很多的做阿里的人，他可能遇到這種異想天開的客戶，他可能就不會不會想要理他。
+<Sync time="2901.178"/>
+但因為我自己是創業過來的，所以我會知道他們為什麼會異想天開，所以我會比較願意這樣多花一點時間去了解他到底需要些什麼。
+<Sync time="2910.347"/>
+只是說對於工廠來說，這個行為我覺得就叫浪費時間吶。
+</Turn>
+<Turn speaker="spk1" startTime="2917.083" endTime="2925.788">
+<Sync time="2917.083"/>
+嗯嗯嗯嗯。對你來講的話，你是做一個情報收集還是說真的會有一些你所謂的養客戶的這樣子的策略規劃呢。
+</Turn>
+<Turn speaker="spk2" startTime="2925.788" endTime="2948.962">
+<Sync time="2925.788"/>
+都有。兩個都有。雖然說，你說它痛點吧，它真的很花時間，必須把他從一個天方夜譚的想法上拉到一個現實層面的時候。
+<Sync time="2935.967"/>
+他是有很多很多思想上必須去挑戰的，那這個時候我甚至是，但是你只要挑戰成功了，這個客戶就一定是你的。
+<Sync time="2945.737"/>
+因為因為同行工廠不會喜歡這種。
+</Turn>
+<Turn speaker="spk1" startTime="2948.962" endTime="2953.967">
+<Sync time="2948.962"/>
+有沒有什麼好笑的&lt;lang:English&gt;case&lt;/lang:English&gt;你可以想到可以跟我們&lt;lang:English&gt;share&lt;/lang:English&gt;一下。
+<Sync time="2952.511"/>
+簡短的&lt;lang:English&gt;share&lt;/lang:English&gt;一下。
+</Turn>
+<Turn speaker="spk2" startTime="2953.967" endTime="2999.116">
+<Sync time="2953.967"/>
+就像其實我們有遇過也是想跟我們談合作談經銷哇，然後可能是英國的，做英國的平台，網絡平台。
+<Sync time="2962.754"/>
+也有做亞馬遜的客人。那他可能就會想要說哎有沒有辦法他可以完全不碰到東西，
+<Sync time="2970.458"/>
+我們幫他把東西送到客人手上。
+<Sync time="2974.204"/>
+然後又要又要希望說#呃東西裡面可能要有他的一些設計理念，
+<Sync time="2981.656"/>
+那當然那這個東西就是比較前面前半段的那段話我們是可以達成的。
+<Sync time="2987.258"/>
+但是他設計理念我們必須要給他看過，那甚至是說他有些設計上他會認為會比較前衛一點。
+<Sync time="2997.58"/>
+譬如說。
+</Turn>
+<Turn speaker="spk1" startTime="2999.116" endTime="3017.979">
+<Sync time="2999.116"/>
+你剛才講到其實很像&lt;lang:English&gt;dropshow&lt;/lang:English&gt;的概念嗎。
+<Sync time="3002.315"/>
+就是老外這邊他什麼都不想要碰，他可能就是想要在巴厘島還是在東南亞哪邊就是用個電腦，然後勒，玩個流量，剖些照片，
+<Sync time="3010.925"/>
+然後發單什麼下單什麼都轉給轉給上游廠商就是你們這樣子的角色，是吧。
+</Turn>
+<Turn speaker="spk2" startTime="3017.979" endTime="3050.55">
+<Sync time="3017.979"/>
+對對對。但是這個東西我覺得還能突破，因為我覺得都還好。
+<Sync time="3022.394"/>
+因為我們現在有幾個客戶也是用這種方式在做，只是有些設計我們真的不知道怎麼辦。就譬如說，他有些設計他是用他當地的一些原材料，
+<Sync time="3031.088"/>
+譬如說#啊，我們就遇過那種非洲的客人，他可能希望用樹皮跟木頭，拿結合皮料去做成他想要的東西。
+<Sync time="3042.855"/>
+但是那個設計圖他又不讓我們改。
+<Sync time="3046.933"/>
+就是就是他那個設計圖是他的想象。
+</Turn>
+<Turn speaker="spk1" startTime="3050.55" endTime="3054.773">
+<Sync time="3050.55"/>
+那可以做#啊，他你叫他把樹皮跟那些東西寄過來我幫你做勒。
+</Turn>
+<Turn speaker="spk2" startTime="3054.773" endTime="3083.134">
+<Sync time="3054.773"/>
+沒有，這些都&lt;lang:English&gt;ok&lt;/lang:English&gt;#啊，樹皮都&lt;lang:English&gt;ok&lt;/lang:English&gt;，但是問題是他的，譬如說這個可能比較細一點，
+<Sync time="3061.196"/>
+就是車縫的位置，東西的載重跟跟他的五金的放法，
+<Sync time="3068.994"/>
+對就他的那款，他的設計來說是根本就裝不了東西提了。
+<Sync time="3074.378"/>
+對，那我們想要改他的設計，但是他不改，那我們就可能要去跟他說為什麼要這樣做，然後要幹什麼，就變成要講很久的東西。
+</Turn>
+<Turn speaker="spk1" startTime="3083.134" endTime="3090.226">
+<Sync time="3083.134"/>
+那你說這些人都還值得花時間，是因為他的訂單金額足夠嗎，還是說。
+</Turn>
+<Turn speaker="spk2" startTime="3090.226" endTime="3097.977">
+<Sync time="3090.226"/>
+應該是我們都不會知道他的訂單金額是多少，我們只是把他當成是一個潛在的買家。
+</Turn>
+<Turn speaker="spk1" startTime="3097.977" endTime="3100.358">
+<Sync time="3097.977"/>
+一直幫他服務，一直服務。
+</Turn>
+<Turn speaker="spk2" startTime="3100.358" endTime="3118.16">
+<Sync time="3100.358"/>
+對。因為我們只能透過服務去了解這個人的需求，當然了，當然在在討論的過程中，他如果願意跟你繼續討論下去代表他願意成長。
+<Sync time="3109.963"/>
+我們就覺得做那還&lt;lang:English&gt;ok&lt;/lang:English&gt;。
+<Sync time="3112.519"/>
+有些人聊著聊著他會覺得你觸犯到他的設計底線。
+</Turn>
+<Turn speaker="spk1" startTime="3118.16" endTime="3123.990">
+<Sync time="3118.16"/>
+那會不會說你跟他談到最後，他跟你講說，&lt;lang:English&gt;ok&lt;/lang:English&gt;&lt;lang:English&gt;((berac))&lt;/lang:English&gt;我跟你買一個。可能這種可能嗎？也有可能。
+</Turn>
+<Turn speaker="spk2" startTime="3123.990" endTime="3126.053">
+<Sync time="3123.990"/>
+有#啊，也是有，也是有。
+</Turn>
+<Turn speaker="spk1" startTime="3126.053" endTime="3133.653">
+<Sync time="3126.053"/>
+像這種東西的建議是什麼，因為你一聽這樣一聽工廠根本不會想要跟你玩這個，太累了，他光是輸貨就煩的要死#啊。
+</Turn>
+<Turn speaker="spk2" startTime="3133.653" endTime="3147.473">
+<Sync time="3133.653"/>
+對#啊，工廠就很煩，工廠遇到這種東西就很煩，但我們通常是這種狀況下會跟人家先談說把他調整到說，既然他有這個想法，那有沒有辦法先，
+<Sync time="3144.612"/>
+先了解我們的東西。
+</Turn>
+<Turn speaker="spk1" startTime="3147.473" endTime="3152.689">
+<Sync time="3147.473"/>
+那以你跟工廠之間的交流又是怎麼去溝通呢？
+</Turn>
+<Turn speaker="spk2" startTime="3152.689" endTime="3191.398">
+<Sync time="3152.689"/>
+這塊東西的話，我就覺得跟工廠其實還好，工廠實際上會建議我說不要浪費太多時間在他們身上。
+<Sync time="3160.15"/>
+對。那那其實其實我們會覺得說，通常我們把他引導到這樣的點#啊，畢竟會有這種邏輯。
+<Sync time="3168.325"/>
+很難溝通的狀況的通常都是因為他剛創業。
+<Sync time="3172.531"/>
+他對這個整體市場跟製程他是不熟的。
+<Sync time="3176.776"/>
+所以我們在溝通的過程中就會引導他說那不然你既然這樣子的情況，你要不要先拿我們現有的產品回去試試看。
+<Sync time="3184.735"/>
+對。就用這種方式去引導他。那這樣子一來，他可能會更加了解我們的東西。
+</Turn>
+<Turn speaker="spk1" startTime="3191.398" endTime="3194.819">
+<Sync time="3191.398"/>
+哇，那這樣工廠還願意跟你們配合咯。
+</Turn>
+<Turn speaker="spk2" startTime="3194.819" endTime="3201.831">
+<Sync time="3194.819"/>
+哎，對對對。覺得畢竟是拿現有的東西，他現有的東西就當然就還算他還可以應付的了。
+</Turn>
+<Turn speaker="spk1" startTime="3201.831" endTime="3219.959">
+<Sync time="3201.831"/>
+我的意思是說就是你花了這麼多的時間和資源在跟這些潛在客戶去溝通，然後他去做，好不容易達成一個協議的時候，
+<Sync time="3211.205"/>
+然後你跟工廠說，哎，我要做這個很特別的((砌塊))，那工廠，因為執行層面還是落在你的身上嘛，那你怎麼去把它執行出來呢？
+</Turn>
+<Turn speaker="spk2" startTime="3219.959" endTime="3260.142">
+<Sync time="3219.959"/>
+主要是看他的，我們通常是看他資金到了沒#啊，對，資金到了我們才會往下做。
+<Sync time="3227.798"/>
+那這個東西的話，工廠也會去看他的，其實我覺得做貿易有時候就是種，也是要看一種信任度，
+<Sync time="3235.157"/>
+你如果聊聊之後你覺得你信任他，其實我們就願意投入。
+<Sync time="3239.815"/>
+對。那再來就是因為我們自己也是算創業過來人，所以我會知道創業一開始那種痛苦。
+<Sync time="3246.26"/>
+對。很多廠商都覺得說我一定要接大單，我一定要接大單，問題是，人家為什麼會訂單碎片化就是因為人家沒錢吶。
+<Sync time="3255.582"/>
+人家如果有錢就不會變成訂單碎片化啦。一下量就下超多。
+</Turn>
+<Turn speaker="spk1" startTime="3260.142" endTime="3279.791">
+<Sync time="3260.142"/>
+而且其實，我覺得大的單也不是現在你所謂的級網絡，大的那些&lt;lang:English&gt;WalMart&lt;/lang:English&gt;#啊什麼，他們在當地找就已經&lt;lang:English&gt;localize&lt;/lang:English&gt;。
+<Sync time="3267.993"/>
+他們沃爾瑪什麼&lt;lang:English&gt;((hoople))&lt;/lang:English&gt;甚至是在中國大陸東南亞都有自己的&lt;lang:English&gt;office&lt;/lang:English&gt;。
+<Sync time="3273.202"/>
+他也都不下單給給一些貿易商的時候，你要想一下大的趨勢想變，你要跟著怎麼去變。
+</Turn>
+<Turn speaker="spk2" startTime="3279.791" endTime="3319.062">
+<Sync time="3279.791"/>
+對#啊。所以像，就像我常常跟一些，就是有一些傳統產業的問我要不要做阿里，問我說要不要做亞馬遜的時候，
+<Sync time="3288.293"/>
+我常常跟他們開玩笑說，有可能麻煩想一件事情，現在你們不要期待在上面會找到什麼大客戶，你們要在上面，他可能會有大客戶的存在，但是，你不要一直去想這件事情。
+<Sync time="3299.002"/>
+你要去想的是如何透過這些新的方式去增加你的新客戶。
+<Sync time="3303.42"/>
+因為很多很多老的傳產跟這些工廠也好，貿易商也好，他們都是靠二十年前或者是好幾十年前的客戶一直做做做下去的，
+<Sync time="3313.227"/>
+他們根本就沒有新的客人。
+</Turn>
+<Turn speaker="spk1" startTime="3319.062" endTime="3377.963">
+<Sync time="3319.062"/>
+我覺得非常非常恐怖，那這個危機意識其實我昨天才接觸了一個也是二代的，他們是企業二代。
+<Sync time="3327.481"/>
+恩，也是做貿易印刷這一塊的，那他們就跟我講了，&lt;lang:English&gt;kevin&lt;/lang:English&gt;是跟我說，他是要投資未來。
+<Sync time="3335.878"/>
+因為他知道這個趨勢是沒有辦法變的，當你現在可以在一百公里以外去看到這個海嘯就要來了，
+<Sync time="3344.479"/>
+你現在該跑呢，還是說你要去做什麼樣的一個應對的防範。
+<Sync time="3348.865"/>
+而不是說海嘯來的時候，你被淹死的時候都來不及了。
+<Sync time="3354.204"/>
+那那你覺得這一些我們現在只講台灣這塊，因為我現在覺得中國大陸這一塊其實是非常非常快速的，
+<Sync time="3360.508"/>
+然後他們的應變速度我覺得是真的沒有沒有任何地方可以比的。我現在只講台灣這邊，
+<Sync time="3366.85"/>
+#呃，你覺得他們碰到這個問題，第一他們已經知道了，那他們願不願意接受願不願意改變是另外一回事啦，
+<Sync time="3375.795"/>
+那你這邊會希望給他們什麼樣的建議。
+</Turn>
+<Turn speaker="spk2" startTime="3377.963" endTime="3438.729">
+<Sync time="3377.963"/>
+說建議是不敢吶。就是可能希望他們就是會抱著一種比較開放性的態度，
+<Sync time="3384.7"/>
+因為現在很明顯，在各大的展會，就是實體的參展，其實人數都已經在銳減中。
+<Sync time="3393.644"/>
+很多時候其實就是很多人都移到線上來了。
+<Sync time="3397.809"/>
+那也希望這些廠商可能不要都不要都一直以為這些單子可以養他們一輩子。
+<Sync time="3406.429"/>
+他們還是要需要透過一些新的方式來吸收一些新的客人，或許他單很小，
+<Sync time="3411.386"/>
+但是我也相信，以前這些什麼亞馬遜沃爾瑪也好，或者是什麼其他大廠商你像家樂福也好，這些廠商在二三十年前的單也不可能像現在一樣一次就這麼大。
+<Sync time="3423.764"/>
+對，我們或許可以養到下一個沃爾瑪也說不定，但，對，所以我就覺得抱死開放一點的心去嘗試新的東西，
+<Sync time="3433.651"/>
+去接待新的客人。我就覺得這個是未來的一個新方法。
+</Turn>
+<Turn speaker="spk1" startTime="3438.729" endTime="3475.46">
+<Sync time="3438.729"/>
+恩。那我們現在討論到比較個人層面這塊，因為我們的時間這邊差不多，
+<Sync time="3445.066"/>
+那你自己在過去的不管是創業#啊或者是一些人生經驗的過程中，有沒有碰到什麼樣的挫敗讓你是覺得很刻骨銘心的。
+<Sync time="3454.988"/>
+因為在成功來講的話，大致都#啊((接單))就是這樣子嘛。可是實際上，我希望聽眾可以得到的是說&lt;lang:English&gt;ok&lt;/lang:English&gt;，
+<Sync time="3462.887"/>
+有哪一些的經驗是哇，其實別人經歷過，&lt;lang:English&gt;maybe&lt;/lang:English&gt;我不用這樣子再做犯同樣的錯誤。
+<Sync time="3469.724"/>
+甚至說哎這些錯誤我自己有經歷過，我其實可以感同身受。
+</Turn>
+<Turn speaker="spk2" startTime="3475.46" endTime="3561.789">
+<Sync time="3475.46"/>
+挫敗如果真的要講，創業到現在挫敗最深刻的兩次吧。
+<Sync time="3481.683"/>
+一次是就是我剛剛前面有提到的就是東區的房東的事件。
+<Sync time="3488.065"/>
+我覺得就是一開始也要怪自己疏忽啦，那等於是一開始本來的夢想投入在一個店面裡，結果突然間就沒多久就付之流水了。
+<Sync time="3499.736"/>
+那甚至是要重新又去思考重新的定位。
+<Sync time="3502.885"/>
+那第二個，第二個問題我覺得是在剛做阿里的時候，
+<Sync time="3508.257"/>
+剛做阿里那一年多我覺得可能跟很多網商，可能跟很多想做做網絡的人一樣，
+<Sync time="3516.001"/>
+都會覺得說哎東西放上去就會賣了，就就不用去管太多事情。
+<Sync time="3522.664"/>
+所以覺得那時候其實成績也沒有很好，那之後是因為有點痛定思痛了。
+<Sync time="3530.747"/>
+真的去認真去研究它跟認真去操作它才慢慢慢又把成績拉回來，不然一開始真的會覺得，
+<Sync time="3538.026"/>
+好像就覺得，哎，開著就好了，因為我知道很多台灣的廠商都是屬於那種怎麼講，
+<Sync time="3545.308"/>
+單單先講阿里好了，就是會說阿里沒用的人，有很大一部分人是他根本就不知道怎麼操作。
+<Sync time="3552.57"/>
+他以為他以為開著就可以了。
+<Sync time="3556.192"/>
+對，這是比較可惜的。我們之前也犯了犯過這樣的錯誤。
+</Turn>
+<Turn speaker="spk1" startTime="3561.789" endTime="3586.851">
+<Sync time="3561.789"/>
+其實你說基本上，你覺得挫敗就是&lt;lang:English&gt;ok&lt;/lang:English&gt;除了你之前就是在東區這邊發生的事，你剛剛其實&lt;lang:English&gt;share&lt;/lang:English&gt;嘛，
+<Sync time="3570.438"/>
+蠻深深度的。然後就是說你在阿里這塊。那你覺得有什麼樣的方式可以去改改進它勒。
+<Sync time="3579.067"/>
+就覺得說，我們先舉，舉阿里這塊，是說花更多的時間資源去了解說這種生態是怎麼&lt;lang:English&gt;work&lt;/lang:English&gt;嗎還是？
+</Turn>
+<Turn speaker="spk2" startTime="3586.851" endTime="3654.617">
+<Sync time="3586.851"/>
+我覺得需要。因為阿里它的系統，它特別是特別在說，它需要靠自己去鑽研吶。
+<Sync time="3595.432"/>
+它需要靠自己去鑽研。然後自己鑽研出現的東西你就會知道哪些市場的優勢跟劣勢，甚至是一些產品接下來的走向的一些方式。
+<Sync time="3605.206"/>
+甚至是流行性都可能可以透過一些數據去看得出來。
+<Sync time="3609.771"/>
+所以，所以如果說，自己如果沒有認真去鑽研的話，其實會落失掉很多很多的機會。
+<Sync time="3616.357"/>
+就像那時候，我現在回想起來，剛開始如果認真做的話，我其實可能就，哎，開個玩笑，就是有可能你早就找我了，對。
+<Sync time="3626.201"/>
+那因為那時候其實回想起來那時候真的浪費蠻多錢然後浪費了蠻多時間的。
+<Sync time="3632.254"/>
+然後甚至是停在一個地方也在思考為什麼這個地方會這樣。
+<Sync time="3637.128"/>
+是我又是我在思考上面又有哪邊出了問題還是說阿里平台是不是真的不能用。
+<Sync time="3644.437"/>
+但但真的是也是算有痛定思痛#啊，覺得說，那好吧，那我認真嘗試一下。
+<Sync time="3650.975"/>
+然後才才做了算是比較比較&lt;lang:English&gt;ok&lt;/lang:English&gt;一點的。
+</Turn>
+<Turn speaker="spk1" startTime="3654.617" endTime="3677.988">
+<Sync time="3654.617"/>
+恩恩恩。好，那我們最後你有什麼話想要和我們的聽眾說，像我剛剛有提到我們聽眾的客群其實算是蠻廣泛的。
+<Sync time="3664.396"/>
+從十幾歲十八歲大學應屆畢業生，如到一些企業的一些管理者，甚至到創辦人，
+<Sync time="3674.092"/>
+恩，你有什麼想和他們&lt;lang:English&gt;share&lt;/lang:English&gt;的？
+</Turn>
+<Turn speaker="spk2" startTime="3677.988" endTime="3760.649">
+<Sync time="3677.988"/>
+我覺得，因為我創業到現在，就是很多時候是，怎麼講，
+<Sync time="3686.378"/>
+我先講一個，對於就業者的跟一個創業者的好了，
+<Sync time="3691.735"/>
+就業者的角度我必須建業也是說，很多公司它或許也是新創，但是，很多求職者他可能會覺得為什麼很多東西會朝令夕改。
+<Sync time="3703.344"/>
+為什麼有些東西會常常變來變去，甚至是老闆為什麼會遇到很多問題，
+<Sync time="3712.853"/>
+我必須跟這些就業者去建議一件事就是說，因為它是新創。
+<Sync time="3719.598"/>
+很多東西還在摸索中，它朝令夕改是正常的，但是如果它在朝令夕改的過程中它還願意繼續嘗試繼續做下去的話，
+<Sync time="3728.381"/>
+那代表這個老闆這個上級他是一個容易嘗試勇於挑戰的人，
+<Sync time="3734.24"/>
+不要不要很快的放棄他，因為我知道很多求職者會覺得這樣很不穩定，這樣很害怕，大家就放棄了。
+<Sync time="3742.447"/>
+那對於創業者來說的話，我必須要建議的是市場一直在變，
+<Sync time="3748.723"/>
+那，很多時候，就看自己怎麼去面對跟調整。但是千萬不要放棄調整。
+<Sync time="3754.576"/>
+因為如果不改變的話，很多東西不改變就會等著世界來改變我。
+</Turn>
+<Turn speaker="spk1" startTime="3760.649" endTime="3785.464">
+<Sync time="3760.649"/>
+恩。沒錯沒錯。
+<Sync time="3763.288"/>
+好，我覺得他這是一個非常好的一個結尾。那今天真的很謝謝&lt;lang:English&gt;((berac))&lt;/lang:English&gt;來到我們&lt;lang:English&gt;What's Your Story&lt;/lang:English&gt;創業那兩個事的節目，為我們分享這麼多這麼多深度的知識，
+<Sync time="3773.285"/>
+&lt;lang:English&gt;((berac))&lt;/lang:English&gt;然後我們這邊假如說有聽眾有興趣要找你們的網站或是公司資訊的話，我們會在&lt;lang:English&gt;shownotes&lt;/lang:English&gt;裡面，你們公司叫((無極))嘛，英文就是&lt;lang:English&gt;wuji&lt;/lang:English&gt;對不對？
+</Turn>
+<Turn speaker="spk2" startTime="3785.464" endTime="3786.286">
+<Sync time="3785.464"/>
+對。
+</Turn>
+<Turn speaker="spk1" startTime="3786.286" endTime="3794.309">
+<Sync time="3786.286"/>
+是，那我們所有的相關資訊都可以在我們的&lt;lang:English&gt;shownotes&lt;/lang:English&gt;裡面，就是我們的筆記裡面找到啦。真的很，今天謝謝&lt;lang:English&gt;((berac))&lt;/lang:English&gt;來到我們的節目，謝謝你！
+</Turn>
+<Turn speaker="spk2" startTime="3794.309" endTime="3800.324">
+<Sync time="3794.309"/>
+謝謝&lt;lang:English&gt;Justin&lt;/lang:English&gt;。
+<Sync time="3797.619"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="3800.324" endTime="3829.734">
+<Sync time="3800.324"/>
+恭喜你又發掘了一個不同的故事，也希望有吸收到有用的知識哦。
+<Sync time="3804.728"/>
+內容有提到的鏈接，詳細的筆記，資源都可以在官網&lt;lang:English&gt;wuysjustin.com&lt;/lang:English&gt;裡面找到哦。
+<Sync time="3814.825"/>
+如果您覺得這樣子的內容有價值，也麻煩可以動動手指在收聽收看的平台給我們評價並且分享，
+<Sync time="3822.766"/>
+讓更多人了解我們想要散播的理念，那麼下期再會！&lt;lang:English&gt;please&lt;/lang:English&gt;。
+</Turn>
+</Section>
+</Episode>
+</Trans>
