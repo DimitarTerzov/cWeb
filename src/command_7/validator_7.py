@@ -7,11 +7,10 @@ import io
 def command7(filepath):
 
     # Allowed punctuation after tag
-    punctuation = u"[:',!—_\".?\-;]"
+    allowed_punctuation = ur"。！？，、．\[\]"
     #default skip tags
-    skip_tags = u"(#uh|#um|#ah|#er|#hm|#อื|#อ่|#เอ่)"
-    possible_missing_tag = u"(uh|um|ah|er|hm)"
-    filler_re = re.compile(ur'[\W\w]?#\w*\W?', re.UNICODE)
+    skip_tags = u"(#呃|#啊|#嗯)"
+    filler_re = re.compile(ur'[\W\w]?#[\w\W]{2}', re.UNICODE)
 
     found = {}
     in_section = False
@@ -23,34 +22,25 @@ def command7(filepath):
 
             if '<Section' in line:
                 in_section = True
-            elif '</Section' in line:
-                in_section = False
+                continue
 
-            for match in re.finditer(filler_re, line):
+            if '</Section' in line:
+                break
 
-                target = match.group().strip()
-                # Pass filler tag with tilde.
-                # They are reported in command 15.
-                if "~" in target:
-                    continue
+            if in_section:
+                for match in re.finditer(filler_re, line):
 
-                if (
-                    not re.match(ur'^{0}{1}?$'.format(skip_tags, punctuation), target, re.UNICODE)
-                    and in_section
-                ):
-                    found[ln] = [7, 'Invalid filler tag', target.encode('utf')]
-                    continue
-
-
-            for match in re.finditer(ur'\s{0}\W'.format(possible_missing_tag), line, re.UNICODE):
-                if ln not in found and in_section:
-                    found[ln] = [7, 'Possible filler tag missing #', match.group().encode('utf')]
+                    target = match.group()
+                    if (
+                        re.match(ur'[\w{1}]?{0}[\w{1}]'.format(skip_tags, allowed_punctuation), target, re.UNICODE) is None
+                    ):
+                        found[ln] = [7, 'Invalid filler tag', target.encode('utf')]
 
     return found
 
 
 if __name__ == '__main__':
-    found = command7("../files/AsiaWaveNews_05.trs")
+    found = command7("../files/Daai_Religion_05.trs")
     keys = sorted(found.keys())
     for key in keys:
         print key, found[key], found[key][2]
