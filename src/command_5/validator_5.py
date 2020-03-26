@@ -19,18 +19,18 @@ def command5(filepath):
         'Kazakh','Khmer','Kikuyu','Kinyarwanda','Kirundi','Korean','Kosovan','Kotokoli','Krio','Kurdish','Kurmanji',
         'Kyrgyz','Lakota','Laotian','Latvian','Lingala','Lithuanian','Luganda','Maay','Macedonian','Malay',
         'Malayalam','Maltese','Mandarin','Mandingo','Mandinka','Marathi','Marshallese','Mirpuri','Mixteco','Moldavan',
-        'Mongolian','Montenegrin','Navajo','Neapolitan','Nepali','Nigerian','Pidgin','Norwegian','Oromo','Pahari',
+        'Mongolian','Montenegrin','Navajo','Neapolitan','Nepali','Nigerian','Pidgin','Norwegian','Oromo','OtherChinese','Pahari',
         'Papago','Papiamento','Pashto','Patois','Persian','Pidgin','English','Polish','Portug.creole','Portuguese','Pothwari',
         'Pulaar','Punjabi','Putian','Quichua','Romanian','Russian','Samoan','Serbian','Shanghainese','Shona',
         'Sichuan','Sicilian','Sinhalese','Slovak','Somali','Sorani','Spanish','Sudanese','Arabic','Sundanese',
         'Susu','Swahili','Swedish','Sylhetti','Tagalog','Taiwanese','Tajik','Tamil','Telugu','Thai',
-        'Tibetan','Tigre','Tigrinya','Toishanese','Tongan','Toucouleur','Trique','Tshiluba','Turkish','Ukrainian',
+        'Tibetan','Tigre','Tigrinya','Toishanese','Tongan','Toucouleur','Trique','Tshiluba','TSM','Turkish','Ukrainian',
         'Urdu','Uyghur','Uzbek','Vietnamese','Visayan','Welsh','Wolof','Yiddish','Yoruba','Yupik',
         'Ambonese', 'Betawinese', 'Latin', 'Manadonese'
     ]
 
     punctuation_marks = u"。！？，、．"
-    disallowed_punctuation = u'《》：（（））【】\[\]'
+    disallowed_punctuation = u'《》：（（））【】'
 
     regex = re.compile(ur'(?P<content>(?P<before_first>[\s{0}])?(?P<first_open>(?:&lt;))(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;))(?P<inner_text>.*?)(?P<second_open>(?:&lt;))(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;))(?P<after_second>[\s{0}])?)'.format(disallowed_punctuation), re.UNICODE)
 
@@ -52,8 +52,6 @@ def command5(filepath):
                     # Check for stucked words
                     if (
                         match.group('before_first') is not None or
-                        match.group('inner_text').startswith(u" ") or
-                        match.group('inner_text').endswith(u" ") or
                         match.group('after_second') is not None
                     ):
                         found[ln] = [5, "Tag syntax error", content]
@@ -95,6 +93,13 @@ def command5(filepath):
 
                     # Check for initial tag inside lang tag
                     if re.search(ur'(&lt;|\<)([int\w\s/\\]+)(&gt;|\>).*?(&lt;|\<)([\\/\s]*)([int\w\s]+)(&gt;|\>)', inner_text, re.UNICODE):
+                        continue
+
+                    if (
+                        match.group('inner_text').startswith(u" ") or
+                        match.group('inner_text').endswith(u" ")
+                    ):
+                        found[ln] = [5, "Tag syntax error", content]
                         continue
 
                     # Check final punctuation

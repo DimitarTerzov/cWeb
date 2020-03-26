@@ -53,18 +53,19 @@ CONTENT = [
     u'<Sync time="3082.959"/>\n', # 41
     u'醬就好了&lt;lang:English&gt;Okay&lt;/lang:English&gt;[applause]。\n', # 42
     u'</Turn>\n', # 43
-    u'醬就好了&lt;lang:English&gt;&gt;Okay&lt;/lang:English&gt;。\n',  # 44
+    u'醬就好了&lt;lang:English&gt;&gt;Okay&lt;/lang:English&gt;。\n',   # 44
+    u'&lt;lang:Japanese&gt;おひさ[overlap]&lt;/lang:Japanese&gt;。\n', # 45
 ]
 
 EXCLUDE = [
-    0, 1, 3, 4, 5, 6, 7, 9, 11, 13, 14,
+    0, 1, 2, 3, 4, 5, 6, 7, 9, 11, 13, 14,
     15, 16, 17, 19, 21, 23, 25, 26, 27,
-    29, 31, 32, 33, 35, 37, 38, 39, 41, 43
+    29, 31, 32, 33, 35, 37, 38, 39, 41, 42, 43, 45
 ]
 
 CATCH = [
-    2, 8, 10, 12, 18, 20, 22, 24,
-    28, 30, 34, 36, 40, 42, 44
+    8, 10, 12, 18, 20, 22, 24,
+    28, 30, 34, 36, 40, 44
 ]
 
 
@@ -82,4 +83,4 @@ def test_command5(tmpdir):
     for row in CATCH:
         assert row in found
 
-    #assert 0
+    assert 0
