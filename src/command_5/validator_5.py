@@ -29,9 +29,10 @@ def command5(filepath):
         'Ambonese', 'Betawinese', 'Latin', 'Manadonese'
     ]
 
-    punctuation_marks = u""":,-'_!—".?;"""
+    punctuation_marks = u"。！？，、．"
+    disallowed_punctuation = u'《》：（（））【】\[\]'
 
-    regex = re.compile(ur'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;))(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;))(?P<inner_text>.*?)(?P<second_open>(?:&lt;))(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;))(?P<after_second>\b\w*\b)?)', re.UNICODE)
+    regex = re.compile(ur'(?P<content>(?P<before_first>[\s{0}])?(?P<first_open>(?:&lt;))(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;))(?P<inner_text>.*?)(?P<second_open>(?:&lt;))(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;))(?P<after_second>[\s{0}])?)'.format(disallowed_punctuation), re.UNICODE)
 
     found = {}
 
@@ -51,8 +52,8 @@ def command5(filepath):
                     # Check for stucked words
                     if (
                         match.group('before_first') is not None or
-                        not match.group('inner_text').startswith(" ") or
-                        not match.group('inner_text').endswith(" ") or
+                        match.group('inner_text').startswith(u" ") or
+                        match.group('inner_text').endswith(u" ") or
                         match.group('after_second') is not None
                     ):
                         found[ln] = [5, "Tag syntax error", content]
@@ -85,6 +86,13 @@ def command5(filepath):
                         found[ln] = [5, 'Language tag is empty', content]
                         continue
 
+                    if (
+                        inner_text.startswith(u'&gt;') or
+                        inner_text.endswith(u'&lt;')
+                    ):
+                        found[ln] = [5, "Tag syntax error", content]
+                        continue
+
                     # Check for initial tag inside lang tag
                     if re.search(ur'(&lt;|\<)([int\w\s/\\]+)(&gt;|\>).*?(&lt;|\<)([\\/\s]*)([int\w\s]+)(&gt;|\>)', inner_text, re.UNICODE):
                         continue
@@ -100,7 +108,7 @@ def command5(filepath):
 
 
 if __name__ == "__main__":
-    found = command5('../files/CT_Newsevents_34.trs')
+    found = command5('../files/Daai_Religion_04.trs')
     keys = found.keys()
     sorted_keys = sorted(keys)
     print "Errors:", len(sorted_keys)
