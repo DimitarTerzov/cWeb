@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
+from __future__ import print_function
+
 import re
+import io
 
 
 #White space validator
 def command8(filepath):
     rv = {}
-    patterns = ['\[[^\]*]\]', '#[^ #\.,，。\s?!~‘s-]*', '\(\(\)\)', '\(\([^\)]*\)\)']
+    patterns = [ur'\[.*?\]',  ur'\(\(\)\)', ur'\(\(.*?\)\)']
 
     for pat in patterns:
         found = command8_real(filepath, pat)
@@ -15,14 +18,11 @@ def command8(filepath):
 
 def command8_real(filepath, pattern):
 
-    reg_allowed = '[\.,，。\s?!~‘s-]'
-    regex_pat = '(.)' + pattern + '(.)'
-
-    regex = re.compile('.' + pattern + '.')
+    reg_allowed = u'。！？，、．\[\]\w;&#\(\)'
+    regex_pat = ur'(.?){}(.?)'.format(pattern)
 
     found = {}
-
-    with open(filepath,'r') as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
@@ -33,26 +33,31 @@ def command8_real(filepath, pattern):
                 #we skip everythin between <>
                 continue
 
-            #put spaces in front/end of line, to avoid checking for startswith/endswith for each token
-            line = ' ' + line + ' '
+            # Skip <lang> and <initial> tags.
+            if re.search(ur'(&gt;|>)\s*?{}\s*?(&lt;|<)'.format(pattern), line, re.UNICODE) is not None:
+                continue
 
-            for m in re.findall(regex, line):
-                matchObj = re.match(regex_pat, m)
-                if not matchObj:
-                    found[ln] =  [8, 'Missing white space (syntax)', m]
-                else:
-                    lC = matchObj.group(1)
-                    rC = matchObj.group(2)
+            for m in re.finditer(regex_pat, line):
+                content = m.group()
+                lC = m.group(1)
+                rC = m.group(2)
 
-                    #if language is not in the list
-                    if not re.match('[\s　。，]', lC):
-                        found[ln] =  [8, 'Missing white space (invalid left char)', lC + '/' + m]
-                    elif not re.match(reg_allowed, rC):
-                        found[ln] =  [8, 'Missing white space (invalid right char)', rC + '/' + m]
+                if lC and re.match(ur'[{}]'.format(reg_allowed), lC, re.UNICODE) is None:
+                    found[ln] =  [8, 'Incorrect white space (invalid left char)', '{}/{}'.format(lC.encode('utf'), content.encode('utf'))]
+
+                elif rC and re.match(ur'[{}]'.format(reg_allowed), rC, re.UNICODE) is None:
+                    found[ln] =  [8, 'Incorrect white space (invalid right char)', '{}/{}'.format(rC.encode('utf'), content.encode('utf'))]
+
+                elif pattern == u'\[.*?\]' and re.search(ur'\[[\w-]*?\]', content, re.UNICODE) is None:
+                    found[ln] =  [8, 'Incorrect white space in tag', content.encode('utf')]
+
+                elif pattern == u'\(\(.*?\)\)' and re.search(ur'\(\([\w\-{}]*?\)\)'.format(reg_allowed), content, re.UNICODE) is None:
+                    found[ln] =  [8, 'Incorrect white space in tag', content.encode('utf')]
+
     return found
 
 
 if __name__ == "__main__":
-    found = command8('../files/test_4.trs')
+    found = command8('../files/Daai_Religion_05.trs')
     for key in sorted(found.keys()):
         print(key, found[key])
