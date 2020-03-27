@@ -53,4 +53,4 @@ def test_command_8(tmpdir):
     for item in CATCH:
         assert item in found
 
-    assert 0
+    #assert 0
