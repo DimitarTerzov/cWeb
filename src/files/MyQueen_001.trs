@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Trans SYSTEM "trans-14.dtd">
+<Trans scribe="Administrator" audio_filename="MyQueen_001" version="3" version_date="200327">
+<Speakers>
+<Speaker id="spk1" name="man1" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk2" name="Shanwushung" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk3" name="shuangshuangbaba" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk4" name="shuangshuangmama" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk5" name="Rockie" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk6" name="woman1" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk7" name="lukashi" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk8" name="JJ" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk9" name="woman2" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk10" name="man3" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk11" name="xiaoguliang" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk12" name="keyouzheng" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk13" name="keqingren" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk14" name="man4" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk15" name="weiergang" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk16" name="madaina" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk17" name="luomio" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk18" name="shezhang" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk19" name="haizhi" check="no" type="male" dialect="native" accent="" scope="local"/>
+<Speaker id="spk20" name="zhuli" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk21" name="shixiseng" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk22" name="xiounv" check="no" type="female" dialect="native" accent="" scope="local"/>
+<Speaker id="spk23" name="fangdong" check="no" type="female" dialect="native" accent="" scope="local"/>
+</Speakers>
+<Episode>
+<Section type="report" startTime="0" endTime="2642.252">
+<Turn startTime="0" endTime="9.947" speaker="spk1">
+<Sync time="0"/>
+[music]&lt;lang:TSM&gt;別跑，你別跑&lt;/lang:TSM&gt;
+</Turn>
+<Turn speaker="spk2" startTime="9.947" endTime="36.267">
+<Sync time="9.947"/>
+我，單無雙，全力奔馳近三十三年，不曾讓任何人跑在我前面，成功的事業，質感的生活，但我回頭一看，
+<Sync time="21.504"/>
+追我的男人只剩下這個根本性不應該存在於這個世界上的，聖誕老人。
+<Sync time="28.725"/>
+但是只有全速奔馳，才是有價值的人生，是這樣子的嗎？
+</Turn>
+<Turn speaker="spk3" startTime="36.267" endTime="52.986">
+<Sync time="36.267"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+<Sync time="47.003"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+<Sync time="48.625"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk4" startTime="52.986" endTime="54.609">
+<Sync time="52.986"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk3" startTime="54.609" endTime="61.163">
+<Sync time="54.609"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk4" startTime="61.163" endTime="62.941">
+<Sync time="61.163"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk3" startTime="62.941" endTime="86.683">
+<Sync time="62.941"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+<Sync time="68.964"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+<Sync time="78.378"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk4" startTime="86.683" endTime="91.798">
+<Sync time="86.683"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk3" startTime="91.798" endTime="100.427">
+<Sync time="91.798"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk4" startTime="100.427" endTime="103.59">
+<Sync time="100.427"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk3" startTime="103.59" endTime="106.753">
+<Sync time="103.59"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk4" startTime="106.753" endTime="110.889">
+<Sync time="106.753"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk3" startTime="110.889" endTime="122.504">
+<Sync time="110.889"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk4" startTime="122.504" endTime="127.43">
+<Sync time="122.504"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk3" startTime="127.43" endTime="133.788">
+<Sync time="127.43"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk4" startTime="133.788" endTime="143.412">
+<Sync time="133.788"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk3" startTime="143.412" endTime="162.048">
+<Sync time="143.412"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+<Sync time="151.333"/>
+&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk4" startTime="162.048" endTime="269.598">
+<Sync time="162.048"/>
+無雙，想當年你出生的時候，就有四千二百克，是我們幸福村的巨嬰保持人，
+<Sync time="169.846"/>
+小時候一個人把班上的德智體群美五個獎項全部領光，是幸福國小的紀錄保持人。
+<Sync time="178.544"/>
+國中的時候代表我們幸福國中參加全國演講比賽拿了冠軍，
+<Sync time="184.929"/>
+高中是我們幸福村第一個考上第一女子高中的優等生，大學更不用說，你輕輕松松的就念了最高學府，
+<Sync time="196.743"/>
+想不到現在，全村就剩下你一個還沒有結婚，
+<Sync time="203.793"/>
+轉眼間從行情冠軍犬變成最沒價值的敗犬，為了你的下半輩子，
+<Sync time="213.747"/>
+阿姆今年一定要想辦法讓你在三十三歲給它嫁出去，雙雙。
+<Sync time="222.658"/>
+[music]
+<Sync time="233.742"/>
+[music]
+<Sync time="243.534"/>
+[music]
+<Sync time="254.921"/>
+[music]
+<Sync time="265.673"/>
+[music]
+</Turn>
+<Turn speaker="spk5" startTime="269.598" endTime="271.928">
+<Sync time="269.598"/>
+[laugh]
+</Turn>
+<Turn speaker="spk2" startTime="271.928" endTime="273.042">
+<Sync time="271.928"/>
+笑什麼？
+</Turn>
+<Turn speaker="spk5" startTime="273.042" endTime="275.643">
+<Sync time="273.042"/>
+不是吧，我們一定要穿成這樣子嗎？
+</Turn>
+<Turn speaker="spk2" startTime="275.643" endTime="284.867">
+<Sync time="275.643"/>
+怎樣？穿成怎樣？還是你嫉妒我可以穿得下十五年前的制服啊？來，拍照啊。
+</Turn>
+<Turn speaker="spk5" startTime="284.867" endTime="285.803">
+<Sync time="284.867"/>
+好。
+</Turn>
+<Turn speaker="spk2" startTime="285.803" endTime="312.106">
+<Sync time="285.803"/>
+姿勢擺好，預備。
+<Sync time="295.47"/>
+太過份了，這都粘不牢。[noise]
+<Sync time="307.451"/>
+不是，我覺得你這樣穿實在太勉強了，會不會影響你敏捷的行動力呀？
+</Turn>
+<Turn speaker="spk5" startTime="312.106" endTime="327.39">
+<Sync time="312.106"/>
+哪裏勉強，比較貼身罷了。
+<Sync time="317.496"/>
+想不想獨家？今天可是我們&lt;lang:Foreign&gt;&lt;initial&gt;FM&lt;/initial&gt;&lt;/lang:Foreign&gt;雜誌一周一次的頭條會，
+<Sync time="323.124"/>
+(())。想不想贏過羅密歐那個大頭症患者？
+</Turn>
+<Turn speaker="spk5" startTime="327.39" endTime="330.859">
+<Sync time="327.39"/>
+我要獨家。&lt;lang:OtherChinese&gt;(())&lt;/lang:OtherChinese&gt;
+</Turn>
+<Turn speaker="spk2" startTime="330.859" endTime="351.726">
+<Sync time="330.859"/>
+求勝心，你這是怎麼了。連基本的求勝心都沒有，你可不可以打起十二分精神來呀。
+<Sync time="339.375"/>
+[music]
+<Sync time="345.773"/>
+你清楚我們今天要拍的目標對像是誰嗎？
+</Turn>
+<Turn speaker="spk5" startTime="351.726" endTime="357.544">
+<Sync time="351.726"/>
+下界(())熱門候選人((柯有正))。[noise]
+</Turn>
+<Turn speaker="spk2" startTime="357.544" endTime="378.398">
+<Sync time="357.544"/>
+[noise]沒錯他今天就是去參加女子高中的耶誕派對，人稱政壇小綿羊，
+<Sync time="366.188"/>
+卻有一個交往超過十年的地下情人，這絕對是會是個頭條，
+<Sync time="371.986"/>
+我保證明天政壇一定會有個大地震，誒，弱雞呀。
+</Turn>
+<Turn speaker="spk5" startTime="378.398" endTime="381.453">
+<Sync time="378.398"/>
+&lt;lang:English&gt;boss&lt;/lang:English&gt;是，&lt;lang:English&gt;Rocky&lt;/lang:English&gt;。
+</Turn>
+<Turn speaker="spk2" startTime="381.453" endTime="391.753">
+<Sync time="381.453"/>
+&lt;lang:English&gt;Rocky&lt;/lang:English&gt;，拿好你的相機，只要等會柯有正出現呢，我就把把他(())。
+</Turn>
+<Turn speaker="spk5" startTime="391.753" endTime="397.354">
+<Sync time="391.753"/>
+了解，誒，可是他像是一個有私生女的人嗎？
+</Turn>
+<Turn speaker="spk2" startTime="397.354" endTime="406.514">
+<Sync time="397.354"/>
+人不可貌相，你聽沒聽說過？你看我，這麼聰明伶俐的樣子，你相信我到現在還沒有嫁出去嗎？
+</Turn>
+<Turn speaker="spk5" startTime="406.514" endTime="407.438">
+<Sync time="406.514"/>
+相信。
+</Turn>
+<Turn speaker="spk2" startTime="407.438" endTime="408.227">
+<Sync time="407.438"/>
+你說什麼？
+</Turn>
+<Turn speaker="spk5" startTime="408.227" endTime="411.636">
+<Sync time="408.227"/>
+#呃，不是，聰明伶俐不是嫁人的助力啦。
+</Turn>
+<Turn speaker="spk2" startTime="411.636" endTime="412.674">
+<Sync time="411.636"/>
+那是什麼？
+</Turn>
+<Turn speaker="spk5" startTime="412.674" endTime="413.49">
+<Sync time="412.674"/>
+阻力。
+</Turn>
+<Turn speaker="spk2" startTime="413.49" endTime="524.738">
+<Sync time="413.49"/>
+哈，那是你們沒有眼光好不好，目前第一女子高中。走。
+<Sync time="420.419"/>
+[music]
+<Sync time="430.782"/>
+[music]
+<Sync time="441.844"/>
+[music]
+<Sync time="452.171"/>
+[music]
+<Sync time="462.558"/>
+[music]
+<Sync time="473.394"/>
+[music]
+<Sync time="483.569"/>
+[music]
+<Sync time="494.660"/>
+[music]
+<Sync time="502.424"/>
+[music]
+<Sync time="513.0"/>
+[music]
+</Turn>
+<Turn speaker="spk6" startTime="524.738" endTime="529.479">
+<Sync time="524.738"/>
+色魔，色魔別過來。
+<Sync time="528.609"/>
+我看你還往哪裏逃？
+</Turn>
+<Turn speaker="spk7" startTime="529.479" endTime="557.665">
+<Sync time="529.479"/>
+[noise]
+<Sync time="540.563"/>
+這一招叫回轉摔，是合氣道的一種，當歹徒已經把手放在你的肩膀上面時候，就請你教你朋友用這一抬來對付他，
+<Sync time="550.304"/>
+可是如果遇到這種回收車都不要的垃圾的話，我的建議是最好再上一個手刀，讓他暫時停止呼吸。
+</Turn>
+<Turn speaker="spk1" startTime="557.665" endTime="576.876">
+<Sync time="557.665"/>
+你來真的啊？
+<Sync time="561.32"/>
+[laugh]好，現在我們來示範金蟬脫殼，這一招呢是當歹徒從背後抱著你的時候，最好的掙脫方式。
+<Sync time="571.031"/>
+那就由我配合偷竊魔，你們有誰要來被我非禮？
+</Turn>
+<Turn speaker="spk6" startTime="576.876" endTime="587.992">
+<Sync time="576.876"/>
+我，非禮我，非禮我，非禮我。
+</Turn>
+<Turn speaker="spk7" startTime="587.992" endTime="593.350">
+<Sync time="587.992"/>
+你來。仔細看嘍，我們要開始嘍，小美人，看你往哪兒跑？
+</Turn>
+<Turn speaker="spk6" startTime="593.350" endTime="597.27">
+<Sync time="593.350"/>
+討厭，你，你不要亂來哦。
+</Turn>
+<Turn speaker="spk7" startTime="597.27" endTime="601.487">
+<Sync time="597.27"/>
+不要掙扎，再掙扎也是沒有用的，我要非禮你啦。
+</Turn>
+<Turn speaker="spk6" startTime="601.487" endTime="615.55">
+<Sync time="601.487"/>
+你，我知道，請你下手輕一點，不過你要粗魯一點也可以喲。
+<Sync time="608.732"/>
+[noise]
+</Turn>
+<Turn speaker="spk8" startTime="615.55" endTime="623.152">
+<Sync time="615.55"/>
+同學，誒我們是受聘請(())來代課教你們防身術的，不是來這邊當舞男的好不好。
+</Turn>
+<Turn speaker="spk6" startTime="623.152" endTime="632.349">
+<Sync time="623.152"/>
+我們知道，你們是事事達，打工達人，&lt;lang:English&gt;JJ&lt;/lang:English&gt;和盧卡斯，可是我不知道盧卡斯原來長這麼((人模人樣))。
+</Turn>
+<Turn speaker="spk9" startTime="632.349" endTime="641.546">
+<Sync time="632.349"/>
+好帥喲，好帥喲。
+</Turn>
+<Turn speaker="spk7" startTime="641.546" endTime="646.733">
+<Sync time="641.546"/>
+同學，你摸夠了嗎？
+</Turn>
+<Turn speaker="spk6" startTime="646.733" endTime="655.837">
+<Sync time="646.733"/>
+打工達人，我想買你一天當我男友，跟我參加今晚學校的聖誕舞會可以嗎？
+</Turn>
+<Turn speaker="spk8" startTime="655.837" endTime="657.687">
+<Sync time="655.837"/>
+哎喲。
+</Turn>
+<Turn speaker="spk7" startTime="657.687" endTime="668.555">
+<Sync time="657.687"/>
+同學，你想像一下，你現在前面有一片海洋，漁夫把它撈起來，發現滿滿的全是可愛的熱帶魚，可是有一種魚，漁夫撈起來後，馬上就會把它放掉，你知道是什麼魚嗎？
+</Turn>
+<Turn speaker="spk6" startTime="668.555" endTime="670.472">
+<Sync time="668.555"/>
+不知道誒。
+</Turn>
+<Turn speaker="spk9" startTime="670.472" endTime="673.481">
+<Sync time="670.472"/>
+太小的魚。
+</Turn>
+<Turn speaker="spk7" startTime="673.481" endTime="690.193">
+<Sync time="673.481"/>
+沒錯，身為打工達人，我盧卡斯可以提供你們體力，專業，時間，顧問，總總全方面的服務，可是真心好像，
+<Sync time="682.892"/>
+除了那個(())之外，好，今天就上到這裏嘍，下課。
+</Turn>
+<Turn speaker="spk9" startTime="690.193" endTime="692.626">
+<Sync time="690.193"/>
+盧卡斯，誒，誒，誒，
+</Turn>
+<Turn speaker="spk8" startTime="692.626" endTime="706.012">
+<Sync time="692.626"/>
+哎，哎，哎，哎，等一下，事事達，事事皆可達，
+<Sync time="700.941"/>
+你們生活所有中大小事情只要找我們就可以啦，哈哈哈哈，只要上網跟我們預約，
+</Turn>
+<Turn speaker="spk9" startTime="706.012" endTime="711.424">
+<Sync time="706.012"/>
+盧卡斯，我要盧卡斯。
+</Turn>
+<Turn speaker="spk8" startTime="711.424" endTime="723.330">
+<Sync time="711.424"/>
+我們家的盧卡斯賣#啊，=賣藝不賣身的，但是我呢，賣藝也賣身，(())他是我的&lt;lang:English&gt;you see&lt;/lang:English&gt;，我也是他的&lt;lang:English&gt;(())&lt;/lang:English&gt;，所以找他等於找我，找我等於找他，&lt;lang:English&gt;((Okay))&lt;/lang:English&gt;[laugh]
+</Turn>
+<Turn speaker="spk9" startTime="723.330" endTime="726.595">
+<Sync time="723.330"/>
+[noise]
+</Turn>
+<Turn speaker="spk8" startTime="726.595" endTime="742.436">
+<Sync time="726.595"/>
+誒，沒禮貌誒，你們。
+<Sync time="728.394"/>
+[music]
+<Sync time="736.624"/>
+[music]
+</Turn>
+<Turn speaker="spk7" startTime="742.436" endTime="775.347">
+<Sync time="742.436"/>
+前面一片海洋，漁夫把魚撈起來，滿滿都是可愛的熱帶魚，可是沒有一個是你。
+<Sync time="750.308"/>
+music]
+<Sync time="759.905"/>
+music]
+<Sync time="766.556"/>
+下一個工作，聖誕老人？房租，搞定。
+</Turn>
+<Turn speaker="spk5" startTime="775.347" endTime="784.728">
+<Sync time="775.347"/>
+硬要找這麼窄的巷子，真是的，不是找寬一點的？
+</Turn>
+<Turn speaker="spk2" startTime="784.728" endTime="815.11">
+<Sync time="784.728"/>
+要怎樣，你是不是想全世界都知道你在這。
+<Sync time="791.357"/>
+[music]
+<Sync time="801.041"/>
+[music]
+<Sync time="809.265"/>
+哎呀，你站那麼高幹什麼#啊，你不怕被迫人家發現嗎？下來吧，笨蛋。
+</Turn>
+<Turn speaker="spk10" startTime="815.11" endTime="825.388">
+<Sync time="815.11"/>
+柯先生，現在已清空，您可以進來了。
+</Turn>
+<Turn speaker="spk5" startTime="825.388" endTime="829.170">
+<Sync time="825.388"/>
+她就是高中教你英文的老師嗎？
+</Turn>
+<Turn speaker="spk11" startTime="829.170" endTime="834.875">
+<Sync time="829.170"/>
+這是我送你的聖誕卡面。
+</Turn>
+<Turn speaker="spk12" startTime="834.875" endTime="853.053">
+<Sync time="834.875"/>
+來，寶貝乖，噢，爸爸有事情跟媽媽講，噢。
+<Sync time="841.185"/>
+[noise]你千方百計叫我來這裏幹嘛？我沒有給你生活費嗎？
+</Turn>
+<Turn speaker="spk13" startTime="853.053" endTime="857.465">
+<Sync time="853.053"/>
+不是，是你已經半年沒來看女兒了。
+</Turn>
+<Turn speaker="spk12" startTime="857.465" endTime="866.581">
+<Sync time="857.465"/>
+你是存心跟我過不去是不是？我告訴你，現在是我(())選舉的關鍵時刻，我不能讓任何人知道我有私人生子。
+</Turn>
+<Turn speaker="spk13" startTime="866.581" endTime="879.354">
+<Sync time="866.581"/>
+我沒有，只是女兒生日你也沒來，孩子半夜腸胃炎也找不到你，我如果不趁你來學校來訪問時候來找你，我還真不知道女兒什麼暑假才能見到你一面。
+</Turn>
+<Turn speaker="spk12" startTime="879.354" endTime="886.239">
+<Sync time="879.354"/>
+現在見到了，你滿意了嗎？
+</Turn>
+<Turn speaker="spk13" startTime="886.239" endTime="900.113">
+<Sync time="886.239"/>
+你就多陪她五分鐘嘛，今天是聖誕夜。
+<Sync time="891.813"/>
+[music]
+</Turn>
+<Turn speaker="spk2" startTime="900.113" endTime="914.419">
+<Sync time="900.113"/>
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;快快快，走走走。
+<Sync time="902.647"/>
+[music]
+</Turn>
+<Turn speaker="spk12" startTime="914.419" endTime="931.834">
+<Sync time="914.419"/>
+你們的王分鐘，會毀掉我辛苦經營的二十年。
+<Sync time="925.746"/>
+寶貝乖，爸爸有事要先走了噢。
+</Turn>
+<Turn speaker="spk11" startTime="931.834" endTime="933.321">
+<Sync time="931.834"/>
+但是我想，爸爸。
+</Turn>
+<Turn speaker="spk12" startTime="933.321" endTime="968.181">
+<Sync time="933.321"/>
+來，這是爸爸送給你的禮物，再見了。
+<Sync time="937.98"/>
+[music]
+<Sync time="948.556"/>
+這個世界沒有僥倖，人總要為年青的錯誤付出代價，當年我當這個學校的校長，就不應該沾上這個女人。
+<Sync time="958.013"/>
+想辦法逼她辭職，我要她在我眼前消失，立刻，在我當選之前，她們是我最大的絆腳石，我要她們永遠消失。
+</Turn>
+<Turn speaker="spk13" startTime="968.181" endTime="993.252">
+<Sync time="968.181"/>
+來，看看爸爸送你什麼好不好？來，自己拆，
+<Sync time="976.513"/>
+哇，是一雙很漂亮的紅鞋子，喜不喜歡，
+<Sync time="985.271"/>
+你看，哇好可愛呀，來我們穿上好不好。
+</Turn>
+<Turn speaker="spk2" startTime="993.252" endTime="995.145">
+<Sync time="993.252"/>
+有沒有拍到禮物？
+</Turn>
+<Turn speaker="spk5" startTime="995.145" endTime="996.583">
+<Sync time="995.145"/>
+有。
+</Turn>
+<Turn speaker="spk2" startTime="996.583" endTime="997.499">
+<Sync time="996.583"/>
+卡片呢？
+</Turn>
+<Turn speaker="spk5" startTime="997.499" endTime="998.891">
+<Sync time="997.499"/>
+有。
+</Turn>
+<Turn speaker="spk2" startTime="998.891" endTime="999.837">
+<Sync time="998.891"/>
+那父女相擁呢？
+</Turn>
+<Turn speaker="spk5" startTime="999.837" endTime="1001.6">
+<Sync time="999.837"/>
+有，有，有。
+</Turn>
+<Turn speaker="spk2" startTime="1001.6" endTime="1009.857">
+<Sync time="1001.6"/>
+哈哈哈哈，今天這個，我們的頭條耶。
+</Turn>
+<Turn speaker="spk14" startTime="1009.857" endTime="1023.209">
+<Sync time="1009.857"/>
+你就是傳說中的偷窺狂，給我下來，變態。
+<Sync time="1016.72"/>
+走，這個偷窺魔，裝可愛。
+</Turn>
+<Turn speaker="spk2" startTime="1023.209" endTime="1039.445">
+<Sync time="1023.209"/>
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;，伯伯，我怎麼可能是偷竊魔呢，你看不出來我是這間學校的學生嗎？
+<Sync time="1034.453"/>
+不然我們去壓馬路，吃包子喝茶怎麼樣？
+</Turn>
+<Turn speaker="spk14" startTime="1039.445" endTime="1065.123">
+<Sync time="1039.445"/>
+&lt;lang:OtherChinese&gt;伯伯&lt;/lang:OtherChinese&gt;虧你說得出口#啊，壓馬路這句話我都已十年以上沒聽過了，不要以為穿著裙子，馬尾綁高一點就可以裝年輕，我告訴你噢，
+<Sync time="1049.615"/>
+什麼年代了書包上還寫著緣跟愛，還有學生服不用塞進裙子裏，看你身上制服的款式，
+<Sync time="1060.333"/>
+至少超過十五年，你今年一定超過三十三歲對不對。
+</Turn>
+<Turn speaker="spk2" startTime="1065.123" endTime="1081.149">
+<Sync time="1065.123"/>
+誒，你別太過份我跟你講，三十三歲噢，我就是要叫你(())，
+<Sync time="1076.126"/>
+(())我告訴你，我今天才不是三十三歲，我今年是三十二歲六個月。
+</Turn>
+<Turn speaker="spk14" startTime="1081.149" endTime="1101.652">
+<Sync time="1081.149"/>
+不要跑，不要跑，不要跑，不要跑，
+<Sync time="1093.374"/>
+不要跑，我今年才三十歲，算起來比你還年青，不要跑，不要跑。
+</Turn>
+<Turn speaker="spk2" startTime="1101.652" endTime="1119.499">
+<Sync time="1101.652"/>
+弱雞，這裏，快點，快點，誒誒誒。
+<Sync time="1110.059"/>
+誒誒誒誒誒，我高中可是撐跳冠軍呢。
+</Turn>
+<Turn speaker="spk5" startTime="1119.499" endTime="1128.480">
+<Sync time="1119.499"/>
+可是這只是普通的竹杆，根本撐不了你的體重#啊。
+</Turn>
+<Turn speaker="spk2" startTime="1128.480" endTime="1139.872">
+<Sync time="1128.480"/>
+[noise]#啊，我的腰。
+</Turn>
+<Turn speaker="spk5" startTime="1139.872" endTime="1148.096">
+<Sync time="1139.872"/>
+無雙姐，記憶卡，接著。
+</Turn>
+<Turn speaker="spk14" startTime="1148.096" endTime="1149.976">
+<Sync time="1148.096"/>
+誒，變態魔。
+</Turn>
+<Turn speaker="spk5" startTime="1149.976" endTime="1160.011">
+<Sync time="1149.976"/>
+頭條會議還有剩下三十分鐘，趕快跑，趕快跑。&lt;lang:English&gt;((go))&lt;/lang:English&gt;&lt;lang:English&gt;((go))&lt;/lang:English&gt;&lt;lang:English&gt;((go))&lt;/lang:English&gt;
+</Turn>
+<Turn speaker="spk2" startTime="1160.011" endTime="1161.882">
+<Sync time="1160.011"/>
+弱雞，你自己保重#啊。
+</Turn>
+<Turn speaker="spk14" startTime="1161.882" endTime="1189.792">
+<Sync time="1161.882"/>
+變態。
+<Sync time="1165.618"/>
+[noise]
+<Sync time="1177.432"/>
+怎麼樣，一輛都不停#啊，(())。
+</Turn>
+<Turn speaker="spk15" startTime="1189.792" endTime="1220.372">
+<Sync time="1189.792"/>
+八點&lt;lang:English&gt;(())&lt;/lang:English&gt;，九點&lt;lang:English&gt;(())&lt;/lang:English&gt;，十點&lt;lang:English&gt;(())&lt;/lang:English&gt;十一點&lt;lang:English&gt;(())&lt;/lang:English&gt;，[laugh]連我自己都沒辦法否認我自己的帥#啊，
+<Sync time="1200.016"/>
+一個晚上怎麼可以有這麼滿的約會行程呢？[laugh][cough]&lt;lang:English&gt;(())&lt;/lang:English&gt;，
+<Sync time="1210.959"/>
+請問今天晚有沒有&lt;lang:English&gt;(())&lt;/lang:English&gt;#啊？如果沒有的話，我們是不是可以。
+</Turn>
+<Turn speaker="spk16" startTime="1220.372" endTime="1226.163">
+<Sync time="1220.372"/>
+魏爾剛先生，你不要太(())哦，你的年薪有過千萬嗎？
+</Turn>
+<Turn speaker="spk15" startTime="1226.163" endTime="1227.11">
+<Sync time="1226.163"/>
+哎喲我。
+</Turn>
+<Turn speaker="spk16" startTime="1227.11" endTime="1229.035">
+<Sync time="1227.11"/>
+你在(())是有豪宅嗎？
+</Turn>
+<Turn speaker="spk15" startTime="1229.035" endTime="1236.664">
+<Sync time="1229.035"/>
+哎，不是，這個。你(())車有兩輛以上嗎？
+</Turn>
+<Turn speaker="spk16" startTime="1236.664" endTime="1242.352">
+<Sync time="1236.664"/>
+沒有啦。&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk15" startTime="1242.352" endTime="1245.499">
+<Sync time="1242.352"/>
+羅密歐。
+</Turn>
+<Turn speaker="spk16" startTime="1245.499" endTime="1246.743">
+<Sync time="1245.499"/>
+編輯。
+</Turn>
+<Turn speaker="spk17" startTime="1246.743" endTime="1249.867">
+<Sync time="1246.743"/>
+錯，是羅密歐大編輯。
+</Turn>
+<Turn speaker="spk15" startTime="1249.867" endTime="1254.414">
+<Sync time="1249.867"/>
+&lt;lang:English&gt;yes, sir&lt;/lang:English&gt;羅密歐大編輯。
+</Turn>
+<Turn speaker="spk17" startTime="1254.414" endTime="1256.793">
+<Sync time="1254.414"/>
+各位，平身。
+</Turn>
+<Turn speaker="spk15" startTime="1256.793" endTime="1259.069">
+<Sync time="1256.793"/>
+謝大編輯。
+</Turn>
+<Turn speaker="spk17" startTime="1259.069" endTime="1311.002">
+<Sync time="1259.069"/>
+&lt;lang:English&gt;(())&lt;/lang:English&gt;不要只顧著&lt;lang:English&gt;(())&lt;/lang:English&gt;#啊，要把心思放在工作人員上，想想看我們的封面要怎麼設計，
+<Sync time="1267.855"/>
+更重要的是，想想看要怎麼對付我們永遠不變的敵人，單無雙，
+<Sync time="1279.487"/>
+只要我們拿到了雜誌封面，社長就會對我們另眼相看，
+<Sync time="1286.315"/>
+到時候，總編輯這個位置，就鶉我們越來越近了。[laugh]
+<Sync time="1299.107"/>
+[noise]社長好。
+</Turn>
+<Turn speaker="spk18" startTime="1311.002" endTime="1341.54">
+<Sync time="1311.002"/>
+羅密歐，說說說，說得比做得，你為什麼，你，那個那個那個，
+<Sync time="1322.902"/>
+那個三百六十五天加班三百六十六天的那個單無雙，怎麼不在呀？
+<Sync time="1328.573"/>
+[noise]
+<Sync time="1339.047"/>
+不等了，你們這組先說有什麼。
+</Turn>
+<Turn speaker="spk17" startTime="1341.54" endTime="1353.305">
+<Sync time="1341.54"/>
+哦，好，那我們先報告生活消息方面。生活消息方面，根據了解哦，來請社長您過目一下，哎，這個車房族的範圍呀，已經擴大到市中心了。
+</Turn>
+<Turn speaker="spk2" startTime="1353.305" endTime="1371.726">
+<Sync time="1353.305"/>
+(())，上帝你保佑我，
+<Sync time="1365.259"/>
+我那麼辛苦跑來的獨家，我一定要趕得及，保佑，保佑。
+</Turn>
+<Turn speaker="spk7" startTime="1371.726" endTime="1373.489">
+<Sync time="1371.726"/>
+你們有誰想要禮物的？
+</Turn>
+<Turn speaker="spk14" startTime="1373.489" endTime="1377.685">
+<Sync time="1373.489"/>
+我想要，我要。
+</Turn>
+<Turn speaker="spk7" startTime="1377.685" endTime="1380.139">
+<Sync time="1377.685"/>
+現在我要抽大獎了，有沒有人想要？
+</Turn>
+<Turn speaker="spk14" startTime="1380.139" endTime="1392.105">
+<Sync time="1380.139"/>
+我。我，我，我。
+<Sync time="1385.233"/>
+(())是范志明。
+</Turn>
+<Turn speaker="spk14" startTime="1392.105" endTime="1394.84">
+<Sync time="1392.105"/>
+為什麼偷我的腳踏車？
+</Turn>
+<Turn speaker="spk7" startTime="1394.84" endTime="1408.30830311">
+<Sync time="1394.84"/>
+喂，你幹嘛#啊？你給我回來。
+<Sync time="1400.849"/>
+有小偷。不要跑。
+</Turn>
+<Turn speaker="spk2" startTime="1408.30830311" endTime="1435.269">
+<Sync time="1408.30830311"/>
+我，單無雙，全力奔馳近三十三年，不曾讓任何人跑在我前面，成功的事業，質感的生活，但我回頭一看，
+<Sync time="1419.582"/>
+追我的男人，只剩下這個根本性不該存在這個世界上，聖誕老人。
+<Sync time="1427.595"/>
+但是只有全速奔馳，才是有價值的人生，我相信是這樣的。
+</Turn>
+<Turn speaker="spk7" startTime="1435.269" endTime="1438.498">
+<Sync time="1435.269"/>
+抓小偷。
+</Turn>
+<Turn speaker="spk15" startTime="1438.498" endTime="1444.567">
+<Sync time="1438.498"/>
+以上呢，就是我的報告，社長，我是魏爾剛。
+</Turn>
+<Turn speaker="spk18" startTime="1444.567" endTime="1451.597">
+<Sync time="1444.567"/>
+生活費消費，這個可以。封面頭條才重要。
+</Turn>
+<Turn speaker="spk15" startTime="1451.597" endTime="1464.551">
+<Sync time="1451.597"/>
+好，好，這次的封面條頭您的是絕對不會失望的，因為這是我本人親自準備的噢，好，這些呢是一些相關的資料，
+<Sync time="1458.627"/>
+如果您不看也沒有關係，因為我會準備更完整的(())，待會會程現在你桌子上面。
+</Turn>
+<Turn speaker="spk7" startTime="1464.551" endTime="1471.965">
+<Sync time="1464.551"/>
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;。
+</Turn>
+<Turn speaker="spk18" startTime="1471.965" endTime="1482.575">
+<Sync time="1471.965"/>
+頭條。總理貪污這是什麼新聞啦，#啊，#啊，這全世界那個總理不貪污你說你告訴我，哪個哪個不貪污你說你說你說？
+</Turn>
+<Turn speaker="spk7" startTime="1482.575" endTime="1500.531">
+<Sync time="1482.575"/>
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
+<Sync time="1492.998"/>
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk2" startTime="1500.531" endTime="1512.057">
+<Sync time="1500.531"/>
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk14" startTime="1512.057" endTime="1517.444">
+<Sync time="1512.057"/>
+哇靠，你這(())，有種你下來#啊。
+</Turn>
+<Turn speaker="spk5" startTime="1517.444" endTime="1523.457">
+<Sync time="1517.444"/>
+幹嘛，&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk14" startTime="1523.457" endTime="1526.596">
+<Sync time="1523.457"/>
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk5" startTime="1526.596" endTime="1536.364">
+<Sync time="1526.596"/>
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;呵呵呵，下來呀，&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk14" startTime="1536.364" endTime="1545.357">
+<Sync time="1536.364"/>
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
+</Turn>
+<Turn speaker="spk17" startTime="1545.357" endTime="1555.184">
+<Sync time="1545.357"/>
+兩千塊好不好，&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;兩千塊好不好？
+</Turn>
+<Turn speaker="spk18" startTime="1555.184" endTime="1558.939">
+<Sync time="1555.184"/>
+好了，就用你們貪污那條做頭條啦。
+</Turn>
+<Turn speaker="spk17" startTime="1558.939" endTime="1563.313">
+<Sync time="1558.939"/>
+我那個貪污那個#啊，事實差不多，對嘛，我是覺得吧。
+</Turn>
+<Turn speaker="spk18" startTime="1563.313" endTime="1569.749">
+<Sync time="1563.313"/>
+如果我們的頭條能夠像金曲獎一樣同缺的話我自己同缺了，你得意什麼意思。
+</Turn>
+<Turn speaker="spk17" startTime="1569.749" endTime="1584.756">
+<Sync time="1569.749"/>
+哎喲，不要這樣嘛社長，這個貪污的新聞我也追很久誒那種犯罪貪污的新聞也是關係社會的重大新聞啦，你知道嗎這個海外的人頭賬賬戶#啊(())查到十二個，
+<Sync time="1579.994"/>
+我獨立追我羅密歐一天查到二十個哎，比(())多八個。[laugh]
+</Turn>
+<Turn speaker="spk18" startTime="1584.756" endTime="1604.62">
+<Sync time="1584.756"/>
+十二個跟二十個有差嗎，你有種就去找那個，那個那個那個全民黨，那個召集人，哎那個也是那個教育促進會的會長，人權基金會的董事長，
+<Sync time="1594.822"/>
+現在下一界(())的大熱門人選，人稱政壇小綿羊的柯閑人柯有正，他的八卦嘛，那就是頭條了嘛。
+</Turn>
+<Turn speaker="spk17" startTime="1604.62" endTime="1615.931">
+<Sync time="1604.62"/>
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;，怎麼可能#啊，柯有正他形象那麼好哎，他是(())好男人代表哎，連我都沒有他的小綿羊公好，
+</Turn>
+<Turn speaker="spk15" startTime="1615.931" endTime="1622.003">
+<Sync time="1615.931"/>
+小綿羊公仔在哪裏，要有證據嘛。
+</Turn>
+<Turn speaker="spk15" startTime="1622.003" endTime="1627.324">
+<Sync time="1622.003"/>
+報告社長，我剛好就有一張我跟柯有正的合照，上面還有它的簽名哦。
+</Turn>
+<Turn speaker="spk17" startTime="1627.324" endTime="1629.174">
+<Sync time="1627.324"/>
+真的還假的，你很賤耶，你怎麼會有？
+</Turn>
+<Turn speaker="spk16" startTime="1629.174" endTime="1632.778">
+<Sync time="1629.174"/>
+他本人是真的那麼喜歡穿短褲跑步嗎？
+</Turn>
+<Turn speaker="spk17" startTime="1632.778" endTime="1635.074">
+<Sync time="1632.778"/>
+是站在桌子上嗎，你為什麼。
+</Turn>
+<Turn speaker="spk18" startTime="1635.074" endTime="1639.642">
+<Sync time="1635.074"/>
+你們講的那些不是八卦，要真正的八卦。
+</Turn>
+<Turn speaker="spk2" startTime="1639.642" endTime="1641.971">
+<Sync time="1639.642"/>
+柯有正有八卦。
+</Turn>
+<Turn speaker="spk15" startTime="1641.971" endTime="1651.052">
+<Sync time="1641.971"/>
+你誰？
+</Turn>
+<Turn speaker="spk2" startTime="1651.052" endTime="1678.88">
+<Sync time="1651.052"/>
+你們看，
+<Sync time="1658.515"/>
+號稱政壇小綿羊，致力提倡捍衛幸福家庭，以新好男人形象大受歡迎，下一任(())大人選，柯有正。
+<Sync time="1668.654"/>
+其實在第一女中當校長的時候呢，就已經跟同校的老師暗中交往，而這一名老師，還幫他生了一個可愛的女兒。
+</Turn>
+<Turn speaker="spk12" startTime="1678.88" endTime="1681.126">
+<Sync time="1678.88"/>
+想辦法逼她辭職。
+</Turn>
+<Turn speaker="spk2" startTime="1681.126" endTime="1686.523">
+<Sync time="1681.126"/>
+而這個傢伙，竟然為了自己的前途，娶了全民黨主席。
+</Turn>
+<Turn speaker="spk12" startTime="1686.523" endTime="1690.032">
+<Sync time="1686.523"/>
+你們的五分鐘，會毀掉我辛苦經營的二十年。
+</Turn>
+<Turn speaker="spk2" startTime="1690.032" endTime="1712.762">
+<Sync time="1690.032"/>
+這個長得像肥腸的女兒，刻意隱晦女友跟女兒的存在，
+<Sync time="1697.49"/>
+你看，漂亮的&lt;lang:English&gt;(())&lt;/lang:English&gt;他要，有用的肥腸他也要，他竟然還敢以新好男人的形象縱橫政壇，
+<Sync time="1708.104"/>
+我單無雙今天，就要踢爆他的假像。
+</Turn>
+<Turn speaker="spk18" startTime="1712.762" endTime="1752.376">
+<Sync time="1712.762"/>
+[applause]你是我最好的員工，看到沒有，現在是只有她這麼賣命的工作才能挖到底麼大一條，
+<Sync time="1722.035"/>
+誒，我們雜誌社，如果沒有他就沒有頭條了，[laugh]笑是不是。
+<Sync time="1726.622"/>
+抽掉羅密歐那一條，換上你這個，留十頁給你來寫。標題，標題是什麼，#呃。
+<Sync time="1735.02"/>
+聖人劈腿也翻船，&lt;lang:English&gt;(())&lt;/lang:English&gt;肥腸他都要。[laugh][applause]是不是，很好吧，很好吧。
+<Sync time="1744.202"/>
+好的，無雙，這太棒了。#呃，今天晚上這十頁就要趕了來，好不好。這全部交給你好了，誒，各位，動起來，加班。
+</Turn>
+<Turn speaker="spk2" startTime="1752.376" endTime="1754.44">
+<Sync time="1752.376"/>
+謝謝社長。
+</Turn>
+<Turn speaker="spk17" startTime="1754.44" endTime="1758.75">
+<Sync time="1754.44"/>
+納稅人的錢呢，社長，納稅人的錢比不過這個家庭八卦嗎？社長。
+</Turn>
+<Turn speaker="spk2" startTime="1758.75" endTime="1815.364">
+<Sync time="1758.75"/>
+聽好啦，我只說一次，魏爾剛，去把柯有正從出生到當校長到從政的資料，一個個把它全部給我調出來，
+<Sync time="1766.79"/>
+還要把所以有的資料都整理成清楚簡單的圖表，我要讓讀者一目了然。聽到了沒。
+<Sync time="1772.219"/>
+馬丹娜，你那個主標呢就寫聖人劈腿也翻船，副標寫小變變身大野狼，
+<Sync time="1782.010"/>
+我身告訴你，這絕對是轟動全臺的大獨家，所以你要叫美編把弱雞的照片中，解析度給我調到最高聽到沒。
+<Sync time="1791.306"/>
+我一定要讓大家清清楚楚看到他人面獸心的嘴臉，還不快去，快一點，
+<Sync time="1799.422"/>
+#啊對對對，你叫那個&lt;lang:English&gt;(())&lt;/lang:English&gt;呢，幫我泡一杯咖啡放在我辦公桌上面，要熱一點不要糖，&lt;lang:English&gt;((Okay))&lt;/lang:English&gt;，快一點。
+<Sync time="1807.72"/>
+還有那個羅大編輯。
+</Turn>
+<Turn speaker="spk17" startTime="1815.364" endTime="1821.701">
+<Sync time="1815.364"/>
+誒，無雙，這次我恐怕沒有辦法幫你的忙，你知道我事情多得不得了，我還得去補那個什麼，呼巴掌的照片。
+</Turn>
+<Turn speaker="spk2" startTime="1821.701" endTime="1828.688">
+<Sync time="1821.701"/>
+&lt;lang:English&gt;((Okay))&lt;/lang:English&gt;，你忙你的，封面我來弄就好啦，#嗯。
+</Turn>
+<Turn speaker="spk17" startTime="1828.688" endTime="1831.798">
+<Sync time="1828.688"/>
+單無雙，你不要以為你這樣就贏了#啊。
+</Turn>
+<Turn speaker="spk2" startTime="1831.798" endTime="1843.753">
+<Sync time="1831.798"/>
+不好意思，我是贏了，下次請早，封面的位置永遠空著等著你，只要你能跑在我的前面。誒
+</Turn>
+<Turn speaker="spk18" startTime="1843.753" endTime="1850.956">
+<Sync time="1843.753"/>
+無雙，來來來。
+</Turn>
+<Turn speaker="spk2" startTime="1850.956" endTime="1852.72">
+<Sync time="1850.956"/>
+社長。
+</Turn>
+<Turn speaker="spk18" startTime="1852.72" endTime="1859.26">
+<Sync time="1852.72"/>
+你應該猜得出來誰會是下一任的總編輯吧，#噢。
+</Turn>
+<Turn speaker="spk2" startTime="1859.26" endTime="1882.951">
+<Sync time="1859.26"/>
+謝謝社長。
+<Sync time="1863.365"/>
+[music]
+</Turn>
+<Turn speaker="spk7" startTime="1882.951" endTime="1891.579">
+<Sync time="1882.951"/>
+[music]
+</Turn>
+<Turn speaker="spk7" startTime="1891.579" endTime="1899.699">
+<Sync time="1891.579"/>
+今天真是有夠衰的，不但錢沒有賺到，還倒賠三萬，這是什麼鬼聖誕節啦。
+</Turn>
+<Turn speaker="spk19" startTime="1899.699" endTime="1905.675">
+<Sync time="1899.699"/>
+[cry]哭不要哭啦。
+</Turn>
+<Turn speaker="spk7" startTime="1905.675" endTime="1909.679">
+<Sync time="1905.675"/>
+冤有頭債有主，我一定要去找那個女妖算賬。
+</Turn>
+<Turn speaker="spk19" startTime="1909.679" endTime="1913.942">
+<Sync time="1909.679"/>
+不要哭嘛。
+</Turn>
+<Turn speaker="spk20" startTime="1913.942" endTime="1916.346">
+<Sync time="1913.942"/>
+無雙姐，你的咖啡。
+</Turn>
+<Turn speaker="spk2" startTime="1916.346" endTime="1921.397">
+<Sync time="1916.346"/>
+誒，你來得剛好，你去負責聯絡印刷廠，還有你今天留下來加班加點聽到沒有。
+</Turn>
+<Turn speaker="spk20" startTime="1921.397" endTime="1926.554">
+<Sync time="1921.397"/>
+#啊，可是今天是聖誕夜，我跟我男朋友有約耶。
+</Turn>
+<Turn speaker="spk2" startTime="1926.554" endTime="1930.533">
+<Sync time="1926.554"/>
+耶誕夜#啊，那就玩得開心點哦，吃得開心點哦.
+</Turn>
+<Turn speaker="spk20" startTime="1930.533" endTime="1931.842">
+<Sync time="1930.533"/>
+謝謝。
+</Turn>
+<Turn speaker="spk2" startTime="1931.842" endTime="1936.16">
+<Sync time="1931.842"/>
+不過呢，還有很多人應征小妹，隨便你嘍。
+</Turn>
+<Turn speaker="spk20" startTime="1936.16" endTime="1939.387">
+<Sync time="1936.16"/>
+知道，我聯絡就是了。外面有人找你啦。
+</Turn>
+<Turn speaker="spk2" startTime="1939.387" endTime="1940.49">
+<Sync time="1939.387"/>
+誰找我#啊？
+</Turn>
+<Turn speaker="spk20" startTime="1940.49" endTime="1941.953">
+<Sync time="1940.49"/>
+耶誕老人啦。
+</Turn>
+<Turn speaker="spk2" startTime="1941.953" endTime="1957.503">
+<Sync time="1941.953"/>
+耶誕老人。現在七年級生怎麼啦，對工作一點責任感都沒有。
+<Sync time="1951.974"/>
+耶誕夜耶誕夜，看不出來那是商人用來騙錢的日子嗎？切。
+</Turn>
+<Turn speaker="spk19" startTime="1957.503" endTime="1979.193">
+<Sync time="1957.503"/>
+壞阿姨，壞阿姨，壞阿姨，壞阿姨，壞阿姨，壞阿姨，壞阿姨，壞阿姨。
+<Sync time="1969.285"/>
+壞阿姨，壞阿姨，壞阿姨，壞阿姨，壞阿姨，壞阿姨，壞阿姨，壞阿姨。
+</Turn>
+<Turn speaker="spk2" startTime="1979.193" endTime="1982.98">
+<Sync time="1979.193"/>
+我不是壞阿姨，你們可以叫我姐姐#啊，#嗯。
+</Turn>
+<Turn speaker="spk19" startTime="1982.98" endTime="1988.725">
+<Sync time="1982.98"/>
+你明膽就有魚尾紋，皮膚也不是很光澤，我朋友的姐姐也沒有那麼老。
+</Turn>
+<Turn speaker="spk2" startTime="1988.725" endTime="1991.647">
+<Sync time="1988.725"/>
+這小鬼。
+</Turn>
+<Turn speaker="spk7" startTime="1991.647" endTime="1996.286">
+<Sync time="1991.647"/>
+誒，我告訴你，小朋友可是很老實的，阿姨。
+</Turn>
+<Turn speaker="spk2" startTime="1996.286" endTime="2001.278">
+<Sync time="1996.286"/>
+阿姨，你鬍子這麼白叫我阿姨，腳踏車還你啦。
+</Turn>
+<Turn speaker="spk7" startTime="2001.278" endTime="2003.165">
+<Sync time="2001.278"/>
+喂。
+</Turn>
+<Turn speaker="spk2" startTime="2003.165" endTime="2006.695">
+<Sync time="2003.165"/>
+你幹嘛，我，我可不是被嚇大的我跟你講。
+</Turn>
+<Turn speaker="spk7" startTime="2006.695" endTime="2012.602">
+<Sync time="2006.695"/>
+大姐，你臉皮很厚哦，你這樣搶走他們的東西，不跟他們道歉#啊。
+</Turn>
+<Turn speaker="spk2" startTime="2012.602" endTime="2015.333">
+<Sync time="2012.602"/>
+我剛剛不是給你兩千塊了。
+</Turn>
+<Turn speaker="spk7" startTime="2015.333" endTime="2028.087">
+<Sync time="2015.333"/>
+不好意思，這輛腳踏車踏車不止值兩千塊，還有，為了追你這沒良心的女人，你看，
+<Sync time="2022.907"/>
+害我被人家逼簽了這個單子，三賠三萬塊誒，你看怎麼辦。
+</Turn>
+<Turn speaker="spk2" startTime="2028.087" endTime="2038.681">
+<Sync time="2028.087"/>
+盧卡斯，這什麼鬼名字#啊，騙三歲的小孩子#啊，哦，我知道，敲詐，本小姐今天心情好，多加一千塊。
+</Turn>
+<Turn speaker="spk7" startTime="2038.681" endTime="2049.281">
+<Sync time="2038.681"/>
+你到底知不知道小朋友等聖誕禮物等了一整年的心情，噢，你這樣隨隨便便搶走他們的東西算什麼，幹嘛，你簡直是個佛地女魔噢。
+</Turn>
+<Turn speaker="spk2" startTime="2049.281" endTime="2053.167">
+<Sync time="2049.281"/>
+誒，我有截稿的壓力呀，再說我沒有搶，我都說借一下，你想怎麼樣#啊你。
+</Turn>
+<Turn speaker="spk7" startTime="2053.167" endTime="2062.412">
+<Sync time="2053.167"/>
+別人同意才算借，別人如果沒有同意的話就算搶。大姐，你這樣看起來年紀也不僅小啦，你怎麼連這點東西都不懂。
+</Turn>
+<Turn speaker="spk2" startTime="2062.412" endTime="2070.243">
+<Sync time="2062.412"/>
+我不同意也要借，告訴你這個世界上有很多事情比耶誕禮物還要來得重要好不好，他們以後長大就會懂啦。
+</Turn>
+<Turn speaker="spk7" startTime="2070.243" endTime="2075.223">
+<Sync time="2070.243"/>
+那你知不知道，這個世上有很多錯過就不會再回來的美好，他們長大之後就來不及懂啦。
+</Turn>
+<Turn speaker="spk2" startTime="2075.223" endTime="2079.556">
+<Sync time="2075.223"/>
+&lt;lang:English&gt;((Okay))&lt;/lang:English&gt;不懂更好#啊，不會有遺憾啦，拿去啦。
+</Turn>
+<Turn speaker="spk7" startTime="2079.556" endTime="2082.917">
+<Sync time="2079.556"/>
+拿回去跟他們道歉。
+</Turn>
+<Turn speaker="spk2" startTime="2082.917" endTime="2091.177">
+<Sync time="2082.917"/>
+我幹嘛跟他們道歉啦，誒，我給他們一個未來，免於被迫一個無恥的政客荼毒誒，他們應該寫感謝卡謝我，
+<Sync time="2088.052"/>
+更何況我的工作，對社會而言意義很重大。
+</Turn>
+<Turn speaker="spk7" startTime="2091.177" endTime="2123.618">
+<Sync time="2091.177"/>
+誒你這個女人，你的工作對這個社會而言，意義很重大，還是對你而言意義很重大。
+<Sync time="2101.475"/>
+今天是聖誕節，你自己要像便利店一樣，全年無休，&lt;lang:English&gt;((Okay))&lt;/lang:English&gt;#啊。可是關小朋友什麼事#啊，
+<Sync time="2107.562"/>
+你這樣隨隨便便搶走他們的東西，到底算什麼#啊，像你這種人，沒有生活沒有朋友，只會把重心擺在工作上，
+<Sync time="2115.403"/>
+像你這種，偏偏工作人員上有很多人等著你跌倒吧。
+</Turn>
+<Turn speaker="spk2" startTime="2123.618" endTime="2128.939">
+<Sync time="2123.618"/>
+小朋友，你們相不相信，這個世界上有聖誕老公化#啊？
+</Turn>
+<Turn speaker="spk19" startTime="2128.939" endTime="2130.774">
+<Sync time="2128.939"/>
+相信。
+</Turn>
+<Turn speaker="spk2" startTime="2130.774" endTime="2140.866">
+<Sync time="2130.774"/>
+相信噢？你們看，鬍子是假的，聖誕老公公也是假的，聖誕老公公是大人用來騙小孩的。
+</Turn>
+<Turn speaker="spk19" startTime="2140.866" endTime="2166.27">
+<Sync time="2140.866"/>
+我要聖誕老公公，我要聖誕老公公。
+<Sync time="2151.116"/>
+我要聖誕老公公，我要聖誕老公公。
+<Sync time="2159.001"/>
+[music]
+</Turn>
+<Turn speaker="spk2" startTime="2166.27" endTime="2172.01">
+<Sync time="2166.27"/>
+小朋友，趕快長大，這世界是殘酷的。
+</Turn>
+<Turn speaker="spk7" startTime="2172.01" endTime="2187.033">
+<Sync time="2172.01"/>
+喂，喂，你這是幹嘛，這些小朋友都是沒有爸媽的孤獨，
+<Sync time="2179.978"/>
+一年就指這一天，被招待過一個快樂的聖誕節，你幹嘛破壞他們幻想#啊。
+</Turn>
+<Turn speaker="spk2" startTime="2187.033" endTime="2193.4">
+<Sync time="2187.033"/>
+那又怎樣，我只是快點讓他們社會化，不要老是活在幻想裏面嘛。
+</Turn>
+<Turn speaker="spk7" startTime="2193.4" endTime="2205.252">
+<Sync time="2193.4"/>
+喂，你這女人，你聽不懂#啊你。喂。
+<Sync time="2201.554"/>
+你在幹嘛？
+</Turn>
+<Turn speaker="spk21" startTime="2205.252" endTime="2212.432">
+<Sync time="2205.252"/>
+不，不好意思，因為我看小朋友的腳踏車壞了，我想要幫他們修一下。對不起，對不起。
+</Turn>
+<Turn speaker="spk7" startTime="2212.432" endTime="2229.045">
+<Sync time="2212.432"/>
+不好意思，這個你拿去擦一擦吧，手都髒了。
+<Sync time="2218.294"/>
+[music]
+</Turn>
+<Turn speaker="spk21" startTime="2229.045" endTime="2232.385">
+<Sync time="2229.045"/>
+謝謝。
+</Turn>
+<Turn speaker="spk7" startTime="2232.385" endTime="2237.471">
+<Sync time="2232.385"/>
+像你這麼可愛的天使服務，是我榮幸。
+</Turn>
+<Turn speaker="spk21" startTime="2237.471" endTime="2239.546">
+<Sync time="2237.471"/>
+我才不是什麼天使呢。
+</Turn>
+<Turn speaker="spk7" startTime="2239.546" endTime="2251.224">
+<Sync time="2239.546"/>
+你是，我告訴你，跟某些邪惡的佛地女魔比起來，你的的確確是個可愛的天使。
+<Sync time="2246.42"/>
+好啦，小天使，趕快去約會吧。來，我看看。
+</Turn>
+<Turn speaker="spk21" startTime="2251.224" endTime="2252.899">
+<Sync time="2251.224"/>
+約會。
+</Turn>
+<Turn speaker="spk7" startTime="2252.899" endTime="2267.713">
+<Sync time="2252.899"/>
+對#啊，今天聖誕節耶，你不要告訴我像你這麼可愛的女孩子，聖誕節沒有人約#啊，
+<Sync time="2259.937"/>
+那個，小朋友，腳踏車壞了我現在也修不好，我們先回教會好不好。
+</Turn>
+<Turn speaker="spk19" startTime="2267.713" endTime="2289.681">
+<Sync time="2267.713"/>
+不要，我要腳踏車，我要腳踏車啦。
+<Sync time="2272.24"/>
+[cry]好啦，我再來想辦法好不好，我們先回教會，走，走了。
+<Sync time="2282.572"/>
+來，來自聖誕老人的禮物。
+</Turn>
+<Turn speaker="spk21" startTime="2289.681" endTime="2290.72">
+<Sync time="2289.681"/>
+謝謝。
+</Turn>
+<Turn speaker="spk7" startTime="2290.72" endTime="2305.174">
+<Sync time="2290.72"/>
+不用說謝，走了，小朋友。
+<Sync time="2294.583"/>
+[music]
+</Turn>
+<Turn speaker="spk20" startTime="2305.174" endTime="2318.13">
+<Sync time="2305.174"/>
+誒，你就是今天拿推薦信過來的新人吧，我是(())啦，
+<Sync time="2313.044"/>
+告訴你呀今天公司很忙，老闆說叫你耶誕節過後再來報到。
+</Turn>
+<Turn speaker="spk21" startTime="2318.13" endTime="2319.875">
+<Sync time="2318.13"/>
+好，謝謝。
+</Turn>
+<Turn speaker="spk22" startTime="2319.875" endTime="2323.267">
+<Sync time="2319.875"/>
+不要難過啦.
+</Turn>
+<Turn speaker="spk19" startTime="2323.267" endTime="2325.154">
+<Sync time="2323.267"/>
+腳踏車壞了。
+</Turn>
+<Turn speaker="spk22" startTime="2325.154" endTime="2355.062">
+<Sync time="2325.154"/>
+好了，沒有關係啦，修一修就好了，好不好。乖呀哈，記得刷牙洗臉啦。
+<Sync time="2335.034"/>
+我都不知道要跟你說些什麼了，你先是弄壞孩子們的腳踏車，又擅自帶他們出去，
+<Sync time="2345.883"/>
+現在又讓孩子們知道，這世界上沒有耶誕老公公，難過的回來，你們網站上面的打工達人，能耐就這麼一些嗎？
+</Turn>
+<Turn speaker="spk22" startTime="2355.062" endTime="2367.428">
+<Sync time="2355.062"/>
+修女，你先聽我解釋。
+<Sync time="2356.532"/>
+我不會跟你索賠，但是我也沒有辦法付你薪水，因為你實在太失職了，願天主保佑你，讓開。
+</Turn>
+<Turn speaker="spk7" startTime="2367.428" endTime="2380.493">
+<Sync time="2367.428"/>
+要不要我幫，修女。
+<Sync time="2375.304"/>
+幹嘛？
+</Turn>
+<Turn speaker="spk23" startTime="2380.493" endTime="2384.52">
+<Sync time="2380.493"/>
+盧卡斯，交租的期限是今天晚上七點，你還記得吧？
+</Turn>
+<Turn speaker="spk7" startTime="2384.52" endTime="2387.79">
+<Sync time="2384.52"/>
+房東太太，我先交一萬塊好不好？
+</Turn>
+<Turn speaker="spk23" startTime="2387.79" endTime="2396.565">
+<Sync time="2387.79"/>
+三個月的房租，想要一萬塊敷衍我門都沒有，沒有房租就給我搬出去，我已經把你的行李都丟到門外，還有你那盆要死不活的花，全部都給我帶走。
+</Turn>
+<Turn speaker="spk7" startTime="2396.565" endTime="2427.585">
+<Sync time="2396.565"/>
+喂，我警告你噢，你什麼東西都可以給我丟，就是那盆花不能丟，你等我，#啊。
+<Sync time="2402.404"/>
+啊哎。
+<Sync time="2409.062"/>
+[noise]
+<Sync time="2420.335"/>
+[noise]
+</Turn>
+<Turn speaker="spk17" startTime="2427.585" endTime="2438.806">
+<Sync time="2427.585"/>
+連柯有正有私生女這種新聞她都挖得出來，我覺得單無雙這個女人啦，是工作像男人能力也像男人，簡直就是穿著裙子的男人嘛。
+</Turn>
+<Turn speaker="spk16" startTime="2438.806" endTime="2450.196">
+<Sync time="2438.806"/>
+誒，剛剛我看到單無雙在修改的稿件，聽說柯有正不倫對象，是她的高中英文老師，
+<Sync time="2447.065"/>
+而且還很照顧單無雙誒，真是太超過了。
+</Turn>
+<Turn speaker="spk15" startTime="2450.196" endTime="2458.977">
+<Sync time="2450.196"/>
+#呃，為了挖新聞，居然可以連自己的恩師都出賣，一點溫情也沒有。這，她這還算是個女嗎。
+</Turn>
+<Turn speaker="spk17" startTime="2458.977" endTime="2464.051">
+<Sync time="2458.977"/>
+有胸有臀，生理構造上來說還應該算是吧。
+</Turn>
+<Turn speaker="spk17" startTime="2464.051" endTime="2471.924">
+<Sync time="2464.051"/>
+有朡有臀就算女人啦#啊，那你敢嫁她嗎？你願意娶她嗎#啊？
+</Turn>
+<Turn speaker="spk15" startTime="2471.924" endTime="2483.385">
+<Sync time="2471.924"/>
+誒，她呀，這種女人呀，動不動就對人大小聲啦，然後呢，一提到工作呢，就不給睡了，自己不睡也就算了，也拖著別人不給睡誒。
+</Turn>
+<Turn speaker="spk16" startTime="2483.385" endTime="2484.448">
+<Sync time="2483.385"/>
+就是。
+</Turn>
+<Turn speaker="spk17" startTime="2484.448" endTime="2496.706">
+<Sync time="2484.448"/>
+這種女人我跟你講我看准了，她的人生就是沒有愛人，沒有朋友沒有溫暖，沒人心疼沒人可憐，
+<Sync time="2491.008"/>
+強得跟變形金剛一樣，#啊，&lt;lang:English&gt;(())&lt;/lang:English&gt;
+</Turn>
+<Turn speaker="spk2" startTime="2496.706" endTime="2642.252">
+<Sync time="2496.706"/>
+[music]
+<Sync time="2508.473"/>
+[music]
+<Sync time="2514.97"/>
+哼，說我像變形金剛，我才不在意你們咧，你們愛怎麼說就怎麼說，
+<Sync time="2523.334"/>
+反正我當女魔頭也不是一天兩天的事了，沒人要也不會怎麼樣。
+<Sync time="2529.008"/>
+[music]
+<Sync time="2538.069"/>
+幹嘛，成雙成對的，這個城市有規定出來混的都要兩個人嗎，我一個人也可以過得很好。
+<Sync time="2548.151"/>
+[music]
+<Sync time="2555.636"/>
+[music]
+<Sync time="2565.897"/>
+[music]
+<Sync time="2575.684"/>
+[music]
+<Sync time="2587.168"/>
+[music]
+<Sync time="2595.265"/>
+[music]
+<Sync time="2606.039"/>
+[music]
+<Sync time="2616.088"/>
+[music]
+<Sync time="2624.248"/>
+[music]
+<Sync time="2633.324"/>
+[music]
+</Turn>
+</Section>
+</Episode>
+</Trans>

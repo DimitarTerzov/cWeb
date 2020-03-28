@@ -7,7 +7,7 @@ import io
 def command7(filepath):
 
     # Allowed punctuation after tag
-    allowed_punctuation = ur"。！？，、．\[\]"
+    allowed_punctuation = ur"。！？，、．\[\];.,\(\)"
     #default skip tags
     skip_tags = u"(#呃|#啊|#嗯)"
     filler_re = re.compile(ur'[\W\w]?#[\w\W]{2}', re.UNICODE)
@@ -40,7 +40,7 @@ def command7(filepath):
 
 
 if __name__ == '__main__':
-    found = command7("../files/Daai_Religion_05.trs")
+    found = command7("../files/MyQueen_001.trs")
     keys = sorted(found.keys())
     for key in keys:
         print key, found[key], found[key][2]
