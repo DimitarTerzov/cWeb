@@ -69,6 +69,7 @@ def command1(filepath):
     ## strip off any remaining whitespace char
     s = u"".join(bad_chars.split())
     ## from utf-8 to unicode encode
+    s = s.replace(u'&', u'')
     regex = s
 
     found = {}
@@ -134,40 +135,41 @@ def command2(filepath):
                 found[ln] = [2, 'Bracket issue [', orig_line]
     return found
 
+## Disable command. Overlaps with 8
 #Sound tag validator
 def command3(filepath):
-    skip_words = ['[no-speech]', '[no—speech]', '[noise]', '[overlap]', '[music]', '[applause]', '[lipsmack]', '[breath]', '[cough]', '[laugh]', '[click]', '[ring]', '[dtmf]', '[sta]', '[cry]', '[prompt]']
+    #skip_words = ['[no-speech]', '[no—speech]', '[noise]', '[overlap]', '[music]', '[applause]', '[lipsmack]', '[breath]', '[cough]', '[laugh]', '[click]', '[ring]', '[dtmf]', '[sta]', '[cry]', '[prompt]']
 
-    regex = re.compile("\[.*?\]")
+    #regex = re.compile("\[.*?\]")
 
     found = {}
-    with open(filepath,'r') as f:
-        ln = -1
-        for line in f:
-            ln = ln + 1
-            line = line.rstrip("\r\n")
-            prev_tag = 'none'
+    #with open(filepath,'r') as f:
+        #ln = -1
+        #for line in f:
+            #ln = ln + 1
+            #line = line.rstrip("\r\n")
+            #prev_tag = 'none'
 
-            if '<Speaker' not in line:
+            #if '<Speaker' not in line:
 
-                for w in line.split():
-                    #if we have something glued to tag
+                #for w in line.split():
+                    ##if we have something glued to tag
 
-                    if re.match(".*[^ \s、 。 ‧ ？ ！ ，]\[.*?\]", w):
-                        found[ln] = [3, 'Missing white space left of sound tag', w]
-                    elif re.match("\[.*?\][^ \s.,，。\-?! ].*", w):
-                        found[ln] = [3, 'Missing white space right of sound tag', w]
-                    else:
-                        for m in re.findall(regex, line):
-                            if not m in skip_words:
-                                found[ln] = [3, 'Sound tag syntax', m + '/' + line]
+                    #if re.match(".*[^ \s、 。 ‧ ？ ！ ，]\[.*?\]", w):
+                        #found[ln] = [3, 'Missing white space left of sound tag', w]
+                    #elif re.match("\[.*?\][^ \s.,，。\-?! ].*", w):
+                        #found[ln] = [3, 'Missing white space right of sound tag', w]
+                    #else:
+                        #for m in re.findall(regex, line):
+                            #if not m in skip_words:
+                                #found[ln] = [3, 'Sound tag syntax', m + '/' + line]
 
-                            #detect duplicate tags like - [cough][cough]
-                            #if we have two of the same tags in a row
-                            #and there are one after the other in the line
-                            elif prev_tag == m and re.search(re.escape(m)    +"\s*"+WWwhitespace+"*"  +WWpunctuatio+"*"+   re.escape(m), line):
-                                found[ln] = [3, 'Sound tag duplicate', m + '/' + line]
-                            prev_tag = m
+                            ##detect duplicate tags like - [cough][cough]
+                            ##if we have two of the same tags in a row
+                            ##and there are one after the other in the line
+                            #elif prev_tag == m and re.search(re.escape(m)    +"\s*"+WWwhitespace+"*"  +WWpunctuatio+"*"+   re.escape(m), line):
+                                #found[ln] = [3, 'Sound tag duplicate', m + '/' + line]
+                            #prev_tag = m
     return found
 
 
@@ -280,7 +282,7 @@ def command5(filepath):
         'Ambonese', 'Betawinese', 'Latin', 'Manadonese'
     ]
 
-    punctuation_marks = u"。！？，、．"
+    punctuation_marks = u"。！？，、．.,"
     disallowed_punctuation = u'《》：（（））【】'
 
     regex = re.compile(ur'(?P<content>(?P<before_first>[\s{0}])?(?P<first_open>(?:&lt;))(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;))(?P<inner_text>.*?)(?P<second_open>(?:&lt;))(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;))(?P<after_second>[\s{0}])?)'.format(disallowed_punctuation), re.UNICODE)
@@ -401,7 +403,7 @@ def command6(filepath):
 def command7(filepath):
 
     # Allowed punctuation after tag
-    allowed_punctuation = ur"。！？，、．\[\]"
+    allowed_punctuation = ur"。！？，、．\[\];.,\(\)"
     #default skip tags
     skip_tags = u"(#呃|#啊|#嗯)"
     filler_re = re.compile(ur'[\W\w]?#[\w\W]{2}', re.UNICODE)
@@ -433,7 +435,6 @@ def command7(filepath):
     return found
 
 
-#White space validator
 #White space validator
 def command8(filepath):
     rv = {}
@@ -495,78 +496,80 @@ def command9(filepath):
             found[1] = [9, 'Invalid encoding, must be UTF-8', line]
     return found
 
+
+## Disable command. Overlaps with 8.
 #Inaudible tag validator
 def command10(filepath):
 
-    trailing_ok = '.,，。-?! '
+    #trailing_ok = '.,，。-?! '
 
     found = {}
 
-    with open(filepath) as f:
-        ln = -1
-        for line in f:
-            ln = ln + 1
-            line = line.rstrip("\r\n")
+    #with open(filepath) as f:
+        #ln = -1
+        #for line in f:
+            #ln = ln + 1
+            #line = line.rstrip("\r\n")
 
-            #if line starts with < and ends in >
-            if line.startswith('<') and line.endswith('>'):
-                #we skip everythin between <>
-                continue
+            ##if line starts with < and ends in >
+            #if line.startswith('<') and line.endswith('>'):
+                ##we skip everythin between <>
+                #continue
 
-            #detect repeating tags
-            if re.search("\(\(\)\)\s?\(\(\)\)", line):
-                found[ln] = [10, 'Cannot have more than on (()) in a row', line]
-                continue
+            ##detect repeating tags
+            #if re.search("\(\(\)\)\s?\(\(\)\)", line):
+                #found[ln] = [10, 'Cannot have more than on (()) in a row', line]
+                #continue
 
-            #detect invalid tags
-            if re.search("\(\(\s+\)\)", line):
-                found[ln] = [10, 'Invalid tag', line]
-                continue
+            ##detect invalid tags
+            #if re.search("\(\(\s+\)\)", line):
+                #found[ln] = [10, 'Invalid tag', line]
+                #continue
 
-            #detect single (a-z) tags
-            if re.search("[^\(]\([a-zA-Z0-9]+\)[^\)]", line):
-                found[ln] = [10, '(()) tag incorrectly written', line]
-                continue
+            ##detect single (a-z) tags
+            #if re.search("[^\(]\([a-zA-Z0-9]+\)[^\)]", line):
+                #found[ln] = [10, '(()) tag incorrectly written', line]
+                #continue
 
-            counter = 0
-            last = 'x'
+            #counter = 0
+            #last = 'x'
 
-            for c in list(line):
+            #for c in list(line):
 
-                #check for space after ))
-                if last == ')' and counter == 0 and c != line[-1] and not c in trailing_ok:
-                    found[ln] = [10, 'Missing training white space', line]
-                    counter = 0
-                    break
+                ##check for space after ))
+                #if last == ')' and counter == 0 and c != line[-1] and not c in trailing_ok:
+                    #found[ln] = [10, 'Missing training white space', line]
+                    #counter = 0
+                    #break
 
-                if c == '(':
-                    counter = counter + 1
+                #if c == '(':
+                    #counter = counter + 1
 
-                    #if we don't have a space before (
-                    if c != line[0] and counter == 1 and not re.match('[\s\t　。，]', last):
-                        found[ln] = [10, 'Missing leading white space', line]
-                        counter = 0
-                        break
+                    ##if we don't have a space before (
+                    #if c != line[0] and counter == 1 and not re.match('[\s\t　。，]', last):
+                        #found[ln] = [10, 'Missing leading white space', line]
+                        #counter = 0
+                        #break
 
-                elif c == ')':
-                    counter = counter - 1
+                #elif c == ')':
+                    #counter = counter - 1
 
-                    #if we have a space before )
-                    if (last == ' ' or last == '\t'):
-                        found[ln] = [10, 'Space before closing', line]
-                        counter = 0
-                        break
+                    ##if we have a space before )
+                    #if (last == ' ' or last == '\t'):
+                        #found[ln] = [10, 'Space before closing', line]
+                        #counter = 0
+                        #break
 
-                last = c
+                #last = c
 
-                if counter > 2 or counter < 0:           #more than 2 ( or )
-                    found[ln] = [10, 'Space inside', line]
-                    counter = 0
-                    break
+                #if counter > 2 or counter < 0:           #more than 2 ( or )
+                    #found[ln] = [10, 'Space inside', line]
+                    #counter = 0
+                    #break
 
-            #check1) if line has invalid number of open/close brackets
-            if counter != 0:
-                found[ln] = [10, 'Missing parenthesis', line]
+            ##check1) if line has invalid number of open/close brackets
+            #if counter != 0:
+                #found[ln] = [10, 'Missing parenthesis', line]
 
     return found
 
