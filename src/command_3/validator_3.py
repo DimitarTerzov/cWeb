@@ -19,7 +19,7 @@ def command3(filepath):
     regex = re.compile(ur"\[.*?\]", re.UNICODE)
 
     found = {}
-    with io.open(filepath,'r') as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
@@ -46,6 +46,7 @@ def command3(filepath):
                             elif prev_tag == m and re.search(ur'{0}\s*{1}*{2}*{3}'.format(re.escape(m), WWwhitespace.decode('utf'), WWpunctuatio.decode('utf'),   re.escape(m)), line, re.UNICODE) is not None:
                                 found[ln] = [3, 'Sound tag duplicate', '{}/{}'.format(m.encode('utf'), line.encode('utf'))]
                             prev_tag = m
+
     return found
 
 
