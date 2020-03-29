@@ -1,11 +1,25 @@
+# -*- coding: utf-8 -*-
+from __future__ import print_function
+import re
+import io
+
+from app.cWeb import WWpunctuatio, WWwhitespace
+
+
 #Sound tag validator
 def command3(filepath):
-    skip_words = ['[no-speech]', '[no—speech]', '[noise]', '[overlap]', '[music]', '[applause]', '[lipsmack]', '[breath]', '[cough]', '[laugh]', '[click]', '[ring]', '[dtmf]', '[sta]', '[cry]', '[prompt]']
+    skip_words = [
+        u'[no-speech]', u'[no—speech]', u'[noise]',
+        u'[overlap]', u'[music]', u'[applause]',
+        u'[lipsmack]', u'[breath]', u'[cough]',
+        u'[laugh]', u'[click]', u'[ring]',
+        u'[dtmf]', u'[sta]', u'[cry]', u'[prompt]'
+    ]
 
-    regex = re.compile("\[.*?\]")
+    regex = re.compile(ur"\[.*?\]", re.UNICODE)
 
     found = {}
-    with open(filepath,'r') as f:
+    with io.open(filepath,'r') as f:
         ln = -1
         for line in f:
             ln = ln + 1
@@ -15,21 +29,28 @@ def command3(filepath):
             if '<Speaker' not in line:
 
                 for w in line.split():
-                    #if we have something glued to tag
+                    # if we have something glued to tag
 
-                    if re.match(".*[^ \s、 。 ‧ ？ ！ ，]\[.*?\]", w):
-                        found[ln] = [3, 'Missing white space left of sound tag', w]
-                    elif re.match("\[.*?\][^ \s.,，。\-?! ].*", w):
-                        found[ln] = [3, 'Missing white space right of sound tag', w]
+                    if re.match(ur".*[^ \s、 。 ‧ ？ ！ ，]\[.*?\]", w, re.UNICODE):
+                        found[ln] = [3, 'Missing white space left of sound tag', w.encode('utf')]
+                    elif re.match(ur"\[.*?\][^ \s.,，。\-?! ].*", w, re.UNICODE):
+                        found[ln] = [3, 'Missing white space right of sound tag', w.encode('utf')]
                     else:
                         for m in re.findall(regex, line):
                             if not m in skip_words:
-                                found[ln] = [3, 'Sound tag syntax', m + '/' + line]
+                                found[ln] = [3, 'Sound tag syntax', '{}/{}'.format(m.encode('utf'), line.encode('utf'))]
 
-                            #detect duplicate tags like - [cough][cough]
-                            #if we have two of the same tags in a row
-                            #and there are one after the other in the line
-                            elif prev_tag == m and re.search(re.escape(m)    +"\s*"+WWwhitespace+"*"  +WWpunctuatio+"*"+   re.escape(m), line):
-                                found[ln] = [3, 'Sound tag duplicate', m + '/' + line]
+                            # detect duplicate tags like - [cough] [cough]
+                            # if we have two of the same tags in a row
+                            # and they are one by one in the line
+                            elif prev_tag == m and re.search(ur'{0}\s*{1}*{2}*{3}'.format(re.escape(m), WWwhitespace.decode('utf'), WWpunctuatio.decode('utf'),   re.escape(m)), line, re.UNICODE) is not None:
+                                found[ln] = [3, 'Sound tag duplicate', '{}/{}'.format(m.encode('utf'), line.encode('utf'))]
                             prev_tag = m
     return found
+
+
+if __name__ == '__main__':
+    found = command3('../files/AsiaWaveNews_01_sample_chawankorn.trs')
+    for key in sorted(found.keys()):
+        print(key, found[key])
+
