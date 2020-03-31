@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Trans SYSTEM "trans-14.dtd">
-<Trans scribe="i.zhivarova" audio_filename="channel0_824" version="1" version_date="200211">
+<Trans scribe="bul-100" audio_filename="channel0_824" version="1" version_date="200211">
 <Speakers>
 <Speaker id="spk1" name="Пепа Костадинова" check="no" type="female" dialect="native" accent="" scope="global"/>
 <Speaker id="spk2" name="Репортер1" check="no" type="male" dialect="native" accent="" scope="global"/>
