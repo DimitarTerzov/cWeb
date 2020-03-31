@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE Trans SYSTEM "trans-13.dtd">
+<Trans scribe="Torsten Borg" audio_filename="Yle-Uutiset-YLE-TV1_01_fin_01" version="4" version_date="200328">
+<Speakers>
+<Speaker id="spk1" name="Anchor 1" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk2" name="Anchor 2" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk3" name="speaker 1" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk4" name="speaker 2" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk5" name="speaker 3" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk6" name="speaker 4" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk7" name="speaker 5" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk8" name="speaker 6" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk9" name="speaker 7" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk10" name="multiple" check="no" dialect="native" accent="" scope="global"/>
+<Speaker id="spk11" name="speaker 9" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk12" name="speaker 10" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk13" name="speaker 11" check="no" type="male" dialect="native" accent="" scope="global"/>
+</Speakers>
+<Episode>
+<Section type="report" startTime="0" endTime="600.000">
+<Turn startTime="0" endTime="57.595" speaker="spk1">
+<Sync time="0"/>
+ [music] [lipsmack] &lt;initial&gt; YK &lt;/initial&gt;n ilmastokokous ja muutos autoveroon, siinä maanantain uutisaiheita. Hyvää iltaa. Autoveroon on tulossa tuntuva korjaus. Hallituksen pikapäätös leikkaa keskihintaisen 
+<Sync time="14.327"/>
+auton verosta lähes tuhat euroa. &lt;initial&gt; YK &lt;/initial&gt;n ilmastokokouksen avajaisissa on kannettu huolta siitä kyetäänkö päästöjä rajoittamaan tarpeeksi nopeasti. Tuhkarokko tilanne ei ole vielä ohi Pohjanmaalla. 
+<Sync time="28.018"/>
+Lähiaikoina selviää tuleeko uusia tartuntatapauksia. Ja lähipäivien sää näyttää sateiselta. Lumisateet liikkuvat vähitellen lännestä kohti koillista. [music] [lipsmack]
+<Sync time="43.549"/>
+Hallitus korjaa autoverotaulukkoa ja se tarkoittaa uusien autojen hintojen laskemista. [breath] Tästä päivästä lähtien keskihintainen auto on maksanut tuhat euroa vähemmän kuin eilen. [breath] Korkeampaa veroa ehdittiin periä syyskuun alusta asti.
+</Turn>
+<Turn speaker="spk2" startTime="57.595" endTime="66.923">
+<Sync time="57.595"/>
+[no-speech] [overlap] Autojen hinnat putosivat yhdessä yössä viime yönä. Monen auton hinta laski noin tonnilla.
+</Turn>
+<Turn speaker="spk3" startTime="66.923" endTime="79.385">
+<Sync time="66.923"/>
+ No toki tällainen #öö nope~ #öh muutos on autokaupalle aina parempi kuin se, että siitä ilmoitettaisiin vaikkapa niin, että ensi kesänä, koska sitten [breath] kuluttajat jää kuitenkin odottamaan sitä edullisempaa hintaa.
+</Turn>
+<Turn speaker="spk2" startTime="79.385" endTime="103.352">
+<Sync time="79.385"/>
+Syyskuun alussa autojen hinnat pomppasivat ylöspäin. &lt;initial&gt; EU &lt;/intitial&gt;-maat ottivat silloin käyttöön uuden entistä tarkemman tavan mitata hiilidioksidipäästöt. Uusi mittaustapa näytti suurempia päästöjä, mikä tarkoitti korkeampia autoveroja. Vaikka valtio korjasi verotaulukoita, verot nousivat.
+<Sync time="95.859"/>
+[breath] Nyt valtiovaraministeri on saanut &lt;initial&gt; VTT &lt;/initial&gt;ltä eri mittaustapojavertailun ja korjaa taulukkoa uudestaan alaspäin.
+</Turn>
+<Turn speaker="spk3" startTime="103.352" endTime="125.409">
+<Sync time="103.352"/>
+No ihan sellaisen keskivertoauton hinta laskee noin keskimäärin seitsemänsataaviisikymmentä euroa, mutta toki tämä on hyvin merkki ja malli kohtaista eli [breath] siellä oli jo siinä aijemmassa verotaulukossa paljon sellaisia autoja joissa se vero
+<Sync time="116.151"/>
+muutos oli veroneutraali eli ei tavallaan ollut muutosvaikutusta, mutta [breath] sitten siellä on paljon sellaisia malleja joissa sitten tä~ tämä saattaa olla jopa tuntuvampi tä~ tämä veron alennus.
+</Turn>
+<Turn speaker="spk2" startTime="125.409" endTime="162.315">
+<Sync time="125.409"/>
+Tällainen veron lasku vaikutus on keskihintaisessa autossa jossa on aika tavalliset hiilidioksiidipäästöt noin sataneljäkymmentä grammaa kilometri. Hinta laskee vähintään kuusisataa euroa. [lipsmack] Kalliimman ja enemmän päästöä tuottavan auton hinta laskee enemmän
+<Sync time="140.661"/>
+jopa pari tonnia. Muutos tulee voimaan niin, että tästä päivästä eteenpäin auton hankkivat saavat palautusta verosta. [breath] Sen sijaan ne jotka ostivat auton syys- marraskuussa eivät saa palautusta. [overlap] Nykyinen hallitus laskee autoveroja kaikkiaan 
+<Sync time="155.204"/>
+kahdellasadallamiljoonalla eurolla. [overlap] Autokauppiaalle se tietysti sopii ja tukee heidän mielestään myös puhtaampaan tekniikkaan (())
+</Turn>
+<Turn speaker="spk3" startTime="162.315" endTime="187.266">
+<Sync time="162.315"/>
+Ja nyt jos ((ajatellaan)) ((vaikkapa)) ((sitä)) &lt;initial&gt; EU &lt;/initial&gt;n ((autonvalmistaja)) (()) kunnianhimoista tavoitetta, yhdeksänkymmentäviisi grammaa keskimäärin pitäisi &lt;initial&gt; EU &lt;/initial&gt;n auton valmistajen alittaa tuossa vuonna kaksituhattakaksikymmentäyksi ja tästä vielä sitten [breath] kaksituhattakaksikymmentäviisi, kaksituhattakolmekymmentä vuoteen mennen niin vielä 
+<Sync time="177.883"/>
+vielä pitäisi pudottaa pari-kolmekymmentä prosenttia päästöjä, en tiedä jopa neljäkymmentä prosenttia on [breath] parlamentti ehdottanut, eli siinä mielessä ollaan menossa tavallaan sinne energiatehokaampaan suuntaan.
+</Turn>
+<Turn speaker="spk2" startTime="187.266" endTime="195.378">
+<Sync time="187.266"/>
+Veronalennusten jälkeenkin autovero tuottaa valtiolle vajaan miljoonan vuosittain. [no-speech] [lipsmack]
+</Turn>
+<Turn speaker="spk1" startTime="195.378" endTime="217.249">
+<Sync time="195.378"/>
+&lt;initial&gt; YK &lt;/initial&gt;n ilmastokokous (()) (()) edustajia lähes kahdestasadasta maasta. [lipsmack] Kokouksen tarkoituksena on sopia säännöistä joilla toimeen pannaan Pariisissa vuonna kaksituhattaviisitoista solmittu ilmastosopimus. [breathy] &lt;initial&gt; YK &lt;/initial&gt;n pääsihteeri 
+<Sync time="209.708"/>
+António Guterres (()) osallistujamaita leikkaamaan kasvihuonekaasupäästöjään nopeammin. [no-speech]
+</Turn>
+<Turn speaker="spk4" startTime="217.249" endTime="251.24">
+<Sync time="217.249"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt; 
+<Sync time="231.395"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt; 
+<Sync time="244.696"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt; [no-speech]
+</Turn>
+<Turn speaker="spk1" startTime="251.24" endTime="261.916">
+<Sync time="251.24"/>
+[lipsmack] Ja kirjeenvaihtajamme Petri Raivio seuraa kokousta Puolassa. Petri kuvaile hieman millaisissa tunnelmissa ilmastokokous on alkanut. [no-speech]
+</Turn>
+<Turn speaker="spk5" startTime="261.916" endTime="315.8">
+<Sync time="261.916"/>
+Tämän päivän tapahtumat olivat eräänlainen lähtölaukaus tälle kaksi viikkoa kestävälle [breath] jättiläiskokoukselle. #öö Varmasti tuo Guterresin puheenvuoro oli ehkä sieltä painavimmasta päästä. Hän tosiaan niinkuin äsken 
+<Sync time="275.223"/>
+kuultiin sanoi, että [breath] ei tehdä nyt läheskään riittävästi, jotta ilmastomuutos #öö saataisi pidettyä hallinnassa. Mielenkiintoinen puheenvuoro kuultiin myös yhdeksänkymmentäkaksi vuotiaalta luontodokumenttaristilta David Attenboroughlta, joka on varmasti Suomessakin monelle tuttu 
+<Sync time="290.107"/>
+hahmo. Hän puhui tuolla ikään kuin kansalaisten edustajana ja sanoi, että tässä ollaan nyt sellaisen uhkan partaalla, että sivilisaatiommekin on uhattuna. Ja puhui täällä myös #öö Suomen tasavallan presidentti 
+<Sync time="305.088"/>
+Sauli Niinistö. #öö Hänen mukaansa ja hän hän kuului myös siihen porukkaan joka peräsi entistä tiukempia toimia ilmastomuutosta vastaan.
+</Turn>
+<Turn speaker="spk6" startTime="315.8" endTime="333.673">
+<Sync time="315.8"/>
+Joillakin on jotain erityis #öö murheita tai ongelmia, joita joita halutaan nyt jo tuoda esiin. Miksi #öö pitäisi suhtautua jossain määrin toisella tavalla johonkin yksittäisen kysymykseen. [breath] Että kyllä tämä vaikeaa tulee olemaan jatkossakin.
+</Turn>
+<Turn speaker="spk5" startTime="333.673" endTime="337.659">
+<Sync time="333.673"/>
+ Kuinka todennäköisenä pidätte, että [breath] tämä~ tämän kokouksen tavoitteet täytyvät?
+</Turn>
+<Turn speaker="spk6" startTime="337.659" endTime="349.458">
+<Sync time="337.659"/>
+[breath] Kyllä täällä sellainen henki kuitenkin tuntuu vallitsevan. Ei olla kuultu yhtään poikkipuoluista sanaa, siis sellaista että ei~ eipä nyt tehdäkkään mitään. [no-speech]
+</Turn>
+<Turn speaker="spk1" startTime="349.458" endTime="361.558">
+<Sync time="349.458"/>
+[lipsmack] Petri, presidentti tuossa suhtautui kokoukseen positiivisiin odotuksiin, mutta mitä tältä ilmastokokoukselta odotetaan käytännössä? [no-speech]
+</Turn>
+<Turn speaker="spk5" startTime="361.558" endTime="399.963">
+<Sync time="361.558"/>
+Toisin kuin joistakin puheenvuoroista voisi päätellä niin tämän kokouksen tarkoitus ei ole nyt tehdä mitään uusia isoja lupauksia, esimerkiksi merkittävistä päästövähennyksistä. Vaan tavoitteena on nimenomaan sopia että miten se Pariisin ((ilmasto-)) joka 
+<Sync time="374.859"/>
+solmittiin kolme vuotta sitten, miten se pannaan käytännössä toimeen, miten ne säännöt laaditaan. [breath] Ja sen asian osalta neuvottelijat kertoivat, että tämä on itseasiassa lähtenyt aika hyvin käyntiin. Ei ole juututtu alkumetreille niinkuin joskus aikaisemmissa ilmastokokouksissa 
+<Sync time="389.489"/>
+on aikaisemmin käynyt. [breath] Mutta toisaalta täytyy muistaa sekin että tämä rima näissä tässä asiassa ei ole nyt myöskään asetettu ihan hirveän korkealle.
+</Turn>
+<Turn speaker="spk1" startTime="399.963" endTime="408.545">
+<Sync time="399.963"/>
+[lipsmack] No miten se näkyy kokouksessa, että sitä isännöi hiiliriippuvainen Puola? [no-speech]
+</Turn>
+<Turn speaker="spk5" startTime="408.545" endTime="438.568">
+<Sync time="408.545"/>
+Katowice on tosiaan #öö Sleesian eli Puolan tärkeimmän hiilentuotanto alueen keskuskaupunki ja kyllähän se täällä näkyy se myös kuului näiden isäntien puhevuoroista tänään. He korostivat aika paljon sitä, että 
+<Sync time="422.872"/>
+sen siirtymän pois fossiilisista polttoaineista täytyy olla oikeudenmukainen mitä käytännössä tarkoittaa nyt tässä tapauksessa sitä, että ei voida vaan antaa kenkää sadalletuhannelle kaivostyöläiselle ja sen takia myös Puolakin Puolakin pystyy ikään kuin perustelemaan sitä, että heidän täytyy tätä omaa hiilentuotantoa jatkaa.
+</Turn>
+<Turn speaker="spk1" startTime="438.568" endTime="458.004">
+<Sync time="438.568"/>
+[lipsmack] [breath] Kiitokset Petri tällä erää ja pysytään Puolassa, kävi nimittäin aiemmin sikäläisessä hiilikaivoksessa katsomassa mistä tuo kiistanalainen polttoaine tulee. [breath] Samaan aikaan kun monet Euroopan maat ovat ilmoittaneet luopuvansa hiilestä
+<Sync time="452.180"/>
+ilmastomuutoksen takia, Puolassa hiilikaivoksia jopa laajennetaan. [no-speech]
+</Turn>
+<Turn speaker="spk7" startTime="458.004" endTime="484.302">
+<Sync time="458.004"/>
+[noise] Yövuoro on päättynyt Bogdankan hiilikaivoksella. Hissi nostaa kaivosmiehet hetkessä kilometrin matkan takaisin maanpinnalle. Pinnan alla seuraava vuoro on jo (()). Syvällä maan sisällä on satoja kilometriä 
+<Sync time="472.684"/>
+kaivoskäytäviä. Kuljetukset hoidetaan pienillä junilla joiden ((kiskot)) on ripustettu tunnelin katosta. Kivihiili on maakerrosten välissä parin metrin paksuisina esiintyminä.
+</Turn>
+<Turn speaker="spk8" startTime="484.302" endTime="493.382">
+<Sync time="484.302"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt; 
+</Turn>
+<Turn speaker="spk7" startTime="493.382" endTime="517.698">
+<Sync time="493.382"/>
+Muutaman kilometrin kävelyn jälkeen pääsemme hiiliesiintymän luo. Tänne oli aika pitkä matka kävellä käytäviä, mutta löytyhän se lopulta. Täältä noin kilometrin syvyydestä kaivetaan Puolan tärkeintä polttoainetta, hiiltä.
+<Sync time="507.949"/>
+Kaivosmiehet valmistavat käyttökuntoon konetta, joka repii hiilen esiintymän seinästä irti. Kun kone lähtee käyntiin olot muuttuvat hankaliksi.
+</Turn>
+<Turn speaker="spk10" startTime="517.698" endTime="535.638">
+<Sync time="517.698"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
+<Sync time="529.176"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
+</Turn>
+<Turn speaker="spk7" startTime="535.638" endTime="543.173">
+<Sync time="535.638"/>
+Bogdankan kaivoksella työskentelee noin viisituhatta ihmistä. Toiminta on voitollista kertoo yhtiön toimitusjohtaja.
+</Turn>
+<Turn speaker="spk11" startTime="543.173" endTime="559.335">
+<Sync time="543.173"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
+</Turn>
+<Turn speaker="spk7" startTime="559.335" endTime="567.849">
+<Sync time="559.335"/>
+Kaivoksen tulevaisuus näyttäisi olevan turvattu, koska neljä viidesosaa Puolan sähköstä tuotetaan hiilellä, eikä hallitus halua rajoittaa tuotantoa.
+</Turn>
+<Turn speaker="spk12" startTime="567.849" endTime="585.847">
+<Sync time="567.849"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
+<Sync time="581.201"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
+</Turn>
+<Turn speaker="spk7" startTime="585.847" endTime="593.705">
+<Sync time="585.847"/>
+Puolalaisessa hiilikaivoksessa yhdeksänsataayhdeksänkymmentä metriä maan alla Eurooppalainen hiilikeskustelu näyttääytyykin kovin toisenlaisena.
+</Turn>
+<Turn speaker="spk13" startTime="593.705" endTime="600.000">
+<Sync time="593.705"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
+</Turn>
+</Section>
+</Episode>
+</Trans>
