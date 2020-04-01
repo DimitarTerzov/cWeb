@@ -9,6 +9,12 @@ import binascii
 import io
 cgitb.enable()
 
+
+LANGUAGE_CODES = {
+    u'bul': u'Bulgarian',
+    u'eng': u'English',
+    u'ell': u'Greek'
+}
 # Extracted from: https://www.tamasoft.co.jp/en/general-info/unicode.html
 WWwhitespace = "[\s                                                                                                      ฀឴   ឵᠋  ᠌   ᠍   ᠎   ᠏᠚  ᠛   ᠜   ᠝   ᠞   ᠟ᡸ  ᡹   ᡺   ᡻   ᡼   ᡽   ᡾   ᡿ᢪ  ᢫   ᢬   ᢭   ᢮   ᢯                                           ​   ‌   ‍   ‎   ‏                            ⁠  ⁡   ⁢   ⁣   ⁤   ⁥   ⁦   ⁧   ⁨   ⁩   ⁪   ⁫   ⁬   ⁭   ⁮   ⁯⠀　꒍    ꒎   ꒏꒢  ꒣꓅﬏︀    ︁   ︂   ︃   ︄   ︅   ︆   ︇   ︈   ︉   ︊   ︋   ︌   ︍   ︎   ️￰  ￱   ￲   ￳   ￴   ￵   ￶   ￷   ￸   ￹   ￺   ￻   ]"
 # Extracted from: https://www.fileformat.info/info/unicode/category/Po/list.htm
@@ -61,6 +67,38 @@ def list_files(path):
             if '.trs' in file:
                 files.append(os.path.join(r, file))
     return files
+
+
+# Transcribers validator
+def command0(filepath):
+    transcriber_pattern = re.compile(ur'\s*<\s*Trans\s*scribe\s*=.*?(?P<scriber>\w+?\-\d\d\d)\s*"', re.UNICODE)
+
+    found = {}
+    with io.open(filepath, 'r', encoding='utf') as f:
+        ln = 0
+        for line in f:
+            line = line.rstrip('\r\n')
+
+            if re.search(ur'\s*<\s*Trans\s*scribe\s*=', line, re.UNICODE) is not None:
+
+                match = re.search(transcriber_pattern, line)
+                if match is not None:
+
+                    language_code = match.group('scriber')[:-4]
+                    if language_code in LANGUAGE_CODES:
+                        found['transcriber_id'] = match.group('scriber')
+                    else:
+                        found[ln] = [0, 'Incorrect Transcriber ID', line.encode('utf')]
+
+                else:
+                    found[ln] = [0, 'Incorrect Transcriber ID', line.encode('utf')]
+
+                break
+
+            ln += 1
+
+    return found
+
 
 #Disallowed characters
 def command1(filepath):
@@ -134,14 +172,21 @@ def command2(filepath):
                 found[ln] = [2, 'Bracket issue [', orig_line]
     return found
 
+
 #Sound tag validator
 def command3(filepath):
-    skip_words = ['[no-speech]', '[no—speech]', '[noise]', '[overlap]', '[music]', '[applause]', '[lipsmack]', '[breath]', '[cough]', '[laugh]', '[click]', '[ring]', '[dtmf]', '[sta]', '[cry]', '[prompt]']
+    skip_words = [
+        u'[no-speech]', u'[no—speech]', u'[noise]',
+        u'[overlap]', u'[music]', u'[applause]',
+        u'[lipsmack]', u'[breath]', u'[cough]',
+        u'[laugh]', u'[click]', u'[ring]',
+        u'[dtmf]', u'[sta]', u'[cry]', u'[prompt]'
+    ]
 
-    regex = re.compile("\[.*?\]")
+    regex = re.compile(ur"\[.*?\]", re.UNICODE)
 
     found = {}
-    with open(filepath,'r') as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
@@ -151,23 +196,24 @@ def command3(filepath):
             if '<Speaker' not in line:
 
                 for w in line.split():
-                    #if we have something glued to tag
+                    # if we have something glued to tag
 
-                    if re.match(".*[^ \s、 。 ‧ ？ ！ ，]\[.*?\]", w):
-                        found[ln] = [3, 'Missing white space left of sound tag', w]
-                    elif re.match("\[.*?\][^ \s.,，。\-?! ].*", w):
-                        found[ln] = [3, 'Missing white space right of sound tag', w]
+                    if re.match(ur".*[^ \s、 。 ‧ ？ ！ ，]\[.*?\]", w, re.UNICODE):
+                        found[ln] = [3, 'Missing white space left of sound tag', w.encode('utf')]
+                    elif re.match(ur"\[.*?\][^ \s.,，。\-?! ].*", w, re.UNICODE):
+                        found[ln] = [3, 'Missing white space right of sound tag', w.encode('utf')]
                     else:
                         for m in re.findall(regex, line):
                             if not m in skip_words:
-                                found[ln] = [3, 'Sound tag syntax', m + '/' + line]
+                                found[ln] = [3, 'Sound tag syntax', '{}/{}'.format(m.encode('utf'), line.encode('utf'))]
 
-                            #detect duplicate tags like - [cough][cough]
-                            #if we have two of the same tags in a row
-                            #and there are one after the other in the line
-                            elif prev_tag == m and re.search(re.escape(m)    +"\s*"+WWwhitespace+"*"  +WWpunctuatio+"*"+   re.escape(m), line):
-                                found[ln] = [3, 'Sound tag duplicate', m + '/' + line]
+                            # detect duplicate tags like - [cough] [cough]
+                            # if we have two of the same tags in a row
+                            # and they are one by one in the line
+                            elif prev_tag == m and re.search(ur'{0}\s*{1}*{2}*{3}'.format(re.escape(m), WWwhitespace.decode('utf'), WWpunctuatio.decode('utf'),   re.escape(m)), line, re.UNICODE) is not None:
+                                found[ln] = [3, 'Sound tag duplicate', '{}/{}'.format(m.encode('utf'), line.encode('utf'))]
                             prev_tag = m
+
     return found
 
 
@@ -922,21 +968,62 @@ def command18(filepath):
     return found
 
 
+# Choppy segments
 def command19(filepath):
-    #  WWwhitespacelist found in this file at: line 10
-    regex = re.compile("&lt;initial&gt;\s*[a-zA-Z]+" + WWwhitespace + "+[a-zA-Z]+\s*&lt;\/initial&gt;")
+    partial_line_end_marks = u":,\-_!—.?;"
+    line_end_marks = u'!.?'
+    turn_end = re.compile(ur'<\s*/\s*Turn\s*>', re.UNICODE)
 
     found = {}
+    with io.open(filepath, 'r', encoding='utf') as f:
 
-    with open (filepath, 'r') as f:
-        ln = -1
+        ln = 0
+        sync_time = None
+        segment_lenght = 0
+        in_turn = False
+        check_for_choppy = False
         for line in f:
-            ln = ln + 1
             line = line.rstrip("\r\n")
 
-            for m in re.findall(regex, line):
+            if not line:
+                ln += 1
+                continue
 
-                found[ln] = [19, 'Multiple initialisms in single tag', m]
+            if re.search(ur'<\s*Turn', line, re.UNICODE) is not None:
+                start_time = re.search(ur'startTime\s*=\s*"\s*(?P<value>[\d.]+?)\s*"', line, re.UNICODE)
+                sync_time = float(start_time.group('value'))
+                in_turn = True
+
+            elif in_turn and re.search(ur'<\s*Sync\s*time', line, re.UNICODE) is not None:
+                new_sync_time = re.search(ur'<\s*Sync\s*time\s*=\s*"\s*(?P<value>[\d.]+?)\s*"', line, re.UNICODE).group('value')
+                new_sync_time = float(new_sync_time)
+                segment_lenght = new_sync_time - sync_time
+                sync_time = new_sync_time
+
+            elif in_turn and re.search(turn_end, line) is None:
+
+                if check_for_choppy and segment_lenght <= 12:
+                    chopped = line.split()[0]
+                    if (
+                        len(chopped[: -1]) <= 5 and
+                        re.search(ur'[{}]$'.format(line_end_marks), chopped, re.UNICODE) is not None and
+                        chopped[0].islower()
+                    ):
+                        found[ln] = [19, "Choppy segment", line.encode('utf')]
+
+                if (
+                    re.search(ur'[{}]$'.format(partial_line_end_marks), line, re.UNICODE) is None
+                ):
+                    check_for_choppy = True
+                else:
+                    check_for_choppy = False
+
+            elif re.search(turn_end, line) is not None:
+                sync_time = None
+                in_turn = False
+                check_for_choppy = False
+
+            ln += 1
 
     return found
 
@@ -1110,7 +1197,7 @@ def command24(filepath):
 
 print "Content-type:text/html; charset=UTF-8\r\n\r\n"
 
-cmd_ids = range(1,25)
+cmd_ids = range(25)
 
 # Create instance of FieldStorage
 form = cgi.FieldStorage()
@@ -1157,6 +1244,7 @@ else:
 #call all commands on each file found
 all_stats = {'checked_files':0, 'valid_files': 0, 'total_errors':0}
 file_divs = {}
+transcribers = set()
 
 for f in json_files:
     all_stats['checked_files'] = all_stats['checked_files'] + 1
@@ -1165,6 +1253,10 @@ for f in json_files:
     total_errors = 0
     for i in cmd_ids:
         rv = eval("command" + str(i))(f)
+
+        if i == 0:
+            transcribers.add(rv.pop('transcriber_id', None))
+
         if rv:
             total_errors = total_errors + len(rv.keys())
             res.append(rv)
@@ -1220,7 +1312,6 @@ print '<tr><td>Commands Enabled</td><td>' + ','.join(str(x) for x in cmd_ids) + 
 print '</table>'
 print '</div>'
 
-
 print '<div name="file_bookmarks">'
 print '<table border="1">'
 print '<caption>File Links</caption>'
@@ -1234,6 +1325,10 @@ print '</table>'
 print '</div>'
 
 print '<p>Read about how to interpret this error report by referencing our <b><a href="https://www.greencrescent.com/cWeb/validator-output-guide.html">validator output guide</a></b>.</p> '
+
+
+if len(transcribers) > 1:
+    print '<div><table border="1"><tr><td>Transcriber ID mismatch</td></tr></table></div>'
 
 fe = 0
 for f in sorted(file_divs.keys()):
