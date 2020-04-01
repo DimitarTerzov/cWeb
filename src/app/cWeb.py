@@ -1251,21 +1251,41 @@ for f in json_files:
 
     res = []
     total_errors = 0
-    for i in cmd_ids:
-        rv = eval("command" + str(i))(f)
 
-        if i == 0:
-            transcribers.add(rv.pop('transcriber_id', None))
+    # Check file encoding first.
+    # If encoding is not UTF-8 report this error
+    # and process the next file.
+    rv = command9(f)
+    if rv:
+        total_errors = total_errors + len(rv.keys())
+        res.append(rv)
 
-        if rv:
-            total_errors = total_errors + len(rv.keys())
-            res.append(rv)
+    else:
+
+        try:
+            cmd_ids.remove(9)
+        except ValueError:
+            pass
+
+        for i in cmd_ids:
+            rv = eval("command" + str(i))(f)
+
+            if i == 0:
+                transcribers.add(rv.pop('transcriber_id', None))
+
+            if rv:
+                total_errors = total_errors + len(rv.keys())
+                res.append(rv)
 
     file_div = ''
     if len(res) == 0:
         all_stats['valid_files'] = all_stats['valid_files'] + 1
     else:
-        sync_times = build_sync_times(f)
+        try:
+            sync_times = build_sync_times(f)
+        except UnicodeDecodeError:
+            sync_times = {1: u''}
+
         audio_times = build_audio_times(sync_times)
 
         file_div = '<table border="1">' \
