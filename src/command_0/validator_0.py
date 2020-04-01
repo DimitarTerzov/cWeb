@@ -11,9 +11,10 @@ LANGUAGE_CODES = {
 }
 
 
-# Transcribers validator
+# Transcribers ID checker
 def command0(filepath):
-    transcriber_pattern = re.compile(ur'\s*<\s*Trans\s*scribe\s*=.*?(?P<scriber>\w+?\-\d\d\d)\s*"', re.UNICODE)
+    transcriber_pattern = re.compile(ur'\s*<\s*Trans\s*scribe\s*=\s*"(?P<id>.*?)"', re.UNICODE)
+    transcriber_id_pattern = re.compile(ur'^\w+?\-\d\d\d$', re.UNICODE)
 
     found = {}
     with io.open(filepath, 'r', encoding='utf') as f:
@@ -21,19 +22,21 @@ def command0(filepath):
         for line in f:
             line = line.rstrip('\r\n')
 
-            if re.search(ur'\s*<\s*Trans\s*scribe\s*=', line, re.UNICODE) is not None:
+            match = re.search(transcriber_pattern, line)
+            if match is not None:
 
-                match = re.search(transcriber_pattern, line)
-                if match is not None:
+                transcriber_id = match.group('id').strip()
+                content = transcriber_id.encode('utf')
+                if  re.search(transcriber_id_pattern, transcriber_id) is not None:
 
-                    language_code = match.group('scriber')[:-4]
+                    language_code = transcriber_id[:-4]
                     if language_code in LANGUAGE_CODES:
-                        found['transcriber_id'] = match.group('scriber')
+                        found['transcriber_id'] = content
                     else:
-                        found[ln] = [0, 'Incorrect Transcriber ID', line.encode('utf')]
+                        found[ln] = [0, 'Incorrect Transcriber ID', content]
 
                 else:
-                    found[ln] = [0, 'Incorrect Transcriber ID', line.encode('utf')]
+                    found[ln] = [0, 'Incorrect Transcriber ID', content]
 
                 break
 

@@ -25,9 +25,15 @@ def test_command_0(tmpdir):
         for key, value in found.items():
             print(key, value)
 
-        if row in [2, 3, 4]:
-            assert 0 in found
-        else:
-            assert 'transcriber_id' in found
+        if row == 2:
+            assert "ellis-101" in found[0]
+        if row == 3:
+            assert "ell-a01" in found[0]
+        if row == 4:
+            assert "ell-0010" in found[0]
+        if row == 0:
+            assert "ell-001" in found['transcriber_id']
+        if row == 1:
+            assert "bul-011" in found['transcriber_id']
 
-    assert 0
+    #assert 0
