@@ -69,9 +69,10 @@ def list_files(path):
     return files
 
 
-# Transcribers validator
+# Transcribers ID checker
 def command0(filepath):
-    transcriber_pattern = re.compile(ur'\s*<\s*Trans\s*scribe\s*=.*?(?P<scriber>\w+?\-\d\d\d)\s*"', re.UNICODE)
+    transcriber_pattern = re.compile(ur'\s*<\s*Trans\s*scribe\s*=\s*"(?P<id>.*?)"', re.UNICODE)
+    transcriber_id_pattern = re.compile(ur'^\w+?\-\d\d\d$', re.UNICODE)
 
     found = {}
     with io.open(filepath, 'r', encoding='utf') as f:
@@ -79,19 +80,21 @@ def command0(filepath):
         for line in f:
             line = line.rstrip('\r\n')
 
-            if re.search(ur'\s*<\s*Trans\s*scribe\s*=', line, re.UNICODE) is not None:
+            match = re.search(transcriber_pattern, line)
+            if match is not None:
 
-                match = re.search(transcriber_pattern, line)
-                if match is not None:
+                transcriber_id = match.group('id').strip()
+                content = transcriber_id.encode('utf')
+                if  re.search(transcriber_id_pattern, transcriber_id) is not None:
 
-                    language_code = match.group('scriber')[:-4]
+                    language_code = transcriber_id[:-4]
                     if language_code in LANGUAGE_CODES:
-                        found['transcriber_id'] = match.group('scriber')
+                        found['transcriber_id'] = content
                     else:
-                        found[ln] = [0, 'Incorrect Transcriber ID', line.encode('utf')]
+                        found[ln] = [0, 'Incorrect Transcriber ID', content]
 
                 else:
-                    found[ln] = [0, 'Incorrect Transcriber ID', line.encode('utf')]
+                    found[ln] = [0, 'Incorrect Transcriber ID', content]
 
                 break
 
@@ -704,6 +707,7 @@ def command13(filepath):
     sync = False
     sync_count = 0
     end_time = 0
+    sync_line = None
 
     with io.open(filepath, 'r', encoding='utf') as f:
         ln = 0
@@ -729,6 +733,7 @@ def command13(filepath):
                 sync_count = 0
 
             elif line.startswith('<Sync') and not sync:
+                sync_line = ln
                 sync = True
                 sync_count += 1
                 new_sync = re.search(ur'(?P<content>Sync\s*time\s*=\s*"\s*(?P<value>[\d.]+?)\s*")', line, re.UNICODE)
@@ -752,24 +757,23 @@ def command13(filepath):
                 sync_time = new_sync_time
 
             elif "</Turn>" == line and sync and sync_count == 1:
-                found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
+                found[sync_line] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
                 sync = False
                 sync_count = 0
 
             elif line.startswith('<Sync') and sync:
-                found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
+                found[sync_line] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
                 sync_count += 1
                 new_sync = re.search(ur'(?P<content>Sync\s*time=\s*"\s*(?P<value>[\d.]+?)\s*")', line, re.UNICODE)
                 sync_time = new_sync.group('content')
+                sync_line = ln
 
             elif not line.startswith('<Sync') and line != "</Turn>":
-                if line == '':
-                    found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
-
-                sync = False
+                if line != '':
+                    sync = False
 
             elif "</Turn>" == line and sync and sync_count > 1:
-                found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
+                found[sync_line] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
                 sync = False
                 sync_count = 0
 
@@ -1150,18 +1154,26 @@ def command24(filepath):
 
     inspect_sync_re = re.compile(ur'<(\s*)[Sync\w]+(?:\s*)[time\w]+(\s*)=(\s*)"(\s*)[\d\.]+(\s*)"/(\s*)>', re.UNICODE)
     inspect_turn_re = re.compile(ur'<[Turn\w]+(?:\s*[speaker\w]+(\s*)=(\s*)"(\s*)[spk\w]+\d+(\s*)")?\s*[startTime\w]+(\s*)=(\s*)"(\s*)[\d\.]+(\s*)"\s*[endTime\w]+(\s*)=(\s*)"(\s*)[\d\.]+(\s*)"(?:\s*[speaker\w]+(\s*)=(\s*)"(\s*)[spk\w]+\d+(\s*)")?>', re.UNICODE)
+    closing_turn = re.compile(ur'\s*<\s*/\s*Turn\s*>', re.UNICODE)
 
     found = {}
-
     with io.open(filepath, 'r', encoding='utf') as f:
 
         ln = 0
+        sync = False
+        empty_row = None
+        not_empty_row = False
         for line in f:
             ln += 1
             line = line.rstrip("\r\n")
 
             match = re.match(inspect_sync_re, line)
             if match is not None:
+                if empty_row is not None and not_empty_row:
+                    found[empty_row] = [24, 'Empty row in Sync tag', '']
+                sync = True
+                empty_row = None
+                not_empty_row = False
 
                 if re.search(ur'\bSync\b\s*\btime\b', line, re.UNICODE) is None:
                     found[ln] = [24, 'Tag syntax error', line.encode('utf')]
@@ -1173,6 +1185,18 @@ def command24(filepath):
                         break
 
                 continue
+
+            if sync and line and re.search(closing_turn, line) is None:
+                not_empty_row = True
+            elif sync and not line:
+                empty_row = ln
+
+            if re.search(closing_turn, line):
+                if empty_row and not_empty_row:
+                    found[empty_row] = [24, 'Empty row in Sync tag', '']
+                sync = False
+                empty_row = None
+                not_empty_row = False
 
             match = re.match(inspect_turn_re, line)
             if match is not None:
