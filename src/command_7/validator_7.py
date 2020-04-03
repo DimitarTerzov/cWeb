@@ -9,7 +9,7 @@ def command7(filepath):
     # Allowed punctuation after tag
     punctuation = u"[:',!—_\".?\-;]"
     #default skip tags
-    skip_tags = u"(#uh|#um|#ah|#er|#hm|#อื|#อ่|#เอ่)"
+    skip_tags = u"(#uh|#um|#ah|#er|#hm|#อื|#อ่|#เอ่|#เออ)"
     possible_missing_tag = u"(uh|um|ah|er|hm)"
     filler_re = re.compile(ur'[\W\w]?#\w*\W?', re.UNICODE)
 
@@ -50,7 +50,7 @@ def command7(filepath):
 
 
 if __name__ == '__main__':
-    found = command7("../files/AsiaWaveNews_05.trs")
+    found = command7("../files/AsiaWaveNews_08.trs")
     keys = sorted(found.keys())
     for key in keys:
         print key, found[key], found[key][2]
