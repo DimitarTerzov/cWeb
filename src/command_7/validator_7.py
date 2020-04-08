@@ -9,9 +9,8 @@ def command7(filepath):
     # Allowed punctuation after tag
     punctuation = u"[:',!—_\".?\-;]"
     #default skip tags
-    skip_tags = u"(#uh|#um|#ah|#er|#hm|#อื|#อ่|#เอ่|#เออ)"
-    possible_missing_tag = u"(uh|um|ah|er|hm)"
-    filler_re = re.compile(ur'[\W\w]?#\w*\W?', re.UNICODE)
+    skip_tags = u'(#อือ|#อืม|#เอ่อ|#อ่า|#เออ|#ฮืม)'
+    filler_re = re.compile(ur'[\W\w]?#\w[\s\w][\s\w]\w?\W?', re.UNICODE)
 
     found = {}
     in_section = False
@@ -39,18 +38,12 @@ def command7(filepath):
                     and in_section
                 ):
                     found[ln] = [7, 'Invalid filler tag', target.encode('utf')]
-                    continue
-
-
-            for match in re.finditer(ur'\s{0}\W'.format(possible_missing_tag), line, re.UNICODE):
-                if ln not in found and in_section:
-                    found[ln] = [7, 'Possible filler tag missing #', match.group().encode('utf')]
 
     return found
 
 
 if __name__ == '__main__':
-    found = command7("../files/AsiaWaveNews_08.trs")
+    found = command7("../files/AsiaWaveNews_13.trs")
     keys = sorted(found.keys())
     for key in keys:
         print key, found[key], found[key][2]
