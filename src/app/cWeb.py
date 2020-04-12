@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+__version__ = "1.11"
 import os
 import sys
 import re
@@ -10,6 +11,13 @@ import io
 cgitb.enable()
 
 
+DISABLE_COMMANDS = {
+    0: True, 1: False, 2: False, 3: False, 4: False,
+    5: False, 6: False, 7: False, 8: False, 9: False,
+    10: False, 11: False, 12: False, 13: False, 14: False,
+    15: False, 16: False, 17: False, 18: False, 19: False,
+    20: False, 21: False, 22: False, 23: False, 24: False
+}
 LANGUAGE_CODES = {
     u'bul': u'Bulgarian',
     u'eng': u'English',
@@ -224,7 +232,7 @@ def command3(filepath):
 def command4(filepath):
 
     punctuation = u"""[^_'.,!?\s:;—"\-~]"""
-    allowed_characters_after_tag = u"s"
+    allowed_characters_after_tag = [u"s"]
     allowed_expressions_before_tag = [u"l'"]
     regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;)(?P<inner_text>.*?)(?P<second_open>&lt;)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
 
@@ -452,7 +460,7 @@ def command7(filepath):
     # Allowed punctuation after tag
     punctuation = u"[:',!—_\".?\-;]"
     #default skip tags
-    skip_tags = u"(#uh|#um|#ah|#er|#hm|#อื|#อ่|#เอ่)"
+    skip_tags = u"(#uh|#um|#ah|#er|#hm)"
     possible_missing_tag = u"(uh|um|ah|er|hm)"
     filler_re = re.compile(ur'[\W\w]?#\w*\W?', re.UNICODE)
 
@@ -630,15 +638,15 @@ def command11(filepath):
     exlusion_list = ['-nya', '-exclusion2', '-exclusion3']
 
     #match a symbol with one space
-    regex = re.compile('(\s\-\s)|(\s[\.,，。!?-])|([\.,，。!?-]\s{3,})')
+    regex = re.compile(ur'(\s\-\s)|(\s[\.,，。!?-])|([\.,，。!?-]\s{3,})|([\.,，。!?][^\s])', re.UNICODE)
 
     found = {}
 
-    with open(filepath,'r') as f:
+    with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
-            line = line.rstrip("\r\n")
+            line = line.rstrip(" \r\n")
 
             #if line starts with < and ends in >
             if line.startswith('<') and line.endswith('>'):
@@ -647,7 +655,6 @@ def command11(filepath):
 
             for m in re.findall(regex, line):
 
-                label = ''
                 val = exlusion_list[0]
 
                 #allow ' - '
@@ -657,9 +664,12 @@ def command11(filepath):
                     val = m[0]
                 elif m[2]:
                     val = m[1]
+                elif m[3]:
+                    val = ''
 
                 if not val in exlusion_list:
-                    found[ln] = [11, 'Punctuation spacing issue', line]
+                    found[ln] = [11, 'Punctuation spacing issue', line.encode('utf')]
+
     return found
 
 
@@ -1292,6 +1302,11 @@ for f in json_files:
             pass
 
         for i in cmd_ids:
+
+            # Omit command if disabled.
+            if DISABLE_COMMANDS[i]:
+                continue
+
             rv = eval("command" + str(i))(f)
 
             if i == 0:
