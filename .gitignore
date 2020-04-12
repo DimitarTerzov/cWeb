@@ -1,4 +1,5 @@
 venv
+*.wpr.*
 *.wpr
 *.wpu
 *.7z
