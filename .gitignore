@@ -3,8 +3,10 @@ venv
 *.wpr
 *.wpu
 *.7z
+*.zip
 *.pyc
 .pytest_cache
 __pycache__
 *.pdf
 tasks.txt
+/chinese_spacing_reqs.txt
