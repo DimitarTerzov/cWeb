@@ -24,7 +24,7 @@ def command17(filepath):
                     seg_len = seg_time - cur_time
 
                     if seg_len < 3.0:
-                        found[last_seq_row + 1] = [17, 'Segment is less than 3 seconds, possible use of [overlap] or combine with other segment', 'Sync time="' + str(cur_time) + '" length: ' + str(seg_len) + ' seconds']
+                        found[last_seq_row] = [17, 'Segment is less than 3 seconds, possible use of [overlap] or combine with other segment', 'Sync time="' + str(cur_time) + '" length: ' + str(seg_len) + ' seconds']
 
                 #update current time
                 cur_time = seg_time
@@ -34,7 +34,7 @@ def command17(filepath):
 
 
 if __name__ == '__main__':
-    found = command17('../files/channel0_334.trs')
+    found = command17('../files/test_13.trs')
     for key in sorted(found.keys()):
         print(key, found[key])
         
