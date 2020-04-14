@@ -49,17 +49,35 @@ CONTENT = [
     u'<Sync time=" 57.808"/>\n',                                                                    # 35
     u"The next week you're gonna.\n",                                                             # 36
     u'</Turn>\n',                                                                                              # 37
+    
+    u'<Turn speaker="spk4" startTime="20.242" endTime="23.808">\n',     # 38
+    u'<Sync time="20.242"/>\n',                                                                     # 39
+    u'Coach (()) is that something you just\n',                                                  # 40
+    u'<Sync time="21.242"/>\n',                                                                     # 41
+    u'can\'t see? Blah Blah blah.\n',                                                                  # 42
+    u'</Turn>\n',                                                                                              # 43
+    
+    u'<Turn speaker="spk5" startTime="23.808" endTime="57.808">\n',    # 44
+    u'<Sync time="23.808"/>\n',                                                                     # 45
+    u"Yeah, yeah, yeah you ignore it cause one week you're. Getting\n",         # 46
+    u'<Sync time="33.808"/>\n',                                                                     # 47
+    u"fired, the next week you're gonna answer your question.\n",                  # 48
+    u'<Sync time="39.808"/>\n',                                                                     # 49
+    u"Fired the next week you're gonna.\n",                                                    # 50
+    u'</Turn>\n',                                                                                              # 51
 ]
 EXCLUDES = [
     0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11,
     12, 13, 14, 15, 16, 17, 18, 19,
     20, 21, 22, 23, 25, 27, 28, 29,
-    31, 32, 33, 34, 35, 36, 37
+    31, 32, 33, 34, 35, 36, 37, 38,
+    39, 40, 41, 42, 43, 44, 45, 47,
+    49, 50, 51
 ]
-CATCH = [4, 24, 26, 30]
+CATCH = [4, 24, 26, 30, 46, 48]
 
 
-def test_command_19(tmpdir):
+def test_command_19(monkeypatch, tmpdir):
     file_ = temporary_file(tmpdir, CONTENT)
     found = command19(file_)
 
