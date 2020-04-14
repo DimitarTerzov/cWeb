@@ -1,7 +1,10 @@
 venv
 *.wpr
+*.wpr.*
 *.wpu
 *.7z
+*.txt
+*.zip
 *.pyc
 .pytest_cache
 __pycache__
