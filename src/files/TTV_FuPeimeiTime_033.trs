@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Trans SYSTEM "trans-14.dtd">
-<Trans scribe="Administrator" audio_filename="TTV_FuPeimeiTime_033" version="10" version_date="200322">
+<Trans scribe="Administrator" audio_filename="TTV_FuPeimeiTime_033" version="11" version_date="200412">
 <Speakers>
-<Speaker id="spk1" name="Women1" check="no" type="female" dialect="native" accent="" scope="local"/>
 <Speaker id="spk2" name="Fupeimei" check="no" dialect="native" accent="" scope="local" type="female"/>
 <Speaker id="spk3" name="Wushifu" check="no" type="male" dialect="native" accent="" scope="local"/>
 <Speaker id="spk4" name="voice over" check="no" type="female" dialect="native" accent="" scope="local"/>
@@ -533,9 +532,11 @@
 <Sync time="448.575"/>
 [noise]
 </Turn>
-<Turn speaker="spk2" startTime="460.798" endTime="463.427">
+<Turn speaker="spk2" startTime="460.798" endTime="461.584">
 <Sync time="460.798"/>
 怎麼排？
+</Turn>
+<Turn speaker="spk3" startTime="461.584" endTime="463.427">
 <Sync time="461.584"/>
 這個排，這個排圓的，圓的就好。
 </Turn>
@@ -707,11 +708,9 @@
 <Sync time="598.845"/>
 對對對，可以可以。
 </Turn>
-<Turn speaker="spk2" startTime="600.073" endTime="600.823">
+<Turn speaker="spk2" startTime="600.073" endTime="607.837">
 <Sync time="600.073"/>
 學來做。
-</Turn>
-<Turn speaker="spk2" startTime="600.823" endTime="607.837">
 <Sync time="600.823"/>
 #呃，吳師傅這個，#呃，蝦泥噢如果是這個明蝦太貴，我們用小蝦也可以。
 </Turn>
@@ -886,7 +885,7 @@
 那麼把這個呢放到這個鍋子裡頭呢，就給它#呃燒滾，但是呢這個之前呢，要起一個油鍋#啊。那麼這是一個西式菜的湯裡面很有名的一道湯。
 <Sync time="1085.195"/>
 它跟南瓜湯的做法一樣，是用油來炒的麵粉噢，帶一點這個，#呃，濃濃的這種，這個感覺#啊，啊，
-<Sync time=" 1094.374"/>
+<Sync time="1094.374"/>
 那麼光是這樣子打的還不夠，等一下還得加它的這個拌料的這個湯下去。
 </Turn>
 <Turn startTime="1099.834" endTime="1103.441">
@@ -915,13 +914,17 @@
 </Turn>
 <Turn speaker="spk2" startTime="1148.804" endTime="1243.921">
 <Sync time="1148.804"/>
-好，這個，#呃，兩杯的湯下去之後呢，給它燒開，然後呢，把這個，這個我們打的這個湯呢，也這個，也下鍋了，那麼呢，把它燒滾了，然後呢，用鹽，胡椒來調味。
+好，這個，#呃，兩杯的湯下去之後呢，給它燒開，然後呢，把這個，這個我們打的這個湯呢，也這個，
+<Sync time="1158.667"/>
+也下鍋了，那麼呢，把它燒滾了，然後呢，用鹽，胡椒來調味。
 <Sync time="1165.389"/>
 這個就是，#呃，西餐裡頭的這個豌豆濃湯的做法噢，這個有一點黏度，而這個黏度並不是勾芡，並不是勾芡，勾芡的話呢，就不好吃了噢，#呃，好。
 <Sync time="1179.112"/>
 那麼這個裡面的，這個調味，等著它快要滾了的時候呢，就可以給它調味了。這個是鹽巴，#呃，這裡呢，現在是四人份的，四人份的，
 <Sync time="1193.355"/>
-#呃，大家也知道在外國，就是說，吃西餐的這個湯，通常呢，都是濃湯呢，都是用碟子噢，奶油濃湯的什麼的，這個濃湯呢都是用一個，#呃，湯，叫湯碟，用湯碟上桌的。
+#呃，大家也知道在外國，就是說，吃西餐的這個湯，通常呢，都是濃湯呢，都是用碟子噢，
+<Sync time="1201.239"/>
+奶油濃湯的什麼的，這個濃湯呢都是用一個，#呃，湯，叫湯碟，用湯碟上桌的。
 <Sync time="1208.766"/>
 所以我們這個呢，等一下也是用湯碟上，好了，這樣子滾了以後呢，還要加一點牛奶噢，牛奶呢我們就用鮮奶就好噢，鮮奶就好，那麼這個一定要，滾了以後呢，再#呃放。
 <Sync time="1220.685"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Trans SYSTEM "trans-14.dtd">
-<Trans scribe="Administrator" audio_filename="MyQueen_019" version="2" version_date="200327">
+<Trans scribe="Administrator" audio_filename="MyQueen_019" version="4" version_date="200329">
 <Speakers>
 <Speaker id="spk1" name="Lu kasi" check="no" type="male" dialect="native" accent="" scope="local"/>
 <Speaker id="spk2" name="Song yunhao" check="no" type="male" dialect="native" accent="" scope="local"/>
@@ -19,7 +19,7 @@
 <Speaker id="spk15" name="Man 5" check="no" type="male" dialect="native" accent="" scope="local"/>
 <Speaker id="spk16" name="Man5" check="no" dialect="native" accent="" scope="local" type="male"/>
 <Speaker id="spk17" name="Woman4" check="no" type="female" dialect="native" accent="" scope="local"/>
-<Speaker id="spk18" name="Man6" check="no" dialect="native" accent="" scope="local"/>
+<Speaker id="spk18" name="Man6" check="no" dialect="native" accent="" scope="local" type="male"/>
 <Speaker id="spk19" name="Man7" check="no" type="male" dialect="native" accent="" scope="local"/>
 <Speaker id="spk20" name="Man8" check="no" dialect="native" accent="" scope="local" type="male"/>
 </Speakers>
@@ -55,7 +55,7 @@
 <Sync time="26.817"/>
 [music]
 <Sync time="38.004"/>
-[music] 
+[music]
 <Sync time="47.991"/>
 [music]
 <Sync time="59.989"/>
@@ -479,11 +479,9 @@
 <Sync time="746.095"/>
 唉，這個韓佳佳從進公司到現在所講的話，都沒有剛才那段來的多吧。
 </Turn>
-<Turn speaker="spk9" startTime="751.183" endTime="755.126">
+<Turn speaker="spk9" startTime="751.183" endTime="760.181">
 <Sync time="751.183"/>
 天哪，真是一波未平一波又起。
-</Turn>
-<Turn speaker="spk9" startTime="755.126" endTime="760.181">
 <Sync time="755.126"/>
 唉，可是無雙姐沒有回家，盧卡斯怎麼會知道？
 </Turn>
@@ -495,7 +493,7 @@
 <Sync time="761.774"/>
 怎樣？ 
 <Sync time="766.922"/>
-[music] 
+[music]
 <Sync time="776.033"/>
 [music]
 <Sync time="785.508"/>
@@ -573,18 +571,16 @@
 <Sync time="976.035"/>
 哇，以前都吃路邊攤，現在卻吃餐廳，變大牌了#啊。
 </Turn>
-<Turn speaker="spk2" startTime="985.8" endTime="1006.863">
+<Turn speaker="spk2" startTime="985.8" endTime="1021.357">
 <Sync time="985.8"/>
 六年沒有回來臺北，很多地方都變了，這間餐廳還是我在網路上找到的，不過我還是最懷念在路邊攤跟你擠在一起吃一碗&lt;lang:TSM&gt;蚵仔煎&lt;/lang:TSM&gt;的味道，
 <Sync time="998.382"/>
 那以後換我帶你去咯。
-</Turn>
-<Turn speaker="spk2" startTime="1006.863" endTime="1022.089">
 <Sync time="1006.863"/>
 小雙，你要記住，以後你不是一個人了，因為有我在。
 </Turn>
-<Turn speaker="spk1" startTime="1022.089" endTime="1032.093">
-<Sync time="1022.089"/>
+<Turn speaker="spk1" startTime="1021.357" endTime="1032.093">
+<Sync time="1021.357"/>
 永遠永遠不要忘記自己不是一個人，走路不要太匆忙，你要趕快習慣這種兩個人的感覺。
 </Turn>
 <Turn speaker="spk3" startTime="1032.093" endTime="1047.273">
@@ -658,7 +654,7 @@
 <Turn speaker="spk3" startTime="1149.971" endTime="1171.735">
 <Sync time="1149.971"/>
 你真的是個好人，如果我們之間沒有八歲的問題的話，那該有多好。
-<Sync time="1165.372"/>
+<Sync time="1164.493"/>
 他是我助理嘛，所以幫我是很正常的#啊。
 </Turn>
 <Turn speaker="spk2" startTime="1171.735" endTime="1179.113">
@@ -961,12 +957,12 @@
 <Sync time="1796.019"/>
 卡斯怕我危險，才叫我進來住的，你相信我，我是說真的。
 </Turn>
-<Turn speaker="spk2" startTime="1803.88" endTime="1818.946">
+<Turn speaker="spk2" startTime="1803.88" endTime="1818.358">
 <Sync time="1803.88"/>
 既然小雙都這麼說，那我就相信你，不好意思，我女朋友一直住在你這邊造成你很多困擾，不過接下來不用麻煩了，你現在可以搬到飯店跟我住了。
 </Turn>
-<Turn speaker="spk3" startTime="1818.946" endTime="1840.046">
-<Sync time="1818.946"/>
+<Turn speaker="spk3" startTime="1818.358" endTime="1840.046">
+<Sync time="1818.358"/>
 不用了，
 <Sync time="1828.201"/>
 這樣搬來搬去很麻煩的，而且我跟卡斯真的沒有什麼，你也知道實情了，不是嗎？這樣就更不用擔心了。
@@ -1127,13 +1123,13 @@
 <Sync time="2286.692"/>
 我才不會為了一段沒有希望的愛情，這樣念念不忘。
 <Sync time="2294.373"/>
-[music] 
+[music]
 <Sync time="2305.94"/>
-[music] 
+[music]
 <Sync time="2317.943"/>
-[music] 
+[music]
 <Sync time="2329.959"/>
-[music] 
+[music]
 <Sync time="2342.052"/>
 [music]
 <Sync time="2353.95"/>
@@ -1191,13 +1187,13 @@
 <Sync time="2534.475"/>
 閃啦。
 <Sync time="2539.377"/>
-[music] 
+[music]
 <Sync time="2550.119"/>
-[music] 
+[music]
 <Sync time="2561.994"/>
-[music] 
+[music]
 <Sync time="2573.941"/>
-[music] 
+[music]
 <Sync time="2585.945"/>
 [music]
 <Sync time="2597.943"/>

@@ -5,6 +5,7 @@ venv
 *.7z
 *.txt
 *.zip
+*.trs
 *.pyc
 .pytest_cache
 __pycache__

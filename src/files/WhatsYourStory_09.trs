@@ -39,7 +39,7 @@
 </Turn>
 <Turn speaker="spk1" startTime="77.807" endTime="92.517">
 <Sync time="77.807"/>
-#呃，&lt;lang:English&gt;Sara&lt;/lang:English&gt;我們對每一位來賓都會問的第一個問題，就是&lt;lang:English&gt;What's your story &lt;/lang:English&gt;你的故事是什麼。
+#呃，&lt;lang:English&gt;Sara&lt;/lang:English&gt;我們對每一位來賓都會問的第一個問題，就是&lt;lang:English&gt;What's your story&lt;/lang:English&gt;你的故事是什麼。
 <Sync time="85.061"/>
 #呃，你可以大概介紹一下說你的團隊背景#啊，品牌故事，或是你自己個人的故事都&lt;lang:English&gt;((Okay))&lt;/lang:English&gt;所以 #呃，你可以盡情的發，發揮。
 </Turn>
@@ -996,8 +996,6 @@
 <Turn speaker="spk2" startTime="2466.625" endTime="2476.938">
 <Sync time="2466.625"/>
 就是大家要知道&lt;lang:Foreign&gt;&lt;initial&gt;QB&lt;/initial&gt;&lt;/lang:Foreign&gt;&lt;lang:English&gt;Wood&lt;/lang:English&gt;的話，就是&lt;lang:English&gt;Cubee&lt;/lang:English&gt;&lt;lang:English&gt;Wood&lt;/lang:English&gt;&lt;lang:Foreign&gt;&lt;initial&gt;QB&lt;/initial&gt;&lt;/lang:Foreign&gt;&lt;lang:English&gt;Wood&lt;/lang:English&gt;就是你可以直接[laugh](())
-<Sync time="2476.714"/>
-
 </Turn>
 <Turn speaker="spk1" startTime="2476.938" endTime="2490.126">
 <Sync time="2476.938"/>

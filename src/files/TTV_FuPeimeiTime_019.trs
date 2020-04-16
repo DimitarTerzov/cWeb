@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Trans SYSTEM "trans-14.dtd">
-<Trans scribe="Administrator" audio_filename="TTV_FuPeimeiTime_019" version="8" version_date="200322">
+<Trans scribe="Administrator" audio_filename="TTV_FuPeimeiTime_019" version="9" version_date="200412">
 <Speakers>
 <Speaker id="spk1" name="fupeimei" check="no" type="female" dialect="native" accent="" scope="local"/>
 <Speaker id="spk2" name="linroyu" check="no" type="male" dialect="native" accent="" scope="local"/>
@@ -220,6 +220,8 @@
 真的就是翡翠的顏色啦，好，現在鍋子燒熱啦，那麼，林師傅呢就要開始做這個#呃，翡翠的這個，打這個餡。
 <Sync time="386.904"/>
 [noise]
+<Sync time="393.198"/>
+[noise]
 <Sync time="402.337"/>
 #呃要用這個很清的很好的高湯，#啊來起#呃起鍋，
 <Sync time="407.597"/>
@@ -325,7 +327,7 @@
 <Sync time="621.821"/>
 好，這樣子影影約約的從上面看，還是看的見這個#呃，蝦的這個紅顏色哦，
 <Sync time="631.437"/>
-然後呢，最後呢在中間#呃少許的在給它淋一點#這個，#呃帶一點這個翡翠的這個芡芡汁。
+然後呢，最後呢在中間#呃少許的在給它淋一點這個，#呃帶一點這個翡翠的這個芡芡汁。
 <Sync time="641.112"/>
 [noise]
 <Sync time="644.719"/>

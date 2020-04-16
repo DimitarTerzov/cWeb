@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Trans SYSTEM "trans-14.dtd">
-<Trans scribe="Administrator" audio_filename="WhatsYourStory_05" version="3" version_date="200321">
+<Trans scribe="Administrator" audio_filename="WhatsYourStory_05" version="4" version_date="200412">
 <Speakers>
 <Speaker id="spk1" name="Justin" check="no" type="male" dialect="native" accent="" scope="local"/>
 <Speaker id="spk2" name="Berac" check="no" type="male" dialect="native" accent="" scope="local"/>
@@ -105,7 +105,7 @@
 </Turn>
 <Turn speaker="spk1" startTime="248.411" endTime="253.602">
 <Sync time="248.411"/>
-而且你們比較特別的是，你們在網站上你們都是一件就可以做的&lt;lang:Foreign&gt;&lt;initial&gt;MOQ&lt;initial&gt;&lt;/lang:Foreign&gt;。
+而且你們比較特別的是，你們在網站上你們都是一件就可以做的&lt;lang:Foreign&gt;&lt;initial&gt;MOQ&lt;/initial&gt;&lt;/lang:Foreign&gt;。
 </Turn>
 <Turn speaker="spk2" startTime="253.602" endTime="254.322">
 <Sync time="253.602"/>
@@ -175,7 +175,7 @@
 <Sync time="406.817"/>
 &lt;lang:English&gt;((berac))&lt;/lang:English&gt;，我想要把它在時間點網，再更之前一點，就是比較在談個人跟背景說你其實在夜市也擺過地攤，
 <Sync time="416.566"/>
-然後也做過不同的模式，然後你特別其實我們之前在聊的時候，你們蠻特殊是從&lt;lang:Foreign&gt;&lt;initial&gt;BtoC&lt;initial&gt;&lt;/lang:Foreign&gt;再做做做轉到&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;initial&gt;&lt;/lang:Foreign&gt;。
+然後也做過不同的模式，然後你特別其實我們之前在聊的時候，你們蠻特殊是從&lt;lang:Foreign&gt;&lt;initial&gt;BtoC&lt;/initial&gt;&lt;/lang:Foreign&gt;再做做做轉到&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;/initial&gt;&lt;/lang:Foreign&gt;。
 <Sync time="426.123"/>
 這一塊你可不可以和大家分享一下。
 <Sync time="428.212"/>
@@ -195,7 +195,7 @@
 <Sync time="467.423"/>
 台灣的阿里在推的部分，因為台灣的中小企業結構非常非常完整，所以它在推的過程之中，很多都是二代為主，
 <Sync time="476.955"/>
-甚至是轉型為主，那我為什麼當時會從&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端直接會投入到&lt;lang:Foreign&gt;&lt;initial&gt;B&lt;initial&gt;&lt;/lang:Foreign&gt;端來，其實我是在大陸看到了，看到了一個機會。
+甚至是轉型為主，那我為什麼當時會從&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端直接會投入到&lt;lang:Foreign&gt;&lt;initial&gt;B&lt;/initial&gt;&lt;/lang:Foreign&gt;端來，其實我是在大陸看到了，看到了一個機會。
 <Sync time="487.047"/>
 因為我覺得說，大陸當時其實就是很，他沒有台灣前，可能二三十年前那些龍景。
 <Sync time="494.489"/>
@@ -205,11 +205,11 @@
 <Sync time="509.246"/>
 那我在看這個，看這個過程中我發現哎呀，其實是有機會跟有商機的。
 <Sync time="515.167"/>
-譬如說&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端好了，&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端我們以前在做廣告的話可能三個月，三個月左右就要砸一百萬左右的台幣。
+譬如說&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端好了，&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端我們以前在做廣告的話可能三個月，三個月左右就要砸一百萬左右的台幣。
 <Sync time="523.353"/>
 我就覺得，這費用可能產值來說是有，但問題是費用來說，他的投入層級非常非常的高。
 <Sync time="530.803"/>
-那可能你走&lt;lang:Foreign&gt;&lt;initial&gt;B&lt;initial&gt;&lt;/lang:Foreign&gt;端的話，可能平台費用加上一些關鍵字的費用，一整年下來可能用到三百，我剛剛講的一百萬。
+那可能你走&lt;lang:Foreign&gt;&lt;initial&gt;B&lt;/initial&gt;&lt;/lang:Foreign&gt;端的話，可能平台費用加上一些關鍵字的費用，一整年下來可能用到三百，我剛剛講的一百萬。
 </Turn>
 <Turn speaker="spk1" startTime="540.323" endTime="542.356">
 <Sync time="540.323"/>
@@ -265,7 +265,7 @@
 <Sync time="648.205"/>
 對，那另外的部分的話，在台灣的話，可能就因為長時間已經在二三十年下來那時候經濟起飛的時候已經習慣有大單的出現。
 <Sync time="658.668"/>
-所以，所以你瞬間叫他要去接受&lt;lang:Foreign&gt;&lt;initial&gt;PS&lt;initial&gt;&lt;/lang:Foreign&gt;數很少的，或者量很少的訂單，他是很難接受的。
+所以，所以你瞬間叫他要去接受&lt;lang:Foreign&gt;&lt;initial&gt;PS&lt;/initial&gt;&lt;/lang:Foreign&gt;數很少的，或者量很少的訂單，他是很難接受的。
 <Sync time="667.631"/>
 所以為什麼阿里在台灣推的時候會有一點跟大陸來的推發不太一樣呢，
 <Sync time="675.652"/>
@@ -331,7 +331,7 @@
 <Sync time="826.107"/>
 因為工廠他沒有辦法做到這個東西。
 <Sync time="829.676"/>
-那因為我自己是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端出來的，所以我等於是把這個東西結合到了&lt;lang:Foreign&gt;&lt;initial&gt;B&lt;initial&gt;&lt;/lang:Foreign&gt;端來，
+那因為我自己是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端出來的，所以我等於是把這個東西結合到了&lt;lang:Foreign&gt;&lt;initial&gt;B&lt;/initial&gt;&lt;/lang:Foreign&gt;端來，
 <Sync time="834.284"/>
 那用這種方式去讓這些曾經跟我買過的客戶知道說，哦我們定時會出什麼東西，
 <Sync time="841.646"/>
@@ -339,7 +339,7 @@
 </Turn>
 <Turn speaker="spk1" startTime="848.53" endTime="858.186">
 <Sync time="848.53"/>
-恩，那其實既然你講到&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端這一塊，我們其實可不可以再回到更之前就是你轉到做&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;initial&gt;&lt;/lang:Foreign&gt;這一塊前，你&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端的這個背景故事。
+恩，那其實既然你講到&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端這一塊，我們其實可不可以再回到更之前就是你轉到做&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;/initial&gt;&lt;/lang:Foreign&gt;這一塊前，你&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端的這個背景故事。
 </Turn>
 <Turn speaker="spk2" startTime="858.186" endTime="1039.772">
 <Sync time="858.186"/>
@@ -537,7 +537,7 @@
 </Turn>
 <Turn speaker="spk1" startTime="1324.692" endTime="1350.444">
 <Sync time="1324.692"/>
-好，那我們現在好，跳到所以在&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端的一個故事嘛，你從夜市擺攤，然後勒，你看你賺到第一桶金。
+好，那我們現在好，跳到所以在&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端的一個故事嘛，你從夜市擺攤，然後勒，你看你賺到第一桶金。
 <Sync time="1331.891"/>
 然後進而到東區去開店，在東區這時候，東區假如說，不熟悉的海外聽眾，
 <Sync time="1339.766"/>
@@ -609,7 +609,7 @@
 </Turn>
 <Turn speaker="spk1" startTime="1514.425" endTime="1523.986">
 <Sync time="1514.425"/>
-在這些，你所謂的店面實力通他們還存在在&lt;lang:English&gt;run&lt;/lang:English&gt;嗎，還是說是不同的團隊，甚至說你已經轉型轉接去投入到&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;initial&gt;&lt;/lang:Foreign&gt;這一塊了。
+在這些，你所謂的店面實力通他們還存在在&lt;lang:English&gt;run&lt;/lang:English&gt;嗎，還是說是不同的團隊，甚至說你已經轉型轉接去投入到&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;/initial&gt;&lt;/lang:Foreign&gt;這一塊了。
 </Turn>
 <Turn speaker="spk2" startTime="1523.986" endTime="1581.414">
 <Sync time="1523.986"/>
@@ -695,7 +695,7 @@
 <Sync time="1783.239"/>
 我們就開始想辦法怎麼把這批貨清掉，我們真的要真的要謝謝&lt;lang:English&gt;facebook&lt;/lang:English&gt;當時還沒有還沒有收廣告費，出幾率還很高。
 <Sync time="1791.82"/>
-對，當時就用這種方式先處理掉這些東西，那從那之後就開始進行一次篩選，我們要怎麼去走品牌，怎麼走&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端。
+對，當時就用這種方式先處理掉這些東西，那從那之後就開始進行一次篩選，我們要怎麼去走品牌，怎麼走&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端。
 <Sync time="1801.649"/>
 所以那時候才正式走進了包包。
 </Turn>
@@ -845,7 +845,7 @@
 <Sync time="2162.334"/>
 那我們這個系列，其實就是在探討說不管你是貿易商或者是廠家，就是生產商，
 <Sync time="2170.94"/>
-那在阿里巴巴平台上的賣家大部分他們接觸到的客群，或是潛在的用戶其實都是也是&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;initial&gt;&lt;/lang:Foreign&gt;這一塊。
+那在阿里巴巴平台上的賣家大部分他們接觸到的客群，或是潛在的用戶其實都是也是&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;/initial&gt;&lt;/lang:Foreign&gt;這一塊。
 <Sync time="2182.616"/>
 那我們之前有聊到的一些受訪者他們也知道說自己的東西可能賣到老外手上，
 <Sync time="2190.144"/>
@@ -861,9 +861,9 @@
 </Turn>
 <Turn speaker="spk2" startTime="2220.635" endTime="2296.792">
 <Sync time="2220.635"/>
-因為我是從&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端走出來，所以我可能跟其他的廠商想的方式可能有點不太一樣吧。
+因為我是從&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端走出來，所以我可能跟其他的廠商想的方式可能有點不太一樣吧。
 <Sync time="2230.551"/>
-很多人可能他會想著急著進&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;或者什麼，但是因為我是這樣過來的，所以我會發現#呃，怎麼講，
+很多人可能他會想著急著進&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;或者什麼，但是因為我是這樣過來的，所以我會發現#呃，怎麼講，
 <Sync time="2239.628"/>
 這幾年下來，這幾年下來其實品牌大大小小陸陸續續一直在換，
 <Sync time="2245.019"/>
@@ -871,9 +871,9 @@
 <Sync time="2250.543"/>
 包含亞馬遜，亞馬遜阿里是很強，所以台灣台灣現在就已經進入到那個另外一個另外一種平台的時期了。
 <Sync time="2258.423"/>
-所以，所以我現在發現問題就是說廠商有可能，就是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端的品牌商有可能一直消失，
+所以，所以我現在發現問題就是說廠商有可能，就是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端的品牌商有可能一直消失，
 <Sync time="2265.899"/>
-但是工廠跟貿易端其實他如果真的願意，真的認真做，他其實可以做很久，雖然做的價格可能不會有直接做&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端來的多。
+但是工廠跟貿易端其實他如果真的願意，真的認真做，他其實可以做很久，雖然做的價格可能不會有直接做&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端來的多。
 <Sync time="2276.502"/>
 但是如果說，這樣子做的話，會比較穩。就像剛剛你有提到說，可能當地可達至往賣美國賣日本，可是當地的文化我不了解，
 <Sync time="2287.161"/>
@@ -887,17 +887,17 @@
 <Sync time="2307.27"/>
 然後你自己的價值和優勢是在哪邊。
 <Sync time="2309.993"/>
-其實你剛才所說的因為&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端詬病也蠻多就是在庫存風險上，風險結構，還有甚至你說有淡旺季的差異啦，
+其實你剛才所說的因為&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端詬病也蠻多就是在庫存風險上，風險結構，還有甚至你說有淡旺季的差異啦，
 <Sync time="2320.185"/>
-甚至&lt;lang:Foreign&gt;&lt;initial&gt;SKU&lt;initial&gt;&lt;/lang:Foreign&gt;要備很多，你不可能一家店可能就只有小模兩三隻。
+甚至&lt;lang:Foreign&gt;&lt;initial&gt;SKU&lt;/initial&gt;&lt;/lang:Foreign&gt;要備很多，你不可能一家店可能就只有小模兩三隻。
 <Sync time="2325.134"/>
 然後，你一定要備很多的東西去銷售嘛。
 <Sync time="2328.839"/>
 所以這個我覺得你剛才提到這個也是蠻有意思的。
 <Sync time="2332.715"/>
-那剛才你，我們在探討到說，&lt;lang:English&gt;ok&lt;/lang:English&gt;既然你知道說不要去碰&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端這個，因為你原本就是從&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端開始，
+那剛才你，我們在探討到說，&lt;lang:English&gt;ok&lt;/lang:English&gt;既然你知道說不要去碰&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端這個，因為你原本就是從&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端開始，
 <Sync time="2340.47"/>
-你剛剛有說，恩，你覺得平台這邊也一直在推陳出新。可是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端的品牌也是一直在消失，是指說包包這一塊就是&lt;lang:English&gt;fashion&lt;/lang:English&gt;這種比較像潮流式服飾#啊，這種&lt;lang:English&gt;fashion&lt;/lang:English&gt;品牌嗎？還是說你覺得大部分的其實快，就是消防產品都是這樣。我覺得大部分做&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端的品牌都會遇到這個問題，
+你剛剛有說，恩，你覺得平台這邊也一直在推陳出新。可是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端的品牌也是一直在消失，是指說包包這一塊就是&lt;lang:English&gt;fashion&lt;/lang:English&gt;這種比較像潮流式服飾#啊，這種&lt;lang:English&gt;fashion&lt;/lang:English&gt;品牌嗎？還是說你覺得大部分的其實快，就是消防產品都是這樣。我覺得大部分做&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端的品牌都會遇到這個問題，
 <Sync time="2364.588"/>
 因為#呃，可能一個東西差個幾十塊可能就可以把一家店整個改掉了。
 <Sync time="2373.52"/>
@@ -921,7 +921,7 @@
 <Sync time="2415.166"/>
 恩，我舉例想想，
 <Sync time="2420.041"/>
-因為之前我自己在做&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端在看的時候我就常常看到譬如說很明顯，就是這個東西它是賣給，我叫((五鏠鐠))以前((五鏠鐠))就有這個問題。
+因為之前我自己在做&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端在看的時候我就常常看到譬如說很明顯，就是這個東西它是賣給，我叫((五鏠鐠))以前((五鏠鐠))就有這個問題。
 <Sync time="2431.388"/>
 就比如說這個人跟老闆比較好，那他可能拿的價格可能都比其他的廠商的價格低一點點，
 <Sync time="2439.035"/>
@@ -1055,7 +1055,7 @@
 <Sync time="2818.288"/>
 對對對。那我們現在跳到就是你現在在做的這一塊的定位很不，
 <Sync time="2823.379"/>
-因為我們其實也蠻明確的去剖析到什麼是好什麼不好，&lt;lang:Foreign&gt;&lt;initial&gt;BtoC&lt;initial&gt;&lt;/lang:Foreign&gt;跟&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;initial&gt;&lt;/lang:Foreign&gt;基本差異，
+因為我們其實也蠻明確的去剖析到什麼是好什麼不好，&lt;lang:Foreign&gt;&lt;initial&gt;BtoC&lt;/initial&gt;&lt;/lang:Foreign&gt;跟&lt;lang:Foreign&gt;&lt;initial&gt;BtoB&lt;/initial&gt;&lt;/lang:Foreign&gt;基本差異，
 <Sync time="2829.229"/>
 優勢，劣勢等等，結構的不同。
 <Sync time="2831.456"/>
@@ -1065,7 +1065,7 @@
 <Sync time="2837.104"/>
 最大的痛點應該是應該是跟客戶講的時候，
 <Sync time="2843.437"/>
-因為我是，我還是講一下，就是說因為因為我自己是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端出來的，我比較可以理解客戶為什麼要這些東西。
+因為我是，我還是講一下，就是說因為因為我自己是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端出來的，我比較可以理解客戶為什麼要這些東西。
 <Sync time="2851.852"/>
 那我也可以比較理解說他接下來可能遇到什麼問題，那最大的問題點是在於工廠並不了解。
 <Sync time="2859.668"/>
@@ -1079,7 +1079,7 @@
 <Sync time="2878.546"/>
 我打個岔，你說所謂的客戶就是透過阿里巴巴，不管在世界哪一個國家找到你的這一些潛在的客戶，
 <Sync time="2887.521"/>
-他們可能是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;initial&gt;&lt;/lang:Foreign&gt;端可能是&lt;lang:Foreign&gt;&lt;initial&gt;B&lt;initial&gt;&lt;/lang:Foreign&gt;端反正這些就是客戶。
+他們可能是&lt;lang:Foreign&gt;&lt;initial&gt;C&lt;/initial&gt;&lt;/lang:Foreign&gt;端可能是&lt;lang:Foreign&gt;&lt;initial&gt;B&lt;/initial&gt;&lt;/lang:Foreign&gt;端反正這些就是客戶。
 </Turn>
 <Turn speaker="spk2" startTime="2891.035" endTime="2917.083">
 <Sync time="2891.035"/>

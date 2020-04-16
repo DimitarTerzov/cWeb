@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Trans SYSTEM "trans-14.dtd">
-<Trans scribe="Administrator" audio_filename="MyQueen_001" version="3" version_date="200327">
+<Trans scribe="Administrator" audio_filename="MyQueen_001" version="6" version_date="200329">
 <Speakers>
 <Speaker id="spk1" name="man1" check="no" type="male" dialect="native" accent="" scope="local"/>
 <Speaker id="spk2" name="Shanwushung" check="no" type="female" dialect="native" accent="" scope="local"/>
@@ -42,73 +42,73 @@
 </Turn>
 <Turn speaker="spk3" startTime="36.267" endTime="52.986">
 <Sync time="36.267"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 <Sync time="47.003"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 <Sync time="48.625"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk4" startTime="52.986" endTime="54.609">
 <Sync time="52.986"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk3" startTime="54.609" endTime="61.163">
 <Sync time="54.609"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk4" startTime="61.163" endTime="62.941">
 <Sync time="61.163"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk3" startTime="62.941" endTime="86.683">
 <Sync time="62.941"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 <Sync time="68.964"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 <Sync time="78.378"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk4" startTime="86.683" endTime="91.798">
 <Sync time="86.683"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk3" startTime="91.798" endTime="100.427">
 <Sync time="91.798"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk4" startTime="100.427" endTime="103.59">
 <Sync time="100.427"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk3" startTime="103.59" endTime="106.753">
 <Sync time="103.59"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk4" startTime="106.753" endTime="110.889">
 <Sync time="106.753"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk3" startTime="110.889" endTime="122.504">
 <Sync time="110.889"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk4" startTime="122.504" endTime="127.43">
 <Sync time="122.504"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk3" startTime="127.43" endTime="133.788">
 <Sync time="127.43"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk4" startTime="133.788" endTime="143.412">
 <Sync time="133.788"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk3" startTime="143.412" endTime="162.048">
 <Sync time="143.412"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 <Sync time="151.333"/>
-&lt;lang:Hakka&gt;&lt;/lang:Hakka&gt;
+&lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;
 </Turn>
 <Turn speaker="spk4" startTime="162.048" endTime="269.598">
 <Sync time="162.048"/>
@@ -164,15 +164,13 @@
 <Sync time="307.451"/>
 不是，我覺得你這樣穿實在太勉強了，會不會影響你敏捷的行動力呀？
 </Turn>
-<Turn speaker="spk5" startTime="312.106" endTime="327.39">
+<Turn speaker="spk5" startTime="312.106" endTime="330.859">
 <Sync time="312.106"/>
 哪裏勉強，比較貼身罷了。
 <Sync time="317.496"/>
 想不想獨家？今天可是我們&lt;lang:Foreign&gt;&lt;initial&gt;FM&lt;/initial&gt;&lt;/lang:Foreign&gt;雜誌一周一次的頭條會，
 <Sync time="323.124"/>
 (())。想不想贏過羅密歐那個大頭症患者？
-</Turn>
-<Turn speaker="spk5" startTime="327.39" endTime="330.859">
 <Sync time="327.39"/>
 我要獨家。&lt;lang:OtherChinese&gt;(())&lt;/lang:OtherChinese&gt;
 </Turn>
@@ -376,9 +374,9 @@
 <Sync time="742.436"/>
 前面一片海洋，漁夫把魚撈起來，滿滿都是可愛的熱帶魚，可是沒有一個是你。
 <Sync time="750.308"/>
-music]
+[music]
 <Sync time="759.905"/>
-music]
+[music]
 <Sync time="766.556"/>
 下一個工作，聖誕老人？房租，搞定。
 </Turn>
@@ -664,13 +662,11 @@ music]
 <Sync time="1377.685"/>
 現在我要抽大獎了，有沒有人想要？
 </Turn>
-<Turn speaker="spk14" startTime="1380.139" endTime="1392.105">
+<Turn speaker="spk14" startTime="1380.139" endTime="1394.84">
 <Sync time="1380.139"/>
 我。我，我，我。
 <Sync time="1385.233"/>
 (())是范志明。
-</Turn>
-<Turn speaker="spk14" startTime="1392.105" endTime="1394.84">
 <Sync time="1392.105"/>
 為什麼偷我的腳踏車？
 </Turn>
@@ -776,11 +772,9 @@ music]
 <Sync time="1604.62"/>
 &lt;lang:Hakka&gt;(())&lt;/lang:Hakka&gt;，怎麼可能#啊，柯有正他形象那麼好哎，他是(())好男人代表哎，連我都沒有他的小綿羊公好，
 </Turn>
-<Turn speaker="spk15" startTime="1615.931" endTime="1622.003">
+<Turn speaker="spk15" startTime="1615.931" endTime="1627.324">
 <Sync time="1615.931"/>
 小綿羊公仔在哪裏，要有證據嘛。
-</Turn>
-<Turn speaker="spk15" startTime="1622.003" endTime="1627.324">
 <Sync time="1622.003"/>
 報告社長，我剛好就有一張我跟柯有正的合照，上面還有它的簽名哦。
 </Turn>
@@ -898,19 +892,19 @@ music]
 </Turn>
 <Turn speaker="spk18" startTime="1852.72" endTime="1859.26">
 <Sync time="1852.72"/>
-你應該猜得出來誰會是下一任的總編輯吧，#噢。
+你應該猜得出來誰會是下一任的總編輯吧，噢。
 </Turn>
 <Turn speaker="spk2" startTime="1859.26" endTime="1882.951">
 <Sync time="1859.26"/>
 謝謝社長。
 <Sync time="1863.365"/>
 [music]
-</Turn>
-<Turn speaker="spk7" startTime="1882.951" endTime="1891.579">
-<Sync time="1882.951"/>
+<Sync time="1872.915"/>
 [music]
 </Turn>
-<Turn speaker="spk7" startTime="1891.579" endTime="1899.699">
+<Turn speaker="spk7" startTime="1882.951" endTime="1899.699">
+<Sync time="1882.951"/>
+[music]
 <Sync time="1891.579"/>
 今天真是有夠衰的，不但錢沒有賺到，還倒賠三萬，這是什麼鬼聖誕節啦。
 </Turn>
@@ -1186,7 +1180,7 @@ music]
 <Sync time="2345.883"/>
 現在又讓孩子們知道，這世界上沒有耶誕老公公，難過的回來，你們網站上面的打工達人，能耐就這麼一些嗎？
 </Turn>
-<Turn speaker="spk22" startTime="2355.062" endTime="2367.428">
+<Turn speaker="spk8" startTime="2355.062" endTime="2367.428">
 <Sync time="2355.062"/>
 修女，你先聽我解釋。
 <Sync time="2356.532"/>
@@ -1234,11 +1228,9 @@ music]
 <Sync time="2450.196"/>
 #呃，為了挖新聞，居然可以連自己的恩師都出賣，一點溫情也沒有。這，她這還算是個女嗎。
 </Turn>
-<Turn speaker="spk17" startTime="2458.977" endTime="2464.051">
+<Turn speaker="spk17" startTime="2458.977" endTime="2471.924">
 <Sync time="2458.977"/>
 有胸有臀，生理構造上來說還應該算是吧。
-</Turn>
-<Turn speaker="spk17" startTime="2464.051" endTime="2471.924">
 <Sync time="2464.051"/>
 有朡有臀就算女人啦#啊，那你敢嫁她嗎？你願意娶她嗎#啊？
 </Turn>
