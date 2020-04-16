@@ -18,7 +18,7 @@ def command8(filepath):
 
 def command8_real(filepath, pattern):
 
-    reg_allowed = u'。！？，、．\[\]\w;&#\(\)'
+    reg_allowed = u',。！？，、．\[\]\w;&#\(\)'
     regex_pat = ur'(.?){}(.?)'.format(pattern)
 
     found = {}
@@ -27,6 +27,7 @@ def command8_real(filepath, pattern):
         for line in f:
             ln = ln + 1
             line = line.rstrip("\r\n")
+            line = line.strip()
 
             #if line starts with < and ends in >
             if line.startswith('<') and line.endswith('>'):
@@ -58,6 +59,6 @@ def command8_real(filepath, pattern):
 
 
 if __name__ == "__main__":
-    found = command8('../files/Daai_Religion_05.trs')
+    found = command8('../files/TTV_FuPeimeiTime_025.trs')
     for key in sorted(found.keys()):
         print(key, found[key])

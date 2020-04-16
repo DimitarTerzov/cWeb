@@ -7,10 +7,10 @@ import io
 def command7(filepath):
 
     # Allowed punctuation after tag
-    allowed_punctuation = ur"。！？，、．\[\];.,\(\)"
+    allowed_punctuation = ur"。！？，、．#\[\];.,\(\)"
     #default skip tags
     skip_tags = u"(#呃|#啊|#嗯)"
-    filler_re = re.compile(ur'[\W\w]?#[\w\W]{2}', re.UNICODE)
+    filler_re = re.compile(ur'[\s\W\w]?#[\w\W]{,2}', re.UNICODE)
 
     found = {}
     in_section = False
@@ -32,7 +32,7 @@ def command7(filepath):
 
                     target = match.group()
                     if (
-                        re.match(ur'[\w{1}]?{0}[\w{1}]'.format(skip_tags, allowed_punctuation), target, re.UNICODE) is None
+                        re.match(ur'[\w{1}]?{0}[\w{1}]{2}$'.format(skip_tags, allowed_punctuation, '{,1}'), target, re.UNICODE) is None
                     ):
                         found[ln] = [7, 'Invalid filler tag', target.encode('utf')]
 
@@ -40,7 +40,7 @@ def command7(filepath):
 
 
 if __name__ == '__main__':
-    found = command7("../files/MyQueen_001.trs")
+    found = command7("../files/TTV_FuPeimeiTime_023.trs")
     keys = sorted(found.keys())
     for key in keys:
         print key, found[key], found[key][2]
