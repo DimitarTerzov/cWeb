@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+__version__ = '1.21'
 import os
 import sys
 import re
@@ -403,10 +404,10 @@ def command6(filepath):
 def command7(filepath):
 
     # Allowed punctuation after tag
-    allowed_punctuation = ur"。！？，、．\[\];.,\(\)"
+    allowed_punctuation = ur"。！？，、．#\[\];.,\(\)"
     #default skip tags
     skip_tags = u"(#呃|#啊|#嗯)"
-    filler_re = re.compile(ur'[\W\w]?#[\w\W]{2}', re.UNICODE)
+    filler_re = re.compile(ur'[\s\W\w]?#[\w\W]{,2}', re.UNICODE)
 
     found = {}
     in_section = False
@@ -428,7 +429,7 @@ def command7(filepath):
 
                     target = match.group()
                     if (
-                        re.match(ur'[\w{1}]?{0}[\w{1}]'.format(skip_tags, allowed_punctuation), target, re.UNICODE) is None
+                        re.match(ur'[\w{1}]?{0}[\w{1}]{2}$'.format(skip_tags, allowed_punctuation, '{,1}'), target, re.UNICODE) is None
                     ):
                         found[ln] = [7, 'Invalid filler tag', target.encode('utf')]
 
@@ -448,7 +449,7 @@ def command8(filepath):
 
 def command8_real(filepath, pattern):
 
-    reg_allowed = u'。！？，、．\[\]\w;&#\(\)'
+    reg_allowed = u',。！？，、．\[\]\w;&#\(\)'
     regex_pat = ur'(.?){}(.?)'.format(pattern)
 
     found = {}
@@ -457,6 +458,7 @@ def command8_real(filepath, pattern):
         for line in f:
             ln = ln + 1
             line = line.rstrip("\r\n")
+            line = line.strip()
 
             #if line starts with < and ends in >
             if line.startswith('<') and line.endswith('>'):
@@ -872,31 +874,28 @@ def command16(filepath):
 #Short turns
 def command17(filepath):
 
-    regex = re.compile('<Sync time="\s*([0-9\.]+)\s*"/>')
-    regez = re.compile("<Sync time=\"" + WWwhitespace +"+[0-9\.]+\"/>|<Sync time=\"[0-9\.]+"+ WWwhitespace+"\"/>|<Sync time=\""+ WWwhitespace +"+[0-9\.]+"+ WWwhitespace+"\"/>")
+    regex = re.compile(ur'<Sync time="\s*([0-9\.]+)\s*"/>', re.UNICODE)
 
     found = {}
-    cur_time = 0.0
+    cur_time = None
 
-    with open(filepath,'r') as f:
-        ln = -1
+    with io.open(filepath, 'r', encoding='utf') as f:
+        ln = 0
         for line in f:
             ln = ln + 1
             line = line.rstrip("\r\n")
             for m in re.findall(regex, line):
 
                 seg_time = float(m)
-                seg_len = seg_time - cur_time
+                if cur_time is not None:
+                    seg_len = seg_time - cur_time
 
-                if seg_len < 3.0:
-                    found[ln] = [17, 'Segment is less than 3 seconds, possible use of [overlap] or combine with other segment', 'Sync time="' + str(cur_time) + '" length: ' + str(seg_len) + ' seconds']
+                    if seg_len < 3.0:
+                        found[last_seq_row] = [17, 'Segment is less than 3 seconds, possible use of [overlap] or combine with other segment', 'Sync time="' + str(cur_time) + '" length: ' + str(seg_len) + ' seconds']
 
                 #update current time
                 cur_time = seg_time
-            for m in re.findall(regez, line):
-
-                found[ln] = [17, 'Unexpected white space in sync time tag', line]
-
+                last_seq_row = ln
 
     return found
 
