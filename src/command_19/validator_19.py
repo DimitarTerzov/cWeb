@@ -89,6 +89,10 @@ def command19(filepath):
                                     chopped_line_end = line
                                     break
 
+                                else:
+                                    chopped_at_end = False
+                                    chopped_line_end = None
+
                         check_for_choppy = True
 
                     else:
@@ -107,6 +111,6 @@ def command19(filepath):
 
 
 if __name__ == '__main__':
-    found = command19('../files/Ykkosaamu_007.trs')
+    found = command19('../files/Southbound_MitchLandrieu.trs')
     for key in sorted(found.keys()):
         print(key, found[key])
