@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-__version__ = "1.21"
+__version__ = "1.22"
 import os
 import sys
 import re
@@ -232,9 +232,11 @@ def command3(filepath):
 def command4(filepath):
 
     punctuation = u"""[^_'.,!?\s:;—"\-~]"""
-    allowed_characters_after_tag = [u"s"]
+    allowed_characters_after_tag = [u"s", u"n"]
     allowed_expressions_before_tag = [u"l'"]
     regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;)(?P<inner_text>.*?)(?P<second_open>&lt;)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
+    opening_tag = re.compile(ur'&lt;[int\w\s]+&gt;', re.UNICODE)
+    closing_tag = re.compile(ur'&lt;\s*/[int\w\s]+&gt;', re.UNICODE)
 
     found = {}
     with io.open(filepath, 'r', encoding='utf') as f:
@@ -243,11 +245,25 @@ def command4(filepath):
             ln = ln + 1
             line = line.rstrip('\r\n')
 
+            if (
+                re.search(opening_tag, line) is not None and
+                re.search(closing_tag, line) is None
+            ):
+                open_tag = re.search(opening_tag, line).group(0)
+                content = _prepare_content(open_tag)
+                found[ln] = [4, "Missing closing tag", content]
+
+            if (
+                re.search(opening_tag, line) is None and
+                re.search(closing_tag, line) is not None
+            ):
+                close_tag = re.search(closing_tag, line).group(0)
+                content = _prepare_content(close_tag)
+                found[ln] = [4, "Missing opening tag", content]
+
             for m in re.finditer(regex, line):
                 error_tag = m.group('content')
-                error_tag = error_tag.replace('&lt;', '<')
-                error_tag = error_tag.replace('&gt;', '>')
-                error_tag = error_tag.encode('utf')
+                error_tag = _prepare_content(error_tag)
 
                 # Check tag syntax
                 if (
@@ -353,6 +369,8 @@ def command5(filepath):
     punctuation_marks = u""":,-'_!—".?;"""
 
     regex = re.compile(ur'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;))(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;))(?P<inner_text>.*?)(?P<second_open>(?:&lt;))(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;))(?P<after_second>\b\w*\b)?)', re.UNICODE)
+    opening_tag = re.compile(ur'&lt;\s*\w*\s*:\s*\w*\s*&gt;', re.UNICODE)
+    closing_tag = re.compile(ur'&lt;/\s*\w*\s*:\s*\w*\s*&gt;', re.UNICODE)
 
     found = {}
 
@@ -361,13 +379,27 @@ def command5(filepath):
         for line in f:
             line = line.rstrip('\r\n')
 
+            if (
+                re.search(opening_tag, line) is not None and
+                re.search(closing_tag, line) is None
+            ):
+                open_tag = re.search(opening_tag, line).group(0)
+                content = _prepare_content(open_tag)
+                found[ln] = [5, "Missing closing tag", content]
+
+            if (
+                re.search(opening_tag, line) is None and
+                re.search(closing_tag, line) is not None
+            ):
+                close_tag = re.search(closing_tag, line).group(0)
+                content = _prepare_content(close_tag)
+                found[ln] = [5, "Missing opening tag", content]
+
             matches = re.finditer(regex, line)
             for match in matches:
                 if match:
                     content = match.group('content')
-                    content = content.replace('&lt;' , '<')
-                    content = content.replace('&gt;' , '>')
-                    content = content.encode('utf')
+                    content = _prepare_content(content)
 
                     # Check for stucked words
                     if (
@@ -418,6 +450,13 @@ def command5(filepath):
             ln += 1
 
     return found
+
+
+def _prepare_content(content):
+    content = content.replace('&lt;' , '<')
+    content = content.replace('&gt;' , '>')
+    content = content.encode('utf')
+    return content
 
 
 #Numeral hunter
@@ -997,7 +1036,7 @@ def command19(filepath):
     found = {}
     with io.open(filepath, 'r', encoding='utf') as f:
 
-        ln = 1
+        ln = 0
         sync_time = None
         segment_lenght = None
         in_turn = False
@@ -1063,6 +1102,10 @@ def command19(filepath):
                                     chopped_at_end = True
                                     chopped_line_end = line
                                     break
+
+                                else:
+                                    chopped_at_end = False
+                                    chopped_line_end = None
 
                         check_for_choppy = True
 
@@ -1160,7 +1203,11 @@ def command22(filepath):
 
 
 def command23(filepath):
-    bad_strings = ['Who nb=', 'Topic id=', 'Event' 'mode=', 'channel=', 'fidelity=', 'Background time=']
+    bad_strings = [
+        'Who nb=', 'Topic id=', 'Event',
+        'mode=', 'channel=', 'fidelity=',
+        'Background time=', 'Comment'
+    ]
     found = {}
     regex = re.compile(".*<(.*)>.*")
 
@@ -1168,6 +1215,7 @@ def command23(filepath):
         ln = -1
         for line in f:
             ln = ln + 1
+            line = line.rstrip('\r\n')
             inner = re.findall(regex, line)
             # < inner >
             for txt in inner:
@@ -1195,6 +1243,10 @@ def command23(filepath):
                         elif bad == 'Background time=':
                             found[ln] = [23, 'Disallowed use of Transcriber', '(' + bad + ') | ' + line]
                             break
+                        elif bad == 'Comment':
+                            found[ln] = [23, 'Disallowed use of Transcriber', '(' + bad + ') | ' + line]
+                            break
+
     return found
 
 
