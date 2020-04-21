@@ -22,7 +22,7 @@ def command19(filepath):
     found = {}
     with io.open(filepath, 'r', encoding='utf') as f:
 
-        ln = 1
+        ln = 0
         sync_time = None
         segment_lenght = None
         in_turn = False
