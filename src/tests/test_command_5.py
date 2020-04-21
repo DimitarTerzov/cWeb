@@ -52,9 +52,9 @@ CONTENT = [
     u"It is your &lt;lang:English&gt; ČSSD perspective &lt;lang:English&gt; lang tag inside lang \
 tag &lt;/lang:English&gt; ČSSD and voice &lt;/lang:English&gt; perspective\n", # 40
     u'<Sync time="379.522"/>\n', # 41
-    u'<lang:Portuguese>\n', # 42
+    u'&lt;lang:Portuguese&gt;\n', # 42
     u'<Sync time="411.39"/>\n', # 43
-    u"Peut-être pas en termes d'hommes mais plutôt en termes d'armes </lang: Portuguese> ou \
+    u"Peut-être pas en termes d'hommes mais plutôt en termes d'armes &lt;/lang: Portuguese&gt; ou \
 de ressources financières. Et comment va évoluer la question de l'est de \
 l'Ukraine et les relations internationales tout court.\n" # 44
     u'</Turn>\n', # 45
