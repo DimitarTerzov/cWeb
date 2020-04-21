@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
 
-import pytest
-
 from utils import temporary_file
 from command_5.validator_5 import command5
 
@@ -52,19 +50,26 @@ CONTENT = [
     u'There &lt;lang:English&gt; word, word (()) <initial> ČSSD <initial>, etc. &lt;/lang:English&gt;\n', # 38
     u'<Sync time="3349.75"/>\n', # 39
     u"It is your &lt;lang:English&gt; ČSSD perspective &lt;lang:English&gt; lang tag inside lang \
-    tag &lt;/lang:English&gt; ČSSD and voice &lt;/lang:English&gt; perspective\n", # 40
-    u'</Turn>\n', # 41
+tag &lt;/lang:English&gt; ČSSD and voice &lt;/lang:English&gt; perspective\n", # 40
+    u'<Sync time="379.522"/>\n', # 41
+    u'<lang:Portuguese>\n', # 42
+    u'<Sync time="411.39"/>\n', # 43
+    u"Peut-être pas en termes d'hommes mais plutôt en termes d'armes </lang: Portuguese> ou \
+de ressources financières. Et comment va évoluer la question de l'est de \
+l'Ukraine et les relations internationales tout court.\n" # 44
+    u'</Turn>\n', # 45
 ]
 
 EXCLUDE = [
     0, 1, 3, 4, 5, 7, 9, 11, 13, 15,
     17, 19, 21, 23, 25, 26, 27, 29,
-    31, 32, 33, 35, 37, 38, 39, 41
+    31, 32, 33, 35, 37, 38, 39, 41,
+    43, 45
 ]
 
 CATCH = [
     2, 6, 8, 10, 12, 14, 16, 18, 20,
-    22, 24, 28, 30, 34, 36, 40
+    22, 24, 28, 30, 34, 36, 40, 42, 44
 ]
 
 
