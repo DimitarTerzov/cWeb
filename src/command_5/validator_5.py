@@ -32,6 +32,8 @@ def command5(filepath):
     punctuation_marks = u""":,-'_!—".?;"""
 
     regex = re.compile(ur'(?P<content>(?P<before_first>\b\w*\b)?(?P<first_open>(?:&lt;))(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)(?P<first_close>(?:&gt;))(?P<inner_text>.*?)(?P<second_open>(?:&lt;))(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)(?P<second_close>(?:&gt;))(?P<after_second>\b\w*\b)?)', re.UNICODE)
+    opening_tag = re.compile(ur'&lt;\s*\w*\s*:\s*\w*\s*&gt;', re.UNICODE)
+    closing_tag = re.compile(ur'&lt;/\s*\w*\s*:\s*\w*\s*&gt;', re.UNICODE)
 
     found = {}
 
@@ -40,13 +42,27 @@ def command5(filepath):
         for line in f:
             line = line.rstrip('\r\n')
 
+            if (
+                re.search(opening_tag, line) is not None and
+                re.search(closing_tag, line) is None
+            ):
+                open_tag = re.search(opening_tag, line).group(0)
+                content = _prepare_content(open_tag)
+                found[ln] = [5, "Missing closing tag", content]
+
+            if (
+                re.search(opening_tag, line) is None and
+                re.search(closing_tag, line) is not None
+            ):
+                close_tag = re.search(closing_tag, line).group(0)
+                content = _prepare_content(close_tag)
+                found[ln] = [5, "Missing opening tag", content]
+
             matches = re.finditer(regex, line)
             for match in matches:
                 if match:
                     content = match.group('content')
-                    content = content.replace('&lt;' , '<')
-                    content = content.replace('&gt;' , '>')
-                    content = content.encode('utf')
+                    content = _prepare_content(content)
 
                     # Check for stucked words
                     if (
@@ -97,6 +113,13 @@ def command5(filepath):
             ln += 1
 
     return found
+
+
+def _prepare_content(content):
+    content = content.replace('&lt;' , '<')
+    content = content.replace('&gt;' , '>')
+    content = content.encode('utf')
+    return content
 
 
 if __name__ == "__main__":
