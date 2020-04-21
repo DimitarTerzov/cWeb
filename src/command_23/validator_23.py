@@ -4,7 +4,11 @@ import re
 
 
 def command23(filepath):
-    bad_strings = ['Who nb=', 'Topic id=', 'Event' 'mode=', 'channel=', 'fidelity=', 'Background time=']
+    bad_strings = [
+        'Who nb=', 'Topic id=', 'Event',
+        'mode=', 'channel=', 'fidelity=',
+        'Background time=', 'Comment'
+    ]
     found = {}
     regex = re.compile(".*<(.*)>.*")
 
@@ -12,6 +16,7 @@ def command23(filepath):
         ln = -1
         for line in f:
             ln = ln + 1
+            line = line.rstrip('\r\n')
             inner = re.findall(regex, line)
             # < inner >
             for txt in inner:
@@ -39,6 +44,10 @@ def command23(filepath):
                         elif bad == 'Background time=':
                             found[ln] = [23, 'Disallowed use of Transcriber', '(' + bad + ') | ' + line]
                             break
+                        elif bad == 'Comment':
+                            found[ln] = [23, 'Disallowed use of Transcriber', '(' + bad + ') | ' + line]
+                            break
+
     return found
 
 
