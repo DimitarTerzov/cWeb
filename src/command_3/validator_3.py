@@ -19,6 +19,7 @@ def command3(filepath):
     regex = re.compile(ur"\[.*?\]", re.UNICODE)
 
     found = {}
+    tag_exists = False
     with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
@@ -33,8 +34,10 @@ def command3(filepath):
 
                     if re.match(ur".*[^ \s、 。 ‧ ？ ！ ，]\[.*?\]", w, re.UNICODE):
                         found[ln] = [3, 'Missing white space left of sound tag', w.encode('utf')]
+                        tag_exists = True
                     elif re.match(ur"\[.*?\][^ \s.,，。\-?! ].*", w, re.UNICODE):
                         found[ln] = [3, 'Missing white space right of sound tag', w.encode('utf')]
+                        tag_exists = True
                     else:
                         for m in re.findall(regex, line):
                             if not m in skip_words:
@@ -46,12 +49,16 @@ def command3(filepath):
                             elif prev_tag == m and re.search(ur'{0}\s*{1}*{2}*{3}'.format(re.escape(m), WWwhitespace.decode('utf'), WWpunctuatio.decode('utf'),   re.escape(m)), line, re.UNICODE) is not None:
                                 found[ln] = [3, 'Sound tag duplicate', '{}/{}'.format(m.encode('utf'), line.encode('utf'))]
                             prev_tag = m
+                            tag_exists = True
+
+    if not tag_exists and not found:
+        found[1] = [3, 'No sound tag were found. Please refer to the project page to learn about the required use of sound tags.', '']
 
     return found
 
 
 if __name__ == '__main__':
-    found = command3('../files/AsiaWaveNews_01_sample_chawankorn.trs')
+    found = command3('../files/CT_Newsevents_34.trs')
     for key in sorted(found.keys()):
         print(key, found[key])
 

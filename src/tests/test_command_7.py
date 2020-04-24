@@ -44,7 +44,7 @@ CONTENT = [
     u'ใช่ค่ะ่ยงแล้วเพราะว่าขึ้นชื่ออยู่แล้วแล้วก็ #อือ ตามความเข้าใจของตันตันนะคะ\n', #34
     u'งนะคะก็เลยได้รวบรวมผู้เชี่ยวชาญแล้วก็ #อ่า ผู้แทนของชาวบ้าน\n', # 35
     u'ซึ่งตอนนี้นะคะที่นี่ก็ยังมีสถานที่แนะนำ #เอ่อ วัฒนธรรมและ\n', # 36
-    u'</Section>'                                # 36
+    u'</Section>'                                # 37
 ]
 
 
@@ -89,8 +89,8 @@ def test_command_7(tmpdir):
     assert 31 in found
     assert 32 not in found
     assert 33 not in found
-    assert 34 not in found
-    assert 35 not in found
-    assert 36 not in found
+    assert 34 in found
+    assert 35 in found
+    assert 36 in found
 
     #assert 0

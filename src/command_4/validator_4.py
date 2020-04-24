@@ -16,6 +16,7 @@ def command4(filepath):
     closing_tag = re.compile(ur'&lt;\s*/[int\w\s]+&gt;', re.UNICODE)
 
     found = {}
+    tag_exists = False
     with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
@@ -29,6 +30,7 @@ def command4(filepath):
                 open_tag = re.search(opening_tag, line).group(0)
                 content = _prepare_content(open_tag)
                 found[ln] = [4, "Missing closing tag", content]
+                tag_exists = True
 
             if (
                 re.search(opening_tag, line) is None and
@@ -37,8 +39,10 @@ def command4(filepath):
                 close_tag = re.search(closing_tag, line).group(0)
                 content = _prepare_content(close_tag)
                 found[ln] = [4, "Missing opening tag", content]
+                tag_exists = True
 
             for m in re.finditer(regex, line):
+                tag_exists = True
                 error_tag = m.group('content')
                 error_tag = _prepare_content(error_tag)
 
@@ -113,6 +117,9 @@ def command4(filepath):
                     for content in inner_content:
                         if not re.match(ur'^\w\.$', content, re.UNICODE):
                             found[ln] = [4, 'Initial tag error', error_tag]
+
+    if not tag_exists and not found:
+        found[1] = [4, 'Be sure to include initial tag for any and all initialisms. If there were no initialisms, feel free to ignore this error.', '']
 
     return found
 
