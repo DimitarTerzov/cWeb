@@ -35,14 +35,14 @@ CATCH = [2, 8, 14]
 def test_command_17(tmpdir):
     file_ = temporary_file(tmpdir, CONTENT)
     found = command17(file_)
-    
+
     for key in sorted(found.keys()):
         print(key, found[key])
-        
+
     for row in EXCLUDE:
         assert row not in found
-        
+
     for row in CATCH:
         assert row in found
-        
-    assert 0
+
+    #assert 0

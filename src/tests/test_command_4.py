@@ -109,4 +109,4 @@ def test_command4(tmpdir):
     assert 42 in found
     assert 43 in found
 
-    assert 0
+    #assert 0
