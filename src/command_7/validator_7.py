@@ -7,7 +7,7 @@ import io
 def command7(filepath):
 
     # Allowed punctuation after tag
-    punctuation = u"[:',!—_\".?\-;]"
+    punctuation = u"[:',—_\".\-;]"
     #default skip tags
     skip_tags = u"(#uh|#um|#ah|#euh|#hm)"
     possible_missing_tag = u"(uh|um|ah|euh|hm)"

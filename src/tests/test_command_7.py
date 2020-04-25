@@ -12,7 +12,7 @@ CONTENT = [
     u'<Speaker id="spk76" name="speaker#57" check="no" type="female" dialect="native" accent="" scope="local"/>\n', # 2
     u'<Section type="report" startTime="0" endTime="2631.216">\n' # 3
     u"I was on # uh Paul Finebaum's show\n",    # 4
-    u"I love that hire. #um We kind of~~we've kind\n",    # 5
+    u"I love that hire. #um ? We kind of~~we've kind\n",    # 5
     u"Joe Morehead maybe out of Mississippi State after this, #uhh,\n",    # 6
     u"or out east and, #Eh, Lane would be\n",    # 7
     u"happen and, #UH,\n",                       # 8
@@ -20,7 +20,7 @@ CONTENT = [
     u"here, #euh, Shane, Ole Miss\n",             # 10
     u"#um I think you got to give ~,\n",         # 11
     u"#uH Why do you want to stand\n",           # 12
-    u"really well, so #uh.\n",                   # 13
+    u"really well, so #uh\n",                   # 13
     u"previously .#uh at Missouri\n",            # 14
     u"on a.#uh previous podcast\n",              # 15
     u"speaking of tangled ,#euh webs, Shane,\n",  # 16
@@ -41,7 +41,9 @@ CONTENT = [
     u"I'm not um making too much out of that\n", # 31
     u"Lawrence is gonumna be there\n",           # 32
     u"acted liuhke the question wasn't asked.\n",# 33
-    u'</Section>'                                # 34
+    u"really well, so #uh!\n",                   # 34
+    u"really well, so #uh?\n",                   # 35
+    u'</Section>'                                # 36
 ]
 
 
@@ -86,6 +88,8 @@ def test_command_7(tmpdir):
     assert 31 in found
     assert 32 not in found
     assert 33 not in found
-    assert 34 not in found
+    assert 34 in found
+    assert 35 in found
+    assert 36 not in found
 
     #assert 0
