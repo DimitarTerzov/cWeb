@@ -44,19 +44,19 @@ Jag tänker på en film som är Henrik Schyfferts, tror jag långfilmsdebut. Som
 </Turn>
 <Turn speaker="spk2" startTime="34.768" endTime="37.96">
 <Sync time="34.768"/>
-
+<Event desc="KITANGULIZI" type="noise" extent="instantaneous"/>
 <Background time="35.596" type="music" level="high"/>
 Du har märkt av de här skakningarna ett tag eller?
 </Turn>
 <Turn speaker="spk3" startTime="37.96" endTime="42.648">
 <Sync time="37.96"/>
-
+<Event desc="SALIM KIKEKE" type="noise" extent="instantaneous"/>
 <Background time="38.813" type="music" level="high"/>
 Ja, och så känner jag väl att jag är lite fumlig. Att det går långsamt och knyta skorna och så där.
 </Turn>
 <Turn speaker="spk2" startTime="42.648" endTime="47.215">
 <Sync time="42.648"/>
-
+<Event desc="BERYL WAMBANI" type="noise" extent="instantaneous"/>
 <Background time="44.807" type="music" level="high"/>
 När jag lägger ihop det som jag ser så är det tydligt att du har parkinssonssjukdom.
 </Turn>
@@ -68,11 +68,11 @@ I andel av biobesöken jämfört med tjugohundraarton. Detta trots att tjugohund
 </Turn>
 <Turn speaker="spk1" startTime="74.631" endTime="91.408">
 <Sync time="74.631"/>
-
+<Comment desc="Tafsiri"/>
 <Background time="75.342" type="other" level="high"/>
 Det klart man ser väldigt allvarligt på det. Och vi har #eh gjort en rapport och vi har #eh vi bjuder in till samtal med branschen också för att liksom gå till botten med det här. Och varför det blev så.
 <Sync time="85.212"/>
-
+<Comment desc="Tafsiri"/>
 <Background time="86.164" type="other" level="high"/>
 [breath] D- Det går upp och ner. Och, men alltså jag är ju väldigt positiv till den här filmvåren. Jag tror att det kan vända.
 </Turn>
@@ -87,7 +87,7 @@ Moa Gammel Ginsburg har medverkat i två av de kommande filmerna. Som regissör 
 </Turn>
 <Turn speaker="spk5" startTime="100.305" endTime="111.6">
 <Sync time="100.305"/>
-
+<Comment desc="Tafsiri"/>
 <Background time="101.57" type="speech" level="high"/>
 Om vi ska konkurera med miljardsatsningar. Så måste vi bli bättre på att inte tänka &lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;. Utan att verkligen ha skyhöga ambitioner med svensk film.
 </Turn>

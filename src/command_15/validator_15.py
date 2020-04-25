@@ -18,11 +18,18 @@ def command15(filepath):
 
 
     found = {}
-
+    tag_exists = False
+    in_section = False
     with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
+
+            if u'<Section' in line:
+                in_section = True
+
+            if in_section and u'~' in line:
+                tag_exists = True
 
             no_white_space = re.findall(match_no_white_space, line)
             for match in no_white_space:
@@ -53,10 +60,13 @@ def command15(filepath):
             if incorrect_tilde:
                 found[ln] = [15, 'Incorrect use of tilde', incorrect_tilde.group().encode('utf')]
 
+    if not tag_exists and not found:
+        found[1] = [15, 'No tildes were found. Please refer to the project page to learn about the proper use of the tilde for partially spoken words. If there were no partially spoken words, feel free to ignore this error.', '']
+
     return found
 
 
 if __name__ == '__main__':
-    found = command15('../files/SEC_Football_004.trs')
+    found = command15('../files/no_tags.trs')
     for row, hit in found.items():
         print row, ' => ', hit

@@ -162,4 +162,4 @@ def test_command24(tmpdir):
     assert 71 not in found
     assert 72 not in found
 
-    assert 0
+    #assert 0

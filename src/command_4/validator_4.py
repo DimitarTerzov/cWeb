@@ -2,27 +2,49 @@
 import re
 import io
 
+from command_5.validator_5 import _prepare_content
+
 
 #Initial tag validator
 def command4(filepath):
 
     punctuation = u"""[^_'.,!?\s:;—"\-~]"""
-    allowed_characters_after_tag = u"s"
+    allowed_characters_after_tag = [u"s", u"n"]
     allowed_expressions_before_tag = [u"l'"]
     regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;)(?P<inner_text>.*?)(?P<second_open>&lt;)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
+    opening_tag = re.compile(ur'&lt;[int\w\s]+&gt;', re.UNICODE)
+    closing_tag = re.compile(ur'&lt;\s*/[int\w\s]+&gt;', re.UNICODE)
 
     found = {}
+    tag_exists = False
     with io.open(filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
             line = line.rstrip('\r\n')
 
+            if (
+                re.search(opening_tag, line) is not None and
+                re.search(closing_tag, line) is None
+            ):
+                open_tag = re.search(opening_tag, line).group(0)
+                content = _prepare_content(open_tag)
+                found[ln] = [4, "Missing closing tag", content]
+                tag_exists = True
+
+            if (
+                re.search(opening_tag, line) is None and
+                re.search(closing_tag, line) is not None
+            ):
+                close_tag = re.search(closing_tag, line).group(0)
+                content = _prepare_content(close_tag)
+                found[ln] = [4, "Missing opening tag", content]
+                tag_exists = True
+
             for m in re.finditer(regex, line):
+                tag_exists = True
                 error_tag = m.group('content')
-                error_tag = error_tag.replace('&lt;', '<')
-                error_tag = error_tag.replace('&gt;', '>')
-                error_tag = error_tag.encode('utf')
+                error_tag = _prepare_content(error_tag)
 
                 # Check tag syntax
                 if (
@@ -95,6 +117,9 @@ def command4(filepath):
                     for content in inner_content:
                         if not re.match(ur'^\w\.$', content, re.UNICODE):
                             found[ln] = [4, 'Initial tag error', error_tag]
+
+    if not tag_exists and not found:
+        found[1] = [4, 'Be sure to include initial tag for any and all initialisms. If there were no initialisms, feel free to ignore this error.', '']
 
     return found
 
