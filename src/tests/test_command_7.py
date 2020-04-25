@@ -17,13 +17,13 @@ CONTENT = [
     u"or out east and, #Eh, Lane would be\n",    # 7
     u"happen and, #UH,\n",                       # 8
     u"#aH but yeah, I don't know\n",             # 9
-    u"here, #hm, Shane, Ole Miss\n",             # 10
+    u"here, #euh, Shane, Ole Miss\n",             # 10
     u"#um I think you got to give ~,\n",         # 11
     u"#uH Why do you want to stand\n",           # 12
     u"really well, so #uh.\n",                   # 13
     u"previously .#uh at Missouri\n",            # 14
     u"on a.#uh previous podcast\n",              # 15
-    u"speaking of tangled ,#er webs, Shane,\n",  # 16
+    u"speaking of tangled ,#euh webs, Shane,\n",  # 16
     u"I ain't,#uh go do any more\n",             # 17
     u"He's word#ah doing these commercials\n",   # 18
     u"well, #uhword we got a first-round\n",     # 19
@@ -41,10 +41,7 @@ CONTENT = [
     u"I'm not um making too much out of that\n", # 31
     u"Lawrence is gonumna be there\n",           # 32
     u"acted liuhke the question wasn't asked.\n",# 33
-    u'ใช่ค่ะ่ยงแล้วเพราะว่าขึ้นชื่ออยู่แล้วแล้วก็ #อือ ตามความเข้าใจของตันตันนะคะ\n', #34
-    u'งนะคะก็เลยได้รวบรวมผู้เชี่ยวชาญแล้วก็ #อ่า ผู้แทนของชาวบ้าน\n', # 35
-    u'ซึ่งตอนนี้นะคะที่นี่ก็ยังมีสถานที่แนะนำ #เอ่อ วัฒนธรรมและ\n', # 36
-    u'</Section>'                                # 37
+    u'</Section>'                                # 34
 ]
 
 
@@ -89,8 +86,6 @@ def test_command_7(tmpdir):
     assert 31 in found
     assert 32 not in found
     assert 33 not in found
-    assert 34 in found
-    assert 35 in found
-    assert 36 in found
+    assert 34 not in found
 
     #assert 0
