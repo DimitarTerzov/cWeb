@@ -1,44 +1,45 @@
 from __future__ import print_function
 
 import re
+import io
 
 
 def command23(filepath):
-    bad_strings = ['Who nb=', 'Topic id=', 'Event' 'mode=', 'channel=', 'fidelity=', 'Background time=']
+    bad_strings_to_report = {
+        u'Who nb=': u'Do not create turns with multiple speakers.',
+        u'Topic id=': u'Do not create topics',
+        u'Event desc=': u'Do not create events',
+        u'mode=': u'Do not change the mode setting',
+        u'channel=': u'Do not change the channel setting',
+        u'fidelity=': u'Do not change the fidelity setting',
+        u'Background time=': u'Disallowed use of Transcriber',
+        u'Comment desc=': u'Disallowed use of Transcriber'
+    }
     found = {}
-    regex = re.compile(".*<(.*)>.*")
+    regex = re.compile(ur".*<(.*)>.*", re.UNICODE)
+    in_section = False
 
-    with open (filepath, 'r') as f:
+    with io.open (filepath, 'r', encoding='utf') as f:
         ln = -1
         for line in f:
             ln = ln + 1
-            inner = re.findall(regex, line)
-            # < inner >
-            for txt in inner:
-                for bad in bad_strings:
+            line = line.rstrip('\r\n')
 
-                    if bad in txt:
-                        if bad == 'Who nb=':
-                            found[ln] = [23, 'Do not create turns with multiple speakers.', '(' + bad + ') | ' + line]
-                            break   #print only one bad string per line
-                        elif bad == 'Topic id=':
-                            found[ln] = [23, 'Do not create topics', '(' + bad + ') | ' + line]
-                            break
-                        elif bad == 'Event':
-                            found[ln] = [23, 'Do not create events', '(' + bad + ') | ' + line]
-                            break
-                        elif bad == 'mode=':
-                            found[ln] = [23, 'Do not change the mode setting', '(' + bad + ') | ' + line]
-                            break
-                        elif bad == 'channel=':
-                            found[ln] = [23, 'Do not change the channel setting', '(' + bad + ') | ' + line]
-                            break
-                        elif bad == 'fidelity=':
-                            found[ln] = [23, 'Do not change the fidelity setting', '(' + bad + ') | ' + line]
-                            break
-                        elif bad == 'Background time=':
-                            found[ln] = [23, 'Disallowed use of Transcriber', '(' + bad + ') | ' + line]
-                            break
+            if re.search(ur'<\s*Section', line, re.UNICODE) is not None:
+                in_section = True
+            elif re.search(ur'<\s*/\s*Section', line, re.UNICODE) is not None:
+                in_section = False
+
+            if in_section:
+                inner = re.findall(regex, line)
+                # < inner >
+                for txt in inner:
+
+                    for bad in bad_strings_to_report:
+                        if bad in txt:
+                            report_line = u'({}) | {})'.format(bad, line).encode('utf')
+                            found[ln] = [23, bad_strings_to_report[bad].encode('utf'), report_line]
+
     return found
 
 

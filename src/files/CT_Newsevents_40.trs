@@ -1,0 +1,1360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Trans SYSTEM "trans-14.dtd">
+<Trans scribe="Hanka" audio_filename="CT_Newsevents_40" version="1" version_date="200208">
+<Speakers>
+<Speaker id="spk1" name="Marcela" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk2" name="Man 1" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk3" name="Petr Vašek" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk4" name="Jaroslav Šimeček" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk5" name="Man 2" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk6" name="Man 3" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk7" name="Marie Divišová" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk8" name="Man 4" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk9" name="Man 5" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk10" name="Man 6" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk11" name="Milada MacGrathová" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk12" name="Man 7" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk13" name="Reporter 3" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk14" name="Man 8" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk15" name="Man on phone" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk16" name="Zdeněk Mlnařík" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk17" name="Woman on phone" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk18" name="Alena Schillerová" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk19" name="Woman 1" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk20" name="Man 9" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk21" name="Man 10" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk22" name="Man 11" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk23" name="Man 12" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk24" name="Barbora Šámalová" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk25" name="Interpreter" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk26" name="More people" check="no" dialect="nonnative" accent="" scope="global" type="unknown"/>
+<Speaker id="spk27" name="Man 13" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk28" name="Jiří Hynek" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk29" name="Man 14" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk30" name="Woman 2" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk31" name="Man 15" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk32" name="Man 16" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk33" name="Man 17" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk34" name="Woman 3" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk35" name="Man 18" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk36" name="Michal" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk37" name="Man 19" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk38" name="Man 20" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk39" name="Tereza Stárková" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk40" name="Man 21" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk41" name="Woman 4" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk42" name="Woman 5" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk43" name="Ivan Hnízdil" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk44" name="Man 22" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk45" name="Man 23" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk46" name="Man 24" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk47" name="Woman 6" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk48" name="Reporter 4" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk49" name="Woman 7" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk50" name="Man 25" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk51" name="Man 26" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk52" name="Man 27" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk53" name="Jaroslav Hrazdil" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk54" name="Pavla Sedliská" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk55" name="Jiří" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk56" name="Ondřej" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk57" name="Man 30" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk58" name="Director" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk59" name="Jan Beránek" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk60" name="Woman 8" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk61" name="Man 31" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk62" name="Pavel Svoboda" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk63" name="Reporter 5" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk64" name="Woman 9" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk65" name="Reporter 6" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk66" name="Lucie Pelanová" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk67" name="Man 32" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk68" name="Marcela Durasová" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk69" name="Woman 10" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk70" name="Man 33" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk71" name="Woman 11" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk72" name="Man 34" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk73" name="Man 35" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk74" name="Man 36" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk75" name="Man 37" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk76" name="Nikola Tenevová" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk77" name="Man 38" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk78" name="Lukáš Mathé" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk79" name="Interpreter 2" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk80" name="Piotr" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk81" name="Reporter 8" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk82" name="Polish politician" check="no" type="male" dialect="nonnative" accent="" scope="global"/>
+<Speaker id="spk83" name="Blanka Poulová" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk84" name="Man 39" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk85" name="Woman 12" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk86" name="Woman 13" check="no" type="female" dialect="native" accent="" scope="global"/>
+<Speaker id="spk87" name="Man 40" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk88" name="Martin Donát" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk89" name="Tomáš Czernin" check="no" type="male" dialect="native" accent="" scope="global"/>
+<Speaker id="spk90" name="Vojtěch Bernatský" check="no" type="male" dialect="native" accent="" scope="global"/>
+</Speakers>
+<Episode>
+<Section type="report" startTime="0" endTime="2596.728">
+<Turn startTime="0" endTime="3.479">
+<Sync time="0"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="3.479" endTime="8.25892857143">
+<Sync time="3.479"/>
+Pojišťovny vracejí rekordní doplatky za léky. Pacienti letos dostali už čtvrt miliardy.
+</Turn>
+<Turn startTime="8.25892857143" endTime="10.281">
+<Sync time="8.938"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="10.281" endTime="15.336">
+<Sync time="10.281"/>
+Ropa zdraží. Míní experti po útoku v Saúdské Arábii, ten vyřadil půl tamní denní produkce.
+</Turn>
+<Turn startTime="15.336" endTime="17.117">
+<Sync time="15.336"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="17.117" endTime="22.909">
+<Sync time="17.117"/>
+Navzdory zákazu nové protesty, policie v Hongkongu znovu nasadila vodní děla a slzný plyn.
+</Turn>
+<Turn startTime="22.909" endTime="32.734">
+<Sync time="22.909"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="32.734" endTime="36.289">
+<Sync time="32.734"/>
+Nedělní titulky známe. Je čas na podrobnosti. Vítejte v Událostech.
+</Turn>
+<Turn startTime="36.289" endTime="37.482">
+<Sync time="36.289"/>
+[no-speech]
+</Turn>
+<Turn speaker="spk1" startTime="37.482" endTime="56.722">
+<Sync time="37.482"/>
+Přibývá lidí, kterým pojišťovny přispívají na léky. Díky ochrannému ročnímu limitu ušetřilo přes tři sta osmdesát tisíc pacientů. Zpátky dostali v součtu víc než čtvrt miliardy korun
+<Sync time="48.313"/>
+proti. Prvnímu pololetí loňského roku to představuje skoro čtvrtinový nárůst. Strop na výdaje za medikamenty nejčastěji pomáhá seniorům.
+</Turn>
+<Turn speaker="spk2" startTime="56.722" endTime="67.414">
+<Sync time="56.722"/>
+Je to otázka ochrany těch, řekněme, sociálně slabších skupin, a v tomto směru to plní své účely, zjevně i podle těch dat.
+</Turn>
+<Turn speaker="spk1" startTime="67.414" endTime="87.039">
+<Sync time="67.414"/>
+Od příštího roku výrazně ušetří taky invalidní důchodci. Hranice výdajů za léky na předpis se jim snižuje z pěti tisíc na pět stovek. Další útraty jim pojišťovny budou. Kompenzovat
+<Sync time="79.035"/>
+týká se to asi dvou set tisíc handicapovaných, hlavně těch, kteří pobírají plný invalidní důchod. Svůj nárok ale budou muset prokázat.
+</Turn>
+<Turn speaker="spk2" startTime="87.039" endTime="89.562">
+<Sync time="87.039"/>
+Nazdar, nazdar.
+</Turn>
+<Turn speaker="spk3" startTime="89.562" endTime="98.89">
+<Sync time="89.562"/>
+Jaroslav Šimeček z Domažlic s sebou vozí krabici léků i na návštěvy kamaráda. Po infarktu a mrtvici bere pět různých léků, některé užívá třikrát denně.
+</Turn>
+<Turn speaker="spk4" startTime="98.89" endTime="110.471">
+<Sync time="98.89"/>
+Todle je na tlak, todle jsou vitamíny na vitalitu a tady ještě je v podstatě je na ředění krve.
+</Turn>
+<Turn speaker="spk3" startTime="110.471" endTime="118.066">
+<Sync time="110.471"/>
+Ročně zaplatí za léky přes šest a půl tisíce. Část doplatků, zhruba třináct stovek ročně, mu pojišťovna zpětně vrací.
+</Turn>
+<Turn speaker="spk4" startTime="118.066" endTime="128.779">
+<Sync time="118.066"/>
+Je to taková takový přilepšení k měsíčnímu rozpočtu, třeba jet někam na vejlet se podívat, nebo něco si koupit, něco zvláštního nebo někoho potěšit.
+</Turn>
+<Turn speaker="spk3" startTime="128.779" endTime="162.851">
+<Sync time="128.779"/>
+Lidí, jako je pan Šimeček, kterým pojišťovny vracejí peníze, v první polovině roku výrazně přibylo. Zatímco loni jich bylo tři sta třicet osm tisíc, letos počet vzrostl na téměř tři sta osmdesát čtyři tisíc.
+<Sync time="140.42"/>
+Ještě výrazněji stoupla částka, kterou lidem pojišťovny vrátily. Zatímco loni to bylo za pololetí dvě stě šest milionů, letos dostali pacienti zpátky o padesát milionů víc.
+<Sync time="150.897"/>
+Jen Všeobecná zdravotní pojišťovna vrátila lidem v první polovině letoška za zaplacené doplatky přes sto šedesát dva milionů korun. To je o dvaadvacet procent vyšší částka než ve stejném období loňského roku.
+</Turn>
+<Turn speaker="spk5" startTime="162.851" endTime="167.474">
+<Sync time="162.851"/>
+Stárne nám populace a myslím si, že vstupují do systému nové léky, dražší léky.
+</Turn>
+<Turn speaker="spk6" startTime="167.474" endTime="174.355">
+<Sync time="167.474"/>
+Je obecně nárůst cen léků, který zaznamenáváme za první pololetí nejenom v naší pojišťovně, ale i v ostatních pojišťovnách.
+</Turn>
+<Turn speaker="spk3" startTime="174.355" endTime="197.367">
+<Sync time="174.355"/>
+Pojišťovny vrací peníze hlavně penzistům. Ti nad sedmdesát let je dostávají zpátky, když za léky na předpis utratí od začátku roku přes pět set korun.
+<Sync time="182.812"/>
+Stejný limit bude mít od ledna také invalidní důchodkyně Marie Divišová. Zhruba dvěma stům tisícům handicapovaných totiž klesne limit na doplatky z pěti tisíc na pět set korun. Marie Divišová teď doplácí na čtyři léky přes tři a půl tisíce ročně.
+</Turn>
+<Turn speaker="spk7" startTime="197.367" endTime="206.083">
+<Sync time="197.367"/>
+Zdravotně postižení mají problémy, musí si financovat, jak se říká, ty léky, kompenzační pomůcky, takže jako tady ta pomoc je velká.
+</Turn>
+<Turn speaker="spk3" startTime="206.083" endTime="211.468">
+<Sync time="206.083"/>
+Nejdřív ale budou muset invalidní důchodci dodat pojišťovně potvrzení, že mají na nižší limit nárok.
+</Turn>
+<Turn speaker="spk8" startTime="211.468" endTime="224.975">
+<Sync time="211.468"/>
+Každý, kdo pobírá invalidní důchod, tak bude muset to prokázat na své zdravotní pojišťovně. Pokud to ten člověk neudělá, tak má smůlu a nebude mít limit na doplatky na léky ve výši pět set korun.
+</Turn>
+<Turn speaker="spk9" startTime="224.975" endTime="230.349">
+<Sync time="224.975"/>
+Nám to budou muset doložit, protože nemáme přístup k těm databázím, abychom si to sami zjistili.
+</Turn>
+<Turn speaker="spk3" startTime="230.349" endTime="237.799">
+<Sync time="230.349"/>
+V praxi to bude znamenat, že buď invalidní důchodce bude muset dojet s potvrzením na pobočku pojišťovny, nebo ho poslat poštou či elektronicky.
+</Turn>
+<Turn speaker="spk7" startTime="237.799" endTime="242.046">
+<Sync time="237.799"/>
+Myslím si, že tohle je zbytečný, je to trošku taková byrokracie.
+</Turn>
+<Turn speaker="spk10" startTime="242.046" endTime="247.409">
+<Sync time="242.046"/>
+Problém je, že nejsou ty informace sdíleny, to je prostě problém vůbec českého státu.
+</Turn>
+<Turn speaker="spk3" startTime="247.409" endTime="256.19">
+<Sync time="247.409"/>
+Některé pojišťovny chystají na podzim informační kampaň, která handicapovaným novinky i nutný postup vysvětlí. Denisa Kotková a Petr Vašek, Česká televize.
+</Turn>
+<Turn startTime="256.19" endTime="260.152">
+<Sync time="256.19"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="260.152" endTime="282.143">
+<Sync time="260.152"/>
+Írán stojí podle Spojených států za sobotním zásahem a útokem na saúdská ropná zařízení. Teherán to odmítá.
+<Sync time="267.804"/>
+Požáry po zásahu střelami z dronů způsobily výpadek poloviny tamních dodávek, a to se rovná pěti procentům světového objemu. Analytici očekávají zvýšení cen. Společnost Aramco do dvou dnů oznámí, kdy dokáže výrobu obnovit.
+</Turn>
+<Turn speaker="spk11" startTime="282.143" endTime="296.982">
+<Sync time="282.143"/>
+[noise] Z krvavého, ale světem zapomenutého konfliktu poskočila válka v Jemenu do popředí zájmu. Kvůli tvrzením tamních povstalců, že právě oni svými deseti drony spáchali citelné útoky na dvě klíčová saúdská ropná zařízení.
+</Turn>
+<Turn startTime="296.982" endTime="299.143">
+<Sync time="296.982"/>
+[noise]
+</Turn>
+<Turn speaker="spk11" startTime="299.143" endTime="311.806">
+<Sync time="299.143"/>
+Dým z největšího ropného komplexu světa stoupal po většinu soboty. Společnost Aramco požáry dostala pod kontrolu. Televize citovala saúdského ministra energetiky, podle kterého údery vážně narušily produkci.
+</Turn>
+<Turn speaker="spk12" startTime="311.806" endTime="320.129">
+<Sync time="311.806"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
+</Turn>
+<Turn speaker="spk11" startTime="320.129" endTime="332.507">
+<Sync time="320.129"/>
+Západ se postavil za Saúdskou Arábii a útoky odsoudil. Americký ministr zahraničí Mike Pompeo nevěří, že za nimi stojí jemenští povstalci. Z vyslání dronů obvinil Írán, s nímž spolupracují.
+</Turn>
+<Turn speaker="spk13" startTime="332.507" endTime="340.402">
+<Sync time="332.507"/>
+Teherán stojí téměř za sto útoky na Saúdskou Arábii. Neexistují žádné důkazy, že tyto útoky přišly z Jemenu.
+</Turn>
+<Turn speaker="spk11" startTime="340.402" endTime="346.607">
+<Sync time="340.402"/>
+Íránský ministr zahraničí Džavád Zaríf takové tvrzení označil za lež. Teherán dodal i hrozby.
+</Turn>
+<Turn speaker="spk13" startTime="346.607" endTime="353.939">
+<Sync time="346.607"/>
+Všechny americké základny a letadlové lodě do vzdálenosti dvou tisíc kilometrů od Íránu jsou v dostřelu našich raket.
+</Turn>
+<Turn speaker="spk11" startTime="353.939" endTime="368.529">
+<Sync time="353.939"/>
+[noise] Napětí kolem světových dodávek ropy se zvyšuje od května, kdy začal Írán napadat zahraniční ropné tankery v nejslabším místě přepravních tras, Hormuzském průlivu. Některé i zadržel. Teď je ale terčem útoku přímo zdroj ropy.
+</Turn>
+<Turn speaker="spk13" startTime="368.529" endTime="376.039">
+<Sync time="368.529"/>
+Saúdský analytik. Co poškozuje Aramco, poškozuje i globální ekonomiku a globální zdroje ekonomie. Svět takovou [overlap].
+</Turn>
+<Turn speaker="spk11" startTime="376.039" endTime="396.558">
+<Sync time="376.039"/>
+Burza v Rijádu klesala, Saúdská Arábie ale ujistila, že výpadek produkce nahradí ze svých rezerv. V červnu jich měla sto osmdesát osm milionů barelů. Vystačily by tak pokrýt třiatřicet dní.
+<Sync time="388.396"/>
+I Spojené státy jsou ochotné v případě potřeby sáhnout do krizových zásob. Milada MacGrathová, Česká televize.
+</Turn>
+<Turn speaker="spk1" startTime="396.558" endTime="433.672">
+<Sync time="396.558"/>
+Experti přesto očekávají nárůst cen. Saúdové patří ke klíčovým hráčům na trhu. Vůbec nejvíc ropy těží Spojené státy, denně kolem patnácti milionů barelů. Saúdská Arábie je hned za nimi a Rusko třetí.
+<Sync time="409.671"/>
+Američani ale většinu suroviny spotřebují na svém území, zbylé dvě země ji prodávají do zahraničí. Saúdský gigant Aramco je největší těžařskou firmou světa.
+<Sync time="420.18"/>
+Denní produkcí předčí všechny konkurenty z Ruska, Íránu nebo &lt;initial&gt; USA &lt;/initial&gt;. Podle odhadů se za čtyřiadvacet hodin spotřebuje na planetě asi devadesát milionů barelů. Každý úbytek se tak projeví v ceně.
+</Turn>
+<Turn speaker="spk14" startTime="433.672" endTime="451.326">
+<Sync time="433.672"/>
+Ropa by mohla krátkodobě stoupnout z dnešních šedesáti na šedesát pět, šedesát sedm dolarů za barel. U té nafty bych očekával, že ten nárůst může být až korunu.
+<Sync time="446.9"/>
+U ceny benzinu mírný nárůst do padesáti haléřů na litr.
+</Turn>
+<Turn speaker="spk1" startTime="451.326" endTime="466.126">
+<Sync time="451.326"/>
+Nad sto dolarů za barel se ropa dostala naposledy v roce dva tisíce čtrnáct. Letos se drží pod sedmdesáti dolary. Aktuálně tedy stojí, jak jsme slyšeli, zhruba šedesát. Teď bude záležet na tom, kdy saúdská firma poškozená zařízení opraví.
+</Turn>
+<Turn speaker="spk15" startTime="466.126" endTime="487.08">
+<Sync time="466.126"/>
+V případě, že výpadek na na tom zařízení by trval třeba měsíc anebo i přes měsíc, tak je třeba počítat s tím, že by se cena ropy mohla dostat až nad sto dolarů za barel.
+<Sync time="478.432"/>
+Což by vedlo k tomu, že pohonné hmoty v České republice by mohly se dostat nad třicet pět korun za jeden litr.
+</Turn>
+<Turn startTime="487.08" endTime="490.903">
+<Sync time="487.08"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="490.903" endTime="510.842">
+<Sync time="490.903"/>
+Boris Johnson podle předchůdce Davida Camerona v době referenda před třemi lety v brexit nevěřil. Tehdejší premiér v nově zveřejněném úryvku z připravovaných pamětí píše,
+<Sync time="501.483"/>
+že současný předseda vlády podporoval odchod z Evropské unie jen proto, aby mu to pomohlo v politické kariéře. Johnson tvrzení zatím nijak nekomentoval.
+</Turn>
+<Turn startTime="510.842" endTime="513.495">
+<Sync time="510.842"/>
+[no-speech]
+</Turn>
+<Turn speaker="spk1" startTime="513.495" endTime="536.488">
+<Sync time="513.495"/>
+Na Šumavě dneškem končí letní sezona a začíná ta podzimní. To znamená, že některé cesty budou zavřené, buď kvůli těžbě, anebo kvůli opravám.
+<Sync time="521.939"/>
+Národní park si letos připisuje návštěvnický rekord. Přijelo o sto tisíc lidí víc než loni. A v Železné Rudě je Zdeněk Mlnařík. Zdeňku, jak citelné bude pro turisty to zmíněné omezení, které začne platit o půlnoci? Kam přesně se nedostanou?
+</Turn>
+<Turn startTime="536.488" endTime="539.498">
+<Sync time="536.488"/>
+[no-speech]
+</Turn>
+<Turn speaker="spk16" startTime="539.498" endTime="597.455">
+<Sync time="539.498"/>
+Tak od zítřka bude zavřená například cesta kolem Vchynicko-tetovského kanálu na Srní. S tím, že ale lidé se dostanou k bývalé hauswaldské kapli. Ta cesta bude uzavřená do úterka právě kvůli odvozu dřeva z lesa.
+<Sync time="552.646"/>
+Jinak v jižní části Šumavy, konkrétně z Hliniště do Lenory a pak z Krásné Hory do Stožce tak budou uzavřené cesty kvůli opravám. Ty budou uzavřené až do začátku října.
+<Sync time="563.708"/>
+Jinak ty uzavírky se netýkají jenom Šumavy, ale některé uzavírky tak plánuje i Krkonošský národní park. Některé cesty už jsou uzavřené právě třeba kvůli opravám nebo odvozu dřeva.
+<Sync time="574.67"/>
+Jiné teprve uzavřené budou. Krkonošský národní park také na svých stránkách vydal celý seznam těch stezek. Jestli budou například úplně uzavřené, nebo tam bude omezený provoz třeba pro cyklisty.
+<Sync time="585.467"/>
+Tady na Šumavě tak letos národní park navštívilo téměř osm set tisíc návštěvníků. Co se týká samotných oblastí, tak  největší nárůst byl na Tříjezerní slati nedaleko Kvildy.
+</Turn>
+<Turn startTime="597.455" endTime="600.283">
+<Sync time="597.455"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="600.283" endTime="618.538">
+<Sync time="600.283"/>
+Už zítra bude vláda, za přítomnosti prezidenta, schvalovat rozpočet na příští rok. Nejvyšší kontrolní úřad v aktuální zprávě upozorňuje, že na případnou krizi je stát připravený hůř než před deseti lety,
+<Sync time="611.614"/>
+a to kvůli stále rostoucím povinným výdajům. Pokud by se snížily příjmy, může se hospodaření propadnout do hlubokého schodku.
+</Turn>
+<Turn speaker="spk17" startTime="618.538" endTime="635.355">
+<Sync time="618.538"/>
+Příjmy státu jsou stále velmi silně závislé na přímých daních, taková závislost může být do budoucna riziková.
+<Sync time="626.484"/>
+Zejména pokud přijde ekonomické ochlazení. Byť jen mírné snížení ekonomického tempa pak může mít nepříjemné důsledky pro státní rozpočet.
+</Turn>
+<Turn speaker="spk1" startTime="635.355" endTime="648.930">
+<Sync time="635.355"/>
+Ministerstvo financí varování &lt;initial&gt; NKÚ &lt;/initial&gt; odmítá. Argumentuje třeba tím, že Česko má jedny z nejzdravějších veřejných financí v Unii. Alena Schillerová dodává, že rozpočet je na případné zpomalení ekonomiky nachystaný.
+</Turn>
+<Turn speaker="spk18" startTime="648.930" endTime="664.167">
+<Sync time="648.930"/>
+My spoříme, já vytvářím tlak na spoření, víte nakonec, že jsem do rozpočtu roku dva tisíce dvacet snížila o deset procent provozní výdaje.
+<Sync time="657.24"/>
+Snížila jsem počty, navrhla jsem snížení počtu úředníků, sleduji to každý den a říkám, že schodek bude dodržen.
+</Turn>
+<Turn startTime="664.167" endTime="668.306">
+<Sync time="664.167"/>
+[music]
+</Turn>
+<Turn speaker="spk19" startTime="668.306" endTime="670.471">
+<Sync time="668.306"/>
+Kauza Čapí hnízdo zastavena.
+</Turn>
+<Turn speaker="spk20" startTime="670.471" endTime="675.495">
+<Sync time="670.471"/>
+Farma Čapí hnízdo v době podání žádosti byla tedy nezávislým právním nezávislým podnikem.
+</Turn>
+<Turn speaker="spk21" startTime="675.495" endTime="679.537">
+<Sync time="675.495"/>
+To, co zatím státní zástupci zveřejnili, z mého pohledu nedává příliš smysl.
+</Turn>
+<Turn speaker="spk19" startTime="679.537" endTime="681.784">
+<Sync time="679.537"/>
+Čínské embargo českých umělců.
+</Turn>
+<Turn speaker="spk22" startTime="681.784" endTime="686.751">
+<Sync time="681.784"/>
+Kdyby to nebylo tak vážné a smutné, tak je to trošku až humorné.
+</Turn>
+<Turn speaker="spk19" startTime="686.751" endTime="689.410">
+<Sync time="686.751"/>
+A fotbalový tým českých pošťaček.
+</Turn>
+<Turn speaker="spk23" startTime="689.410" endTime="692.601">
+<Sync time="689.410"/>
+Dámy, my vám gratulujeme. Byly jste úžasné.
+</Turn>
+<Turn speaker="spk19" startTime="692.601" endTime="697.458">
+<Sync time="692.601"/>
+Sto šedesát osm hodin. Dnes ve dvacet jedna čtyřicet na jedničce.
+</Turn>
+<Turn speaker="spk1" startTime="697.458" endTime="713.301">
+<Sync time="697.458"/>
+Hongkong prožil další protestní víkend. Desetitisíce lidí neposlechly zákaz úřadů a vydaly se na pochod za demokracii.
+<Sync time="705.646"/>
+Policie je rozehnala vodními děly a slzným plynem. Demonstranti nehodlají ustoupit, dokud vláda nesplní všech pět jejich požadavků.
+</Turn>
+<Turn speaker="spk24" startTime="713.301" endTime="750.187">
+<Sync time="713.301"/>
+[noise] Chvíle největší vřavy. Vodní děla s modrou barvou kvůli identifikaci účastníků.
+<Sync time="720.292"/>
+[noise] Policie používá gumové projektily a slzný plyn. Protestující to vracejí zápalnými lahvemi a cihlami, pálí odpadky, demolují stanice metra.
+<Sync time="731.292"/>
+[noise] Bouřlivá dohra poklidného pochodu. Desetitisíce lidí se vydaly obvyklou trasou kolem vládních budov.
+<Sync time="739.652"/>
+[noise] Policie průvod zase nepovolila a lidé ji zase neposlechli, podobně jako celé disidentské léto. Sešlo se tu radikálnější křídlo, ale i rodiny s dětmi.
+</Turn>
+<Turn speaker="spk25" startTime="750.187" endTime="759.545">
+<Sync time="750.187"/>
+Protestující. Mám děti a musím chránit jejich práva, proto jsem tady, abych zajistila, že moje děti budou mít práva jako zásadní.
+</Turn>
+<Turn speaker="spk26" startTime="759.545" endTime="762.135">
+<Sync time="759.545"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
+</Turn>
+<Turn speaker="spk24" startTime="762.135" endTime="776.473">
+<Sync time="762.135"/>
+Skandují, pět požadavků, ani o jeden míň. Stažení extradičního zákona už nestačí. Žádají propuštění zatčených, neklasifikovat protesty jako nepokoje, svobodné volby a vyšetřování policejních zásahů.
+</Turn>
+<Turn speaker="spk27" startTime="776.473" endTime="778.631">
+<Sync time="776.473"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
+</Turn>
+<Turn speaker="spk25" startTime="778.631" endTime="787.324">
+<Sync time="778.631"/>
+Protestující. Je tu spousta gangů, které spolupracují s policií a mlátí Hongkongčany. Policie jen přihlíží a nechrání nevinné.
+</Turn>
+<Turn speaker="spk27" startTime="787.324" endTime="790.398">
+<Sync time="787.324"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt; [noise]
+</Turn>
+<Turn speaker="spk24" startTime="790.398" endTime="798.143">
+<Sync time="790.398"/>
+Strhávají poutače s blahopřáním čínské komunistické straně, která prvního října oslaví sedmdesát let u moci.
+</Turn>
+<Turn startTime="798.143" endTime="801.1">
+<Sync time="798.143"/>
+[applause]
+</Turn>
+<Turn speaker="spk24" startTime="801.1" endTime="833.107">
+<Sync time="801.1"/>
+Tady už běží zásahová jednotka. Říkají si dravci. [noise] Policii stačila necelá hodina, aby protestující rozehnala. Ti se přeskupili a přesunuli do další části města.
+<Sync time="813.546"/>
+[noise] Jednotka postupuje centrem jako demonstrace síly. Protestující jsou pryč, ale skupinky kolemjdoucích častují policisty posměšnými pokřiky a písní, kterou přijali za neoficiální hymnu.
+<Sync time="826.367"/>
+Město prožívá další neklidnou noc bez vyhlídek na smír. Barbora Šámalová, Česká televize, Hongkong.
+</Turn>
+<Turn startTime="833.107" endTime="834.55">
+<Sync time="833.107"/>
+[no-speech]
+</Turn>
+<Turn speaker="spk1" startTime="834.55" endTime="853.867">
+<Sync time="834.55"/>
+Tunisani podruhé v dějinách svobodně volili prezidenta. Podle odhadů v prvním kole nikdo ze šestadvaceti kandidátů, včetně dvou žen, potřebnou většinu nezískal.
+<Sync time="843.869"/>
+Země je jediná, která od arabského jara dva tisíce jedenáct funguje jako plnohodnotně demokratická, navzdory útokům islamistů i vážným ekonomickým problémům.
+</Turn>
+<Turn startTime="853.867" endTime="856.007">
+<Sync time="853.867"/>
+[no-speech]
+</Turn>
+<Turn speaker="spk1" startTime="856.007" endTime="878.157">
+<Sync time="856.007"/>
+Ministerstvo financí chystá novelu zákona proti praní špinavých peněz a počítá i s jednodušším přístupem k internetovým sázkám. Zatímco teď se zájemci musejí osobně prokázat na pobočce, nově by stačilo poslat naskenované doklady elektronicky.
+<Sync time="870.766"/>
+Oslovení odborníci ale varují, že to usnadní přístup k sázení nezletilým, stejně jako hráčům, kteří už propadli závislosti.
+</Turn>
+<Turn speaker="spk28" startTime="878.157" endTime="887.834">
+<Sync time="878.157"/>
+[noise] Internetové kurzové sázky, podle plánu Ministerstva financí bude registrace k tomuto sázení jednodušší.
+</Turn>
+<Turn speaker="spk29" startTime="887.834" endTime="897.406">
+<Sync time="887.834"/>
+Rozšiřujeme možnost těch povinných osob, takzvaných povinných osob podle zákona proti praní peněz jít i jinými způsoby identifikace než tu face to face.
+</Turn>
+<Turn speaker="spk28" startTime="897.406" endTime="902.879">
+<Sync time="897.406"/>
+Teď musí sázkové kanceláře osobně zkontrolovat totožnost 
+každého hráče.
+</Turn>
+<Turn speaker="spk30" startTime="902.879" endTime="909.902">
+<Sync time="902.879"/>
+Pro účely registrace je sázející povinen navštívit některou z poboček s platným dokladem totožnosti.
+</Turn>
+<Turn speaker="spk28" startTime="909.902" endTime="911.945">
+<Sync time="909.902"/>
+Po novele to má být jinak.
+</Turn>
+<Turn speaker="spk30" startTime="911.945" endTime="916.235">
+<Sync time="911.945"/>
+Klient musí poslat 
+elektronickou cestou dva naskenované doklady.
+</Turn>
+<Turn speaker="spk31" startTime="916.235" endTime="925.393">
+<Sync time="916.235"/>
+Stoprocentně jde také o řešení méně bezpečné, protože mi stačí v tu chvíli do přístup k jakémukoliv občanskému průkazu někoho jiného, oskenuji ho a můžu se registrovat do hazardních her.
+</Turn>
+<Turn speaker="spk32" startTime="925.393" endTime="932.393">
+<Sync time="925.393"/>
+Já to vidím jako velmi nebezpečný návrh, rizikový jak pro mládež a nezletilé, tak z hlediska rizika praní peněz.
+</Turn>
+<Turn speaker="spk28" startTime="932.393" endTime="950.134">
+<Sync time="932.393"/>
+Ministerstvo financí chce 
+snížit riziko tím, že hráč bude muset při registraci provést přes svůj účet kontrolní platbu.
+<Sync time="940.645"/>
+Podle některých odborníků na hazard ale například u nezletilých hrozí, že 
+se budou registrovat na staršího kamaráda a použijí i jeho účet.
+</Turn>
+<Turn speaker="spk33" startTime="950.134" endTime="961.088">
+<Sync time="950.134"/>
+Tak samozřejmě se vždycky budou některé osoby snažit obcházet zákon, ale je potom na těch povinných 
+osobách, aby nadetekovali to, že tady ten problém skutečně nastává.
+</Turn>
+<Turn speaker="spk28" startTime="961.088" endTime="966.79">
+<Sync time="961.088"/>
+S online sázkami má podle statistik problém až sedm procent mladších šestnácti let.
+</Turn>
+<Turn speaker="spk34" startTime="966.79" endTime="973.006">
+<Sync time="966.79"/>
+V tuto chvíli bych 
+nedoporučovala změnu pravidel, právě proto, aby došlo k ověření věku.
+</Turn>
+<Turn speaker="spk28" startTime="973.006" endTime="984.104">
+<Sync time="973.006"/>
+Lékaři letos zaznamenali i případ muže, který se vrátil po sedmnácti letech do léčebny. Tehdy hrál na automatech, teď se začal léčit kvůli sportovním sázkám.
+</Turn>
+<Turn speaker="spk35" startTime="984.104" endTime="991.421">
+<Sync time="984.104"/>
+Já jsem #er ženě přiznával jenom část příjmů a ten zbytek vlastně jsem prohrával.
+</Turn>
+<Turn speaker="spk28" startTime="991.421" endTime="1004.307">
+<Sync time="991.421"/>
+Úředníci ministerstva financí teď k novele zákona o praní špinavých peněz vypořádávají připomínky a počítají s tím, že předlohu pošlou na konci září do vlády. Jiří Hynek, Česká televize.
+</Turn>
+<Turn speaker="spk1" startTime="1004.307" endTime="1022.936">
+<Sync time="1004.307"/>
+Za tři čtvrtě hodiny začne v Rudolfinu jeden z vrcholů letošní Dvořákovy Prahy. Na programu je Třetí symfonie Gustava Mahlera, koncert Izraelské 
+filharmonie povede umělecký šéf Zubin Mehta.
+<Sync time="1016.939"/>
+V čele jednoho z nejlepších orchestrů světa stojí padesát let. A mezi dirigenty je žijící legendou.
+</Turn>
+<Turn startTime="1022.936" endTime="1041.7">
+<Sync time="1022.936"/>
+[music]
+<Sync time="1032.502"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="1041.7" endTime="1048.578">
+<Sync time="1041.7"/>
+Hledání řidiče, který jel po dálnici v červené formuli, na policii svědčilo třináct lidí. A reportáž bude za chvíli.
+</Turn>
+<Turn startTime="1048.578" endTime="1051.253">
+<Sync time="1048.578"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="1051.253" endTime="1057.405">
+<Sync time="1051.253"/>
+Sledování lidí pomocí dronů, v jakých případech může policie takové prostředky
+ použít? To už je téma pro Michala.
+</Turn>
+<Turn speaker="spk36" startTime="1057.405" endTime="1069.516">
+<Sync time="1057.405"/>
+Diskuzi vyvolaly tyto snímky, které policie zveřejnila. Dron na nich zachytil dvojici lidí, kteří stanovali v Brdech. Na místo okamžitě vyrazila policejní hlídka. Víc nejen o tomto případu kolem půl osmé.
+</Turn>
+<Turn startTime="1069.516" endTime="1073.721">
+<Sync time="1069.516"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="1073.721" endTime="1088.302">
+<Sync time="1073.721"/>
+Právní experti, hosti Otázek Václava Moravce, se shodli, že existuje veřejný zájem, aby se k lidem dostalo podrobné zdůvodnění verdiktu v kauze Čapí hnízdo. Žalobci v pátek stíhání všech obviněných v případu padesátimiliónové dotace zastavili.
+</Turn>
+<Turn speaker="spk37" startTime="1088.302" endTime="1102.836">
+<Sync time="1088.302"/>
+Jestli to stálo tedy opravdu na tom, jestli 
+je něco malý, nebo střední podnik, a čtyři roky o tom budu přemýšlet, no tak to tedy pardon, ale to je vopravdu vizitka velmi, ale velmi špatná pro ten právní stát.
+</Turn>
+<Turn speaker="spk1" startTime="1102.836" endTime="1129.659">
+<Sync time="1102.836"/>
+Krajská státní 
+zastupitelství v posledních třech letech zastavila dvacet čtyři případů kvůli tomu, že vyšetřovaný čin nebyl trestný. Jen čtyři z nich se posuzovaly déle než dva roky.
+<Sync time="1114.233"/>
+Za stejnou dobu 
+pak žalobci ukončili dalších dvacet stíhání, v nichž se neprokázalo, že skutek spáchal obviněný. Přes dva roky trvalo sedm těchto řízení.
+<Sync time="1124.105"/>
+Aktuální rozhodnutí v kauze Čapí 
+hnízdo do tří měsíců přezkoumá ještě nejvyšší státní zástupce.
+</Turn>
+<Turn speaker="spk38" startTime="1129.659" endTime="1144.099">
+<Sync time="1129.659"/>
+Je zjišťováno, jestli to rozhodnutí je zákonné, jestli ty závěry, ke kterým ten státní zástupce dospěje, jestli jsou správné a jestli odpovídají odpovídají zákonu a jestli odpovídají tedy těm skutkovým zjištěním.
+</Turn>
+<Turn startTime="1144.099" endTime="1149.509">
+<Sync time="1144.099"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="1149.509" endTime="1168.075">
+<Sync time="1149.509"/>
+Před třiceti lety končila dostavba sídlišť na okrajích Prahy. Režim už dál v těchto 
+místech nic budovat nechtěl, místo toho se zaměřil na širší centrum.
+<Sync time="1158.732"/>
+Panelové domy tam měly nahradit ty historické. A i proto se mladí architekti začali dožadovat jiného přístupu k výstavbě a hlavně k záchraně památek.
+</Turn>
+<Turn speaker="spk39" startTime="1168.075" endTime="1175.646">
+<Sync time="1168.075"/>
+Září devatenáct set osmdesát devět. Pod rukama těchto mužů vzniká sedm set devadesát nových bytů na sídlišti Poděbradská.
+</Turn>
+<Turn speaker="spk40" startTime="1175.646" endTime="1176.972">
+<Sync time="1175.646"/>
+Přestalo se černit.
+</Turn>
+<Turn speaker="spk41" startTime="1176.972" endTime="1178.095">
+<Sync time="1176.972"/>
+Co znamená černit?
+</Turn>
+<Turn speaker="spk40" startTime="1178.095" endTime="1184.744">
+<Sync time="1178.095"/>
+To jsou takový ty kličky, který se prováděly, abysme aby se nám vylepšily výplaty.
+</Turn>
+<Turn speaker="spk39" startTime="1184.744" endTime="1191.879">
+<Sync time="1184.744"/>
+Kritický tón reportáže, 
+staré přesně třicet let, upozorňuje na problémy tehdejší výstavby. Tohle sídliště ale má být jiné.
+</Turn>
+<Turn speaker="spk42" startTime="1191.879" endTime="1202.564">
+<Sync time="1191.879"/>
+Je zatím jediné v Praze, kde se koncem roku projdete ulicí a v 
+přízemí domů budou výkladní skříně obchodů a služeb, prostě živá ulice tak, jak ji známe z centra měst.
+</Turn>
+<Turn speaker="spk39" startTime="1202.564" endTime="1205.707">
+<Sync time="1202.564"/>
+Dnešní pohled živou ulici rozhodně nepřipomíná.
+</Turn>
+<Turn speaker="spk43" startTime="1205.707" endTime="1210.038">
+<Sync time="1205.707"/>
+Vidíte, že 
+tam zbyly jenom dveře, schodiště někdo uřízl a sešrotoval.
+</Turn>
+<Turn speaker="spk39" startTime="1210.038" endTime="1224.227">
+<Sync time="1210.038"/>
+Pro Ivana Hnízdila to byla první samostatná práce. Už rozpracovaný návrh sídliště převzal po kolegovi. Právě tenhle atypický dům a kulturní centrum jsou ale jeho 
+dílem. Jinak předpisy zavazovaly k jedinému cíli, stavět rychle a levně.
+</Turn>
+<Turn speaker="spk43" startTime="1224.227" endTime="1232.185">
+<Sync time="1224.227"/>
+Diktát té jedné panelové technologie, která nebyla schopná reagovat na proluky, různé atypické malé zástavby.
+</Turn>
+<Turn speaker="spk39" startTime="1232.185" endTime="1239.063">
+<Sync time="1232.185"/>
+O to víc mladou generaci 
+architektů a urbanistů překvapily plány tehdejšího režimu začít stavět paneláky uvnitř města.
+</Turn>
+<Turn startTime="1239.063" endTime="1241.12">
+<Sync time="1239.063"/>
+[noise]
+</Turn>
+<Turn speaker="spk44" startTime="1241.12" endTime="1246.771">
+<Sync time="1241.12"/>
+Zbourá se stará část domů, nejsou to teda slumy, pouze je to zanedbaná čtvrť.
+</Turn>
+<Turn speaker="spk39" startTime="1246.771" endTime="1255.686">
+<Sync time="1246.771"/>
+Nemizely jen tyhle žižkovské domy, ale taky další památky. [noise] Sílil odpor místních i architektů. A přidaly se veřejné instituce.
+</Turn>
+<Turn speaker="spk45" startTime="1255.686" endTime="1263.675">
+<Sync time="1255.686"/>
+Památkáři se ozývali, Klub za starou 
+Prahu a tak dále a začala to být skutečná jako výzva komunistickému režimu.
+</Turn>
+<Turn speaker="spk39" startTime="1263.675" endTime="1265.551">
+<Sync time="1263.675"/>
+I to pak přispělo k převratu.
+</Turn>
+<Turn speaker="spk46" startTime="1265.551" endTime="1275.141">
+<Sync time="1265.551"/>
+Člověk jak jezdil na ty kontrolní dny stavby, tak vlastně s tou trikolórou, tak ze začátku jsem byl ojedinělý, ale pak ty lidi začali přibývat.
+</Turn>
+<Turn speaker="spk39" startTime="1275.141" endTime="1289.18">
+<Sync time="1275.141"/>
+Sídliště Poděbradská 
+se tak kolaudace dočkalo až po revoluci. Kvůli následné privatizaci tu třeba svému účelu nikdy nezačalo sloužit kulturní středisko. Obchody naopak místní využívali, 
+dokud na konečné metra nevyrostlo obchodní centrum.
+</Turn>
+<Turn speaker="spk43" startTime="1289.18" endTime="1291.615">
+<Sync time="1289.18"/>
+Tu aktivitu vlastně odsáli.
+</Turn>
+<Turn speaker="spk39" startTime="1291.615" endTime="1305.437">
+<Sync time="1291.615"/>
+Právě Ivan Hnízdil 
+navrhl zanedbanému sídlišti novou tvář. Jeden dům už ji dokonce má. Zeleň, která teď prorůstá chodníky, by v budoucnu měla pokrýt i střechy, tehdy revolučních obchodů 
+v přízemí. Tereza Stárková, Česká televize.
+</Turn>
+<Turn speaker="spk1" startTime="1305.437" endTime="1318.276">
+<Sync time="1305.437"/>
+Čistý zisk bank a spořitelen v Česku za první pololetí vzrostl na víc než čtyřicet pět a půl miliardy, proti loňsku je to o miliardu a sedm set milionů víc. Data 
+zveřejnila centrální banka.
+</Turn>
+<Turn startTime="1318.276" endTime="1320.507">
+<Sync time="1318.276"/>
+[no-speech]
+</Turn>
+<Turn speaker="spk1" startTime="1320.507" endTime="1332.547">
+<Sync time="1320.507"/>
+A další číslo, patnáct tisíc, přibližně tolik lidí ročně postihne infarkt. Celkově počet mírně klesá. Podle lékařů přetrvávají výrazné rozdíly 
+mezi regiony. A velkou roli hraje životní styl.
+</Turn>
+<Turn speaker="spk47" startTime="1332.547" endTime="1337.306">
+<Sync time="1332.547"/>
+Bolesti v zádech a v ramenou a tady na hrudníku.
+</Turn>
+<Turn speaker="spk48" startTime="1337.306" endTime="1340.984">
+<Sync time="1337.306"/>
+U této čtyřicátnice trvaly potíže týden. A stupňovaly se.
+</Turn>
+<Turn speaker="spk49" startTime="1340.984" endTime="1343.27">
+<Sync time="1340.984"/>
+Myslela jsem si, že jsou to bolesti v páteři.
+</Turn>
+<Turn speaker="spk48" startTime="1343.27" endTime="1349.317">
+<Sync time="1343.27"/>
+Šlo ale o vážný infarkt. Na snímcích je vidět, jak sraženina uzavřela jednu z tepen zásobujících srdce.
+</Turn>
+<Turn speaker="spk50" startTime="1349.317" endTime="1361.015">
+<Sync time="1349.317"/>
+Uzávěr vedl k postižení 
+poměrně velké oblasti levý komory, která se nestahuje, nekontrahuje a časem to může vést k zvětšení toho srdíčka a postupnému selhávání.
+</Turn>
+<Turn speaker="spk48" startTime="1361.015" endTime="1379.529">
+<Sync time="1361.015"/>
+Preventivní vyšetření lékař 
+doporučuje u lidí nad čtyřicet let minimálně jednou za dva roky. [noise] Infarkt se typicky projevuje bolestí za hrudní kostí, která se může šířit i do krku nebo horních končetin.
+<Sync time="1374.370"/>
+Příznaky ale můžou být i jiné, nevolnost, bolesti břicha nebo pocity slabosti.
+</Turn>
+<Turn speaker="spk51" startTime="1379.529" endTime="1386.26">
+<Sync time="1379.529"/>
+Důležité je, aby pacient, který má akutní infarkt myokardu, toho záchranáře zavolal co 
+nejdříve, optimálně do půl hodiny.
+</Turn>
+<Turn speaker="spk48" startTime="1386.26" endTime="1396.414">
+<Sync time="1386.26"/>
+Počet infarktů v poslední době klesá díky prevenci i zdravějšímu životnímu stylu. Zůstávají ale rozdíly mezi regiony. Nejhůře je na tom Moravskoslezský a Ústecký, nejlépe naopak Praha.
+</Turn>
+<Turn speaker="spk52" startTime="1396.414" endTime="1403.847">
+<Sync time="1396.414"/>
+Jsou to regiony, které většinou mají poměrně vysoké procento kuřáků. A to je bohužel jeden z těch nejsilnějších rizikových faktorů mla~ mladších pacientů.
+</Turn>
+<Turn speaker="spk48" startTime="1403.847" endTime="1416.938">
+<Sync time="1403.847"/>
+Infarkt může člověka postihnout i několikrát. Podle lékařů je po hospitalizaci potřeba dodržovat léčbu a žít zdravě. Pacient se pak může vrátit do 
+aktivního života. Jako Jaroslav Hrazdil, který prodělal infarkt před sedmi lety.
+</Turn>
+<Turn speaker="spk53" startTime="1416.938" endTime="1428.427">
+<Sync time="1416.938"/>
+Chodím ven na túry. Teď se chystáme do Jeseníků zase pochodit trošku. Nesmí tomu člověk podléhat, nesmí se stresovat tím, že ho něco postihlo.
+</Turn>
+<Turn speaker="spk48" startTime="1428.427" endTime="1438.415">
+<Sync time="1428.427"/>
+Ministerstvo zdravotnictví teď zvažuje, že by svědomitější 
+lidé, dbající na prevenci, mohli platit nižší pojistné. Helena Ondřejová a Markéta Žižková, Česká televize.
+</Turn>
+<Turn speaker="spk1" startTime="1438.415" endTime="1454.812">
+<Sync time="1438.415"/>
+Ve středních Čechách vzniká tuzemská verze Pulp Fiction. V Centru sociálních služeb v Tloskově právě dotočili 
+vlastní verzi kultovního snímku Quentina Tarantina, hrají v ní lidi s mentálním anebo kombinovaným postižením.
+<Sync time="1452.346"/>
+A všechno je to filmová terapie.
+</Turn>
+<Turn speaker="spk54" startTime="1454.812" endTime="1471.814">
+<Sync time="1454.812"/>
+[noise] Poprvé natáčejí před 
+kamerou a hned se proměnili v kultovní filmové gangstery. Může za to podoba. První, Jiří, je podle kolegů celý John Travolta.
+<Sync time="1465.568"/>
+Druhý, Ondřej, zase Samuel &lt;initial&gt; L &lt;/initial&gt; Jackson. 
+Jen místo Pulp Fiction natáčejí Tloskov Fiction.
+</Turn>
+<Turn speaker="spk55" startTime="1471.814" endTime="1476.04">
+<Sync time="1471.814"/>
+No nejtěžší bylo to umět to zahrát nějak přirozeně.
+</Turn>
+<Turn speaker="spk56" startTime="1476.04" endTime="1480.103">
+<Sync time="1476.04"/>
+Bylo to náročný, ale já bych chtěl bejt hercem. Mě to bavilo.
+</Turn>
+<Turn speaker="spk54" startTime="1480.103" endTime="1482.551">
+<Sync time="1480.103"/>
+Některé 
+scény nezapomněli doteď.
+</Turn>
+<Turn speaker="spk55" startTime="1482.551" endTime="1483.316">
+<Sync time="1482.551"/>
+Jo takhle.
+</Turn>
+<Turn speaker="spk56" startTime="1483.316" endTime="1484.225">
+<Sync time="1483.316"/>
+A pak vystřelíš.
+</Turn>
+<Turn speaker="spk55" startTime="1484.225" endTime="1488.068">
+<Sync time="1484.225"/>
+Takhle jsme vzali a takhle [overlap] (()).
+</Turn>
+<Turn speaker="spk54" startTime="1488.068" endTime="1498.564">
+<Sync time="1488.068"/>
+Film natáčel profesionální štáb. I když se postupně zapojovali i další klienti centra, jako zvukaři neb klapka. Točilo se bez scénáře. Dialogy 
+vznikaly až na místě.
+</Turn>
+<Turn speaker="spk57" startTime="1498.564" endTime="1503.987">
+<Sync time="1498.564"/>
+Kluci můžou takhle vymejšlet a přinášet svoje svoje bizarní nápady do toho, to je hezký.
+</Turn>
+<Turn speaker="spk54" startTime="1503.987" endTime="1512.778">
+<Sync time="1503.987"/>
+Důležitý není výsledek, ale proces vzniku. Ředitel centra, 
+mimochodem vnuk herce Lubomíra Lipského, dělá s klienty umělecké terapie už léta.
+</Turn>
+<Turn speaker="spk58" startTime="1512.778" endTime="1521.175">
+<Sync time="1512.778"/>
+Já jsem z rodiny Lipských a ten film jsem sem chtěl prostě opravdu dostat formou 
+terapeutickou, takže snad se to povedlo.
+</Turn>
+<Turn speaker="spk54" startTime="1521.175" endTime="1529.315">
+<Sync time="1521.175"/>
+Pro oba hlavní hrdiny to byl silný zážitek. Běžný den Ondřeje vypadá úplně jinak. Už jedenáct let pracuje v benešovské pekárně.
+</Turn>
+<Turn speaker="spk56" startTime="1529.315" endTime="1535.786">
+<Sync time="1529.315"/>
+Myju tam nádobí a všechno možný, uklízím, a takhle ráno pytle vodnáším.
+</Turn>
+<Turn speaker="spk54" startTime="1535.786" endTime="1547.736">
+<Sync time="1535.786"/>
+A žije v chráněném bydlení v bytovce. Se dvěma spolubydlícími. Jiří bydlí v tloskovském 
+centru přes padesát let. Ve volnu hraje rád na saxofon a na flétnu.
+<Sync time="1546.673"/>
+A trénujete každý den?
+</Turn>
+<Turn speaker="spk55" startTime="1547.736" endTime="1555.778">
+<Sync time="1547.736"/>
+No tak každej den ne, ale vždycky občas. A jinak chodím pomáhat starejm 
+lidem, který to potřebujou.
+</Turn>
+<Turn speaker="spk54" startTime="1555.778" endTime="1563.689">
+<Sync time="1555.778"/>
+Už teď se ale nemůže, stejně jako ostatní, dočkat premiéry filmu. Ta by měla být na jaře přímo v centru sociálních služeb v Tloskově.
+</Turn>
+<Turn speaker="spk55" startTime="1563.689" endTime="1565.099">
+<Sync time="1563.689"/>
+A to bude sláva velká.
+</Turn>
+<Turn speaker="spk54" startTime="1565.099" endTime="1567.944">
+<Sync time="1565.099"/>
+Pavla Sedliská, Česká televize.
+</Turn>
+<Turn speaker="spk1" startTime="1567.944" endTime="1582.53">
+<Sync time="1567.944"/>
+Policie stále 
+hledá řidiče, který přesně před týdnem projel ve formuli dálnici D čtyři. Přihlásilo se třináct svědků. Někteří vůz natočili, jen na facebookovém profilu &lt;initial&gt; ČT &lt;/initial&gt; dvacet čtyři se na video 
+podívalo přes tři čtvrtě milionu lidí.
+</Turn>
+<Turn speaker="spk59" startTime="1582.53" endTime="1606.513">
+<Sync time="1582.53"/>
+[noise] Ten pohled musel udivit každého, kdo se podíval do zrcátka. Červený monopost, který patří jen na závodní dráhu, a za ním zřejmě jako doprovod červený Chevrolet Corvette.
+<Sync time="1595.207"/>
+[noise] Tohle se stalo minulou neděli odpoledne na D čtyřce v okolí Dobříše. Video začalo kolovat mezi místními a dostalo se i k policii. Ta pak zahájila oficiální pátrání.
+</Turn>
+<Turn speaker="spk60" startTime="1606.513" endTime="1615.562">
+<Sync time="1606.513"/>
+Řidič užil vozidlo, které je nezpůsobilé 
+pro jízdu na pozemních komunikacích, a bezprostředně tím vlastně ohrozil ostatní účastníky silničního provozu.
+</Turn>
+<Turn speaker="spk59" startTime="1615.562" endTime="1617.435">
+<Sync time="1615.562"/>
+Reálně, jakou nebezpečnost tohle mohlo mít?
+</Turn>
+<Turn speaker="spk60" startTime="1617.435" endTime="1625.911">
+<Sync time="1617.435"/>
+Pokud mluvíme o přestupku a ne o 
+trestném činu, tak tam jsou jiné chráněné zájmy společnosti a neřešíme až tak nebezpečnost.
+</Turn>
+<Turn speaker="spk59" startTime="1625.911" endTime="1642.844">
+<Sync time="1625.911"/>
+Auto ze všeho nejvíc připomíná speciál Dallara &lt;initial&gt; GP &lt;/initial&gt; two z roku dva tisíce osm. V 
+následujících letech se používal i v jiných závodech, má asi sedmdesát procent výkonu Formule jedna.
+<Sync time="1636.275"/>
+Tvarově i barevně shodný vůz používal Lucemburčan Gary Hauser, pak s ním jezdil závody do vrchu jeho bratr David.
+</Turn>
+<Turn speaker="spk61" startTime="1642.844" endTime="1655.327">
+<Sync time="1642.844"/>
+[noise] Zhruba deset dvanáct aut takovejdlech podobnejch v Česku je, vo kterejch vím. Může to bejt teoreticky. Jsou tady dvě Formule jedna po 
+Michaelu Schumacherovi, který někdo předělal.
+</Turn>
+<Turn speaker="spk59" startTime="1655.327" endTime="1656.375">
+<Sync time="1655.327"/>
+Autentické, originální?
+</Turn>
+<Turn speaker="spk61" startTime="1656.375" endTime="1659.599">
+<Sync time="1656.375"/>
+Autentický originály, který my jsme jako lidem dovezli.
+</Turn>
+<Turn speaker="spk59" startTime="1659.599" endTime="1672.334">
+<Sync time="1659.599"/>
+I sami policisti ale připouštějí, že případ je výjimečný hlavně svojí nezvyklostí. Pořád je to jenom přestupek a za 
+ten hrozí maximálně desetitisícová pokuta a případně i zákaz řízení. Jan Beránek, Česká televize.
+</Turn>
+<Turn speaker="spk1" startTime="1672.334" endTime="1688.508">
+<Sync time="1672.334"/>
+Lipová, čerstvá vesnice roku, slaví. Do obce ve 
+Šluknovském výběžku, kde žije asi šest set obyvatel, se zhruba před dvěma hodinami vrátil starosta Pavel Svoboda.
+<Sync time="1682.403"/>
+Společně se čtyřmi desítkami lidí se včera účastnil 
+slavnostního vyhlášení výsledků v Luhačovicích.
+</Turn>
+<Turn startTime="1688.508" endTime="1697.733">
+<Sync time="1688.508"/>
+[noise]
+</Turn>
+<Turn speaker="spk62" startTime="1697.733" endTime="1712.354">
+<Sync time="1697.733"/>
+Děláme to, protože tu Lipovou milujeme. A a prostě abysme ji zvedli. Todle je sladká vodměna, jako že to je takovej bonus. A určitě vodměna bude použitá teď vlastně na infrastru~ infrastrukturu, na veřejný osvětlení.
+</Turn>
+<Turn speaker="spk63" startTime="1712.354" endTime="1717.232">
+<Sync time="1712.354"/>
+V Lipové se nejspíš bude slavit dlouho do noci. Lidé se totiž ve dvacet hodin sejdou také v místní restauraci.
+</Turn>
+<Turn startTime="1717.232" endTime="1720.887">
+<Sync time="1717.232"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="1720.887" endTime="1730.29">
+<Sync time="1720.887"/>
+Kdy můžou policisti sledovat lidi. Postup těch z Příbrami prověří 
+ombudsmanka. A to kvůli téhle fotce. Pořídil ji dron, který monitoruje Brdy.
+</Turn>
+<Turn speaker="spk36" startTime="1730.29" endTime="1743.332">
+<Sync time="1730.29"/>
+Termokamera odhalila dvě dvojice mladých lidí, kteří v chráněném území stanovali. Na 
+místo vyrazila hlídka. I když tam tábořící nezapálili oheň, policie už samotné stanování vyhodnotila jako přestupek proti lesnímu zákonu.
+</Turn>
+<Turn speaker="spk64" startTime="1743.332" endTime="1754.396">
+<Sync time="1743.332"/>
+Ombudsmanka dostala podnět se 
+stížností na postup policie. Bude se jím zabývat, nejprve si ale musí vyžádat veškeré doklady a stanovisko policie.
+</Turn>
+<Turn speaker="spk65" startTime="1754.396" endTime="1771.983">
+<Sync time="1754.396"/>
+Lidé by měli chápat používání policejních bezpilotních prostředků ne jako zásah do soukromí, ale jako ochranu, kterou policie občanům poskytuje.
+<Sync time="1763.45"/>
+Pokud nějaký přestupek zaznamenáme, musí ho policisté také řešit, ať už se jedná pouze o  zákaz vjezdu či nedovolené táboření.
+</Turn>
+<Turn speaker="spk36" startTime="1771.983" endTime="1783.722">
+<Sync time="1771.983"/>
+Policejní drony jsou v Brdech v akci často. V chráněné 
+krajinné oblasti je používají od poloviny roku dva tisíce sedmnáct. Dva stroje stály dva miliony korun, zaplatil je Středočeský kraj.
+</Turn>
+<Turn startTime="1783.722" endTime="1787.223">
+<Sync time="1783.722"/>
+[noise]
+</Turn>
+<Turn speaker="spk66" startTime="1787.223" endTime="1792.3">
+<Sync time="1787.223"/>
+Dva speciální policejní drony, jediné v Česku, 
+vylétají nad Brdy sedmkrát za měsíc.
+</Turn>
+<Turn speaker="spk67" startTime="1792.3" endTime="1798.894">
+<Sync time="1792.3"/>
+Speciální je hlavně v kameře, protože má jak termokameru, tak klasickou kameru.
+</Turn>
+<Turn speaker="spk68" startTime="1798.894" endTime="1816.068">
+<Sync time="1798.894"/>
+Při poslední kontrole se policejní drony 
+zaměřily na řidiče, kteří bez povolení vjedou do Chráněné krajinné oblasti. [noise]
+<Sync time="1807.647"/>
+A kontrolují i zakázané skládky, rozdělávání ohně, ale také nepovolenou těžbu dřeva. 
+Bivakovat se tady může, stanování je ale zakázané.
+</Turn>
+<Turn speaker="spk69" startTime="1816.068" endTime="1819.970">
+<Sync time="1816.068"/>
+V loňském roce jsme zaznamenali deset táboření s rozděláváním ohně.
+</Turn>
+<Turn speaker="spk66" startTime="1819.970" endTime="1828.434">
+<Sync time="1819.970"/>
+Za to je pokuta patnáct tisíc korun. Pozornost 
+vzbudilo, když policie oznámila, že odhalila právě pomocí termokamery stanující turisty.
+</Turn>
+<Turn speaker="spk67" startTime="1828.434" endTime="1840.96">
+<Sync time="1828.434"/>
+Nevidíme tam konkrétně žádný osoby, ani co ty osoby dělají, víme jenom, že tam 
+někdo je nebo že se tam něco pohybuje, ale takhle konkrétně skrz nějaký povlaky nebo objekty to nepoznáme.
+</Turn>
+<Turn speaker="spk66" startTime="1840.96" endTime="1849.313">
+<Sync time="1840.96"/>
+Turisté ale často nevědí, že jim nad hlavami létá v nejméně stopadesátimetrové výšce dron, stroj navíc v 
+takovém případě není téměř slyšet.
+</Turn>
+<Turn speaker="spk70" startTime="1849.313" endTime="1855.659">
+<Sync time="1849.313"/>
+Když prostě lidé nejsou schopni se chovat slušně, tak nezbývá než prostě tvrdě je jako sledovat a postihovat.
+</Turn>
+<Turn speaker="spk71" startTime="1855.659" endTime="1862.68253571">
+<Sync time="1855.659"/>
+Drony do &lt;initial&gt; CHKO &lt;/initial&gt; nepatří, nepatří 
+zejména tam, kde se pohybuje zvěř.
+</Turn>
+<Turn speaker="spk72" startTime="1862.68253571" endTime="1867.162">
+<Sync time="1862.437"/>
+Pokud je to zdůvodněný a ty lidi škoděj tý krajině, tak si myslím, že to je v pořádku.
+</Turn>
+<Turn speaker="spk73" startTime="1867.162" endTime="1878.707">
+<Sync time="1867.162"/>
+Za bývalého režimu všecky ty čundráky 
+známý, co tam dělali ty osady, kde nikde nepřekáželi, tak je tu honili policajti, všude ničili jim ty boudy všecko. A todle je podobný.
+</Turn>
+<Turn speaker="spk66" startTime="1878.707" endTime="1890.647">
+<Sync time="1878.707"/>
+Monitorování bude dál pokračovat i v zimních měsících. To se policisté 
+zaměří i na kontrolu rekreačních chat a chalup, které jsou většinou opuštěné. Lucie Pelanová a Marcela Durasová, Česká televize.
+</Turn>
+<Turn startTime="1890.647" endTime="1891.972">
+<Sync time="1890.647"/>
+[no-speech]
+</Turn>
+<Turn speaker="spk36" startTime="1891.972" endTime="1913.418">
+<Sync time="1891.972"/>
+Kamery s termovizí nemá česká policie zavěšené pouze na dronech. Pohraničí třeba sledují 
+speciální dodávky se dvěma kamerami na střeše.
+<Sync time="1900.525"/>
+Jednou pro denní a druhou pro noční vide~ vidění, kromě monitorování sledovaný úsek i nahrávají. Čeští policisti je používají 
+taky v Makedonii, kde pomáhají hlídat tamní hranici před nelegálními přechody.
+</Turn>
+<Turn speaker="spk74" startTime="1913.418" endTime="1930.537">
+<Sync time="1913.418"/>
+Ta díra je přesně za tady tím keřem. Takže když kolega došel k té díře, tak já jsem ho neviděl, jo. Ale díra je i v tom druhém plotě blíž blíž [overlap] k řecké straně.
+<Sync time="1923.573"/>
+A ta už trošku nám vych~ vylézá z toho keře, takže kdyby se tam objevili, tak je na chvilku je tady zahlídneme.
+</Turn>
+<Turn speaker="spk36" startTime="1930.537" endTime="1968.944">
+<Sync time="1930.537"/>
+Při demonstracích 
+nebo třeba pochodech fotbalových fanoušků policie používá speciální vozidlo, mobilní monitorovací centrum. Auto má otočné i výsuvné kamery, obsluha vidí i záběry 
+pořizované z helem policistů uvnitř davu nebo z vrtulníků.
+<Sync time="1945.508"/>
+Technika umožňuje označit si na monitoru jakoukoli osobu v davu. Kamera ji pak dokáže automaticky sledovat 
+až do okamžiku, kdy akci opustí. Sledovací techniku denně využívají hlídky dopravní policie.
+<Sync time="1957.494"/>
+Kamery v jejich autech automaticky rozpoznávají třeba registrační značky a hledají je v databázi kradených vozidel. Chování řidičů policisti kontrolují i tímto dalekohledem, který vidí až na osm set metrů.
+</Turn>
+<Turn speaker="spk75" startTime="1968.944" endTime="1983.19">
+<Sync time="1968.944"/>
+[noise] Zde vidím, jestli řidič drží za jízdy, nebo nedrží hovorové zařízení či mobilní 
+telefon, zdali smskuje či nesmskuje.Docela v dobrém rozlišení. I za horších povětrnostních podmínek.
+</Turn>
+<Turn speaker="spk36" startTime="1983.19" endTime="1994.644">
+<Sync time="1983.19"/>
+Technologie sledující lidi, ať už pro policii nebo například ve firmách, se stále rozvíjí. 
+Stovky hodin kamerových záznamů jsou počítačové programy schopné analyzovat během pár hodin.
+</Turn>
+<Turn speaker="spk76" startTime="1994.644" endTime="2010.705">
+<Sync time="1994.644"/>
+Přechod na Evropské ulici v Praze. Modelová situace, policie hledá osobu v oranžové bundě. V programu si nastaví parametry vyhledávání.
+<Sync time="2004.654"/>
+Hodiny záznamu software sloučí do jediné minuty. To je pro policii stěžejní ulehčení práce.
+</Turn>
+<Turn speaker="spk77" startTime="2010.705" endTime="2023.801">
+<Sync time="2010.705"/>
+Například 
+když dojde k přepadení banky, uteče osoba nějak oblečená, odjede nějakým vozidlem, tak hledá zájmové vozidlo a zájmovou osobu v stovkách, tisících kamer z kamerového systému.
+</Turn>
+<Turn speaker="spk76" startTime="2023.801" endTime="2040.455">
+<Sync time="2023.801"/>
+Podobně monitoruje i přestupky řidičů. Bílá dodávka právě přejela přes vlakový přejezd do protisměru. Systém policisty okamžitě upozorní.
+<Sync time="2032.973"/>
+Program zvládne vytipovat i 
+podezřelé chování. Například opakovaný pohyb člověka v jedné oblasti v nočních hodinách.
+</Turn>
+<Turn speaker="spk77" startTime="2040.455" endTime="2053.681">
+<Sync time="2040.455"/>
+Další případy jsou například sprejeři zdí, současně můžeme také detekovat 
+například odložené zavazadlo, můžeme detekovat osoby, které se pohybují na nějakých zakázaných zónách, jako jsou římsy mostů.
+</Turn>
+<Turn speaker="spk76" startTime="2053.681" endTime="2084.979">
+<Sync time="2053.681"/>
+Jiný software umí ze záběrů kamer taky 
+identifikovat obličej a srovnat ho s těmi v dané databázi. To používají pracoviště s omezeným přístupem, třeba jaderné elektrárny.
+<Sync time="2064.184"/>
+Poznat stejný obličej a potvrdit 
+identitu trvá pár sekund. Program se dokáže vyrovnat i se změnou účesu nebo mírným zestárnutím.
+<Sync time="2073.184"/>
+Algoritmy, které umožňují detekci obličejů, pracují s konkrétními 
+parametry. Klíčová je třeba vzdálenost očí od sebe, délka nosu nebo šířka úst. Nikola Tenevová, Česká televize.
+</Turn>
+<Turn speaker="spk36" startTime="2084.979" endTime="2097.67">
+<Sync time="2084.979"/>
+Tolik současnost, která donedávna patřila jenom do filmů popisujících budoucnost. No a 
+Marcela vás teď vezme na jednu vzpomínku na minulost, protože na českorakouském pomezí si připomínali třicet let od pádu železné opony.
+</Turn>
+<Turn startTime="2097.67" endTime="2100.614">
+<Sync time="2097.67"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="2100.614" endTime="2121.84">
+<Sync time="2100.614"/>
+Nejdřív ale ještě dál do Evropy. Dalších sedm set lidí evakuovali záchranáři 
+po bleskových záplavách na jihovýchodě Španělska. Nejvíc práce měli u Alicante, kde se z břehů vylila řeka Sedura.
+<Sync time="2112.003"/>
+Počet obětí katastrofy, kterou způsobily dvoudenní 
+intenzivní deště, se zvýšil na šest. Počasí se sice zlepšilo, tisíce lidí se ale pořád nemůžou vrátit domů.
+</Turn>
+<Turn startTime="2121.84" endTime="2124.637">
+<Sync time="2121.84"/>
+[no-speech]
+</Turn>
+<Turn speaker="spk1" startTime="2124.637" endTime="2144.847">
+<Sync time="2124.637"/>
+Polští zemědělci sčítají škody na úrodě po suchém létě. A 
+vládnoucí garnituře vyčítají, že problém přehlíží. Boj proti suchu chybí i mezi prioritami před parlamentními volbami, které budou přesně za měsíc.
+<Sync time="2137.006"/>
+Podle průzkumů se u 
+moci udrží strana Právo a spravedlnost. Kromě ní se můžou do Sejmu dostat i tři opoziční uskupení.
+</Turn>
+<Turn speaker="spk78" startTime="2144.847" endTime="2155.876">
+<Sync time="2144.847"/>
+Cibule je letos moc malá. Kvůli suchu, které potrápilo hlavně střední 
+Polsko. Zákazníci o ni nemají zájem. Místo zisku tak Piotrovu farmu už druhý rok po sobě čeká ztráta.
+</Turn>
+<Turn speaker="spk79" startTime="2155.876" endTime="2164.903">
+<Sync time="2155.876"/>
+Soukromý zemědělec. Přáli bychom si, aby se zavedla systémová řešení. Nepotřebujeme nutně hotovost jako podporu. Chtěli bychom, aby vláda v Polsku rozvíjela retenci vod.
+</Turn>
+<Turn speaker="spk80" startTime="2164.903" endTime="2167.212">
+<Sync time="2164.903"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
+</Turn>
+<Turn speaker="spk78" startTime="2167.212" endTime="2173.403">
+<Sync time="2167.212"/>
+Už teď se Piotr obává, co přijde s dalším létem. A jestli svou 
+farmu s pěti zaměstnanci udrží.
+</Turn>
+<Turn speaker="spk81" startTime="2173.403" endTime="2181.98">
+<Sync time="2173.403"/>
+Boj proti suchu vstupuje i do probíhající předvolební kampaně. Mezi hlavní programové priority stran ale ani po mimořádně horkém létě 
+nepatří.
+</Turn>
+<Turn speaker="spk78" startTime="2181.98" endTime="2202.238">
+<Sync time="2181.98"/>
+Šéf vládnoucí strany za to zemědělcům slíbil dorovnat dotace na úroveň západních zemí. Ve svém programovém hattricku, jak ho sám nazval, míří i na sociálně 
+slabé.
+<Sync time="2191.487"/>
+Minimální mzda se má vyšplhat skoro o osmdesát procent. Pro důchodce chce v roce dva tisíce dvacet jedna dva důchody navíc. Stejně podstatné jsou pro Kaczynského kulturní hodnoty.
+</Turn>
+<Turn speaker="spk79" startTime="2202.238" endTime="2214.427">
+<Sync time="2202.238"/>
+Jaroslaw Kaczynski, předseda Práva a spravedlnosti. Každý dobrý Polák musí vědět, jaká je role církve. Musí vědět, že mimo ni je, znovu opakuji, jen nihilismus. My odmítáme nihilismus. &lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
+</Turn>
+<Turn speaker="spk78" startTime="2214.427" endTime="2228.636">
+<Sync time="2214.427"/>
+I v 
+průzkumech druhá Občanská koalice slibuje vyšší platy, víc peněz do zdravotnictví a pro seniory, pro mladé zas internet zadarmo. Spíš než o suchu mluví o čistém 
+ovzduší. Ženy má přilákat to, že na premiérský post kandiduje žena.
+</Turn>
+<Turn speaker="spk79" startTime="2228.636" endTime="2237.69232143">
+<Sync time="2228.636"/>
+Kandidátka Občanské koalice na premiérku. Chci, aby politika byla uměním porozumění, ne věčnou válkou. Chci nové, nádherné a usmívající se 
+Polsko.
+</Turn>
+<Turn speaker="spk78" startTime="2237.69232143" endTime="2250.905">
+<Sync time="2238.295"/>
+Nejsilnější opoziční uskupení ale na vládnoucí stranu ztrácí. Hraje se spíš o to, jestli Právo a spravedlnost obhájí většinu. Do Sejmu se podle průzkumů 
+dostanou po čtyřech letech i zástupci levice. Šanci mají taky lidovci.
+</Turn>
+<Turn speaker="spk79" startTime="2250.905" endTime="2263.774">
+<Sync time="2250.905"/>
+(()) opoziční lídr. Polsko opravdu není odsouzeno k vládě pravicových fanatiků, není (()). Budeme spojovat Poláky a obnovíme bratrství, to je náš posvátný a nejdůležitější závazek.
+</Turn>
+<Turn speaker="spk82" startTime="2263.774" endTime="2266.570">
+<Sync time="2263.774"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
+</Turn>
+<Turn speaker="spk78" startTime="2266.570" endTime="2274.993">
+<Sync time="2266.570"/>
+Právě lidovci nejvíc míří na voliče, jako je Piotr. Ani u nich ale nenašel slib, který by 
+nejraději slyšel. Lukáš Mathé, Česká televize, Varšava.
+</Turn>
+<Turn startTime="2274.993" endTime="2276.687">
+<Sync time="2274.993"/>
+[no-speech]
+</Turn>
+<Turn speaker="spk1" startTime="2276.687" endTime="2289.904">
+<Sync time="2276.687"/>
+Skoro půl druhé miliardy dává letos pozemkový úřad na opravy polních cest a taky na stavbu nových nádrží. Na Vysočině už takhle použili přes sto 
+milionů, na projekty, které zadrží vodu v krajině, i na zvelebení okolí obcí.
+</Turn>
+<Turn speaker="spk83" startTime="2289.904" endTime="2296.153">
+<Sync time="2289.904"/>
+[no-speech] Rybník Tlustý u Mohelna, teď ještě bez vody, je krátce před dokončením.
+</Turn>
+<Turn speaker="spk84" startTime="2296.153" endTime="2305.476">
+<Sync time="2296.153"/>
+Kdybyste sem 
+přišli asi před dvěma lety, tak tady byla nehostinná, škaredá krajina no a my jsme to tady tak jakoby trochu zvelebili.
+</Turn>
+<Turn speaker="spk83" startTime="2305.476" endTime="2309.13">
+<Sync time="2305.476"/>
+Asfaltová cesta na hrázi je, ale zatím nikam nevede.
+</Turn>
+<Turn speaker="spk84" startTime="2309.13" endTime="2317.396">
+<Sync time="2309.13"/>
+Bude navazovat na další asfaltovou cestu, agrocestu, do sousední vesnice, Kladeruby nad Oslavou.
+</Turn>
+<Turn speaker="spk83" startTime="2317.396" endTime="2323.441">
+<Sync time="2317.396"/>
+Sedm milionů na opravu rybníku a agrocest získalo Mohelno ze Státního 
+pozemkového fondu.
+</Turn>
+<Turn speaker="spk85" startTime="2323.441" endTime="2334.33">
+<Sync time="2323.441"/>
+Zajišťujeme výběrové řízení na projektanty, na zhotovitele stavby, zajišťujeme stavební povolení včetně financování i žádostí o dotace z evropských fondů.
+</Turn>
+<Turn speaker="spk83" startTime="2334.33" endTime="2345.481">
+<Sync time="2334.33"/>
+Obnovení polních cest má hned několik 
+významů, odvede těžkou zemědělskou techniku z obecních silnic, slouží k rekreačním účelům a v neposlední řadě reguluje odtok vody z krajiny.
+</Turn>
+<Turn speaker="spk86" startTime="2345.481" endTime="2351.08239286">
+<Sync time="2345.481"/>
+Protierozní a 
+vodohospodářská opatření, jako jsou různé příkopy, průlehy, protierozní meze.
+</Turn>
+<Turn speaker="spk87" startTime="2351.08239286" endTime="2360.393">
+<Sync time="2351.194"/>
+Když byla průtrž mračen, nebo větší bouřka, takže ta voda nám ohrožovala bezpečnost tý vozovky, která je vedle nás, jo, tady vždycky se zatopilo todleto území.
+</Turn>
+<Turn speaker="spk83" startTime="2360.393" endTime="2383.102">
+<Sync time="2360.393"/>
+Po dvaceti letech se letos v Mladoňovicích dočkali opravy polní cesty i nového propustku, který odvádí vodu. Pomohly peníze ze 
+Státního pozemkového úřadu.
+<Sync time="2369.737"/>
+Jen vloni bylo v kraji Vysočina obnoveno nebo nově vybudováno osmnáct polních cest v hodnotě přes sto milionů korun. Stejné peníze mají 
+starostové i soukromníci k dispozici letos. Blanka Poulová, Česká televize.
+</Turn>
+<Turn speaker="spk1" startTime="2383.102" endTime="2401.654">
+<Sync time="2383.102"/>
+Několik set aktivistů zahradilo dva vstupy na frankfurtský autosalon. Protestovali proti negativním dopadům automobilového průmyslu na 
+životní prostředí. Včera ze stejného důvodu zablokovali dálnici.
+<Sync time="2395.79"/>
+Na výstaviště si i skrze hradbu demonstrantů našlo cestu asi šedesát tisíc lidí.
+</Turn>
+<Turn startTime="2401.654" endTime="2404.234">
+<Sync time="2401.654"/>
+[no-speech]
+</Turn>
+<Turn speaker="spk1" startTime="2404.234" endTime="2418.561">
+<Sync time="2404.234"/>
+Rakouský Leopoldschlag 
+nechal postavit památník ke třicátému výročí pádu železné opony. Obec leží jen kousek od vzájemné hranice a řada místních má v Česku kořeny. Právě to a vůbec blízké vztahy 
+obou zemí má pomník připomenout.
+</Turn>
+<Turn speaker="spk88" startTime="2418.561" endTime="2425.899">
+<Sync time="2418.561"/>
+Herbert Wiederstein žije v Leopoldschlagu. Na dohled od obce byly ostnaté dráty, které oddělovaly sousední země.
+</Turn>
+<Turn speaker="spk79" startTime="2425.899" endTime="2431.78178571">
+<Sync time="2425.899"/>
+Obyvatel vesnice. Teď se díváme na bývalou obecní (()) Lhota.
+</Turn>
+<Turn speaker="spk88" startTime="2431.78178571" endTime="2446.864">
+<Sync time="2432.005"/>
+Obec Lhota se nacházela ve střeženém pásmu. Od konce války byla opuštěná.
+<Sync time="2436.59"/>
+Československý komunistický režim nařídil její demolici. Detonace se ozývaly vždy, když byla v 
+Leopoldschlagu mše, kde po odsunu žili někteří původní obyvatelé z blízké vesnice.
+</Turn>
+<Turn startTime="2446.864" endTime="2451.444">
+<Sync time="2446.864"/>
+[music]
+</Turn>
+<Turn speaker="spk79" startTime="2451.444" endTime="2460.8275">
+<Sync time="2451.444"/>
+&lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt; Obyvatel vesnice. Přišli se podívat, jak byly jejich domy zničeny. Viděli to a plakali. &lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
+</Turn>
+<Turn speaker="spk88" startTime="2460.8275" endTime="2468.96">
+<Sync time="2461.14"/>
+Těsně u bývalé státní hranice teď stojí nový památník, přístupný jen z rakouské strany. Radnice z Leopoldschlagu chce propojit obě země stezkou.
+</Turn>
+<Turn speaker="spk79" startTime="2468.96" endTime="2475.12782143">
+<Sync time="2468.96"/>
+Starosta vesnice. Doufám, že památník bude hodně navštěvovaným místem. &lt;lang:Foreign&gt; (()) &lt;/lang:Foreign&gt;
+</Turn>
+<Turn speaker="spk88" startTime="2475.12782143" endTime="2487.383">
+<Sync time="2475.418"/>
+V oblasti má příbuzné Tomáš Czernin. Rok devatenáct set šedesát osm mu změnil život. Jeho rodina se po okupaci 
+Československa musela rozdělit, část zůstala právě v Rakousku nedaleko Leopoldschlagu.
+</Turn>
+<Turn speaker="spk89" startTime="2487.383" endTime="2496.502">
+<Sync time="2487.383"/>
+V tom smyslu, že jsme potom nemohli navštěvovat dědečka a babičku, že jsme byli prakticky až do převratu 
+v roce devatenáct set osmdesát devět rozdělenou rodinou.
+</Turn>
+<Turn speaker="spk88" startTime="2496.502" endTime="2507.261">
+<Sync time="2496.502"/>
+Rakouská strana chce taky oslovit Jihočeský kraj, aby pomohl s obnovením poutní stezky. Vedla by místy, kde za totality bránily v 
+cestě ostnaté dráty. Martin Donát, Česká televize.
+</Turn>
+<Turn speaker="spk1" startTime="2507.261" endTime="2527.617">
+<Sync time="2507.261"/>
+[no-speech] Čeští basketbalisti jsou po světovém šampionátu v Číně zpátky v Praze. V devatenáct hodin přistáli na Letišti Václava Havla. Tam na ně čekali fanoušci.
+<Sync time="2517.84"/>
+Národní tým skončil na mistrovství šestý. Na lepší výsledek přitom nikdy nedosáhl. Stejně se umístili jen českoslovenští hráči před devětačtyřiceti lety.
+</Turn>
+<Turn startTime="2527.617" endTime="2530.337">
+<Sync time="2527.617"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="2530.337" endTime="2541.057">
+<Sync time="2530.337"/>
+Poslední události týdne pomalu končí. V těch pondělních přineseme to nejdůležitější ze zítřejšího jednání vlády, připomínám, že ministři budou schvalovat rozpočet na příští rok.
+</Turn>
+<Turn startTime="2541.057" endTime="2543.239">
+<Sync time="2541.057"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="2543.239" endTime="2553.164">
+<Sync time="2543.239"/>
+A důležitá schůzka čeká taky Lucemburk, Boris Johnson a Jean-Claude Juncker budou hledat řešení sporu o irskou pojistku, jeden z klíčových bodů brexitové dohody.
+</Turn>
+<Turn startTime="2553.164" endTime="2556.45">
+<Sync time="2553.164"/>
+[music]
+</Turn>
+<Turn speaker="spk1" startTime="2556.45" endTime="2566.984">
+<Sync time="2556.45"/>
+No a teď už sport. V Bosně a Hercegovině pokračoval souboj českých tenistů s domácím týmem v evropsko-africké zóně Davisova poháru. A jak se dařilo, to nám řekne Vojtěch Bernatský.
+</Turn>
+<Turn speaker="spk90" startTime="2566.984" endTime="2585.602">
+<Sync time="2566.984"/>
+Dobrý večer. Tak Marcelo, bylo to hodně velké drama. Za stavu dva nula nejdříve čeští tenisté prohráli čtyřhru a vzápětí svůj zápas nezvládl ani Jiří Veselý.
+<Sync time="2576.604"/>
+Veškerá tíha tak padla na Jonáše Forejtka a osmnáctiletý hráč to zvládl výborně. Máme nového tenisového hrdinu. Více už za chvilku v Brankách.
+</Turn>
+<Turn speaker="spk1" startTime="2585.602" endTime="2591.08">
+<Sync time="2585.602"/>
+Na toho nového tenisového hrdinu se rádi podíváme. Já děkuju za pozornost a přeju pěkný večer.
+</Turn>
+<Turn startTime="2591.08" endTime="2596.728">
+<Sync time="2591.08"/>
+[music]
+</Turn>
+</Section>
+</Episode>
+</Trans>

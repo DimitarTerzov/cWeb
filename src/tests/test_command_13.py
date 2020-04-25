@@ -93,18 +93,24 @@ CONTENT = [
     u'<Turn startTime="454.698" endTime="460.184">\n',                      # 83
     u'<Sync time=" 454.698"/>\n',                                           # 84
     u'[no-speech]\n',                                                       # 85
-    u'<Sync time="460.424"/>\n',                                            # 86
-    u'[no-speech]\n',                                                       # 87
-    u'<Sync time="462.832"/>\n',                                            # 88
-    u'Sync Ike Rann ja tema uus album &lt;lang:English&gt; Synchronize &lt;/lang:English&gt; Me kuulame\n',  # 89
-    u'</Turn>\n',                                                           # 90
+    u'<Sync time="459.292"/>\n',    # 86
+    u'\n',                                            # 87
+    u'Oh, man. One of our greatest white allies and one of the [laugh]\n',    # 88
+    u'<Sync time="460.100"/>\n',    # 89
+    u'Oh, man. One of our greatest white allies and one of the [laugh]\n',    # 90
+    u'\n',                                                                                      # 91
+    u'<Sync time="460.424"/>\n',                                            # 92
+    u'[no-speech]\n',                                                       # 93
+    u'<Sync time="462.832"/>\n',                                            # 94
+    u'Sync Ike Rann ja tema uus album &lt;lang:English&gt; Synchronize &lt;/lang:English&gt; Me kuulame\n',  # 95
+    u'</Turn>\n',                                                           # 96
 ]
 
 EXCLUDE_ROWS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19, 20,
                 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 34, 36, 39,
                 42, 43, 44, 45, 46, 47, 49, 50, 51, 53, 54, 56, 57, 59, 60, 62,
-                63, 64, 67, 68, 71, 72, 73, 75, 76, 78, 79, 81, 82, 84, 85, 87,
-                89, 90]
+                63, 64, 67, 68, 71, 72, 73, 75, 76, 78, 79, 81, 82, 84, 85, 86, 87,
+                88, 89, 90, 91, 93, 95, 96]
 
 
 def test_command_13(tmpdir):
@@ -138,7 +144,7 @@ def test_command_13(tmpdir):
     assert "Turn out of sync" in found[77]
     assert "Segment out of sync" in found[80]
     assert "Turn out of sync" in found[83]
-    assert "Segment out of sync" in found[86]
-    assert "Segment out of sync" in found[88]
+    assert "Segment out of sync" in found[92]
+    assert "Segment out of sync" in found[94]
 
     #assert 0

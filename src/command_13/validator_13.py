@@ -16,6 +16,7 @@ def command13(filepath):
     sync = False
     sync_count = 0
     end_time = 0
+    sync_line = None
 
     with io.open(filepath, 'r', encoding='utf') as f:
         ln = 0
@@ -41,6 +42,7 @@ def command13(filepath):
                 sync_count = 0
 
             elif line.startswith('<Sync') and not sync:
+                sync_line = ln
                 sync = True
                 sync_count += 1
                 new_sync = re.search(ur'(?P<content>Sync\s*time\s*=\s*"\s*(?P<value>[\d.]+?)\s*")', line, re.UNICODE)
@@ -64,24 +66,23 @@ def command13(filepath):
                 sync_time = new_sync_time
 
             elif "</Turn>" == line and sync and sync_count == 1:
-                found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
+                found[sync_line] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
                 sync = False
                 sync_count = 0
 
             elif line.startswith('<Sync') and sync:
-                found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
+                found[sync_line] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
                 sync_count += 1
                 new_sync = re.search(ur'(?P<content>Sync\s*time=\s*"\s*(?P<value>[\d.]+?)\s*")', line, re.UNICODE)
                 sync_time = new_sync.group('content')
+                sync_line = ln
 
             elif not line.startswith('<Sync') and line != "</Turn>":
-                if line == '':
-                    found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
-
-                sync = False
+                if line != '':
+                    sync = False
 
             elif "</Turn>" == line and sync and sync_count > 1:
-                found[ln - 1] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
+                found[sync_line] = [13, "Empty segments are not allowed", sync_time.encode('utf')]
                 sync = False
                 sync_count = 0
 

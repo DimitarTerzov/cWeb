@@ -62,6 +62,23 @@ CONTENT = [
     u'<Speaker id="spk12" name="Kathleen Kreatz" \n',                                                                # 54
     u'check="no" type="female" dialect="native" accent="" scope="global"/>\n',                                       # 55
     u'<Speaker id="spk3" name="Mike Ruggiero" check="no" type="female" dialect="native" accent="" scope="global"/>\n'# 56
+
+    u'<Turn speaker="spk2" startTime="3170.236" endTime="3171.857">\n',    # 57
+    u'<Sync time="58.756"/>\n',                                 # 58
+    u'\n',                                                                        # 59
+    u'[music] 아하. [noise] 어, 우와. 수명을 짧을 거야.\n',    # 60
+    u'</Turn>\n',                                                           # 61
+    u'<Turn speaker="spk2" startTime="3170.236" endTime="3171.857">\n',    # 62
+    u'<Sync time="58.756"/>\n',                                 # 63
+    u'[music] 아하. [noise] 어, 우와.\n',                             # 64
+    u'\n',                                                                         # 65
+    u'<Sync time="58.756"/>\n',                                  # 66
+    u'[music] 아하. [noise] 어, 우와.\n',                             # 67
+    u'<Sync time="0"/>\n',                                           # 68
+    u'\n',                                                                         # 69
+    u'<Sync time="0"/>\n',                                           # 70
+    u'\n',                                                                         # 71
+    u'</Turn>\n'                                                             # 72
 ]
 
 
@@ -69,8 +86,8 @@ def test_command24(tmpdir):
     file_ = temporary_file(tmpdir, CONTENT)
     found = command24(file_)
 
-    #for key in sorted(found.keys()):
-        #print(key, found[key])
+    for key in sorted(found.keys()):
+        print(key, found[key])
 
     assert "Unexpected white space in Turn tag" in found[1]
     assert 'Tag syntax error' in found[2]
@@ -128,5 +145,21 @@ def test_command24(tmpdir):
     assert "Tag syntax error" in found[54]
     assert 55 not in found
     assert 56 not in found
+    assert "Empty row in Sync tag" in found[59]
+    assert "Empty row in Sync tag" in found[65]
+    assert 57 not in found
+    assert 58 not in found
+    assert 60 not in found
+    assert 61 not in found
+    assert 62 not in found
+    assert 63 not in found
+    assert 64 not in found
+    assert 66 not in found
+    assert 67 not in found
+    assert 68 not in found
+    assert 69 not in found
+    assert 70 not in found
+    assert 71 not in found
+    assert 72 not in found
 
     #assert 0

@@ -14,6 +14,7 @@ def command7(filepath):
 
     found = {}
     in_section = False
+    tag_exists = False
     with io.open(filepath, 'r', encoding='utf') as f:
         ln = 0
         for line in f:
@@ -29,12 +30,15 @@ def command7(filepath):
 
             if in_section:
                 for match in re.finditer(filler_re, line):
-
+					tag_exists = True
                     target = match.group()
                     if (
                         re.match(ur'[\w{1}]?{0}[\w{1}]{2}$'.format(skip_tags, allowed_punctuation, '{,1}'), target, re.UNICODE) is None
                     ):
                         found[ln] = [7, 'Invalid filler tag', target.encode('utf')]
+
+    if not tag_exists:
+        found[1] = [7, 'No fillers tags were found. Please refer to the project page to learn about the required use of filler tags.', '']
 
     return found
 
