@@ -47,11 +47,13 @@ CONTENT = [
     u'&lt;initial&gt; AY &lt;/initial&gt;_liikkeen\n',                                    # 36
     u'&lt;initial&gt; AY &lt;/initial&gt;—liikkeen\n',                                   # 37
     u'Ремонтират улица <initial>Богориди<initial>.\n',                       # 38
-    u'&lt;initial&gt; AY &lt;/initial&gt;~ \n',                                                  # 39
+    u'&lt;initial&gt; AY &lt;/initial&gt;~ \n',                                               # 39
     u"French l'&lt;initial&gt; ONU &lt;/initial&gt;n\n",                               # 40
-    u"French l'&lt;initial&gt; ONU &lt;/initial&gt;sn\n",                               # 41
-    u'&lt;initial&gt;\n',                                                                                 # 42
+    u"French l'&lt;initial&gt; ONU &lt;/initial&gt;sn\n",                              # 41
+    u'&lt;initial&gt;\n',                                                                                # 42
     u'mais plutôt en termes &lt;/initial&gt;\n',                                            # 43
+    u'&lt;initial&gt; AY &lt;/initial&gt; !liikkeen\n',                                       # 44
+    u'&lt;initial&gt; AY &lt;/initial&gt; ?liikkeen\n',                                       # 45
 ]
 
 
@@ -96,17 +98,19 @@ def test_command4(tmpdir):
     assert not 29 in found
     assert 30 in found
     assert 31 not in found
-    assert 32 not in found
-    assert 33 not in found
+    assert 32 in found
+    assert 33 in found
     assert 34 not in found
     assert 35 not in found
     assert 36 not in found
     assert 37 not in found
     assert 38 not in found
     assert 39 not in found
-    assert 40 not in found
+    assert 40 in found
     assert 41 in found
     assert 42 in found
     assert 43 in found
+    assert 44 not in found
+    assert 45 not in found
 
     #assert 0

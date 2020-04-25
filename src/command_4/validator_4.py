@@ -8,8 +8,11 @@ from command_5.validator_5 import _prepare_content
 #Initial tag validator
 def command4(filepath):
 
-    punctuation = u"""[^_'.,!?\s:;—"\-~]"""
-    allowed_characters_after_tag = [u"s", u"n"]
+    punctuation = u"""[^_'.,\s:;—"\-~]"""
+    # To extend the list with allowed cgaracters
+    # add new character like:
+    # allowed_characters_after_tag = [u"s", u"n", u"l"]
+    allowed_characters_after_tag = [u"s"]
     allowed_expressions_before_tag = [u"l'"]
     regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;)(?P<inner_text>.*?)(?P<second_open>&lt;)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
     opening_tag = re.compile(ur'&lt;[int\w\s]+&gt;', re.UNICODE)
