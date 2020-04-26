@@ -7,7 +7,7 @@ import io
 #Punctuation space validator
 def command11(filepath):
 
-    regex = re.compile(ur'((\s-[^\s])|\s[\.,!?])|([\.,!?-]\s{2,})|([\.,!?][^\s])', re.UNICODE)
+    regex = re.compile(ur'(([^\s][!?])|(\s-[^\s])|\s[\.,])|([\.,!?-]\s{2,})|([\.,!?][^\s])', re.UNICODE)
 
     found = {}
 

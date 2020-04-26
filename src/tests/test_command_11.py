@@ -18,12 +18,16 @@ CONTENT = [
     u"So, it's not gonna be just a one -man show.\n",    # 9
     u"So, it's not gonna be just a one- man show.\n",    # 10
     u"All right, Shane.  Well, let's kick it over.\n",          # 11
+    u"All right, Shane ! Well, let's kick it over.\n",          # 12
+    u"All right, Shane ? Well, let's kick it over.\n",         # 13
+    u"All right, Shane! Well, let's kick it over.\n",           # 14
+    u"All right, Shane? Well, let's kick it over.\n",           # 15
 ]
 EXCLUDE = [
-    0, 1, 4, 7, 8, 10
+    0, 1, 4, 7, 8, 10, 12, 13
 ]
 CATCH = [
-    2, 3, 5, 6, 9, 11
+    2, 3, 5, 6, 9, 11, 14, 15
 ]
 
 
