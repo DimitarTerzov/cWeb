@@ -30,11 +30,11 @@ def command7(filepath):
 
             if in_section:
                 for match in re.finditer(filler_re, line):
-					tag_exists = True
+                    tag_exists = True
                     target = match.group()
                     if (
                         re.match(ur'[\w{1}]?{0}[\w{1}]{2}$'.format(skip_tags, allowed_punctuation, '{,1}'), target, re.UNICODE) is None
-                    ):
+                        ):
                         found[ln] = [7, 'Invalid filler tag', target.encode('utf')]
 
     if not tag_exists:
