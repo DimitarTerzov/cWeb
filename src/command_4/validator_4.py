@@ -9,8 +9,10 @@ from command_5.validator_5 import _prepare_content
 def command4(filepath):
 
     punctuation = u"""[^_'.,!?\s:;—"\-~]"""
-    allowed_characters_after_tag = [u"s", u"n"]
-    allowed_expressions_before_tag = [u"l'"]
+    # To extend the list of allowed characters
+    # add new character like:
+    # allowed_characters_after_tag = [u"s", u"n", u"sn"]
+    allowed_characters_after_tag = [u"s"]
     regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;)(?P<inner_text>.*?)(?P<second_open>&lt;)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
     opening_tag = re.compile(ur'&lt;[int\w\s]+&gt;', re.UNICODE)
     closing_tag = re.compile(ur'&lt;\s*/[int\w\s]+&gt;', re.UNICODE)
@@ -26,7 +28,7 @@ def command4(filepath):
             if (
                 re.search(opening_tag, line) is not None and
                 re.search(closing_tag, line) is None
-            ):
+                ):
                 open_tag = re.search(opening_tag, line).group(0)
                 content = _prepare_content(open_tag)
                 found[ln] = [4, "Missing closing tag", content]
@@ -35,7 +37,7 @@ def command4(filepath):
             if (
                 re.search(opening_tag, line) is None and
                 re.search(closing_tag, line) is not None
-            ):
+                ):
                 close_tag = re.search(closing_tag, line).group(0)
                 content = _prepare_content(close_tag)
                 found[ln] = [4, "Missing opening tag", content]
@@ -53,7 +55,7 @@ def command4(filepath):
                     m.group('second_open') != '&lt;' or
                     m.group('second_close') != '&gt;' or
                     m.group('forward') != '/'
-                ):
+                    ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
@@ -61,15 +63,12 @@ def command4(filepath):
                 if (
                     m.group('first_tag') != 'initial' or
                     m.group('second_tag') != 'initial'
-                ):
+                    ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
                 # Check for disallowed expressions before tag
-                if (
-                    m.group('before_first') is not None and
-                    not m.group('before_first') in allowed_expressions_before_tag
-                ):
+                if m.group('before_first') is not None:
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
@@ -78,7 +77,7 @@ def command4(filepath):
                     m.group('after_second') is not None and
                     not m.group('after_second') in allowed_characters_after_tag and
                     not m.group('after_second').startswith(u'_')
-                ):
+                    ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
@@ -86,7 +85,7 @@ def command4(filepath):
                 if (
                     not m.group('inner_text').startswith(' ') or
                     not m.group('inner_text').endswith(' ')
-                ):
+                    ):
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
