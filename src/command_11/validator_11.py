@@ -7,10 +7,7 @@ import io
 #Punctuation space validator
 def command11(filepath):
 
-    exlusion_list = ['-nya', '-exclusion2', '-exclusion3']
-
-    #match a symbol with one space
-    regex = re.compile(ur'(\s\-\s)|(\s[\.,，。!?-])|([\.,，。!?-]\s{3,})|([\.,，。!?][^\s])', re.UNICODE)
+    regex = re.compile(ur'((\s-[^\s])|\s[\.,!?])|([\.,!?-]\s{2,})|([\.,!?][^\s])', re.UNICODE)
 
     found = {}
 
@@ -26,20 +23,7 @@ def command11(filepath):
                 continue
 
             for m in re.findall(regex, line):
-
-                val = exlusion_list[0]
-
-                #allow ' - '
-                if m[0]:
-                    val = exlusion_list[0]
-                elif m[1]:
-                    val = m[0]
-                elif m[2]:
-                    val = m[1]
-                elif m[3]:
-                    val = ''
-
-                if not val in exlusion_list:
+                if m:
                     found[ln] = [11, 'Punctuation spacing issue', line.encode('utf')]
 
     return found
