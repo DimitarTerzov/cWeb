@@ -24,11 +24,11 @@ check="no" type="female" dialect="native" accent="" scope="global"/>
 <Sync time="0"/>
 &lt;initial&gt; error1 &lt;/initial&gt;&gt; Good evening once again. My name is Paul Donato, I'm the Chairman of the Ward and City Committee, Democratic Ward and City Committee, along with my Co-Chair Nancy Denise White. Test~.  
 <Sync time="10.776"/>
-<initial> error2 </initial> And we're here to once again welcome the members of the school committee who are going to have, we're having a forum this evening but I want to take this opportunity to really thank, #uh, Henry Milorin and the Ward Six Committee. Test~,
+<initial> error2 </initial> And we're here to once again welcome the members of the school committee who are going to have, we're having a forum this evening but I want to take this opportunity to really thank, #uh, Henry Milorin and the Ward Six Committee ? Test~,
 <Sync time="24.586"/>
-&lt;initial&gt; error3 &lt;initial&gt; Who have demonstrated that #uh, democracy works because they have had the energy and the vibrancy to put this together and this is an important forum.
+&lt;initial&gt; error3 &lt;initial&gt; Who have demonstrated that #uh, democracy works because they have had the energy and the vibrancy to put this together and this is an important forum !
 <Sync time="36.664"/>
-For the people of the City of Medford to look at their potential school committee candidates and make that decision on November fifth. 
+For the people of the City of Medford to look at their potential school ! Committee candidates and make that decision on November fifth. 
 <Sync time="45.135"/>
 &lt;initial&gt; error4 &lt;/Initial&gt; So once again, thank you for watching but more important 30 thank you Ward Six Democratic City Committee for your diligent work.
 </Turn>
