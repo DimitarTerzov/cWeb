@@ -31,7 +31,7 @@
 <Sync time="0"/>
 [music]
 <Sync time="11.984"/>
-[music]人間本是因緣聚，天間竟來斷情緣。
+[music][music]人間本是因緣聚，天間竟來斷情緣。
 <Sync time="17.384"/>
 降龍與蓮花這一日，違背天命私自來到西湖畔。
 </Turn>
@@ -51,15 +51,15 @@
 </Turn>
 <Turn speaker="spk4" startTime="37.544" endTime="44.394">
 <Sync time="37.544"/>
-[music]等一下。
+[music]等一下[noise][noise]。
 </Turn>
 <Turn speaker="spk2" startTime="44.394" endTime="50.535">
 <Sync time="44.394"/>
-[music]師兄，要與我們一起下去西湖玩嗎？
+[music][music]師兄，要與我們一起下去西湖玩嗎？
 </Turn>
 <Turn speaker="spk4" startTime="50.535" endTime="61.865">
 <Sync time="50.535"/>
-玩，你們倆真是不知死活，你們談戀愛已經犯天規了，楊戩已經要來捉你們了，你們還不快走，快走啊，走越遠越好。
+玩，[noise]你們倆真是不知死活，[noise][noise]你們談戀愛已經犯天規了，楊戩已經要來捉你們了，你們還不快走，快走啊，走越遠越好。
 </Turn>
 <Turn speaker="spk5" startTime="61.865" endTime="65.433">
 <Sync time="61.865"/>
