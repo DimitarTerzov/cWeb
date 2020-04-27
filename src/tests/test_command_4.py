@@ -30,11 +30,11 @@ CONTENT = [
     u"The decision to vote always &lt;initial&gt; W! &lt;/initial&gt;\n",                 # 19
     u"This is why we &lt;initialism&gt; ČSSD &lt;/initialism&gt;\n",                       # 20
     u"between the &lt;initial&gt; PTO &lt;/initial&gt;'s\n",                              # 21
-    u"by the &lt;initial&gt; FDA &lt;/initial&gt; and\n",                                 # 22
+    u"by the &lt;initial&gt; พีบีเอส &lt;/initial&gt; and\n",                                 # 22
     u"Pre &lt;initial&gt; K &lt;/initial&gt; through twelveth grade.\n",                  # 23
-    u"&lt;initial&gt; MHS &lt;/initial&gt;, I was a student\n",                           # 24
+    u"&lt;initial&gt; ดีเอสไอ &lt;/initial&gt;, I was a student\n",                           # 24
     u"&lt;initial&gt; PTO &lt;/initial&gt;s for the enrichment\n",                        # 25
-    u"I attended &lt;initial&gt; ČSSD &lt;/initial&gt;.\n",                                # 26
+    u"I attended &lt;initial&gt; แอลพีจีเอ &lt;/initial&gt;.\n",                                # 26
     u"I attended &lt;initial&gt; ČSSD, ČSSD &lt;/initial&gt;.\n",                           # 27
     u"French l'&lt;initial&gt; ONU &lt;/initial&gt;\n",                                   # 28
     u"This one is correct... &lt;initial&gt; Ph.D. &lt;/initial&gt;\n"                    # 29
@@ -48,10 +48,21 @@ CONTENT = [
     u'&lt;initial&gt; AY &lt;/initial&gt;—liikkeen\n',                                   # 37
     u'Ремонтират улица <initial>Богориди<initial>.\n',                       # 38
     u'&lt;initial&gt; AY &lt;/initial&gt;~ \n',                                                  # 39
-    u"French l'&lt;initial&gt; ONU &lt;/initial&gt;n\n",                               # 40
-    u"French l'&lt;initial&gt; ONU &lt;/initial&gt;sn\n",                               # 41
+    u"French &lt;initial&gt; ONU &lt;/initial&gt;n\n",                               # 40
+    u"French &lt;initial&gt; ONU &lt;/initial&gt;sn\n",                               # 41
     u'&lt;initial&gt;\n',                                                                                 # 42
     u'mais plutôt en termes &lt;/initial&gt;\n',                                            # 43
+]
+EXCLUDE = [
+    1, 3, 9, 22, 23, 24,
+    26, 29, 31, 32, 33, 34,
+    35, 36, 37, 38, 39
+]
+CATCH = [
+    0, 2, 4, 5, 6, 7, 8, 10,
+    11, 12, 13, 14, 15, 16,
+    17, 18, 19, 20, 21, 25, 27,
+    28, 30, 40, 41, 42, 43
 ]
 
 
@@ -64,49 +75,10 @@ def test_command4(tmpdir):
     for key in keys:
         print(key, found[key])
 
-    assert 0 in found
-    assert 1 not in found
-    assert 2 in found
-    assert not 3 in found
-    assert 4 in found
-    assert 5 in found
-    assert 6 in found
-    assert 7 in found
-    assert 8 in found
-    assert not 9 in found
-    assert 10 in found
-    assert 11 in found
-    assert 12 in found
-    assert 13 in found
-    assert 14 in found
-    assert 15 in found
-    assert 16 in found
-    assert 17 in found
-    assert 18 in found
-    assert 19 in found
-    assert 20 in found
-    assert not 21 in found
-    assert not 22 in found
-    assert not 23 in found
-    assert not 24 in found
-    assert not 25 in found
-    assert not 26 in found
-    assert 27 in found
-    assert not 28 in found
-    assert not 29 in found
-    assert 30 in found
-    assert 31 not in found
-    assert 32 not in found
-    assert 33 not in found
-    assert 34 not in found
-    assert 35 not in found
-    assert 36 not in found
-    assert 37 not in found
-    assert 38 not in found
-    assert 39 not in found
-    assert 40 not in found
-    assert 41 in found
-    assert 42 in found
-    assert 43 in found
+    for row in EXCLUDE:
+        assert row not in found
+
+    for row in CATCH:
+        assert row in found
 
     #assert 0
