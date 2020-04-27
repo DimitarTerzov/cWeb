@@ -13,7 +13,7 @@ def command4(filepath):
     # add new character like:
     # allowed_characters_after_tag = [u"s", u"n", u"sn"]
     allowed_characters_after_tag = [u"s"]
-    regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?(?P<first_open>&lt;)(?P<first_tag>[int\w\s/\\]+)(?P<first_close>&gt;)(?P<inner_text>.*?)(?P<second_open>&lt;)(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)(?P<second_close>&gt;)(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
+    regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?&lt;(?P<first_tag>[int\w\s/\\]+)&gt;(?P<inner_text>.*?)&lt;(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)&gt;(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
     opening_tag = re.compile(ur'&lt;[int\w\s]+&gt;', re.UNICODE)
     closing_tag = re.compile(ur'&lt;\s*/[int\w\s]+&gt;', re.UNICODE)
 
@@ -49,13 +49,7 @@ def command4(filepath):
                 error_tag = _prepare_content(error_tag)
 
                 # Check tag syntax
-                if (
-                    m.group('first_open') != '&lt;' or
-                    m.group('first_close') != '&gt;' or
-                    m.group('second_open') != '&lt;' or
-                    m.group('second_close') != '&gt;' or
-                    m.group('forward') != '/'
-                    ):
+                if m.group('forward') != '/':
                     found[ln] = [4, 'Initial tag error', error_tag]
                     continue
 
