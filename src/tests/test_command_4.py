@@ -32,7 +32,7 @@ CONTENT = [
     u"between the &lt;initial&gt; PTO &lt;/initial&gt;'s\n",                              # 21
     u"by the &lt;initial&gt; พีบีเอส &lt;/initial&gt; and\n",                                 # 22
     u"Pre &lt;initial&gt; K &lt;/initial&gt; through twelveth grade.\n",                  # 23
-    u"&lt;initial&gt; ดีเอสไอ &lt;/initial&gt;, I was a student\n",                           # 24
+    u"&lt;initial&gt; ซ๊เอ็นเอ็น &lt;/initial&gt;, I was a student\n",                           # 24
     u"&lt;initial&gt; PTO &lt;/initial&gt;s for the enrichment\n",                        # 25
     u"I attended &lt;initial&gt; แอลพีจีเอ &lt;/initial&gt;.\n",                                # 26
     u"I attended &lt;initial&gt; ČSSD, ČSSD &lt;/initial&gt;.\n",                           # 27

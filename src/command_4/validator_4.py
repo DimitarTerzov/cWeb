@@ -9,6 +9,10 @@ from command_5.validator_5 import _prepare_content
 def command4(filepath):
 
     punctuation = u"""[^_.,!?\s:;—"\-~]"""
+    # To add new accent extend the list
+    # followind the pattern
+    accents = [u'๊', u'ี', u'็']
+    accents = u''.join(accents)
     # Add characters to the list like:
     # allowed_characters_after_tag = [u"s", u"n"]
     #allowed_expressions_before_tag = [u"l'", u"O'"]
@@ -101,18 +105,18 @@ def command4(filepath):
                         found[ln] = [4, 'Initial tag error', error_tag]
 
                     # Catch anything different from pattern `WE` and `W.`
-                    elif len(content) == 2 and not re.match(ur'^\w+\.?ี?$', content, re.UNICODE):
+                    elif len(content) == 2 and not re.match(ur'^\w+\.?$', content, re.UNICODE):
                         found[ln] = [4, 'Initial tag error', error_tag]
 
                     # Catch anything different from pattern `WEB`, `Ph.D.`
                     elif len(content) > 2:
-                        if re.match(ur'[\w.ี]*', content, re.UNICODE).group() != content:
+                        if re.match(ur'[\w.{}]*'.format(accents), content, re.UNICODE).group() != content:
                             found[ln] = [4, 'Initial tag error', error_tag]
 
                 # If text doesn't feet pattern `W. E. B.` -> error
                 elif len(inner_content) > 1:
                     for content in inner_content:
-                        if not re.match(ur'^\wี?\.$', content, re.UNICODE):
+                        if not re.match(ur'^\w[{}]?\.$'.format(accents), content, re.UNICODE):
                             found[ln] = [4, 'Initial tag error', error_tag]
 
     if not tag_exists and not found:
@@ -122,7 +126,7 @@ def command4(filepath):
 
 
 if __name__ == '__main__':
-    found = command4('../files/test_4.trs')
+    found = command4('../files/News_ThaiPBSEveningNews_20160518.trs')
     keys = found.keys()
     keys = sorted(keys)
     print len(keys)

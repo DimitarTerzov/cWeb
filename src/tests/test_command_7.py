@@ -25,7 +25,7 @@ CONTENT = [
 ]
 
 EXCLUDE = [
-  1, 2, 3, 4, 5, 6, 
+  1, 2, 3, 4, 5, 6,
   7, 8, 10, 11, 13, 14
 ]
 CATCH = [9, 12]
@@ -45,4 +45,4 @@ def test_command_7(tmpdir):
     for key in CATCH:
         assert key in found
 
-    assert 0
+    #assert 0
