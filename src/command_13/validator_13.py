@@ -8,11 +8,11 @@ import io
 #Speaker validator
 def command13(filepath):
 
-    regex = re.compile(ur'<Turn\s*(?:speaker\s*=\s*"(spk[0-9]+?)")?(?:.*?)startTime\s*=\s*"([0-9.]+)"(?:.*?)(?:speaker\s*=\s*"(spk[0-9]+?)")?', re.UNICODE)
+    speaker_re = re.compile(ur'spk[0-9]+', re.UNICODE)
 
     found = {}
 
-    prev_spk='none'
+    prev_spk = None
     sync = False
     sync_count = 0
     end_time = 0
@@ -90,17 +90,15 @@ def command13(filepath):
                 sync = False
                 sync_count = 0
 
-            for m in re.findall(regex, line):
-                # If turn is speakerless -> set speaker to 'none'.
-                if m[0] == '' and m[2] == '':
-                    speaker = 'none'
+            if '<Turn' in line:
+                m = re.search(speaker_re, line)
+                if m is None:
+                    speaker = None
                 else:
-                    # If turn has speaker -> take it.
-                    speaker = m[0] if m[0] != '' else m[2]
-
+                    speaker = m.group()
                     if speaker == prev_spk:
-                        report = '{} at {}'.format(speaker, m[1])
-                        found[ln] = [13, 'Sequential turns by the same speaker', report.encode('utf')]
+                        report = '{} at {}'.format(speaker, start_value).encode('utf')
+                        found[ln] = [13, 'Sequential turns by the same speaker', report]
 
                 #save speaker
                 prev_spk = speaker

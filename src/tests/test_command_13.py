@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
 
-import pytest
-
 from utils import temporary_file
 from command_13.validator_13 import command13
 
@@ -18,7 +16,7 @@ CONTENT = [
     u'<Sync time="5.854"/>\n',                                         # 8
     u'[music]\n',                                                      # 9
     u'</Turn>\n',                                                      # 10
-    u'<Turn speaker="spk2" startTime="10.959" endTime="55.643">\n',    # 11
+    u'<Turn startTime="10.959" endTime="55.643" speaker="spk2">\n',    # 11
     u'<Sync time="10.959"/>\n'                                                       # 12
     u"Welcome to Insight, I'm Philippa Tolley. This week, the Pacific.\n",           # 13
     u'<Sync time="22.275"/>\n',                                                      # 14

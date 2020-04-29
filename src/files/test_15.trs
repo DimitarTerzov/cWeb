@@ -821,7 +821,7 @@ You can see it on Facebook dot com slash Intoppa for Medford or Intoppa for Medf
 <Sync time="2490.729"/>
 Thank you, candidate, Intoppa. 
 </Turn>
-<Turn speaker="spk2" startTime="2492.488" endTime="2495.635">
+<Turn startTime="2492.488" endTime="2495.635" speaker="spk2">
 <Sync time="2492.488"/>
 [applause]
 </Turn>
@@ -1013,7 +1013,7 @@ I am proud to have supported and pushed for the rollout of the new middle school
 <Sync time="3170.236"/>
 [noise]
 </Turn>
-<Turn speaker="spk14" startTime="3171.857" endTime="3362.063">
+<Turn startTime="3171.857" endTime="3362.063" speaker="spk14">
 <Sync time="3171.857"/>
 I've also focused on barriers that many children face each day, such as hunger and a lack of dental care. One in nine Medford residents struggles with food insecurity and children are disproportionately affected. 
 <Sync time="3184.345"/>
@@ -1047,7 +1047,7 @@ There are many other challenges facing our schools and our students [lipsmack] a
 <Sync time="3349.75"/>
 It is your perspective and voice that informs my work on the school committee. You can learn more about me at ElectPaul dot org. Thank you for your time and I hope you will vote for me on November fifth. Thank you.
 </Turn>
-<Turn speaker="spk14" startTime="3362.063" endTime="3364.044">
+<Turn startTime="3362.063" endTime="3364.044" speaker="spk14">
 <Sync time="3362.063"/>
 [applause]
 </Turn>
