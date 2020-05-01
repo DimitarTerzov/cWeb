@@ -39,7 +39,6 @@ def command14(filepath):
                 if seg_len > 15.0:
                     found[last_sync_line] = [14, 'Segment exceeds limit', 'Sync time="{}"; length: {} seconds'.format(cur_time, seg_len)]
 
-
             ln += 1
 
     return found
