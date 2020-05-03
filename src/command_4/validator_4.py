@@ -15,7 +15,7 @@ def command4(filepath):
     allowed_characters_after_tag = [u"s"]
     regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?&lt;(?P<first_tag>[int\w\s/\\]+)&gt;(?P<inner_text>.*?)&lt;(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)&gt;(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
     opening_tag = re.compile(ur'\w*\s*&lt;[int\w\s]+&gt;\s*\w*', re.UNICODE)
-    closing_tag = re.compile(ur'\w*\s*&lt;\s*/[int\w\s]+&gt;\s*\w*', re.UNICODE)
+    closing_tag = re.compile(ur'\w*\s*&lt;\s*/[int\w\s]+&gt;[\s\W]*\w*', re.UNICODE)
 
     found = {}
     tag_exists = False

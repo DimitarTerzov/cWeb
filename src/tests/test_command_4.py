@@ -53,6 +53,7 @@ CONTENT = [
     u'&lt;initial&gt;\n',                                                                                 # 42
     u'mais plutôt en &lt;/initial&gt; termes\n',                                            # 43
     u'offering non-invasive &lt;initial&gt; alternatives to surgery\n',         # 44
+    u"mais plutôt en &lt;/initial&gt;'s termes\n",                                         # 45
 ]
 
 
@@ -110,5 +111,6 @@ def test_command4(tmpdir):
     assert 42 in found
     assert 43 in found
     assert 44 in found
+    assert 45 in found
 
     assert 0
