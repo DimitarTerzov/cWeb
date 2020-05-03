@@ -51,7 +51,8 @@ CONTENT = [
     u"French &lt;initial&gt; ONU &lt;/initial&gt;n\n",                                  # 40
     u"French &lt;initial&gt; ONU &lt;/initial&gt;sn\n",                                 # 41
     u'&lt;initial&gt;\n',                                                                                 # 42
-    u'mais plutôt en termes &lt;/initial&gt;\n',                                            # 43
+    u'mais plutôt en &lt;/initial&gt; termes\n',                                            # 43
+    u'offering non-invasive &lt;initial&gt; alternatives to surgery\n',         # 44
 ]
 
 
@@ -108,5 +109,6 @@ def test_command4(tmpdir):
     assert 41 in found
     assert 42 in found
     assert 43 in found
+    assert 44 in found
 
-    #assert 0
+    assert 0
