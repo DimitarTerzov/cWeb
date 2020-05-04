@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-__version__ = "1.28"
+__version__ = "1.29"
 import os
 import sys
 import re
@@ -238,14 +238,14 @@ def command3(filepath):
 #Initial tag validator
 def command4(filepath):
 
-    punctuation = u"""[^_'.,!?\s:;—"\-~]"""
+    punctuation = u"""_'.,!?:;—"\-~"""
     # To extend the list of allowed characters
     # add new character like:
     # allowed_characters_after_tag = [u"s", u"n", u"sn"]
     allowed_characters_after_tag = [u"s"]
-    regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?&lt;(?P<first_tag>[int\w\s/\\]+)&gt;(?P<inner_text>.*?)&lt;(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)&gt;(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
-    opening_tag = re.compile(ur'\w*\s*&lt;[int\w\s]+&gt;\s*\w*', re.UNICODE)
-    closing_tag = re.compile(ur'\w*\s*&lt;\s*/[int\w\s]+&gt;[\s\W]*\w*', re.UNICODE)
+    regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?&lt;(?P<first_tag>[int\w\s/\\]+)&gt;(?P<inner_text>.*?)&lt;(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)&gt;(?P<after_second>\b\w*\b|[^\s{}]+)?)".format(punctuation), re.UNICODE)
+    opening_tag = re.compile(ur'[\w{0}]*\s*&lt;[int\w\s]+&gt;[\s{0}]*[\w{0}]*'.format(punctuation), re.UNICODE)
+    closing_tag = re.compile(ur'[\w{0}]*\s*&lt;\s*/[int\w\s]+&gt;[\s{0}]*[\w{0}]*'.format(punctuation), re.UNICODE)
 
     found = {}
     tag_exists = False
@@ -373,11 +373,11 @@ def command5(filepath):
         'Ambonese', 'Betawinese', 'Latin', 'Manadonese'
     ]
 
-    punctuation_marks = u""":,-'_!—".?;"""
+    punctuation_marks = u""":,\-'_!—".?;"""
 
     regex = re.compile(ur'(?P<content>(?P<before_first>\b\w*\b)?&lt;(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)&gt;(?P<inner_text>.*?)&lt;(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)&gt;(?P<after_second>\b\w*\b)?)', re.UNICODE)
-    opening_tag = re.compile(ur'&lt;\s*\w*\s*:\s*\w*\s*&gt;', re.UNICODE)
-    closing_tag = re.compile(ur'&lt;/\s*\w*\s*:\s*\w*\s*&gt;', re.UNICODE)
+    opening_tag = re.compile(ur'[\w{0}]*\s*&lt;\s*\w*\s*:\s*\w*\s*&gt;[\s{0}]*[\w{0}]*'.format(punctuation_marks), re.UNICODE)
+    closing_tag = re.compile(ur'[\w{0}]*\s*&lt;/\s*\w*\s*:\s*\w*\s*&gt;[\s{0}]*[\w{0}]*'.format(punctuation_marks), re.UNICODE)
 
     found = {}
 
