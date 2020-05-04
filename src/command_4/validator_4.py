@@ -8,14 +8,14 @@ from command_5.validator_5 import _prepare_content
 #Initial tag validator
 def command4(filepath):
 
-    punctuation = u"""[^_'.,!?\s:;—"\-~]"""
+    punctuation = u"""_'.,!?:;—"\-~"""
     # To extend the list of allowed characters
     # add new character like:
     # allowed_characters_after_tag = [u"s", u"n", u"sn"]
     allowed_characters_after_tag = [u"s"]
-    regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?&lt;(?P<first_tag>[int\w\s/\\]+)&gt;(?P<inner_text>.*?)&lt;(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)&gt;(?P<after_second>\b\w*\b|{}+)?)".format(punctuation), re.UNICODE)
-    opening_tag = re.compile(ur'\w*\s*&lt;[int\w\s]+&gt;\s*\w*', re.UNICODE)
-    closing_tag = re.compile(ur'\w*\s*&lt;\s*/[int\w\s]+&gt;[\s\W]*\w*', re.UNICODE)
+    regex = re.compile(ur"(?P<content>(?P<before_first>(\b\w*\b)|[\S\w]+)?&lt;(?P<first_tag>[int\w\s/\\]+)&gt;(?P<inner_text>.*?)&lt;(?P<forward>[\\/\s]*)(?P<second_tag>[int\w\s]+)&gt;(?P<after_second>\b\w*\b|[^\s{}]+)?)".format(punctuation), re.UNICODE)
+    opening_tag = re.compile(ur'[\w{0}]*\s*&lt;[int\w\s]+&gt;[\s{0}]*[\w{0}]*'.format(punctuation), re.UNICODE)
+    closing_tag = re.compile(ur'[\w{0}]*\s*&lt;\s*/[int\w\s]+&gt;[\s{0}]*[\w{0}]*'.format(punctuation), re.UNICODE)
 
     found = {}
     tag_exists = False

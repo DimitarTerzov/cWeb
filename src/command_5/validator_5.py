@@ -29,11 +29,11 @@ def command5(filepath):
         'Ambonese', 'Betawinese', 'Latin', 'Manadonese'
     ]
 
-    punctuation_marks = u""":,-'_!—".?;"""
+    punctuation_marks = u""":,\-'_!—".?;"""
 
     regex = re.compile(ur'(?P<content>(?P<before_first>\b\w*\b)?&lt;(?P<first_tag>/*\s*\w*\s*):(?P<first_tag_lang>\s*\w*\s*)&gt;(?P<inner_text>.*?)&lt;(?P<forward>[\/]*)(?P<second_tag>\s*\w*\s*):(?P<second_tag_lang>\s*\w*\s*)&gt;(?P<after_second>\b\w*\b)?)', re.UNICODE)
-    opening_tag = re.compile(ur'&lt;\s*\w*\s*:\s*\w*\s*&gt;', re.UNICODE)
-    closing_tag = re.compile(ur'&lt;/\s*\w*\s*:\s*\w*\s*&gt;', re.UNICODE)
+    opening_tag = re.compile(ur'[\w{0}]*\s*&lt;\s*\w*\s*:\s*\w*\s*&gt;[\s{0}]*[\w{0}]*'.format(punctuation_marks), re.UNICODE)
+    closing_tag = re.compile(ur'[\w{0}]*\s*&lt;/\s*\w*\s*:\s*\w*\s*&gt;[\s{0}]*[\w{0}]*'.format(punctuation_marks), re.UNICODE)
 
     found = {}
 
