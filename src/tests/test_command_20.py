@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
 
-import pytest
-
 from utils import temporary_file
 from command_20.validator_20 import command20
 
@@ -27,7 +25,7 @@ CONTENT = [
     u'Flag of the United <lang:respect> States of America\n',                                                   # 16
     u'<Sync time="88.487"/>\n',                                                                              # 17
     u"We strongly believe it l\'&lt;initial&gt; ONU &lt;/initial&gt; is important,\n",    # 18
-    u'<Sync time="94.373"/>\n',                                                                              # 19
+    u'<Sync time="94.373"/> \n',                                                                              # 19
     u'<Sync time="3415.916"/>\n',                                                               # 20
     u'<Background time="4.263" type="other" level="high"/>\n',               # 21
     u'Your presence here to <lang:body> listen to the ten candidates.\n',    # 22
