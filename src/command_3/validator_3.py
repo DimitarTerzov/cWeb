@@ -52,13 +52,14 @@ def command3(filepath):
                             tag_exists = True
 
     if not tag_exists and not found:
-        found[1] = [3, 'No sound tag were found. Please refer to the project page to learn about the required use of sound tags.', '']
+        found['warning_message'] = 'No sound tags were found. \
+Please refer to the project page to learn about the required use of sound tags.'
 
     return found
 
 
 if __name__ == '__main__':
-    found = command3('../files/CT_Newsevents_34.trs')
+    found = command3('../files/no_tags.trs')
     for key in sorted(found.keys()):
         print(key, found[key])
 
