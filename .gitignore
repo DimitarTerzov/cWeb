@@ -10,3 +10,6 @@ __pycache__
 *.pdf
 tasks.txt
 /chinese_spacing_reqs.txt
+process-pool_files/
+Title of Report-single process_files/
+good_to_have.txt
