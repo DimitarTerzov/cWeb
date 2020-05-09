@@ -2,7 +2,7 @@
 from __future__ import print_function
 
 from utils import temporary_file
-from command_24.validator_24 import command24
+from command_25.validator_25 import command25
 
 
 CONTENT = [
@@ -82,9 +82,9 @@ CONTENT = [
 ]
 
 
-def test_command24(tmpdir):
+def test_command25(tmpdir):
     file_ = temporary_file(tmpdir, CONTENT)
-    found = command24(file_)
+    found = command25(file_)
 
     for key in sorted(found.keys()):
         print(key, found[key])

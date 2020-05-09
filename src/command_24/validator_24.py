@@ -6,7 +6,7 @@ import io
 
 
 # Sequential turns by same speaker
-def command25(filepath):
+def command24(filepath):
 
     speaker_re = re.compile(ur'spk\s*[0-9]+', re.UNICODE)
     start_time_re = re.compile(ur'startTime\s*=\s*"\s*(?P<value>[\d.]+?)\s*"', re.UNICODE)
@@ -30,7 +30,7 @@ def command25(filepath):
                     speaker = speaker.replace(' ', '')
                     if speaker == prev_spk:
                         report = '{} at {}'.format(speaker, start_value).encode('utf')
-                        found[ln] = [25, 'Sequential turns by the same speaker', report]
+                        found[ln] = [24, 'Sequential turns by the same speaker', report]
 
                 #save speaker
                 prev_spk = speaker

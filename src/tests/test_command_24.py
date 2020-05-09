@@ -2,7 +2,7 @@
 from __future__ import print_function
 
 from utils import temporary_file
-from command_25.validator_25 import command25
+from command_24.validator_24 import command24
 
 
 CONTENT = [
@@ -117,9 +117,9 @@ EXCLUDE = [
 CATCH = [11, 48, 52]
 
 
-def test_command_25(tmpdir):
+def test_command_24(tmpdir):
     file_ = temporary_file(tmpdir, CONTENT)
-    found = command25(file_)
+    found = command24(file_)
 
     for key in sorted(found.keys()):
         print(key, found[key])
