@@ -9,7 +9,7 @@ from command_7.validator_7 import command7
 
 CONTENT = [
     u'<Speaker id="spk75" name="speaker#56" check="no" type="female" dialect="native" accent="" scope="local"/>\n', # 1
-    u'<Speaker id="spk76" name="speaker#57" check="no" type="female" dialect="native" accent="" scope="local"/>\n', # 2
+    u'<Speaker id="spk76" name="speaker#5" check="no" type="female" dialect="native" accent="" scope="local"/>\n', # 2
     u'<Section type="report" startTime="0" endTime="2631.216">\n' # 3
     u"I was on # uh Paul Finebaum's show\n",    # 4
     u"I love that hire. #um We kind of~~we've kind\n",    # 5

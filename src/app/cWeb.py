@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-__version__ = "1.31"
+__version__ = "1.32"
 import os
 import sys
 import re
@@ -521,29 +521,34 @@ def command7(filepath):
             elif '</Section' in line:
                 in_section = False
 
-            for match in re.finditer(filler_re, line):
-                tag_exists = True
+            if in_section:
 
-                target = match.group().strip()
-                # Pass filler tag with tilde.
-                # They are reported in command 15.
-                if "~" in target:
-                    continue
+                for match in re.finditer(filler_re, line):
+                    tag_exists = True
 
-                if (
-                    not re.match(ur'^{0}{1}?$'.format(skip_tags, punctuation), target, re.UNICODE)
-                    and in_section
-                ):
-                    found[ln] = [7, 'Invalid filler tag', target.encode('utf')]
-                    continue
+                    target = match.group().strip()
+                    # Pass filler tag with tilde.
+                    # They are reported in command 15.
+                    if "~" in target:
+                        continue
 
-            for match in re.finditer(ur'\s{0}\W'.format(possible_missing_tag), line, re.UNICODE):
-                if ln not in found and in_section:
-                    found[ln] = [7, 'Possible filler tag missing #', match.group().encode('utf')]
+                    if (
+                        not re.match(ur'^{0}{1}?$'.format(skip_tags, punctuation),
+                                     target, re.UNICODE)
+                    ):
+                        found[ln] = [7, 'Invalid filler tag', target.encode('utf')]
+                        continue
+
+                for match in re.finditer(ur'\s{0}\W'.format(possible_missing_tag),
+                                         line, re.UNICODE):
+                    if ln not in found:
+                        found[ln] = [7, 'Possible filler tag missing #',
+                                     match.group().encode('utf')]
 
     if not tag_exists:
-        found['warning_message'] = 'No fillers tags were found. Please refer to the project \
-page to learn about the required use of filler tags.'
+        found['warning_message'] = 'No fillers tags were found. \
+Please refer to the project page to \
+learn about the required use of filler tags.'
 
     return found
 
