@@ -9,11 +9,11 @@ from app.cWeb import WWpunctuatio, WWwhitespace
 #Sound tag validator
 def command3(filepath):
     skip_words = [
-        u'[no-speech]', u'[no—speech]', u'[noise]',
+        u'[no-speech]', u'[noise]', u'[prompt]',
         u'[overlap]', u'[music]', u'[applause]',
         u'[lipsmack]', u'[breath]', u'[cough]',
         u'[laugh]', u'[click]', u'[ring]',
-        u'[dtmf]', u'[sta]', u'[cry]', u'[prompt]'
+        u'[dtmf]', u'[sta]', u'[cry]'
     ]
 
     regex = re.compile(ur"\[.*?\]", re.UNICODE)
